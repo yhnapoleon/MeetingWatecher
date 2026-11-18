@@ -1,0 +1,42 @@
+{
+  "meeting_id": "TS3003b",
+  "status": "processed",
+  "metric_scope": "Work-identity/content precision and reference recall; owner/date/review-route quality separately audited. See scoring-clarification.json for frozen strict companion.",
+  "initial_status": "processed",
+  "explicit_recovery_calls": 0,
+  "tasks": {
+    "tp": 5,
+    "fp": 0,
+    "predictions": 5,
+    "reference_hits": 4,
+    "reference": 4,
+    "fn": 0,
+    "precision": 1.0,
+    "reference_recall": 1.0
+  },
+  "decisions": {
+    "tp": 13,
+    "fp": 0,
+    "predictions": 13,
+    "reference_hits": 11,
+    "reference": 12,
+    "fn": 1,
+    "precision": 1.0,
+    "reference_recall": 0.9166666666666666
+  },
+  "missing_tasks": [],
+  "missing_decisions": [
+    "D11"
+  ],
+  "decision_rows": 10,
+  "review_counts": {
+    "ambiguous": 3
+  },
+  "result_sha256": "6f19dc0b09dda2844f07c31ebe54bf73dbf337c35b67c17933c9b685402c8f0c",
+  "reference_sha256": "49b609cb5094c19553faf207e4a7bd77441fabcb84aafa59d8a0d13e19c2337e",
+  "limitations": [
+    "Two new local meetings in different participant groups, same AMI remote-control scenario domain.",
+    "Human reannotated references, with original AMI reference coverage reported separately.",
+    "Acceptable semantic answers explicitly listed; no multi-rater agreement measured."
+  ]
+}

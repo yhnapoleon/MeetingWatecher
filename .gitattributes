@@ -1,0 +1,2 @@
+# Preserve original bytes for frozen reference/config hashes.
+* -text

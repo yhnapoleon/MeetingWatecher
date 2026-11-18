@@ -1,0 +1,4 @@
+这是一次有预算限制的修正。只修改 target_record_ids，保留其 record_id/thread_ids；其他 context_records 只读。修正核验指出的真实问题，不能盲从错误核验；仍以原文为依据。
+coverage_findings 每项恰好有一个 dispositions 结果：covered 已有记录完整表达、added 补回遗漏工作、rejected 原遗漏假设不成立、unresolved 尚未可靠解决。处置证据使用 evidence_catalog 的 Q ID。covered 指向最终已有 record_id；added 指向本次新增记录；rejected/unresolved 的 record_ids=[]。
+为发现 O1 新增工作时使用 R_O1_1、R_O1_2 等 ID，thread_ids=[]，introduced_by="O1"。只可新增 finding 所需的记录。真实新增 work 必须带 event，candidate_ids 可以 []，证据逐字引用原文。不要把同一段中的两项工作合并；也不要对同一决定重复造任务。每个处置必须依据最终 records，而非仅声称已处理。
+即使 target_record_ids=[]，也需处理遗漏 findings。仅 rejected 时 records/events 均可为空。新增 event ID 由程序分配，原记录 event 身份由程序保持。

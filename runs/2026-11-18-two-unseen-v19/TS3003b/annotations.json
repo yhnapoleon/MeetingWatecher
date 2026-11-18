@@ -1,0 +1,456 @@
+{
+  "tasks": [
+    {
+      "record_id": "R3",
+      "verdict": "TP",
+      "reference_hits": [
+        "T4"
+      ],
+      "reason": "9段承诺记录，398段明确I will put the minutes in project document folder。会后归档动作、A负责人均正确。",
+      "checked_turns": [
+        9,
+        398
+      ],
+      "strict_record_verdict": "TP",
+      "strict_reference_hits": [
+        "T4"
+      ]
+    },
+    {
+      "record_id": "R13",
+      "verdict": "TP",
+      "reference_hits": [
+        "T3"
+      ],
+      "reason": "309–313段建议研究老年人额外需求，374段本人说I would have to look into that a little more。合并为继续调研可接受，D归属正确，未扩写成已完成报告。",
+      "checked_turns": [
+        309,
+        310,
+        311,
+        312,
+        313,
+        358,
+        369,
+        370,
+        374
+      ],
+      "strict_record_verdict": "TP",
+      "strict_reference_hits": [
+        "T3"
+      ]
+    },
+    {
+      "record_id": "R14",
+      "verdict": "TP",
+      "reference_hits": [
+        "T1"
+      ],
+      "reason": "398段明示工业设计师做组件概念，C对应ID；candidate保留承接确认不改变任务已被分派这一事实。",
+      "checked_turns": [
+        117,
+        398,
+        399
+      ],
+      "strict_record_verdict": "TP",
+      "strict_reference_hits": [
+        "T1"
+      ]
+    },
+    {
+      "record_id": "R15",
+      "verdict": "TP",
+      "reference_hits": [
+        "T2"
+      ],
+      "reason": "398段明示UI做用户界面概念，B对应UI；趋势观察由R16补齐，合计覆盖重注T2。",
+      "checked_turns": [
+        62,
+        398,
+        399
+      ],
+      "strict_record_verdict": "TP",
+      "strict_reference_hits": [
+        "T2"
+      ]
+    },
+    {
+      "record_id": "R16",
+      "verdict": "TP",
+      "reference_hits": [],
+      "reason": "398段and the trend-watching确有下一步工作。原句归属有歧义，单列趋势观察并询问负责人属于可接受答案，不因它单列或缺负责人而当作多提；与R15共同覆盖T2，不重复增加参考命中。",
+      "checked_turns": [
+        398,
+        399
+      ],
+      "strict_record_verdict": "TP",
+      "strict_reference_hits": []
+    }
+  ],
+  "decisions": [
+    {
+      "index": 1,
+      "reference_hits": [
+        "D1"
+      ],
+      "claims": [
+        {
+          "name": "电视专用范围",
+          "verdict": "TP",
+          "reason": "128段传达新要求，后文272–274仍作为前提。"
+        }
+      ],
+      "checked_turns": [
+        128,
+        129,
+        229,
+        230,
+        272,
+        273,
+        274
+      ]
+    },
+    {
+      "index": 2,
+      "reference_hits": [
+        "D2"
+      ],
+      "claims": [
+        {
+          "name": "聚焦60岁以上老年人",
+          "verdict": "TP",
+          "reason": "358–371段从40+聚焦真正老年人，374段需进一步调查市场不等于撤销产品方向；60+是合理概括，不机械要求80岁上限。"
+        }
+      ],
+      "checked_turns": [
+        133,
+        190,
+        358,
+        359,
+        360,
+        363,
+        369,
+        370,
+        371,
+        374
+      ]
+    },
+    {
+      "index": 3,
+      "reference_hits": [
+        "D4"
+      ],
+      "claims": [
+        {
+          "name": "保留teletext",
+          "verdict": "TP",
+          "reason": "原131段取消要求已被讨论改变，209–212段无人反对并明确keep。198–199成本条件仍是项目约束，简写保留功能合理；无无限预算承诺。"
+        }
+      ],
+      "checked_turns": [
+        131,
+        198,
+        199,
+        205,
+        209,
+        210,
+        211,
+        212,
+        219
+      ]
+    },
+    {
+      "index": 4,
+      "reference_hits": [
+        "D5"
+      ],
+      "claims": [
+        {
+          "name": "少按钮与简单布局",
+          "verdict": "TP",
+          "reason": "220–225确认少按钮，349总结仍保留。"
+        },
+        {
+          "name": "数字键的基本布局方向",
+          "verdict": "TP",
+          "reason": "242段说明数字键必要性，258段建议保持熟悉布局，260认可，263承接the numbers。输出不承诺精确总键数，可合理理解为保留数字键方向；后续若过多可再考虑。"
+        }
+      ],
+      "checked_turns": [
+        220,
+        222,
+        225,
+        230,
+        234,
+        239,
+        242,
+        246,
+        258,
+        260,
+        263,
+        349
+      ]
+    },
+    {
+      "index": 5,
+      "reference_hits": [
+        "D6",
+        "D7"
+      ],
+      "claims": [
+        {
+          "name": "底座设计方向",
+          "verdict": "TP",
+          "reason": "293–306段讨论预算后认可底座并把重点放附加功能，349再次列底座。"
+        },
+        {
+          "name": "声音寻物功能",
+          "verdict": "TP",
+          "reason": "317–325段明确继续原提议，以声音帮助找到遥控器。"
+        },
+        {
+          "name": "底座充电功能",
+          "verdict": "TP",
+          "reason": "49–50段提出的底座包括寻呼和充电，后文整体接受底座、未排除充电。按整体方案采纳可接受，证据没有为其另造工程任务；若只接受逐项重申，单记边界敏感性。"
+        }
+      ],
+      "checked_turns": [
+        49,
+        50,
+        293,
+        294,
+        295,
+        301,
+        304,
+        305,
+        306,
+        317,
+        318,
+        324,
+        325,
+        349
+      ],
+      "sensitivity": "若必须对充电子功能再次逐项表态，则本行充电主张单独计争议；主口径接受整项方案采纳。"
+    },
+    {
+      "index": 6,
+      "reference_hits": [
+        "D8"
+      ],
+      "claims": [
+        {
+          "name": "普通小LCD解释按钮功能",
+          "verdict": "TP",
+          "reason": "333–349段以廉价小屏替代昂贵触屏，主持人接受反馈信息并总结LCD；预算核实不抹去已采纳方向。"
+        }
+      ],
+      "checked_turns": [
+        329,
+        330,
+        333,
+        335,
+        338,
+        340,
+        342,
+        345,
+        347,
+        348,
+        349
+      ]
+    },
+    {
+      "index": 7,
+      "reference_hits": [
+        "D12"
+      ],
+      "claims": [
+        {
+          "name": "普通塑料等常规材料",
+          "verdict": "TP",
+          "reason": "120提议，352–353主持人明确认可默认材料，支持以设计代替昂贵材料投入。"
+        }
+      ],
+      "checked_turns": [
+        120,
+        121,
+        122,
+        352,
+        353
+      ]
+    },
+    {
+      "index": 8,
+      "reference_hits": [
+        "D9"
+      ],
+      "claims": [
+        {
+          "name": "时尚外观",
+          "verdict": "TP",
+          "reason": "349总结明确fancy design；不等于复杂功能。"
+        }
+      ],
+      "checked_turns": [
+        270,
+        301,
+        349
+      ]
+    },
+    {
+      "index": 9,
+      "reference_hits": [
+        "D10"
+      ],
+      "claims": [
+        {
+          "name": "易于学习",
+          "verdict": "TP",
+          "reason": "333说明老年用户需求，349明确easy to learn。"
+        }
+      ],
+      "checked_turns": [
+        43,
+        333,
+        349
+      ]
+    },
+    {
+      "index": 10,
+      "reference_hits": [
+        "D3"
+      ],
+      "claims": [
+        {
+          "name": "体现公司形象",
+          "verdict": "TP",
+          "reason": "135段主持人传达明确要求，外观和工作方式均需可见。"
+        }
+      ],
+      "checked_turns": [
+        135
+      ]
+    }
+  ],
+  "missing_decisions": [
+    {
+      "reference": "D11",
+      "cause": "草稿已经输出按市场分别适配语言，独立核验因实现未定标open，最终裁决删除；事实第15条仍保留。",
+      "cross_section_fact_index": 15
+    }
+  ],
+  "missing_tasks": [],
+  "non_task_review_audit": [],
+  "corpus_reference_coverage": {
+    "actions": {
+      "full": [
+        "T1",
+        "T2"
+      ],
+      "partial": [],
+      "note": "T2由R15用户界面概念与R16趋势观察共同覆盖。"
+    },
+    "decisions": {
+      "full": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10"
+      ],
+      "partial": [],
+      "missing": [
+        "D11"
+      ],
+      "note": "原D7后半老年定位由第2行覆盖，声音由第5行覆盖；不重复加独立主张。"
+    }
+  },
+  "cross_section_reference_hits": {
+    "actions": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "decisions": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12"
+    ]
+  },
+  "field_review": {
+    "owner": "R3/R13负责人正确，R14/R15角色对应正确并保留承接确认，R16负责人明确待确认，不能据此声称5项可无确认执行。",
+    "date": "均无伪造日历日期；下次会议保留相对期限。"
+  },
+  "unresolved_audit": [
+    {
+      "index": 1,
+      "verdict": "状态表述偏强",
+      "reason": "246–263段已倾向熟悉数字布局，条件性再考虑仍可保留；写为整个问题尚未决定与决定第4行不一致。"
+    },
+    {
+      "index": 2,
+      "verdict": "未更新后文",
+      "reason": "329–330的二选一成本意见后，333–349采用简化小屏并在总结同时列底座与LCD；应写预算待核实，而非仍只在二者间未选择。"
+    },
+    {
+      "index": 3,
+      "verdict": "可接受的剩余核实",
+      "reason": "344–347仍问成本，349主持人认为可行但没有成本数据；成本核实可保留，须与已选择方向区分。"
+    },
+    {
+      "index": 4,
+      "verdict": "早期替代方案残留",
+      "reason": "93–111触屏疑虑属实，但335–349已转普通小LCD；不宜继续作为当前必解触屏路线。"
+    },
+    {
+      "index": 5,
+      "verdict": "合理",
+      "reason": "309–313要求进一步了解老年人的额外需求，与已经选定目标群兼容。"
+    },
+    {
+      "index": 6,
+      "verdict": "合理",
+      "reason": "374明确继续市场调查；这里写市场判断待核实，未否定老年设计方向。"
+    },
+    {
+      "index": 7,
+      "verdict": "重复且状态偏强",
+      "duplicate_of": 1,
+      "reason": "与第1条相同数字键问题。"
+    },
+    {
+      "index": 8,
+      "verdict": "重复并混淆方向与预算",
+      "duplicate_of": 3,
+      "reason": "与第3条同一成本缺口，却扩写成是否加入LCD未决定。"
+    },
+    {
+      "index": 9,
+      "verdict": "重复且未更新后文",
+      "duplicate_of": 2,
+      "reason": "与第2条同一底座/LCD问题。"
+    },
+    {
+      "index": 10,
+      "verdict": "重复并混淆定位与市场验证",
+      "duplicate_of": 6,
+      "reason": "与第6条同一调研依据，却扩写为目标群体未决定。"
+    }
+  ],
+  "result_sha256": "6f19dc0b09dda2844f07c31ebe54bf73dbf337c35b67c17933c9b685402c8f0c",
+  "reviewer": "Primary assistant; personally read full transcript and every final task, decision and review card, with relevant later context. No model judge.",
+  "metric_scope": "Work-identity/content precision and reference recall; owner/date/review-route quality separately audited. See scoring-clarification.json for frozen strict companion."
+}

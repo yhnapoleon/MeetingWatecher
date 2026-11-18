@@ -1,0 +1,14 @@
+{
+  "status": "frozen",
+  "input_hash": "a636ad8192fcd681f8ef6e57076ab695ac221de5bc8c59a146b5b57ef7739c47",
+  "labels_hash": "8843ba1d5f3405a9ac8e80eedc0866b64863e2fc3bc93e52356202b1e3c8b09d",
+  "behavior_hash": "da01415f56e54205589b798888293652831c8a53a5195d1bd0adf2e1d6db46bf",
+  "annotation_status": "agent_reviewed",
+  "reviewer": "codex-independent-contract-review-2026-11-14",
+  "provenance": "Authored before context-v1 outputs; synthetic development probes for the proposed mechanism.",
+  "evaluation_role": "synthetic_mechanism_check",
+  "is_blind": false,
+  "checkpoint_segments": 8,
+  "case_count": 8,
+  "reference_action_count": 6
+}

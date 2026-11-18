@@ -1,0 +1,470 @@
+C01  ES2002a
+
+Project Manager 00:02:31.790
+Um and at this point we get try out the whiteboard over there.
+
+Project Manager 00:02:38.410
+Um.
+
+Project Manager 00:02:39.590
+So uh you get to draw your favourite animal and sum up your favourite characteristics of it.
+
+Project Manager 00:02:45.910
+So who would like to go first?
+
+Marketing Expert 00:02:46.670
+I will go. That's fine.
+
+Project Manager 00:02:47.840
+Very good.
+
+C02  ES2002a
+
+Project Manager 00:16:19.730
+the next meeting's gonna be in thirty minutes.
+
+Project Manager 00:16:21.670
+So that's about um about ten to twelve by my watch.
+
+Project Manager 00:16:25.490
+Um so inbetween now and then, um as the industrial designer, you're gonna be working on you know the actual working design of it
+
+Industrial Designer 00:16:33.880
+Yep.
+
+Project Manager 00:16:34.810
+so y you know what you're doing there.
+
+C03  ES2002a
+
+Project Manager 00:16:36.690
+Um for user interface, technical functions,
+
+Project Manager 00:16:40.990
+I guess that's you know like what we've been talking about,
+
+Project Manager 00:16:43.160
+what it'll actually do.
+
+Project Manager 00:16:44.080
+Um and uh marketing executive,
+
+Project Manager 00:16:50.020
+you'll be just thinking about what it actually what, you know, what requirements it has to has to fulfil
+
+Project Manager 00:16:56.480
+and you'll all get instructions emailed to you, I guess.
+
+Marketing Expert 00:16:59.670
+Okay.
+
+C04  ES2002b
+
+Project Manager 00:01:44.740
+which is the The first one is that um uh the company's decided that teletext is outdated uh because of how popular the internet is.
+
+Project Manager 00:01:54.790
+Nobody uses teletext very much anymore,
+
+Marketing Expert 00:01:56.750
+'Kay.
+
+Project Manager 00:01:56.980
+so we don't really need to consider that in the functionality of the of the remote control.
+
+C05  ES2002b
+
+Project Manager 00:02:01.940
+Um they've also suggested that we um we only use the remote control to control the television, not the V_C_R_, D_V_D_ or anything else.
+
+Project Manager 00:02:10.690
+I think the worry is that if the project becomes too complex then it'll affect um how long it takes us to get it into into production, the time to market.
+
+Marketing Expert 00:02:21.270
+Okay.
+
+Project Manager 00:02:21.680
+So um, we're just gonna keep it simple and it'll just control the T_V_.
+
+C06  ES2002b
+
+Project Manager 00:32:54.010
+Um and then we're gonna have thirty minutes of working on the next stage.
+
+Project Manager 00:32:59.360
+Um so I'll be putting the minutes of this uh this meeting into the project documents folder.
+
+Marketing Expert 00:33:05.410
+Mm-hmm.
+
+C07  ES2002b
+
+Project Manager 00:33:05.600
+Um so uh I guess just to just to confirm that we know what we're doing in the next well in the thirty minutes after lunch anyway,
+
+Marketing Expert 00:33:11.560
+Mm-hmm.
+
+Project Manager 00:33:13.870
+um for uh our Industrial Designer, you're gonna be thinking about the components concept.
+
+Project Manager 00:33:21.000
+Um User Interface Designer gonna be thinking about our user interface,
+
+Project Manager 00:33:24.280
+and marketing you're gonna be thinking about trend watching.
+
+Project Manager 00:33:27.490
+Um and you'll all get specific instructions as well.
+
+C08  ES2002c
+
+Project Manager 00:37:46.260
+that'll be that'll be good.
+
+Marketing Expert 00:37:46.510
+Huh.
+
+Project Manager 00:37:47.710
+Um and I'll get the the minutes up as soon as possible.
+
+Project Manager 00:37:52.260
+Anything at all you think we haven't discussed that we need to?
+
+Project Manager 00:37:55.480
+Is everybody kind of happy about what they're gonna be doing?
+
+C09  ES2004b
+
+Marketing Expert 00:38:14.550
+What would you specifically like marketing to look at before the next meeting?
+
+User Interface Designer 00:38:14.790
+True.
+
+Industrial Designer 00:38:15.260
+Okay.
+
+Marketing Expert 00:38:17.310
+Or shall I just sort of generally look at all the issues involved?
+
+Project Manager 00:38:20.120
+I think you might get guidance,
+
+Project Manager 00:38:21.910
+but um
+
+Project Manager 00:38:25.500
+I th
+
+Project Manager 00:38:27.170
+Instruction manuals,
+
+Project Manager 00:38:28.490
+'cause there tends to be a demonised thing,
+
+Marketing Expert 00:38:28.520
+Okay.
+
+Project Manager 00:38:33.270
+u um, they're everyone's got like a big pile of them,
+
+Project Manager 00:38:36.860
+but no one really uses them.
+
+C10  ES2004c
+
+Project Manager 00:33:07.800
+Mm-hmm.
+
+Marketing Expert 00:33:08.200
+Mm-hmm,
+
+Marketing Expert 00:33:09.450
+so we decided on a rubber casing for the plastic shell, a variety of designs,
+
+User Interface Designer 00:33:11.720
+Plast right.
+
+Project Manager 00:33:12.005
+Oh I think so, I think so.
+
+C11  ES2004c
+
+User Interface Designer 00:36:41.360
+For l yeah, the whistle.
+
+Industrial Designer 00:36:41.540
+Oh yeah, yeah
+
+Industrial Designer 00:36:42.180
+the whistle ones, yeah.
+
+User Interface Designer 00:36:44.250
+So we can if financially voice recognition is not feasible we could go for a whistle.
+
+C12  ES2004d
+
+Industrial Designer 00:15:34.540
+Yeah, it was it was uh a voice voice recognition,
+
+User Interface Designer 00:15:36.010
+Voice r recognition.
+
+Marketing Expert 00:15:37.330
+It was the I'm here thing,
+
+Marketing Expert 00:15:38.890
+yep.
+
+Industrial Designer 00:15:38.990
+yeah.
+
+Marketing Expert 00:15:40.330
+And are we happy with the costs on that? That is going to be feasible, cost-wise.
+
+Industrial Designer 00:15:42.760
+Yeah, yeah, that yeah, that's feasible.
+
+Marketing Expert 00:15:45.460
+That sounds good then.
+
+C13  ES2004d
+
+Industrial Designer 00:28:58.960
+yeah, I I feel that everyone was listened to
+
+Industrial Designer 00:29:02.270
+and all the points that were raised seem to have been sorted out,
+
+Industrial Designer 00:29:08.930
+although we didn't quite make the voice recognition in there,
+
+Industrial Designer 00:29:11.580
+but that's that's good.
+
+Project Manager 00:29:13.180
+Yeah.
+
+Industrial Designer 00:29:13.660
+I think it would have made it into the final product if it was actually if if if we'd seen the marketing before the initial specification was put out, I think maybe it would've come out a d little different,
+
+C14  ES2008a
+
+User Interface Designer 00:13:04.520
+are we designing a remote control for a television only
+
+Project Manager 00:13:08.524
+Good question.
+
+User Interface Designer 00:13:09.090
+um, and if if this device is just to be used for the television
+
+User Interface Designer 00:13:15.050
+would we even technically be possible to include video recorder functions on it?
+
+Project Manager 00:13:21.049
+I don't know that yet.
+
+User Interface Designer 00:13:21.800
+Um or should we just stick to just stick to having television television related buttons on it?
+
+Industrial Designer 00:13:28.130
+Mm.
+
+Project Manager 00:13:30.400
+It's a good question. Um.
+
+Project Manager 00:13:33.951
+I'll look into that.
+
+Marketing Expert 00:13:34.080
+Mm-hmm hmm.
+
+Project Manager 00:13:35.990
+If I can.
+
+Marketing Expert 00:13:36.240
+I think it's just T_V_,
+
+Marketing Expert 00:13:37.600
+I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.
+
+C15  ES2008a
+
+Project Manager 00:14:59.510
+but this is just a breakdown of what we'll be doing individually.
+
+Project Manager 00:15:03.230
+Um the industrial design, Alima will be doing um the working design.
+
+Industrial Designer 00:15:05.590
+Yeah.
+
+C16  ES2008a
+
+Project Manager 00:16:36.440
+Mm 'kay um
+
+Project Manager 00:16:38.760
+I'll type up mi minutes
+
+Project Manager 00:16:40.090
+and probably email those out to all of you. Um just including all the things that we talked about. Um.
+
+User Interface Designer 00:16:42.350
+Okay.
+
+User Interface Designer 00:16:45.960
+Can you e-mail your slides as well?
+
+User Interface Designer 00:16:48.210
+Is that possible?
+
+Project Manager 00:16:49.260
+Yes, I yes, I think I can.
+
+Project Manager 00:16:51.040
+Mm-hmm.
+
+User Interface Designer 00:16:51.060
+Cool
+
+Project Manager 00:16:52.030
+I'll just attach it to an email.
+
+C17  ES2008b
+
+Project Manager 00:01:27.490
+did you all get the minutes?
+
+Project Manager 00:01:28.390
+I e-mailed them to you.
+
+Project Manager 00:01:29.260
+I'm also putting 'em them in the shared folder.
+
+User Interface Designer 00:01:29.550
+Yep.
+
+C18  ES2008b
+
+Project Manager 00:22:45.340
+like your question earlier um whether this is going to be t for television, video, or etcetera. Just for television. That's what we're focused on.
+
+User Interface Designer 00:22:51.090
+Right.
+
+Project Manager 00:22:52.540
+Um otherwise becomes to complex,
+
+Project Manager 00:22:54.140
+we wanna get this out um very quickly.
+
+C19  VC127
+
+说话人 1
+谢谢徐校长。
+
+说话人 1
+那因为时间关系，我们后面还有蛮多问题，就没办法在这边一请两位老师解答，我们会后再把问题整理好，再请两位老师我们再把它整理成文字稿，我们会后再基金会的公众号再向大家做一个发布。
+
+说话人 1
+好，那最后一点点时间，我们确实时间非常的宝贵，想跟大家说的很多我们品格环节，就要在这个地方做一个告一个段落。
+
+C20  VC136
+
+说话人 1
+好，那今天就再到这，再次感谢各位教授，然后彭这个老老师的一个支持。
+
+说话人 1
+然后今天我们的线上研究会就到这里，然后后面的话我们会把这个视频剪辑，然后给大家确认，然后还有这个文稿可以吧。
+
+说话人 1
+好嘞。
+
+C21  VC178
+
+说话人 6
+对，然后意见都非常宝贵，我们会整理出来。
+
+说话人 6
+我觉得我们因为早上我也跟那个现在的这个新院长在聊这个话题，因为大家都觉得要讲的话很多，现在已经快 6 点了，沉淀下来你又觉得很长是吧？
+
+C22  VC199
+
+说话人 5
+这个我在想，这个会后，我还要和夏校长们多联系，争取把这个文化的这种类型以及这种文化类型对学校的建设的帮助，学习得更深一些。
+
+说话人 5
+好，谢谢校长，谢谢。
+
+C23  VC216
+
+说话人 6
+还有其他几个问题，会后我们单独再联系刚才袁校长，那个讲的过程中，你这个信号也没有太听清。
+
+说话人 6
+好的，所以稍后会单独联系。
+
+C24  VC130
+
+说话人 2
+每次到开学以后，微信群使用的那个频率越来越高，我都会听到老师们这么说，园长人事部门要我们确认每个孩子的信息，我把孩子的信息发到群里，让家长核对可以吗？
+
+说话人 2
+园长儿童体质健康彻查的结果能发在群里让家长看吗？
+
+C25  VC102
+
+说话人 2
+然后我们也以集团的形式做整个项目的投资，有集团基金，那也欢迎现场有优质项目的朋友来，可以会后跟我联系。
+
+说话人 2
+然后也希望就是有优质的投资机构，大家一起来孵化更多的项目，谢谢。
+
+C26  VC230
+
+说话人 9
+那接下来我们可以解决是说面向业务用户的这个界面化的沉淀，所以就是我理解在您的这个场景里面。
+
+说话人 9
+我们可以在会后稍后稍微落地和细化一下这个场景。
+
+C27  VC48
+
+说话人 8
+我到最近几年才想才跟一些比较成功的 CIO 然后我跟他们沟通我才发现我的情商太低了，我才发现跟老板的沟通太重要了，反映了你的情商对吧，太重要了。
+
+说话人 8
+这种沟通是有很多的一些学问，很多的学问，如果再给我十年，那我会把它做得非常非常好。
+
+C28  VC55
+
+说话人 1
+有些朋友你慢慢在雪球时间长，你会能够感觉到有两位，这个雪球上的一个大 V 我刚来的时候，我把他们所有的文章都打印出来了，也有球友给他整理出来了一个叫乐趣先生，上去年来参加过，还有一个叫任俊杰先生，他有一本书叫穿越奥马哈之物。
+
+说话人 1
+那么这本书不是在国内很就是特流行的那种价值投资书，但实际是非常好的一本书。
+
+C29  VC91
+
+说话人 3
+因为这个时间关系，我们叶老师这个环节我们就不组织这个讨论了。
+
+说话人 3
+然后如果大家有需要的话，可以在会后和叶老师再继续的讨论。
+
+说话人 3
+那么下面我把这个交给安老师。
+
+C30  VC215
+
+说话人 4
+然后也感谢大家参与这次的梦幻联动。
+
+说话人 4
+然后稍后我们会在展厅里面设置导览的环节，大家如有兴趣的话可以在美术馆的前沿墙处，然后等待导览员。
+
+说话人 4
+然后导览员会带大家一起去看一下雪冰老师在红砖美术馆的这次雪冰艺术卡片线的展览。

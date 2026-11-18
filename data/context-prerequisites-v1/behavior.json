@@ -1,0 +1,45 @@
+{
+  "status": "frozen",
+  "annotation_status": "agent_authored",
+  "is_blind": false,
+  "input_hash": "b05a374da78a61912e23e2d5b60ab3385047258c5439633828da42b08c77b6cc",
+  "labels_hash": "0d23d48f165a4cd5c33afcd07a16b1ff86c63406004fecd596960f1c27775b78",
+  "purpose": "Negative controls for over-broad cancellation",
+  "version": "context-prerequisite-contrast-v1",
+  "cases": [
+    {
+      "case_id": "PF01",
+      "criteria": [
+        {
+          "id": "selective_cancellation",
+          "description": "报名名单撤回且不追问；取消后的通知工作仍由小周承接，只保留这一任务。",
+          "evidence_ids": [
+            "PF01.s1",
+            "PF01.s2",
+            "PF01.s3",
+            "PF01.s4",
+            "PF01.s5",
+            "PF01.s6"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "PF02",
+      "criteria": [
+        {
+          "id": "selective_cancellation",
+          "description": "只撤回春季展会工作，秋季同名名单工作由小周继续执行；不得因同名或取消另一活动而关闭。",
+          "evidence_ids": [
+            "PF02.s1",
+            "PF02.s2",
+            "PF02.s3",
+            "PF02.s4",
+            "PF02.s5",
+            "PF02.s6"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "frozen",
+  "input_hash": "716a95a9f931b9daa069317bf478b9c74152aff5b32744a822ea751ac83cda08",
+  "labels_hash": "fbf0bbee52de023e24b08b835e4d7f800ffe58b62c67af3d6148620085f28f13",
+  "provenance": "Saved causal context probe; original C02+C03 turns, all three reference actions",
+  "annotation_status": "agent_reviewed"
+}

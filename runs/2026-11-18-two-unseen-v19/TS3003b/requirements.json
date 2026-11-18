@@ -1,0 +1,56 @@
+[
+  {
+    "can_add_task": true,
+    "category": "ambiguous",
+    "check_reason": "A安排下次会议由工业设计师完成组件概念，属于未来工作任务。；描述与A关于下次会议工业设计师完成组件概念的安排一致。",
+    "content_basis": "explicit",
+    "description": "A安排下次会议任务：工业设计师完成组件概念。",
+    "description_status": "supported_interpretation",
+    "evidence_ids": [
+      "TS3003b.sync.300"
+    ],
+    "issuer_ref": "MTD009PM",
+    "missing_fields": [
+      "commitment"
+    ],
+    "question": "这项分派是否已由对应负责人承接？",
+    "record_id": "R14",
+    "resolution": null
+  },
+  {
+    "can_add_task": true,
+    "category": "ambiguous",
+    "check_reason": "A安排下次会议由用户界面设计师完成用户界面概念，属于未来工作任务。；描述与A关于下次会议用户界面设计师完成用户界面概念的安排一致。",
+    "content_basis": "explicit",
+    "description": "A安排下次会议任务：用户界面设计师完成用户界面概念。",
+    "description_status": "supported_interpretation",
+    "evidence_ids": [
+      "TS3003b.sync.300"
+    ],
+    "issuer_ref": "MTD009PM",
+    "missing_fields": [
+      "commitment"
+    ],
+    "question": "这项分派是否已由对应负责人承接？",
+    "record_id": "R15",
+    "resolution": null
+  },
+  {
+    "can_add_task": true,
+    "category": "ambiguous",
+    "check_reason": "A把趋势观察列入下次会议要做的工作，但原话没有明确指定负责人。；描述忠实保留了趋势观察任务，并注明原文未明确负责人。",
+    "content_basis": "explicit",
+    "description": "A安排下次会议任务：进行趋势观察（原文未明确负责人）。",
+    "description_status": "supported_interpretation",
+    "evidence_ids": [
+      "TS3003b.sync.300"
+    ],
+    "issuer_ref": "MTD009PM",
+    "missing_fields": [
+      "owner"
+    ],
+    "question": "这项已明确的工作由哪位具体负责人执行？",
+    "record_id": "R16",
+    "resolution": null
+  }
+]

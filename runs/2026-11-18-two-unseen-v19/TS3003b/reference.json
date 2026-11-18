@@ -1,0 +1,424 @@
+{
+  "actions": [
+    {
+      "id": "T1",
+      "text": "工业设计师为下一次会议准备组件概念。",
+      "evidence_turns": [
+        398,
+        399
+      ],
+      "acceptable_answers": [
+        "组件概念／部件方案"
+      ],
+      "unacceptable_answers": [
+        "只描述已经展示的工作原理"
+      ],
+      "original_reference": "T1",
+      "owner": "C / MTD0010ID / ID",
+      "evidence_ids": [
+        "TS3003b.sync.300",
+        "TS3003b.sync.301"
+      ]
+    },
+    {
+      "id": "T2",
+      "text": "界面设计师准备用户界面概念；团队继续趋势观察。",
+      "evidence_turns": [
+        398,
+        399
+      ],
+      "acceptable_answers": [
+        "用户界面概念与trend-watching合并",
+        "界面概念单列，趋势观察单列；末句趋势观察归属含混，不强制把它归给营销人员"
+      ],
+      "unacceptable_answers": [
+        "仅有趋势观察而无界面概念"
+      ],
+      "original_reference": "T2-reannotated",
+      "owner": "B / MTD011UID / UI",
+      "evidence_ids": [
+        "TS3003b.sync.300",
+        "TS3003b.sync.301"
+      ]
+    },
+    {
+      "id": "T3",
+      "text": "营销人员继续了解老年用户／60至80岁市场需求与可行性。",
+      "evidence_turns": [
+        309,
+        310,
+        312,
+        313,
+        358,
+        369,
+        370,
+        374
+      ],
+      "acceptable_answers": [
+        "调查老年群体需求、市场潜力或定位；可合并趋势调研",
+        "保留需要进一步调查的个人承接"
+      ],
+      "unacceptable_answers": [
+        "把“我需要进一步了解”写成已经完成调研"
+      ],
+      "original_reference": null,
+      "owner": "D / MTD012ME / Freek / ME",
+      "evidence_ids": [
+        "TS3003b.sync.808",
+        "TS3003b.sync.810",
+        "TS3003b.sync.812",
+        "TS3003b.sync.226",
+        "TS3003b.sync.270",
+        "TS3003b.sync.282",
+        "TS3003b.sync.850",
+        "TS3003b.sync.854"
+      ]
+    },
+    {
+      "id": "T4",
+      "text": "主持人整理／保存本次纪要到项目文档目录。",
+      "evidence_turns": [
+        9,
+        398
+      ],
+      "acceptable_answers": [
+        "归档／上传会议纪要；记录并保存可合并"
+      ],
+      "unacceptable_answers": [
+        "只要求当场做口头汇报"
+      ],
+      "original_reference": null,
+      "owner": "A / MTD009PM / PM",
+      "evidence_ids": [
+        "TS3003b.sync.11",
+        "TS3003b.sync.300"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D1",
+      "text": "仅针对电视，不做多设备遥控。",
+      "evidence_turns": [
+        128,
+        129,
+        272
+      ],
+      "acceptable_answers": [
+        "电视专用"
+      ],
+      "unacceptable_answers": [
+        "还必须控制DVD音响"
+      ],
+      "original_reference": "D1",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.82",
+        "TS3003b.sync.371",
+        "TS3003b.sync.190"
+      ]
+    },
+    {
+      "id": "D2",
+      "text": "将目标从40岁以上进一步聚焦老年人，约60至80岁，市场还需调研。",
+      "evidence_turns": [
+        133,
+        190,
+        358,
+        363,
+        369,
+        370,
+        371,
+        374
+      ],
+      "acceptable_answers": [
+        "老年用户／60至80岁方向；可明确需验证",
+        "40+范围内聚焦老年人"
+      ],
+      "unacceptable_answers": [
+        "仍主攻16至45岁；年龄边界已经市场验证"
+      ],
+      "original_reference": "D2",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.86",
+        "TS3003b.sync.128",
+        "TS3003b.sync.270",
+        "TS3003b.sync.274",
+        "TS3003b.sync.282",
+        "TS3003b.sync.850",
+        "TS3003b.sync.284",
+        "TS3003b.sync.854"
+      ]
+    },
+    {
+      "id": "D3",
+      "text": "公司形象应体现在产品设计和使用方式中。",
+      "evidence_turns": [
+        135
+      ],
+      "acceptable_answers": [
+        "体现企业／品牌形象"
+      ],
+      "unacceptable_answers": [
+        "另开品牌设计项目作为已分派任务"
+      ],
+      "original_reference": "D3",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.89"
+      ]
+    },
+    {
+      "id": "D4",
+      "text": "保留teletext，兼顾成本，服务字幕需求。",
+      "evidence_turns": [
+        131,
+        198,
+        199,
+        209,
+        210,
+        211,
+        212,
+        219
+      ],
+      "acceptable_answers": [
+        "成本可控则保留teletext",
+        "保留teletext／字幕；最后有明确keep，省略早先成本措辞可接受"
+      ],
+      "unacceptable_answers": [
+        "最终取消teletext；不计成本必须触屏"
+      ],
+      "original_reference": "D4",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.83",
+        "TS3003b.sync.134",
+        "TS3003b.sync.136",
+        "TS3003b.sync.146",
+        "TS3003b.sync.530",
+        "TS3003b.sync.148",
+        "TS3003b.sync.150",
+        "TS3003b.sync.158"
+      ]
+    },
+    {
+      "id": "D5",
+      "text": "保持少按钮、简单易用的总体设计。",
+      "evidence_turns": [
+        220,
+        222,
+        225,
+        263,
+        349
+      ],
+      "acceptable_answers": [
+        "少按钮／简洁布局；具体数量待定"
+      ],
+      "unacceptable_answers": [
+        "精确只有2或3键已确定"
+      ],
+      "original_reference": "D5",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.160",
+        "TS3003b.sync.162",
+        "TS3003b.sync.164",
+        "TS3003b.sync.184",
+        "TS3003b.sync.260"
+      ]
+    },
+    {
+      "id": "D6",
+      "text": "采用预算内的底座／docking station。",
+      "evidence_turns": [
+        293,
+        294,
+        295,
+        301,
+        304,
+        305,
+        306,
+        349
+      ],
+      "acceptable_answers": [
+        "底座；设计不过度复杂且成本可行",
+        "底座作为已选择的产品方向"
+      ],
+      "unacceptable_answers": [
+        "昂贵复杂底座已批准"
+      ],
+      "original_reference": "D6",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.208",
+        "TS3003b.sync.210",
+        "TS3003b.sync.536",
+        "TS3003b.sync.218",
+        "TS3003b.sync.220",
+        "TS3003b.sync.540",
+        "TS3003b.sync.222",
+        "TS3003b.sync.260"
+      ]
+    },
+    {
+      "id": "D7",
+      "text": "提供声音提示帮助找到遗失的遥控器。",
+      "evidence_turns": [
+        317,
+        318,
+        324,
+        325
+      ],
+      "acceptable_answers": [
+        "寻物蜂鸣／声音定位；可与底座合并"
+      ],
+      "unacceptable_answers": [
+        "声控操作全部电视功能"
+      ],
+      "original_reference": "D7-part-audio",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.232",
+        "TS3003b.sync.816",
+        "TS3003b.sync.238",
+        "TS3003b.sync.818"
+      ]
+    },
+    {
+      "id": "D8",
+      "text": "采用小型普通LCD显示屏，为按键提供说明反馈。",
+      "evidence_turns": [
+        329,
+        333,
+        335,
+        338,
+        340,
+        342,
+        345,
+        348,
+        349
+      ],
+      "acceptable_answers": [
+        "小LCD／普通信息屏；显示按键说明",
+        "非昂贵触屏的简单信息显示"
+      ],
+      "unacceptable_answers": [
+        "已确定彩色触摸屏；最终完全取消屏幕"
+      ],
+      "original_reference": "D8",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.548",
+        "TS3003b.sync.820",
+        "TS3003b.sync.822",
+        "TS3003b.sync.250",
+        "TS3003b.sync.252",
+        "TS3003b.sync.254",
+        "TS3003b.sync.256",
+        "TS3003b.sync.258",
+        "TS3003b.sync.260"
+      ]
+    },
+    {
+      "id": "D9",
+      "text": "产品外观时尚。",
+      "evidence_turns": [
+        270,
+        301,
+        349
+      ],
+      "acceptable_answers": [
+        "fancy／有吸引力／时尚设计"
+      ],
+      "unacceptable_answers": [
+        "高科技昂贵材料必选"
+      ],
+      "original_reference": "D9",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.188",
+        "TS3003b.sync.218",
+        "TS3003b.sync.260"
+      ]
+    },
+    {
+      "id": "D10",
+      "text": "产品容易学习使用。",
+      "evidence_turns": [
+        333,
+        349
+      ],
+      "acceptable_answers": [
+        "易学／降低老年人学习门槛"
+      ],
+      "unacceptable_answers": [
+        "必须学习复杂滚轮操作"
+      ],
+      "original_reference": "D10",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.820",
+        "TS3003b.sync.260"
+      ]
+    },
+    {
+      "id": "D11",
+      "text": "适配不同语言市场。",
+      "evidence_turns": [
+        385,
+        387,
+        388,
+        389,
+        392
+      ],
+      "acceptable_answers": [
+        "面向不同市场的语言版本／本地化",
+        "支持不同语言"
+      ],
+      "unacceptable_answers": [
+        "必须增加独立语言切换按钮"
+      ],
+      "original_reference": "D11",
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.856",
+        "TS3003b.sync.858",
+        "TS3003b.sync.296",
+        "TS3003b.sync.860",
+        "TS3003b.sync.298"
+      ]
+    },
+    {
+      "id": "D12",
+      "text": "采用常规材料，例如塑料，保持成本合理。",
+      "evidence_turns": [
+        120,
+        352,
+        353
+      ],
+      "acceptable_answers": [
+        "常规材料／普通塑料"
+      ],
+      "unacceptable_answers": [
+        "必须钛合金外壳"
+      ],
+      "original_reference": null,
+      "owner": null,
+      "evidence_ids": [
+        "TS3003b.sync.512",
+        "TS3003b.sync.266",
+        "TS3003b.sync.268"
+      ]
+    }
+  ],
+  "notes": [
+    "原D7同时提声音定位和老年人，后半与D2重复，不重复计参考。",
+    "新增T3个人继续调查承诺及T4归档纪要；原T2趋势观察归属不够明确，允许合理拆并。",
+    "40+硬范围与60至80重点人群兼容，不因进一步调研就断言定位完全未定。",
+    "小LCD经过讨论取代昂贵触屏，原先底座与屏幕二选一并非最后状态。",
+    "大字幕快捷键有主持人提议和支持，可作为有据额外方向，不能把它当正式分派给某人。",
+    "充电底座、RSI、滚轮/摇杆、触屏成本调研最初多为建议或问题，须查后文承接，不能凭建议自动造任务。",
+    "原文完整通读404段后冻结，未查看任何该会议模型输出。"
+  ]
+}

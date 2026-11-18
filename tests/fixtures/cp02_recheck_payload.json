@@ -1,0 +1,889 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "C1",
+      "spans": [
+        {
+          "end": 21,
+          "quote": "小林，请整理 Web 端登录页的功能清单。",
+          "segment_id": "CP02.s1",
+          "start": 0
+        },
+        {
+          "end": 21,
+          "quote": "好，我来整理 Web 端登录页的功能清单。",
+          "segment_id": "CP02.s2",
+          "start": 0
+        },
+        {
+          "end": 10,
+          "quote": "我先等你核对完对象。",
+          "segment_id": "CP02.s8",
+          "start": 0
+        },
+        {
+          "end": 29,
+          "quote": "刚才我说错了，要整理的是移动端登录页，Web 端不用整理。",
+          "segment_id": "CP02.s9",
+          "start": 0
+        },
+        {
+          "end": 30,
+          "quote": "收到，我改为整理移动端登录页的功能清单，不整理 Web 端。",
+          "segment_id": "CP02.s10",
+          "start": 0
+        }
+      ],
+      "thread_id": "T1"
+    },
+    {
+      "candidate_id": "C2",
+      "spans": [
+        {
+          "end": 12,
+          "quote": "我们先核对一下页面名称。",
+          "segment_id": "CP02.s3",
+          "start": 0
+        },
+        {
+          "end": 16,
+          "quote": "产品有 Web 端，也有移动端。",
+          "segment_id": "CP02.s4",
+          "start": 0
+        },
+        {
+          "end": 9,
+          "quote": "两个端都有登录页。",
+          "segment_id": "CP02.s5",
+          "start": 0
+        },
+        {
+          "end": 17,
+          "quote": "Web 端登录页当前使用密码登录。",
+          "segment_id": "CP02.s6",
+          "start": 0
+        },
+        {
+          "end": 16,
+          "quote": "移动端登录页还有短信验证码登录。",
+          "segment_id": "CP02.s7",
+          "start": 0
+        },
+        {
+          "end": 10,
+          "quote": "我先等你核对完对象。",
+          "segment_id": "CP02.s8",
+          "start": 0
+        },
+        {
+          "end": 29,
+          "quote": "要整理的是移动端登录页，Web 端不用整理。",
+          "segment_id": "CP02.s9",
+          "start": 7
+        }
+      ],
+      "thread_id": "T2"
+    }
+  ],
+  "context_records": [
+    {
+      "check": {
+        "evidence": [
+          {
+            "end": 21,
+            "quote": "小林，请整理 Web 端登录页的功能清单。",
+            "segment_id": "CP02.s1",
+            "start": 0
+          },
+          {
+            "end": 21,
+            "quote": "好，我来整理 Web 端登录页的功能清单。",
+            "segment_id": "CP02.s2",
+            "start": 0
+          },
+          {
+            "end": 29,
+            "quote": "刚才我说错了，要整理的是移动端登录页，Web 端不用整理。",
+            "segment_id": "CP02.s9",
+            "start": 0
+          },
+          {
+            "end": 30,
+            "quote": "收到，我改为整理移动端登录页的功能清单，不整理 Web 端。",
+            "segment_id": "CP02.s10",
+            "start": 0
+          }
+        ],
+        "issues": [],
+        "reason": "主持人先分派整理 Web 端登录页功能清单，小林接受；随后主持人纠正为移动端登录页、Web 端不用整理，小林确认改为整理移动端。这是同一项工作的对象变更，最终工作内容明确。；描述忠实反映最终工作为整理移动端登录页功能清单、不整理 Web 端，并保留原安排被纠正的沿革。",
+        "verdict": "supported"
+      },
+      "clarification": {
+        "basis": "主持人先分派整理 Web 端登录页功能清单，小林接受；随后主持人纠正为移动端登录页、Web 端不用整理，小林确认改为整理移动端。这是同一项工作的对象变更，最终工作内容明确。",
+        "evidence": [
+          "Q1",
+          "Q2",
+          "Q9",
+          "Q10"
+        ],
+        "fields": [],
+        "question": null,
+        "status": "not_needed"
+      },
+      "content_audit": {
+        "evidence": [
+          "Q1",
+          "Q2",
+          "Q9",
+          "Q10"
+        ],
+        "missing_details": [],
+        "reason": "描述忠实反映最终工作为整理移动端登录页功能清单、不整理 Web 端，并保留原安排被纠正的沿革。",
+        "verdict": "supported"
+      },
+      "content_basis": "explicit",
+      "description": "小林整理移动端登录页的功能清单，不整理 Web 端；原安排整理 Web 端登录页功能清单，主持人在会上已纠正为移动端。",
+      "event_supported": true,
+      "evidence": [
+        {
+          "end": 21,
+          "quote": "小林，请整理 Web 端登录页的功能清单。",
+          "segment_id": "CP02.s1",
+          "start": 0
+        },
+        {
+          "end": 21,
+          "quote": "好，我来整理 Web 端登录页的功能清单。",
+          "segment_id": "CP02.s2",
+          "start": 0
+        },
+        {
+          "end": 29,
+          "quote": "刚才我说错了，要整理的是移动端登录页，Web 端不用整理。",
+          "segment_id": "CP02.s9",
+          "start": 0
+        },
+        {
+          "end": 30,
+          "quote": "收到，我改为整理移动端登录页的功能清单，不整理 Web 端。",
+          "segment_id": "CP02.s10",
+          "start": 0
+        }
+      ],
+      "gap_checks": [],
+      "issuer_ref": "probe_pm",
+      "kind": "work",
+      "missing_fields": [],
+      "need_basis": {
+        "evidence": [],
+        "goal": null
+      },
+      "proposed_kind": null,
+      "question": null,
+      "record_id": "R1",
+      "thread_ids": [
+        "T1"
+      ]
+    }
+  ],
+  "coverage_findings": [],
+  "dispositions": [],
+  "events": [],
+  "evidence_catalog": {
+    "Q1": {
+      "quote": "小林，请整理 Web 端登录页的功能清单。",
+      "segment_id": "CP02.s1"
+    },
+    "Q10": {
+      "quote": "收到，我改为整理移动端登录页的功能清单，不整理 Web 端。",
+      "segment_id": "CP02.s10"
+    },
+    "Q2": {
+      "quote": "好，我来整理 Web 端登录页的功能清单。",
+      "segment_id": "CP02.s2"
+    },
+    "Q3": {
+      "quote": "我们先核对一下页面名称。",
+      "segment_id": "CP02.s3"
+    },
+    "Q4": {
+      "quote": "产品有 Web 端，也有移动端。",
+      "segment_id": "CP02.s4"
+    },
+    "Q5": {
+      "quote": "两个端都有登录页。",
+      "segment_id": "CP02.s5"
+    },
+    "Q6": {
+      "quote": "Web 端登录页当前使用密码登录。",
+      "segment_id": "CP02.s6"
+    },
+    "Q7": {
+      "quote": "移动端登录页还有短信验证码登录。",
+      "segment_id": "CP02.s7"
+    },
+    "Q8": {
+      "quote": "我先等你核对完对象。",
+      "segment_id": "CP02.s8"
+    },
+    "Q9": {
+      "quote": "刚才我说错了，要整理的是移动端登录页，Web 端不用整理。",
+      "segment_id": "CP02.s9"
+    }
+  },
+  "history": {
+    "tasks": []
+  },
+  "ledger": {
+    "entities": [
+      {
+        "entity_id": "N1",
+        "label": "Web 端登录页",
+        "mentions": [
+          {
+            "end": 15,
+            "quote": "Web 端登录页",
+            "segment_id": "CP02.s1",
+            "start": 7
+          },
+          {
+            "end": 15,
+            "quote": "Web 端登录页",
+            "segment_id": "CP02.s2",
+            "start": 7
+          },
+          {
+            "end": 17,
+            "quote": "Web 端登录页当前使用密码登录。",
+            "segment_id": "CP02.s6",
+            "start": 0
+          },
+          {
+            "end": 28,
+            "quote": "Web 端不用整理",
+            "segment_id": "CP02.s9",
+            "start": 19
+          },
+          {
+            "end": 29,
+            "quote": "不整理 Web 端",
+            "segment_id": "CP02.s10",
+            "start": 20
+          }
+        ]
+      },
+      {
+        "entity_id": "N2",
+        "label": "移动端登录页",
+        "mentions": [
+          {
+            "end": 15,
+            "quote": "移动端",
+            "segment_id": "CP02.s4",
+            "start": 12
+          },
+          {
+            "end": 16,
+            "quote": "移动端登录页还有短信验证码登录。",
+            "segment_id": "CP02.s7",
+            "start": 0
+          },
+          {
+            "end": 18,
+            "quote": "移动端登录页",
+            "segment_id": "CP02.s9",
+            "start": 12
+          },
+          {
+            "end": 14,
+            "quote": "移动端登录页",
+            "segment_id": "CP02.s10",
+            "start": 8
+          }
+        ]
+      },
+      {
+        "entity_id": "N3",
+        "label": "Web 端登录页功能清单",
+        "mentions": [
+          {
+            "end": 20,
+            "quote": "Web 端登录页的功能清单",
+            "segment_id": "CP02.s1",
+            "start": 7
+          },
+          {
+            "end": 20,
+            "quote": "Web 端登录页的功能清单",
+            "segment_id": "CP02.s2",
+            "start": 7
+          }
+        ]
+      },
+      {
+        "entity_id": "N4",
+        "label": "移动端登录页功能清单",
+        "mentions": [
+          {
+            "end": 18,
+            "quote": "要整理的是移动端登录页",
+            "segment_id": "CP02.s9",
+            "start": 7
+          },
+          {
+            "end": 19,
+            "quote": "移动端登录页的功能清单",
+            "segment_id": "CP02.s10",
+            "start": 8
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "evidence": [
+          {
+            "end": 16,
+            "quote": "产品有 Web 端，也有移动端。",
+            "segment_id": "CP02.s4",
+            "start": 0
+          },
+          {
+            "end": 9,
+            "quote": "两个端都有登录页。",
+            "segment_id": "CP02.s5",
+            "start": 0
+          }
+        ],
+        "relation": "related",
+        "source": "N1",
+        "target": "N2"
+      },
+      {
+        "evidence": [
+          {
+            "end": 20,
+            "quote": "整理 Web 端登录页的功能清单",
+            "segment_id": "CP02.s1",
+            "start": 4
+          }
+        ],
+        "relation": "related",
+        "source": "N1",
+        "target": "N3"
+      },
+      {
+        "evidence": [
+          {
+            "end": 19,
+            "quote": "整理移动端登录页的功能清单",
+            "segment_id": "CP02.s10",
+            "start": 6
+          }
+        ],
+        "relation": "related",
+        "source": "N2",
+        "target": "N4"
+      }
+    ],
+    "threads": [
+      {
+        "entity_ids": [
+          "N1",
+          "N2"
+        ],
+        "thread_id": "T2",
+        "updates": [
+          {
+            "after_segment": "CP02.s3",
+            "description": "主持人提出先核对页面名称，以明确相关页面对象。",
+            "evidence": [
+              {
+                "end": 12,
+                "quote": "我们先核对一下页面名称。",
+                "segment_id": "CP02.s3",
+                "start": 0
+              }
+            ],
+            "kind": "work"
+          },
+          {
+            "after_segment": "CP02.s7",
+            "description": "页面对象核对中：产品有 Web 端和移动端，两个端都有登录页；Web 端登录页当前使用密码登录，移动端登录页还有短信验证码登录。",
+            "evidence": [
+              {
+                "end": 16,
+                "quote": "产品有 Web 端，也有移动端。",
+                "segment_id": "CP02.s4",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "两个端都有登录页。",
+                "segment_id": "CP02.s5",
+                "start": 0
+              },
+              {
+                "end": 17,
+                "quote": "Web 端登录页当前使用密码登录。",
+                "segment_id": "CP02.s6",
+                "start": 0
+              },
+              {
+                "end": 16,
+                "quote": "移动端登录页还有短信验证码登录。",
+                "segment_id": "CP02.s7",
+                "start": 0
+              }
+            ],
+            "kind": "work"
+          },
+          {
+            "after_segment": "CP02.s8",
+            "description": "小林表示先等主持人核对完对象；截至该段，页面对象核对尚未宣布完成。",
+            "evidence": [
+              {
+                "end": 10,
+                "quote": "我先等你核对完对象。",
+                "segment_id": "CP02.s8",
+                "start": 0
+              }
+            ],
+            "kind": "work"
+          },
+          {
+            "after_segment": "CP02.s9",
+            "description": "主持人纠正并明确：要整理的是移动端登录页，Web 端不用整理；页面对象核对已完成。",
+            "evidence": [
+              {
+                "end": 29,
+                "quote": "要整理的是移动端登录页，Web 端不用整理。",
+                "segment_id": "CP02.s9",
+                "start": 7
+              }
+            ],
+            "kind": "resolved"
+          }
+        ]
+      }
+    ]
+  },
+  "meeting": {
+    "case_id": "CP02",
+    "language": "zh",
+    "meeting_date": "2026-11-14",
+    "meeting_id": "CP02",
+    "participants": [
+      {
+        "person_ref": "probe_pm",
+        "speaker": "P",
+        "speaker_name": "主持人"
+      },
+      {
+        "person_ref": "probe_lin",
+        "speaker": "L",
+        "speaker_name": "小林"
+      },
+      {
+        "person_ref": "probe_zhou",
+        "speaker": "Z",
+        "speaker_name": "小周"
+      }
+    ],
+    "roster": {
+      "probe_lin": "小林",
+      "probe_pm": "主持人",
+      "probe_zhou": "小周"
+    },
+    "segments": [
+      {
+        "id": "CP02.s1",
+        "person_ref": "probe_pm",
+        "speaker": "P",
+        "speaker_name": "主持人",
+        "text": "小林，请整理 Web 端登录页的功能清单。"
+      },
+      {
+        "id": "CP02.s2",
+        "person_ref": "probe_lin",
+        "speaker": "L",
+        "speaker_name": "小林",
+        "text": "好，我来整理 Web 端登录页的功能清单。"
+      },
+      {
+        "id": "CP02.s3",
+        "person_ref": "probe_pm",
+        "speaker": "P",
+        "speaker_name": "主持人",
+        "text": "我们先核对一下页面名称。"
+      },
+      {
+        "id": "CP02.s4",
+        "person_ref": "probe_zhou",
+        "speaker": "Z",
+        "speaker_name": "小周",
+        "text": "产品有 Web 端，也有移动端。"
+      },
+      {
+        "id": "CP02.s5",
+        "person_ref": "probe_pm",
+        "speaker": "P",
+        "speaker_name": "主持人",
+        "text": "两个端都有登录页。"
+      },
+      {
+        "id": "CP02.s6",
+        "person_ref": "probe_zhou",
+        "speaker": "Z",
+        "speaker_name": "小周",
+        "text": "Web 端登录页当前使用密码登录。"
+      },
+      {
+        "id": "CP02.s7",
+        "person_ref": "probe_pm",
+        "speaker": "P",
+        "speaker_name": "主持人",
+        "text": "移动端登录页还有短信验证码登录。"
+      },
+      {
+        "id": "CP02.s8",
+        "person_ref": "probe_lin",
+        "speaker": "L",
+        "speaker_name": "小林",
+        "text": "我先等你核对完对象。"
+      },
+      {
+        "id": "CP02.s9",
+        "person_ref": "probe_pm",
+        "speaker": "P",
+        "speaker_name": "主持人",
+        "text": "刚才我说错了，要整理的是移动端登录页，Web 端不用整理。"
+      },
+      {
+        "id": "CP02.s10",
+        "person_ref": "probe_lin",
+        "speaker": "L",
+        "speaker_name": "小林",
+        "text": "收到，我改为整理移动端登录页的功能清单，不整理 Web 端。"
+      }
+    ],
+    "series": "synthetic-context-CP02",
+    "source": "synthetic_mechanism_check"
+  },
+  "output_contract": "\n仅输出符合以下完整结构的 JSON（数组按实际情况可为空，示例不是答案）：\n{\"case_id\": \"CP02\", \"scope\": \"deac5e5fbcd7f8848343f5cba350a9b176971b591cee1860442430acea7f1fbd\", \"record_checks\": {\"R2\": {\"kind\": \"work\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"content\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"missing_details\": []}, \"gap_checks\": []}}, \"checks\": {}, \"disposition_checks\": [{\"finding_id\": \"O1\", \"disposition\": \"rejected\", \"record_ids\": [], \"evidence\": [\"Q1\"], \"verdict\": \"supported\", \"reason\": \"依据\"}]}\n非空 $.record_checks.R2.content.missing_details 的每个元素必须完整包含：{\"description\": \"原话应保留的必要目的或范围\", \"evidence\": [\"Q1\"]}\n非空 $.record_checks.R2.gap_checks 的每个元素必须完整包含：{\"field\": \"commitment\", \"status\": \"not_needed\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"question\": null}\n数组为空只是示例值，不表示可以省略非空元素的字段。每个输入 record_id/event_id 恰好核验一次，不重复输出相同 ID。",
+  "output_schema": {
+    "additionalProperties": false,
+    "properties": {
+      "case_id": {
+        "example": "CP02",
+        "type": "string"
+      },
+      "checks": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "disposition_checks": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "disposition": {
+              "enum": [
+                "rejected",
+                "covered",
+                "added",
+                "unresolved"
+              ],
+              "example": "rejected",
+              "type": "string"
+            },
+            "evidence": {
+              "items": {
+                "example": "Q1",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "finding_id": {
+              "example": "O1",
+              "type": "string"
+            },
+            "reason": {
+              "example": "依据",
+              "type": "string"
+            },
+            "record_ids": {
+              "example": [],
+              "items": {
+                "example": "R_O1_1",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "verdict": {
+              "enum": [
+                "supported",
+                "insufficient",
+                "contradicted"
+              ],
+              "example": "supported",
+              "type": "string"
+            }
+          },
+          "required": [
+            "finding_id",
+            "disposition",
+            "record_ids",
+            "evidence",
+            "verdict",
+            "reason"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "record_checks": {
+        "additionalProperties": false,
+        "properties": {
+          "R2": {
+            "additionalProperties": false,
+            "properties": {
+              "content": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "missing_details": {
+                    "example": [],
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "description": {
+                          "example": "原话应保留的必要目的或范围",
+                          "type": "string"
+                        },
+                        "evidence": {
+                          "items": {
+                            "example": "Q1",
+                            "type": "string"
+                          },
+                          "type": "array"
+                        }
+                      },
+                      "required": [
+                        "description",
+                        "evidence"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence",
+                  "missing_details"
+                ],
+                "type": "object"
+              },
+              "evidence": {
+                "items": {
+                  "example": "Q1",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "gap_checks": {
+                "example": [],
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "evidence": {
+                      "items": {
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "field": {
+                      "enum": [
+                        "commitment",
+                        "owner",
+                        "reference",
+                        "relation",
+                        "scope",
+                        "time",
+                        "work"
+                      ],
+                      "example": "commitment",
+                      "type": "string"
+                    },
+                    "question": {
+                      "example": null,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "reason": {
+                      "example": "依据",
+                      "type": "string"
+                    },
+                    "status": {
+                      "enum": [
+                        "not_needed",
+                        "needed"
+                      ],
+                      "example": "not_needed",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "field",
+                    "status",
+                    "reason",
+                    "evidence",
+                    "question"
+                  ],
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "kind": {
+                "enum": [
+                  "ambiguous",
+                  "context_only",
+                  "deferred_topic",
+                  "entity_only",
+                  "implicit_need",
+                  "resolved",
+                  "withdrawn",
+                  "work"
+                ],
+                "example": "work",
+                "type": "string"
+              },
+              "reason": {
+                "example": "依据",
+                "type": "string"
+              }
+            },
+            "required": [
+              "kind",
+              "reason",
+              "evidence",
+              "content",
+              "gap_checks"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "R2"
+        ],
+        "type": "object"
+      },
+      "scope": {
+        "example": "deac5e5fbcd7f8848343f5cba350a9b176971b591cee1860442430acea7f1fbd",
+        "type": "string"
+      }
+    },
+    "required": [
+      "case_id",
+      "scope",
+      "record_checks",
+      "checks",
+      "disposition_checks"
+    ],
+    "type": "object"
+  },
+  "records": [
+    {
+      "content_basis": "explicit",
+      "description": "会上核对页面名称：确认产品有 Web 端和移动端，两端都有登录页，Web 端登录页当前使用密码登录，移动端登录页还有短信验证码登录；主持人随后纠正要整理的是移动端登录页、Web 端不用整理。",
+      "evidence": [
+        {
+          "end": 12,
+          "quote": "我们先核对一下页面名称。",
+          "segment_id": "CP02.s3",
+          "start": 0
+        },
+        {
+          "end": 16,
+          "quote": "产品有 Web 端，也有移动端。",
+          "segment_id": "CP02.s4",
+          "start": 0
+        },
+        {
+          "end": 9,
+          "quote": "两个端都有登录页。",
+          "segment_id": "CP02.s5",
+          "start": 0
+        },
+        {
+          "end": 17,
+          "quote": "Web 端登录页当前使用密码登录。",
+          "segment_id": "CP02.s6",
+          "start": 0
+        },
+        {
+          "end": 16,
+          "quote": "移动端登录页还有短信验证码登录。",
+          "segment_id": "CP02.s7",
+          "start": 0
+        },
+        {
+          "end": 10,
+          "quote": "我先等你核对完对象。",
+          "segment_id": "CP02.s8",
+          "start": 0
+        },
+        {
+          "end": 29,
+          "quote": "刚才我说错了，要整理的是移动端登录页，Web 端不用整理。",
+          "segment_id": "CP02.s9",
+          "start": 0
+        },
+        {
+          "end": 30,
+          "quote": "收到，我改为整理移动端登录页的功能清单，不整理 Web 端。",
+          "segment_id": "CP02.s10",
+          "start": 0
+        }
+      ],
+      "issuer_ref": "probe_pm",
+      "kind": "context_only",
+      "missing_fields": [],
+      "need_basis": {
+        "evidence": [],
+        "goal": null
+      },
+      "question": null,
+      "record_id": "R2",
+      "thread_ids": [
+        "T2"
+      ]
+    }
+  ],
+  "scope": "deac5e5fbcd7f8848343f5cba350a9b176971b591cee1860442430acea7f1fbd"
+}

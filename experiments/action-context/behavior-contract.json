@@ -1,0 +1,177 @@
+{
+  "version": "context-behavior-v1",
+  "status": "frozen",
+  "annotation_status": "agent_reviewed",
+  "reviewer": "codex-independent-contract-review-2026-11-14",
+  "frozen_before": "context-v1 model outputs",
+  "evaluation_role": "known_case_mechanism_check",
+  "is_blind": false,
+  "purpose": "Measure preservation of work meaning and handling of uncertainty separately from unchanged v2 task metrics.",
+  "source_views": {
+    "regression": {
+      "path": "data/action-semantics-v2/regression",
+      "input_hash": "6672ffb747804fb82cca7f3caf069a1b36259371925421ddd7d1b77cd29bfff6",
+      "labels_hash": "0d0298c26b3d5435622bfc85aabeee02376aa0baa9eb70a10d37f85493ef6458",
+      "selected_cases": ["C02", "C03", "C09", "C20", "C21", "C26"]
+    },
+    "context": {
+      "path": "data/action-semantics-v2/context",
+      "input_hash": "716a95a9f931b9daa069317bf478b9c74152aff5b32744a822ea751ac83cda08",
+      "labels_hash": "fbf0bbee52de023e24b08b835e4d7f800ffe58b62c67af3d6148620085f28f13",
+      "selected_cases": ["CTX_ES2002a_roles"]
+    }
+  },
+  "review_rules": [
+    "All criteria require independent source-based judgments, not keyword matching or reuse of check_work verdicts.",
+    "Review every prediction and every missing requirement, including cases with empty output or failed stages.",
+    "Report criterion-level results and all-criteria-per-case results separately; partial handling is not full success.",
+    "Keep legacy v2 labels unchanged and report their task metrics separately. A task routed to pending still counts as missing under the legacy task view when applicable.",
+    "Meaning preservation in a labeled hypothesis is not equivalent to a supported executable task.",
+    "C03.2 and C09.1 have acknowledged short-response acceptance uncertainty. Do not promote one preferred interpretation into independent human gold truth.",
+    "C09 confirmation is a product-policy choice for the new review view. It does not assert that the legacy research interpretation is linguistically impossible.",
+    "Creation means the semantic proposal here; public corpus accounts are not executable platform mappings.",
+    "No model prompt or semantic input may contain this contract, labels, criterion IDs, or expected dispositions."
+  ],
+  "cases": [
+    {
+      "case_id": "C02",
+      "criteria": [
+        {
+          "id": "work_and_owner",
+          "description": "保留准备产品工作设计的工作，执行者为工业设计师 MEE006，并识别其 Yep 承接。",
+          "evidence_ids": ["ES2002a.B.dialog-act.dharshi.196", "ES2002a.A.dialog-act.dharshi.42"]
+        },
+        {
+          "id": "window_not_deadline",
+          "description": "两会之间是开展工作时段；不得写成下次会前完成或填入完成截止日期。",
+          "evidence_ids": ["ES2002a.B.dialog-act.dharshi.194", "ES2002a.B.dialog-act.dharshi.196"]
+        }
+      ]
+    },
+    {
+      "case_id": "C03",
+      "criteria": [
+        {
+          "id": "ui_work_restored",
+          "description": "将用户界面技术功能还原为 UI 设计师 MEE007 的工作，保留产品实际上能做什么的功能含义；不能只保留无动作实体或丢弃。",
+          "evidence_ids": ["ES2002a.B.dialog-act.dharshi.199", "ES2002a.B.dialog-act.dharshi.200", "ES2002a.B.dialog-act.dharshi.201"]
+        },
+        {
+          "id": "ui_assignment_not_acceptance",
+          "description": "UI 工作为可由上下文还原的分工，但没有本人承接；保留待确认承接，不能把市场人员 Okay 归给 UI。",
+          "evidence_ids": ["ES2002a.B.dialog-act.dharshi.199", "ES2002a.D.dialog-act.dharshi.173"]
+        },
+        {
+          "id": "marketing_work_separate",
+          "description": "另行保留市场人员 MEE008 梳理产品应满足的需求；短回应归属不确定性可进入承接确认，但不能因此删除完整工作含义。",
+          "evidence_ids": ["ES2002a.B.dialog-act.dharshi.202", "ES2002a.B.dialog-act.dharshi.203", "ES2002a.D.dialog-act.dharshi.173"]
+        },
+        {
+          "id": "no_email_task",
+          "description": "收到邮件指示不构成主持人主动发送邮件的已分派任务；不得制造该任务或分配发送人。",
+          "evidence_ids": ["ES2002a.B.dialog-act.dharshi.204"]
+        }
+      ]
+    },
+    {
+      "case_id": "C09",
+      "criteria": [
+        {
+          "id": "research_meaning_retained",
+          "description": "保留对用户看待或使用说明书的问题的研究含义，联系说明书堆积却没人使用的背景；只写看看说明书不通过。",
+          "evidence_ids": ["ES2004b.D.dialog-act.s9553330.261", "ES2004b.B.dialog-act.s9553330.263", "ES2004b.B.dialog-act.s9553330.264", "ES2004b.B.dialog-act.s9553330.265", "ES2004b.B.dialog-act.s9553330.266"]
+        },
+        {
+          "id": "inference_separate_from_commitment",
+          "description": "区分研究目的的上下文解释与市场人员 Okay 是否承接；不能仅因研究目的非逐字命令就认定完全没有工作，也不能把短回应直接当作接受推测出来的所有范围。",
+          "evidence_ids": ["ES2004b.D.dialog-act.s9553330.262", "ES2004b.B.dialog-act.s9553330.263", "ES2004b.D.dialog-act.s9553330.263", "ES2004b.B.dialog-act.s9553330.266"]
+        },
+        {
+          "id": "review_before_task",
+          "description": "本轮新产品策略下，以隐式需求或内容范围待确认工作展示，具体确认是否研究用户看法/使用问题；不自动将该推测范围当成确定承诺创建。",
+          "evidence_ids": ["ES2004b.D.dialog-act.s9553330.261", "ES2004b.B.dialog-act.s9553330.263", "ES2004b.B.dialog-act.s9553330.266"]
+        },
+        {
+          "id": "no_extra_deliverable",
+          "description": "不得把问卷、访谈、报告、改写说明书等未提出的研究方法或交付物写成已确定任务要求。",
+          "evidence_ids": ["ES2004b.D.dialog-act.s9553330.261", "ES2004b.B.dialog-act.s9553330.263", "ES2004b.B.dialog-act.s9553330.266"]
+        }
+      ]
+    },
+    {
+      "case_id": "C20",
+      "criteria": [
+        {
+          "id": "video_work_retained",
+          "description": "保留剪辑线上研究会视频并交大家确认的完整工作和团队承诺；个人负责人不确定不应导致删除。",
+          "evidence_ids": ["vc.136.166.2"]
+        },
+        {
+          "id": "manuscript_retained_without_invented_action",
+          "description": "另保留文稿实体与处理动作不明的交付线索；可询问文稿要做什么，但不得断言整理、制作、发送或并入已承诺视频工作。",
+          "evidence_ids": ["vc.136.166.2"]
+        },
+        {
+          "id": "no_person_or_deadline_invention",
+          "description": "不把我们映射成无依据个人负责人，后面不当作交付期限。",
+          "evidence_ids": ["vc.136.166.2"]
+        }
+      ]
+    },
+    {
+      "case_id": "C21",
+      "criteria": [
+        {
+          "id": "team_commitment_retained",
+          "description": "保留整理收到意见的明确团队承诺；不能因个人负责人未知改成纯建议、隐式需求或没有工作。",
+          "evidence_ids": ["vc.178.27.0"]
+        },
+        {
+          "id": "owner_only_confirmation",
+          "description": "需要确认时针对个人负责人或执行身份，不重复询问会上已经明确的是否整理；不制造期限或个人。",
+          "evidence_ids": ["vc.178.27.0"]
+        }
+      ]
+    },
+    {
+      "case_id": "C26",
+      "criteria": [
+        {
+          "id": "suggestion_retained",
+          "description": "保留会后落地和细化该场景的建议，动作已明确，不应因可以而丢弃内容。",
+          "evidence_ids": ["vc.230.106.3", "vc.230.106.4"]
+        },
+        {
+          "id": "not_accepted_task",
+          "description": "未见承接，放在可采纳建议或待确认工作中；不生成已答应的创建任务提议，不把会后稍后当作截止期限。",
+          "evidence_ids": ["vc.230.106.4"]
+        }
+      ]
+    },
+    {
+      "case_id": "CTX_ES2002a_roles",
+      "criteria": [
+        {
+          "id": "three_roles_separate",
+          "description": "完整保留工业设计师的工作设计、UI 设计师的技术功能、市场人员的需求梳理三项工作，角色对应正确，不能因同一产品而合并。",
+          "evidence_ids": ["ES2002a.B.dialog-act.dharshi.196", "ES2002a.B.dialog-act.dharshi.199", "ES2002a.B.dialog-act.dharshi.201", "ES2002a.B.dialog-act.dharshi.202", "ES2002a.B.dialog-act.dharshi.203"]
+        },
+        {
+          "id": "ellipsis_restored_not_hidden_need",
+          "description": "借助前文连续分工恢复 UI 省略动作；此处是上下文分工，不因句子不完整而降为仅实体或待推测隐式需求。",
+          "evidence_ids": ["ES2002a.B.dialog-act.dharshi.196", "ES2002a.B.dialog-act.dharshi.199", "ES2002a.B.dialog-act.dharshi.201"]
+        },
+        {
+          "id": "acceptance_independent",
+          "description": "工业设计师 Yep 属于其自身工作，市场人员 Okay 不属于 UI；UI 保留未承接分工，市场短回应不确定性单列。",
+          "evidence_ids": ["ES2002a.A.dialog-act.dharshi.42", "ES2002a.B.dialog-act.dharshi.199", "ES2002a.D.dialog-act.dharshi.173"]
+        },
+        {
+          "id": "no_email_or_deadline",
+          "description": "不创建发送邮件任务；两会之间的开展时段不转为三项工作的完成期限。",
+          "evidence_ids": ["ES2002a.B.dialog-act.dharshi.194", "ES2002a.B.dialog-act.dharshi.196", "ES2002a.B.dialog-act.dharshi.204"]
+        }
+      ]
+    }
+  ]
+}

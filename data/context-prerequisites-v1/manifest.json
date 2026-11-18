@@ -1,0 +1,8 @@
+{
+  "status": "frozen",
+  "annotation_status": "agent_authored",
+  "is_blind": false,
+  "input_hash": "b05a374da78a61912e23e2d5b60ab3385047258c5439633828da42b08c77b6cc",
+  "labels_hash": "0d23d48f165a4cd5c33afcd07a16b1ff86c63406004fecd596960f1c27775b78",
+  "purpose": "Negative controls for over-broad cancellation"
+}

@@ -1,0 +1,1211 @@
+1. [57.11s] A (TS3003b.sync.4)
+Okay . Everybody found his place again ? Yeah ? That's nice . Okay so this is our second meeting . And uh still failing ?
+
+2. [60.55s] D (TS3003b.sync.565)
+Yes .
+
+3. [71.80s] D (TS3003b.sync.567)
+Yeah .
+
+4. [72.76s] A (TS3003b.sync.6)
+Uh now we're going um into the functional design . Um important thing of this phase is that we're going to uh try to get an agreement about the user requirements , technical function design , and the working design .
+
+5. [93.12s] A (TS3003b.sync.7)
+So that we can move onto the second uh phase . But first this phase . Um first an announcement . There's a little adaptation in the air conditioning system . So
+
+6. [109.66s] A (TS3003b.sync.9)
+There's our ghost mouse again . That that means that you can have a little trouble with , little trouble with the air conditioning , that's because of this uh
+
+7. [120.38s] B (TS3003b.sync.308)
+Okay .
+
+8. [121.11s] D (TS3003b.sync.571)
+Okay .
+
+9. [121.57s] A (TS3003b.sync.11)
+It's in wing C_ and E_ . So it should be over in a in a while , couple of days . But it's going to be cold anyway , so I don't think you're gonna need it . Then our agenda . Now first the opening . Uh this time I will take the minutes .
+
+10. [132.84s] D (TS3003b.sync.573)
+No .
+
+11. [140.36s] A (TS3003b.sync.13)
+Uh you're going to have a presentation . All of you . Um and we've got forty minutes for the whole uh prese for the whole uh presentations . So uh I suggest we take about seven minutes per presentation , and then we can have a little discussion about the new project requirements uh which have been sent to me .
+
+12. [164.39s] A (TS3003b.sync.14)
+And then the decision on the control functions uh which we wanna include and those which we don't wanna include . So we've got forty minutes for all of it . So I suggest um let's start with the first presentation . Um who wants to be first ?
+
+13. [178.78s] D (TS3003b.sync.575)
+Yes .
+
+14. [182.76s] D (TS3003b.sync.577)
+Think I'll go first .
+
+15. [183.74s] A (TS3003b.sync.16)
+Okay . So
+
+16. [187.94s] A (TS3003b.sync.18)
+Just maybe it's easier if you um Yeah I think you will tell your presentation as well . Just which function you have and what you're gonna talk about .
+
+17. [206.59s] D (TS3003b.sync.581)
+'Kay . My name is Freek Van Ponnen . I'm the Market Expert . But you already knew that .
+
+18. [212.10s] D (TS3003b.sync.583)
+Um I've done some research . We have we uh have been doing research in a usability lab where we observed um users operating remote controls . Uh we let them fill out a questionnaire . We had one hundred of these uh test subjects .
+
+19. [229.36s] D (TS3003b.sync.585)
+Uh in addition we did some market research . Uh see what the market consists of . What ages are involved .
+
+20. [238.90s] D (TS3003b.sync.587)
+Well these are three quite astonishing results , I thought . Um remotes are being considered ugly . F uh seventy five percent of the um
+
+21. [250.97s] D (TS3003b.sync.589)
+people questioned uh indicated that they thought their remote were was ugly . Um and an additional eighty percent indicated that they would spend more money on a fancy-looking remote control . So
+
+22. [264.67s] D (TS3003b.sync.591)
+Um in addition remotes were not very functional . Fifty percent of the people indicated they only loo used about ten percent of the buttons on a remote control .
+
+23. [275.08s] D (TS3003b.sync.593)
+And fifty percent of the people indicated that their remote tended to get lost in their room .
+
+24. [280.47s] D (TS3003b.sync.595)
+So
+
+25. [281.83s] B (TS3003b.sync.312)
+Mm .
+
+26. [282.33s] D (TS3003b.sync.597)
+some things .
+
+27. [285.34s] D (TS3003b.sync.599)
+Then we did some research to the most relevant functions . Channel selection and volume selection um both got a ten on a scale of one to ten for relevancy . The power button got a nine . And teletext got a six and a half . So these are the most
+
+28. [303.35s] D (TS3003b.sync.601)
+most uh important functions on a remote control . Then there are some one-time use function . That's what I like to call them . That uh audio settings , video settings , and channel settings buttons . Which are not really used very frequently , but are still considered to be of some importance .
+
+29. [322.10s] D (TS3003b.sync.603)
+Um channel selection was also indicated to be used very frequently . One hundred and sixty eight times per hour .
+
+30. [332.14s] D (TS3003b.sync.605)
+Then these are the This is the market . Um sixty percent of the market consists of users between the ages sixteen and forty f six .
+
+31. [342.13s] D (TS3003b.sync.607)
+Um
+
+32. [344.14s] D (TS3003b.sync.609)
+Main characteristic of this group is that they're very critical on the remote control . Um they like to use new f new functions . But they also are very critical . They won't spend their money very easily . So
+
+33. [357.86s] D (TS3003b.sync.611)
+Um the users of forty six to sixty five years cons The make up forty percent of the market .
+
+34. [365.24s] D (TS3003b.sync.613)
+They are not really very interested in features . But they do tend to spend their money a lot easier .
+
+35. [373.83s] D (TS3003b.sync.615)
+Um
+
+36. [375.35s] D (TS3003b.sync.617)
+What I think this indicates for our um
+
+37. [379.43s] D (TS3003b.sync.619)
+design . I think we should make a remote for the future . And this means we would
+
+38. [386.00s] D (TS3003b.sync.621)
+um have to focus on the age ages sixteen to forty five .
+
+39. [390.82s] D (TS3003b.sync.623)
+Uh this also makes up most the biggest part of the market , so that will also be where our main profit would be gettable .
+
+40. [400.47s] D (TS3003b.sync.625)
+Um this would mean we would have to make a fancy design .
+
+41. [404.85s] D (TS3003b.sync.627)
+Um
+
+42. [406.60s] D (TS3003b.sync.629)
+The results also indicated that um about one quarter of the people questioned thought that the remote control caused R_S_ R_S_I_ .
+
+43. [417.57s] D (TS3003b.sync.631)
+Um this is certainly something to take into account . And thirty four percent thought that it was hard to learn a n how to operate a new control , remote control . So these are two factors that I think should be included in the design . Besides of course that the remote must look very nice .
+
+44. [438.07s] D (TS3003b.sync.633)
+And the functionality
+
+45. [440.41s] D (TS3003b.sync.635)
+As a lot of people indicated , they only use about ten percent of the buttons , I think we should make very few buttons . Uh this will also be uh beneficial to the design of the remote .
+
+46. [453.27s] D (TS3003b.sync.637)
+Uh I think the most frequently used buttons should be emphasised . Especially the channel selection and audio uh selection buttons . 'Cause they're used most and so they should be robust . They shouldn't break down easily .
+
+47. [469.16s] D (TS3003b.sync.639)
+Um
+
+48. [471.64s] D (TS3003b.sync.641)
+Then as mo as a lot of people indicated that their um remote got lost in the room , it might be
+
+49. [479.62s] D (TS3003b.sync.643)
+and I say might be because it would um certainly boost the uh production costs a lot . But it might be a good idea to make a docking station . And this would , could get a button in it which would send a signal to the remote which would then beep .
+
+50. [496.55s] D (TS3003b.sync.644)
+So you'd know where it is in the room . And in addition to this it could um recharge the batteries in the remote if you put it in .
+
+51. [505.71s] D (TS3003b.sync.646)
+Then um a surprisingly great deal of people w indicated that um an L_C_D_ screen in the remote control would be preferred . This was um
+
+52. [519.58s] D (TS3003b.sync.648)
+mostly people in the age of sixteen to twenty five . But up till forty five it remains feasible . This would also greatly increase the production costs but I think these are just some small factors we could consider .
+
+53. [538.03s] A (TS3003b.sync.22)
+Okay .
+
+54. [538.59s] D (TS3003b.sync.650)
+That would be all .
+
+55. [540.04s] A (TS3003b.sync.24)
+Thank you . So anybody have um any questions until now ?
+
+56. [544.20s] D (TS3003b.sync.652)
+Any questions ?
+
+57. [546.16s] B (TS3003b.sync.314)
+Mm-hmm .
+
+58. [546.23s] A (TS3003b.sync.26)
+About functional requirements ? Okay that's clear .
+
+59. [547.87s] C (TS3003b.sync.495)
+No .
+
+60. [550.33s] D (TS3003b.sync.654)
+'Kay .
+
+61. [550.67s] A (TS3003b.sync.28)
+Now to the second .
+
+62. [560.28s] B (TS3003b.sync.316)
+Uh okay . Um I've been looking at uh the user interface of it . Um f for the techno f functions uh of of it . Um
+
+63. [567.51s] A (TS3003b.sync.32)
+Yeah .
+
+64. [574.62s] A (TS3003b.sync.34)
+Yeah you can take your time . We've got uh plenty of time , so
+
+65. [574.97s] B (TS3003b.sync.318)
+Okay .
+
+66. [576.96s] B (TS3003b.sync.320)
+Mm ?
+
+67. [577.42s] D (TS3003b.sync.658)
+Yeah you should go to the top thingy . Slide show . Oh yeah .
+
+68. [578.52s] B (TS3003b.sync.322)
+Oh .
+
+69. [580.10s] B (TS3003b.sync.324)
+Uh .
+
+70. [581.58s] A (TS3003b.sync.38)
+Yeah . There it is . Yeah .
+
+71. [581.65s] B (TS3003b.sync.326)
+Okay .
+
+72. [584.44s] B (TS3003b.sync.328)
+Um yeah . I think uh we uh must use the general functions uh of the uh remote control . Uh uh I've do I've uh done a little uh research on the internet and not much information about it , Um about uh interface but uh Uh
+
+73. [611.58s] B (TS3003b.sync.330)
+Yeah I I've been thinking about a simple manner uh to put a lot of functions uh uh in one um in one uh remote control . Uh so uh you've got a lot of devi uh devices like uh D_V_D_ uh uh television , uh stereo . So um
+
+74. [629.94s] B (TS3003b.sync.331)
+But uh it must be uh user-friendly . So um uh you c you can't put a a lot of uh functions uh in one uh Yeah . Uh uh uh Yeah . In one um remote control . But um
+
+75. [645.36s] A (TS3003b.sync.40)
+One remote .
+
+76. [648.56s] B (TS3003b.sync.333)
+Yeah .
+
+77. [651.28s] B (TS3003b.sync.335)
+Um yeah . Got uh many functions in one uh remote control , um but um yeah you can see , this is uh quite simple uh remote control .
+
+78. [663.54s] B (TS3003b.sync.336)
+Um few uh buttons but uh This uh re uh remote control got a a lot of uh buttons . Um uh people uh don't like it , uh so um
+
+79. [676.08s] B (TS3003b.sync.337)
+Well what uh I was uh thinking about was um uh keep the general functions uh like they are . So uh like uh the on-off uh button . Uh keep it uh yeah l like a red button . Uh everybody everybody knows it so uh uh you don't have to change that . Um
+
+80. [699.03s] B (TS3003b.sync.339)
+My personal uh preferences um . Use a display for uh specific uh functions of the different uh device . So um
+
+81. [708.95s] B (TS3003b.sync.341)
+Wh what I was th uh thinking about was um you've got um
+
+82. [725.51s] B (TS3003b.sync.343)
+Uh this the remote control uh and uh you got here the general functions , uh like uh the on-off button uh sound uh I dunno um And um here you've got a s kind of a display .
+
+83. [742.76s] B (TS3003b.sync.345)
+It's a touchscreen . So um yeah you got a general f uh f the functions of the device uh for a D_V_D_ player or uh so um the pl yeah um f for uh playing uh reverse uh . And um you got here uh real buttons for uh selecting uh a device .
+
+84. [765.86s] B (TS3003b.sync.347)
+So um this button is for a D_V_D_ or So um for every um device you've got a uh a f a b a part uh display of a part buttons . So uh you you never got uh all the buttons uh on w one device . So uh that's uh my uh idea about it . Um yeah and
+
+85. [786.48s] A (TS3003b.sync.48)
+Hmm .
+
+86. [790.17s] A (TS3003b.sync.50)
+'Kay .
+
+87. [794.56s] B (TS3003b.sync.349)
+Uh let's see . Uh yeah . So a touchscreen . Uh and um th the buttons uh the real buttons uh we have to use um . We better c um uh use uh quite uh large buttons uh for um yeah . Everybody uh have to use it so
+
+88. [813.03s] B (TS3003b.sync.350)
+Uh ol even even old people um young people . So uh we must keep uh buttons uh quite s uh simple and quite large . So uh Um
+
+89. [823.58s] A (TS3003b.sync.52)
+Yeah .
+
+90. [826.98s] B (TS3003b.sync.352)
+Yeah . Uh yeah .
+
+91. [830.42s] B (TS3003b.sync.354)
+That was uh my uh part of it . So
+
+92. [831.72s] A (TS3003b.sync.54)
+Okay . Anybody has questions about the technical functions ?
+
+93. [836.31s] C (TS3003b.sync.499)
+Well I think if we are gonna use a touchscreen uh we're gonna go way above the twelve and a half Euros .
+
+94. [842.51s] B (TS3003b.sync.356)
+N I I don't think so . Uh you got uh quite a cheap uh touchscreen . S um it's uh not uh in colour or something . Uh it's just uh um one colo Uh yeah .
+
+95. [842.62s] A (TS3003b.sync.58)
+Yeah .
+
+96. [847.05s] A (TS3003b.sync.60)
+Touchscreen .
+
+97. [857.68s] B (TS3003b.sync.357)
+Uh I seen uh w uh something on the internet uh not today but uh a few uh weeks ago . Uh you got uh yeah quite an uh
+
+98. [871.43s] B (TS3003b.sync.359)
+a kind of uh touchscreen um and it's uh for
+
+99. [878.16s] B (TS3003b.sync.361)
+uh twenty uh Euros or uh less uh . So it's possible .
+
+100. [882.60s] A (TS3003b.sync.62)
+Huh .
+
+101. [883.30s] D (TS3003b.sync.660)
+Hmm .
+
+102. [884.94s] A (TS3003b.sync.64)
+'Kay . That's nice . Uh
+
+103. [886.27s] D (TS3003b.sync.662)
+Well it would certainly make a fancy design .
+
+104. [888.56s] B (TS3003b.sync.363)
+Yeah .
+
+105. [889.59s] A (TS3003b.sync.66)
+Yeah .
+
+106. [889.68s] C (TS3003b.sync.501)
+But the It wouldn't be very robust . It's very fragile and you can get scratches on it .
+
+107. [889.90s] D (TS3003b.sync.664)
+So
+
+108. [895.44s] D (TS3003b.sync.666)
+That is true .
+
+109. [896.05s] A (TS3003b.sync.68)
+That's right . Uh maybe we can first um listen to your presentation ? Uh And then we have a little discussion about the requirements and uh design .
+
+110. [896.62s] B (TS3003b.sync.365)
+Yeah that's true .
+
+111. [897.09s] D (TS3003b.sync.668)
+We would have to look into that .
+
+112. [901.60s] B (TS3003b.sync.367)
+Uh .
+
+113. [901.66s] D (TS3003b.sync.670)
+Yeah .
+
+114. [901.68s] C (TS3003b.sync.503)
+That's .
+
+115. [904.92s] C (TS3003b.sync.505)
+Okay .
+
+116. [920.01s] A (TS3003b.sync.72)
+I think it's going to Uh it's not too much . Okay .
+
+117. [923.73s] C (TS3003b.sync.507)
+Okay I've got a presentation about the working design . Um first about how it works . It's really simple of course . Everybody knows how a remote works . The user presses a button . The remote determines what button it is , uses the infrared to send a signal to the T_V_ . The T_V_ switches to the frequency , or what function it is .
+
+118. [944.22s] C (TS3003b.sync.509)
+So we've got um the the plate . It gots conductive disks for every button . When the user presses a button , a signal got sent , goes to the LED and transmits tranmi transmits its to the T_V_ .
+
+119. [960.05s] C (TS3003b.sync.510)
+It's a very simple device , technically speaking . So this is a schematic overview . You've got the buttons . The power source . And uh when a button gets pressed , its goes to the chip . The chip uh controls the infrared bulb and perf perhaps a normal bulb . When you press a button you can actually see your pressed button .
+
+120. [985.58s] C (TS3003b.sync.512)
+Well um I think we should use default materials , simple plastics . Keep the inner workings simple , so it's robust . Uh I think we should focus on aesthetics , the design and the user interface , because if you're going to use high-tech materials the price is going to go sky-high .
+
+121. [1004.88s] C (TS3003b.sync.514)
+And uh you only have to design a remote once , and if you use high-tech materials it come back in every product .
+
+122. [1012.08s] C (TS3003b.sync.516)
+So it's , in my idea , it's uh it's gonna be smart to invest in di in design and not in uh in the product itself .
+
+123. [1021.92s] C (TS3003b.sync.518)
+That's it .
+
+124. [1023.16s] A (TS3003b.sync.74)
+Okay . Thank you .
+
+125. [1031.07s] A (TS3003b.sync.76)
+Okay .
+
+126. [1038.37s] A (TS3003b.sync.78)
+Uh
+
+127. [1041.77s] A (TS3003b.sync.80)
+Okay now I hope everybody has a little bit more insight in the functions we all have and what we are doing right now . Um I'm the Project Manager so I'm here to mess things up and uh tell you some new uh requirements .
+
+128. [1058.24s] A (TS3003b.sync.82)
+Um that's , we've uh got to design a um remote which is only suitable for T_V_ . Um that's because uh it will be too complex and the time to market will be too big , if we wanna have it uh for more functions .
+
+129. [1068.80s] B (TS3003b.sync.371)
+Okay .
+
+130. [1078.30s] B (TS3003b.sync.373)
+Mm .
+
+131. [1078.78s] A (TS3003b.sync.83)
+So it has to be simple . Uh another point is we have to skip the teletext , because in the world of uh upcoming internet uh we think teletext is going to be uh a thing of the past . And uh it's a function we don't need in our remote control .
+
+132. [1101.83s] A (TS3003b.sync.85)
+Um internet is also mentioned in a function we can use . Uh maybe also on televisions it will be available as well .
+
+133. [1111.83s] A (TS3003b.sync.86)
+Another one is uh the customer is uh forty plus . Uh that's the the market we have to to to target , because we are going to develop a new product which is specially designed for the younger customers .
+
+134. [1126.66s] A (TS3003b.sync.87)
+Um this is uh a bit pity for the Marketing uh Expert . Because he was uh aiming on the the younger persons . So we have to find a market which is above forty plus uh but which will suit our
+
+135. [1143.04s] A (TS3003b.sync.89)
+uh remote control , and the other way round . And we have to be very uh attent in uh putting the corporate image uh in our product . So it has to be visible in our design , in the way our device works . And uh we have to be uh very clear on this point as well . So I suggest
+
+136. [1168.78s] A (TS3003b.sync.91)
+let's have a discussion on the control functions .
+
+137. [1173.66s] A (TS3003b.sync.93)
+Yeah .
+
+138. [1174.94s] D (TS3003b.sync.682)
+So is there any discussion possible about the new product requirement ?
+
+139. [1178.98s] A (TS3003b.sync.95)
+Uh we can see if we can find a way uh between the functions we wanna use and the market we wanna reach with our product . Um
+
+140. [1188.77s] B (TS3003b.sync.379)
+Mm .
+
+141. [1189.34s] D (TS3003b.sync.684)
+Yeah 'cause you're you're saying that teletext is gonna be an old feature and it's not gonna be used anymore anyway pretty soon . And new T_V_s will have internet access on them . But I think if you're targeting people of forty plus , the chance that they will have a T_V_ with internet access
+
+142. [1209.76s] D (TS3003b.sync.686)
+within the next like twenty years is very slim .
+
+143. [1214.14s] D (TS3003b.sync.688)
+In addition people indicated that teletext simply was an important feature for the remote control . So I think it's pretty dumb to put no teletext feature on it .
+
+144. [1214.21s] B (TS3003b.sync.381)
+Yeah .
+
+145. [1227.37s] D (TS3003b.sync.690)
+I'm pretty much against it .
+
+146. [1229.56s] A (TS3003b.sync.99)
+Against the no teletext ?
+
+147. [1230.07s] B (TS3003b.sync.383)
+Mm .
+
+148. [1230.95s] D (TS3003b.sync.692)
+Yes .
+
+149. [1232.98s] A (TS3003b.sync.101)
+Um
+
+150. [1235.33s] D (TS3003b.sync.694)
+Besides that , I think the market for forty plus is like
+
+151. [1239.84s] D (TS3003b.sync.696)
+pretty small .
+
+152. [1243.20s] D (TS3003b.sync.698)
+But I mean if I s if I see this , it's I think we're just gonna go for another
+
+153. [1244.22s] A (TS3003b.sync.103)
+Yeah it's it is
+
+154. [1245.20s] B (TS3003b.sync.385)
+forty
+
+155. [1249.59s] A (TS3003b.sync.105)
+Standard remote .
+
+156. [1250.42s] D (TS3003b.sync.700)
+pretty
+
+157. [1252.41s] A (TS3003b.sync.107)
+No I think we can
+
+158. [1252.92s] D (TS3003b.sync.702)
+and not innovative
+
+159. [1255.51s] A (TS3003b.sync.109)
+I think we can do a lot with the design and the simple buttons which were also mentioned . Uh if we put a lot of effort in those , we can make a remote control with uh just two or three buttons . Or just a remote which is suitable for the market we wanna reach because it is forty percent of the market .
+
+160. [1255.65s] D (TS3003b.sync.704)
+remote control .
+
+161. [1273.57s] B (TS3003b.sync.387)
+Yeah .
+
+162. [1276.61s] A (TS3003b.sync.110)
+And um if you look in Holland at the whole generation of forty plus , fifty plus , it it's the the biggest share of the of the whole population now .
+
+163. [1291.04s] D (TS3003b.sync.706)
+Yes but it's not the biggest part of the
+
+164. [1294.20s] D (TS3003b.sync.708)
+market .
+
+165. [1295.49s] A (TS3003b.sync.112)
+No .
+
+166. [1295.58s] D (TS3003b.sync.710)
+And besides that , they're not very critical so I mean they don't really care
+
+167. [1300.70s] D (TS3003b.sync.712)
+what the remote control is like . They'll just pretty much take the first thing they see and which looks acceptable .
+
+168. [1308.73s] A (TS3003b.sync.114)
+But don't you think that if we make a remote which is uh typically made for this market , that people think the people think that's the the device I've looked for although I didn't realise it . So let's try it .
+
+169. [1326.95s] D (TS3003b.sync.714)
+No .
+
+170. [1328.22s] D (TS3003b.sync.716)
+I think that would be the case in the
+
+171. [1331.00s] D (TS3003b.sync.718)
+sixteen to forty five age category .
+
+172. [1336.26s] D (TS3003b.sync.720)
+because they are critical and they they want to have a fancy remote control .
+
+173. [1340.71s] B (TS3003b.sync.391)
+Yeah .
+
+174. [1341.96s] D (TS3003b.sync.722)
+People of forty plus , I mean they want it to work , but
+
+175. [1347.53s] D (TS3003b.sync.724)
+as soo as soon as it works it's okay with them .
+
+176. [1351.56s] B (TS3003b.sync.393)
+Mm .
+
+177. [1351.65s] A (TS3003b.sync.116)
+Yeah .
+
+178. [1352.77s] C (TS3003b.sync.522)
+I think that if we're If we put our marketing right um we can sell this just like um I don't know if you've heard about it in the news , the the elderly mobile phone ?
+
+179. [1353.21s] D (TS3003b.sync.726)
+So
+
+180. [1362.98s] A (TS3003b.sync.118)
+Yeah . It's a big success .
+
+181. [1364.66s] C (TS3003b.sync.524)
+Yeah if we if we make a remote control just l with that idea in mind , we could make tons of money , I think . We don't have to focus on on on the on the design then but on functionality . We just
+
+182. [1365.09s] D (TS3003b.sync.728)
+I haven't heard of it .
+
+183. [1365.52s] A (TS3003b.sync.120)
+Very big success . Yeah .
+
+184. [1371.93s] D (TS3003b.sync.730)
+Hmm .
+
+185. [1371.95s] A (TS3003b.sync.122)
+Uh . I think so as well .
+
+186. [1372.27s] B (TS3003b.sync.395)
+Mm .
+
+187. [1380.68s] C (TS3003b.sync.526)
+change our focus on the project , and I think
+
+188. [1385.01s] C (TS3003b.sync.528)
+we can uh we can sell this .
+
+189. [1387.22s] A (TS3003b.sync.124)
+Uh I simply think um
+
+190. [1393.12s] A (TS3003b.sync.128)
+uh that the new products we are gonna make , uh spef specifically design , are designed for uh younger people , uh so maybe we can focus ourself on the elderly people .
+
+191. [1408.60s] A (TS3003b.sync.130)
+And I think we have to um see what requirements we need for those um remote controls . 'Cause what you told is the channel selection is important . Volume selection , power and teletext . Okay . Um
+
+192. [1423.96s] D (TS3003b.sync.734)
+Yes .
+
+193. [1424.61s] B (TS3003b.sync.399)
+Mm .
+
+194. [1427.46s] D (TS3003b.sync.736)
+Yes .
+
+195. [1428.59s] B (TS3003b.sync.401)
+Yeah .
+
+196. [1430.35s] D (TS3003b.sync.738)
+But obviously the board tends to disagree .
+
+197. [1433.23s] A (TS3003b.sync.132)
+No we we haven't voted yet , so Uh I think teletext can be uh
+
+198. [1441.97s] A (TS3003b.sync.134)
+um can be a function as well . But only if uh if it won't
+
+199. [1448.73s] A (TS3003b.sync.136)
+higher the the cost , because I don't know if it will be a lot more money to implement teletext as well , but I don't think it will be a problem .
+
+200. [1458.56s] A (TS3003b.sync.138)
+Or is teletext a
+
+201. [1459.03s] B (TS3003b.sync.405)
+But um deaf people need uh teletext for uh for subtitles . So it's Yeah .
+
+202. [1463.25s] A (TS3003b.sync.140)
+Yeah .
+
+203. [1463.51s] D (TS3003b.sync.740)
+Yeah , also .
+
+204. [1465.48s] A (TS3003b.sync.142)
+Yeah . So I suggest uh
+
+205. [1466.64s] D (TS3003b.sync.742)
+I think it'd definitely be a bad idea not to include teletext .
+
+206. [1467.47s] B (TS3003b.sync.407)
+It's
+
+207. [1469.03s] B (TS3003b.sync.409)
+Mm .
+
+208. [1469.07s] A (TS3003b.sync.144)
+Yeah .
+
+209. [1470.57s] A (TS3003b.sync.146)
+Is anybody um really against teletext ?
+
+210. [1474.40s] C (TS3003b.sync.530)
+No .
+
+211. [1475.00s] A (TS3003b.sync.148)
+No ? Just that , that we just keep the teletext .
+
+212. [1481.67s] A (TS3003b.sync.150)
+I think that's a good idea as well , especially for the subtitles .
+
+213. [1486.80s] A (TS3003b.sync.152)
+Maybe we can
+
+214. [1489.48s] A (TS3003b.sync.154)
+make that um
+
+215. [1493.46s] A (TS3003b.sync.156)
+another point of advantage in our remote control , if we uh make a k a button ex for example for big subtitles , which is instantly on the remote control . For elderly people they can think , oh I wanna have subtitles , and they push the button and they get the big subtitles .
+
+216. [1505.85s] B (TS3003b.sync.411)
+Yeah yeah .
+
+217. [1512.20s] C (TS3003b.sync.532)
+Uh that's a good idea .
+
+218. [1512.45s] B (TS3003b.sync.413)
+Yeah . Yeah .
+
+219. [1514.02s] A (TS3003b.sync.158)
+Um so I think teletext can v can be very useful in our advantage . Um
+
+220. [1523.24s] A (TS3003b.sync.160)
+Functionality should be few buttons , you said .
+
+221. [1527.62s] D (TS3003b.sync.744)
+Yes .
+
+222. [1528.29s] A (TS3003b.sync.162)
+I think uh that's very important we have a few buttons .
+
+223. [1528.52s] B (TS3003b.sync.415)
+Yeah .
+
+224. [1533.07s] D (TS3003b.sync.746)
+Mm-hmm .
+
+225. [1535.32s] A (TS3003b.sync.164)
+So to keep it simple .
+
+226. [1535.95s] D (TS3003b.sync.748)
+But
+
+227. [1537.94s] D (TS3003b.sync.750)
+I don't think that's really an issue any more 'cause
+
+228. [1541.63s] D (TS3003b.sync.752)
+Well might be .
+
+229. [1543.91s] B (TS3003b.sync.417)
+If it's only for televi Yeah .
+
+230. [1544.17s] D (TS3003b.sync.754)
+But I mean it , if it's only for T_V_ you're not gonna need a lot of buttons anyway . You need a one to zero button , next channel , previous channel ,
+
+231. [1547.15s] B (TS3003b.sync.419)
+Yeah .
+
+232. [1548.69s] A (TS3003b.sync.166)
+No .
+
+233. [1551.76s] B (TS3003b.sync.421)
+Yeah .
+
+234. [1554.41s] D (TS3003b.sync.756)
+volume up , volume down , and some teletext buttons but
+
+235. [1559.52s] A (TS3003b.sync.168)
+Yeah .
+
+236. [1562.00s] A (TS3003b.sync.170)
+But do you need
+
+237. [1562.13s] D (TS3003b.sync.758)
+I think if you if you only l
+
+238. [1562.51s] B (TS3003b.sync.423)
+So we can s we can skip the display , so uh we don't need it .
+
+239. [1566.54s] A (TS3003b.sync.172)
+But do you need the buttons for one to zero . Maybe c we can
+
+240. [1567.41s] D (TS3003b.sync.760)
+Nah .
+
+241. [1572.47s] B (TS3003b.sync.425)
+Uh
+
+242. [1572.58s] D (TS3003b.sync.762)
+Think if you're gonna include teletext you do . I think many people like to use that . 'Cause if you should , if you want to switch from channel one to like thirty five , you don't wanna push the next channel button thirty five times .
+
+243. [1577.11s] A (TS3003b.sync.174)
+Maybe we can use uh
+
+244. [1577.63s] B (TS3003b.sync.427)
+Yeah .
+
+245. [1584.22s] B (TS3003b.sync.429)
+Yeah .
+
+246. [1584.91s] A (TS3003b.sync.176)
+No , maybe we can implement the scroll button ?
+
+247. [1589.84s] A (TS3003b.sync.178)
+Or a joystick like ?
+
+248. [1590.32s] B (TS3003b.sync.431)
+Mm .
+
+249. [1593.04s] A (TS3003b.sync.180)
+There are other ways too . Just look if you look at telephones . The Sony telephone has a scroll button which is very useful in searching names or
+
+250. [1595.70s] B (TS3003b.sync.433)
+Yeah .
+
+251. [1597.73s] B (TS3003b.sync.435)
+Mm-hmm .
+
+252. [1600.07s] B (TS3003b.sync.437)
+Yeah .
+
+253. [1603.26s] D (TS3003b.sync.764)
+That's true but um
+
+254. [1606.99s] D (TS3003b.sync.766)
+I don't think there are many T_V_s that can switch channels that fast . And so you would need like
+
+255. [1613.63s] D (TS3003b.sync.768)
+the T_V_ would need an a function where you can actually view all channels and scroll through it .
+
+256. [1620.25s] D (TS3003b.sync.770)
+And I dunno if many channels would
+
+257. [1624.20s] D (TS3003b.sync.772)
+do have that . If many T_V_s have that .
+
+258. [1626.06s] C (TS3003b.sync.534)
+Yeah . And besides that it's um If we're gonna focus on elderly people they'll have to adapt . They're not used to using scroll buttons . So perhaps we should s stick to the basic layout .
+
+259. [1626.83s] B (TS3003b.sync.439)
+Mm .
+
+260. [1635.36s] A (TS3003b.sync.182)
+That's right .
+
+261. [1635.81s] D (TS3003b.sync.774)
+Mm-hmm .
+
+262. [1635.98s] B (TS3003b.sync.441)
+Mm .
+
+263. [1640.74s] A (TS3003b.sync.184)
+the numbers yeah . Yeah they can see how much buttons there are going to be on on the display , and if it's too much we can uh reconsider it . But I think there won't be very much buttons . Or there don't have to be a lot .
+
+264. [1651.31s] B (TS3003b.sync.443)
+Yeah .
+
+265. [1654.01s] D (TS3003b.sync.776)
+But I don't think I think if you're gonna make a remote control only to operate a T_V_ , you there's not much you can gain on
+
+266. [1661.67s] D (TS3003b.sync.778)
+um having as few buttons as possible . 'Cause I think there are pretty many remote controls that can only operate a T_V_ , which already only have the minimum number of buttons . I don't think there's much to be gained in that area .
+
+267. [1676.18s] A (TS3003b.sync.186)
+The number of buttons ? I think it's very important in the in the design .
+
+268. [1676.20s] B (TS3003b.sync.445)
+Hmm .
+
+269. [1677.79s] D (TS3003b.sync.780)
+Yeah .
+
+270. [1681.93s] A (TS3003b.sync.188)
+You can make a very fancy design uh with putting the buttons on the right places . And if you have less buttons you can do a lot more with
+
+271. [1691.61s] D (TS3003b.sync.782)
+That is true but I think there's simply not much to gain on the competition when you when you're making a remote control only for to operate only the T_V_ .
+
+272. [1701.66s] A (TS3003b.sync.190)
+To operate only the T_V_ yeah .
+
+273. [1702.17s] D (TS3003b.sync.784)
+'Cause if you have a a remote control only to operate a T_V_ there's simply not a lot of buttons required .
+
+274. [1710.06s] D (TS3003b.sync.786)
+There's not a lot of functions required so most existing remote controls simply don't have a lot of buttons either .
+
+275. [1715.80s] A (TS3003b.sync.192)
+No .
+
+276. [1716.14s] B (TS3003b.sync.447)
+No .
+
+277. [1717.28s] A (TS3003b.sync.194)
+So .
+
+278. [1717.66s] D (TS3003b.sync.788)
+So I think it would be very hard to actually gain on the competition here .
+
+279. [1722.53s] A (TS3003b.sync.196)
+'Kay . So we can
+
+280. [1723.04s] D (TS3003b.sync.790)
+That would that would cost a a big marketing
+
+281. [1728.15s] D (TS3003b.sync.792)
+expedition
+
+282. [1728.17s] A (TS3003b.sync.198)
+Yeah .
+
+283. [1729.82s] A (TS3003b.sync.200)
+That's right .
+
+284. [1730.40s] D (TS3003b.sync.794)
+which was
+
+285. [1731.97s] D (TS3003b.sync.796)
+one of the arguments to make it only for the T_V_ because we didn't have the time to market a lot .
+
+286. [1737.00s] A (TS3003b.sync.202)
+Yeah . So you suggest we could better um focus on for example the docking station .
+
+287. [1745.70s] A (TS3003b.sync.204)
+Uh uh like other functions .
+
+288. [1749.59s] A (TS3003b.sync.206)
+Instead of f of less buttons .
+
+289. [1749.74s] D (TS3003b.sync.798)
+Maybe .
+
+290. [1752.79s] D (TS3003b.sync.800)
+Well
+
+291. [1754.13s] D (TS3003b.sync.802)
+yeah I think , mean we obviously need a good way to position all the buttons and
+
+292. [1759.39s] D (TS3003b.sync.804)
+But I don't think we should spend very much time in that .
+
+293. [1762.38s] A (TS3003b.sync.208)
+Mm . No . Do you think the docking station will
+
+294. [1767.88s] A (TS3003b.sync.210)
+uh is allowed in the budget we have ?
+
+295. [1772.61s] C (TS3003b.sync.536)
+It should be possible yes . If it's not too fancy . And if the remote stays rather small , it should be possible yeah .
+
+296. [1774.03s] A (TS3003b.sync.212)
+'Cause it can be
+
+297. [1774.35s] B (TS3003b.sync.451)
+No .
+
+298. [1776.19s] A (TS3003b.sync.214)
+No .
+
+299. [1778.99s] A (TS3003b.sync.216)
+Yeah . Because I think that's uh
+
+300. [1779.40s] B (TS3003b.sync.453)
+No .
+
+301. [1782.56s] A (TS3003b.sync.218)
+That's a good advantage point as well . If we have a fancy-looking docking station or very That's a nice requirement .
+
+302. [1785.69s] C (TS3003b.sync.538)
+Yes .
+
+303. [1789.09s] B (TS3003b.sync.455)
+Hmm .
+
+304. [1794.83s] A (TS3003b.sync.220)
+Docking station .
+
+305. [1797.00s] C (TS3003b.sync.540)
+So we're just gonna focus on the extras ?
+
+306. [1800.46s] A (TS3003b.sync.222)
+I think so .
+
+307. [1801.24s] C (TS3003b.sync.542)
+Yeah .
+
+308. [1801.82s] B (TS3003b.sync.457)
+Mm .
+
+309. [1801.92s] D (TS3003b.sync.808)
+Yeah I think maybe we should do some research into
+
+310. [1805.31s] D (TS3003b.sync.810)
+what elderly people like to have in a
+
+311. [1808.23s] A (TS3003b.sync.224)
+Yeah .
+
+312. [1808.50s] D (TS3003b.sync.812)
+like to have extra in a new remote control .
+
+313. [1811.17s] A (TS3003b.sync.226)
+That's a good point . Um
+
+314. [1816.42s] A (TS3003b.sync.228)
+You said they easily get lost as well .
+
+315. [1820.00s] D (TS3003b.sync.814)
+Yes well fifty percent of the people indicated that remote control tended to get lost .
+
+316. [1822.91s] A (TS3003b.sync.230)
+Yeah .
+
+317. [1824.57s] A (TS3003b.sync.232)
+So maybe we should implement the audio sign , or something .
+
+318. [1829.65s] D (TS3003b.sync.816)
+Yeah that was what I suggested . You have it on Yeah you have it's on some phones too , which have a docking station . And you just press a button and the phone goes ringing .
+
+319. [1831.03s] A (TS3003b.sync.234)
+Yeah .
+
+320. [1831.58s] C (TS3003b.sync.544)
+Like with your key-chain , if you whistle it goes uh it makes a sound .
+
+321. [1832.88s] A (TS3003b.sync.236)
+Yeah .
+
+322. [1834.41s] B (TS3003b.sync.459)
+Hm .
+
+323. [1839.11s] C (TS3003b.sync.546)
+Yeah .
+
+324. [1842.67s] A (TS3003b.sync.238)
+Yeah . So audio signal should be possible as well . I think it's not too expensive . Uh another
+
+325. [1843.28s] D (TS3003b.sync.818)
+So you know where it is .
+
+326. [1848.31s] B (TS3003b.sync.461)
+No .
+
+327. [1854.30s] A (TS3003b.sync.240)
+point is the L_C_D_ screen .
+
+328. [1859.20s] A (TS3003b.sync.242)
+Um I don't know if that will rise the cost too much , because
+
+329. [1865.23s] C (TS3003b.sync.548)
+Y i um I think we'll have to choose between the docking station or the screen , 'cause
+
+330. [1870.82s] A (TS3003b.sync.244)
+Yeah . It will be too much as well .
+
+331. [1871.19s] C (TS3003b.sync.550)
+it's uh
+
+332. [1871.50s] B (TS3003b.sync.463)
+Mm .
+
+333. [1873.15s] D (TS3003b.sync.820)
+I think since a lot of people indicated that a new remote control is hard to learn , and we're focusing on elderly people here which tend to have a hard time understanding new devices , it might be a good idea to have just a little screen on it , which would explain a button if you press it . Which would tell you what it does .
+
+334. [1892.20s] A (TS3003b.sync.246)
+Yeah .
+
+335. [1893.11s] D (TS3003b.sync.822)
+And it wouldn't have to be touchscreen or a very expensive screen , but
+
+336. [1895.66s] A (TS3003b.sync.248)
+Based .
+
+337. [1895.96s] B (TS3003b.sync.465)
+Okay . Yeah .
+
+338. [1898.96s] A (TS3003b.sync.250)
+Just the L_C_D_ . Oh just the normal screen .
+
+339. [1902.38s] D (TS3003b.sync.824)
+Just a small screen with two
+
+340. [1903.17s] A (TS3003b.sync.252)
+That's a good idea . So Some extra info . Feedback .
+
+341. [1906.96s] D (TS3003b.sync.826)
+Yeah .
+
+342. [1908.98s] A (TS3003b.sync.254)
+Yeah . I think that's a good idea as well .
+
+343. [1909.01s] B (TS3003b.sync.467)
+Yeah .
+
+344. [1911.51s] D (TS3003b.sync.828)
+But I dunno if that would
+
+345. [1914.64s] A (TS3003b.sync.256)
+As the small screen .
+
+346. [1915.19s] D (TS3003b.sync.830)
+that would fit into the
+
+347. [1919.72s] D (TS3003b.sync.832)
+costs .
+
+348. [1924.27s] A (TS3003b.sync.258)
+Extra button info .
+
+349. [1929.41s] A (TS3003b.sync.260)
+I think that should be possible as well . Um let's see what did we say . Mm . More . Should be fancy to , fancy design , easy to learn . Few buttons , we talked about that . Docking station , L_C_D_ . Um general functions
+
+350. [1952.50s] A (TS3003b.sync.262)
+Yeah .
+
+351. [1956.04s] A (TS3003b.sync.264)
+'Kay .
+
+352. [1960.37s] A (TS3003b.sync.266)
+And default materials .
+
+353. [1964.52s] A (TS3003b.sync.268)
+I think that's a good idea as well , because um elderly people don't mind if it's a titanium cover or just a plastic one . So that doesn't really matter . So I think we nee
+
+354. [1975.20s] D (TS3003b.sync.834)
+No .
+
+355. [1975.67s] B (TS3003b.sync.471)
+Mm .
+
+356. [1978.99s] D (TS3003b.sync.836)
+I think probably elderly people would be a little bit more careful with their remote controls than
+
+357. [1985.53s] D (TS3003b.sync.838)
+youngsters .
+
+358. [1988.80s] A (TS3003b.sync.270)
+Uh let's um specify the target group . Because are we talking about elderly elderly people or people from forty to eighty . Because I think what we're going to design now is for people above sixty , maybe .
+
+359. [2009.07s] B (TS3003b.sync.473)
+Mm . Yeah .
+
+360. [2009.37s] D (TS3003b.sync.840)
+Yeah .
+
+361. [2010.43s] A (TS3003b.sync.272)
+Uh what do we want ? If we want um a with uh for example the the telephone for elderly people , we can
+
+362. [2011.08s] D (TS3003b.sync.842)
+I think
+
+363. [2020.51s] A (TS3003b.sync.274)
+target the real elderly people .
+
+364. [2024.27s] D (TS3003b.sync.844)
+I think that would be a If we should do something like that it would be a , I think it would be really good for uh for the image of the company .
+
+365. [2033.23s] A (TS3003b.sync.276)
+Yeah .
+
+366. [2033.79s] D (TS3003b.sync.846)
+And I think , I think there would be a good market for it .
+
+367. [2038.01s] A (TS3003b.sync.278)
+So that's the
+
+368. [2038.50s] D (TS3003b.sync.848)
+If we're able to really bring an innovative product .
+
+369. [2042.48s] A (TS3003b.sync.282)
+Now you're talking about sixty to eighty for example .
+
+370. [2045.10s] D (TS3003b.sync.850)
+Yeah the really
+
+371. [2046.81s] A (TS3003b.sync.284)
+Yeah . Sixty .
+
+372. [2047.35s] B (TS3003b.sync.475)
+Mm .
+
+373. [2048.30s] D (TS3003b.sync.852)
+But
+
+374. [2050.42s] D (TS3003b.sync.854)
+I'd have to look into that a little more .
+
+375. [2052.34s] A (TS3003b.sync.286)
+Okay . And different cultures . Are we
+
+376. [2057.39s] C (TS3003b.sync.554)
+Well I don't think they have different television sets uh
+
+377. [2062.02s] B (TS3003b.sync.477)
+Mm .
+
+378. [2062.21s] A (TS3003b.sync.288)
+Okay .
+
+379. [2062.34s] C (TS3003b.sync.556)
+in uh every country .
+
+380. [2064.19s] A (TS3003b.sync.290)
+No .
+
+381. [2064.80s] B (TS3003b.sync.479)
+No .
+
+382. [2065.47s] C (TS3003b.sync.558)
+'Cause
+
+383. [2067.61s] A (TS3003b.sync.292)
+We've got five minutes left just now . Small warning .
+
+384. [2068.43s] B (TS3003b.sync.481)
+So 'Kay .
+
+385. [2069.67s] D (TS3003b.sync.856)
+'Kay . And with uh the little screen in it , which explains the buttons . You could I think we n it would be a lot easier to
+
+386. [2075.16s] A (TS3003b.sync.294)
+Should
+
+387. [2078.95s] D (TS3003b.sync.858)
+adapt it to different cultures .
+
+388. [2081.65s] A (TS3003b.sync.296)
+Yeah . In different languages , you know . Yeah .
+
+389. [2083.18s] D (TS3003b.sync.860)
+Yeah .
+
+390. [2083.37s] C (TS3003b.sync.560)
+Yeah .
+
+391. [2083.90s] B (TS3003b.sync.483)
+Yeah .
+
+392. [2085.22s] A (TS3003b.sync.298)
+or you have to put a language button in it , but that will be a bit unnecessary I think . It's better to put it on different markets with it all . Okay . So that's the the target . Uh then a few small things .
+
+393. [2086.12s] B (TS3003b.sync.485)
+Right .
+
+394. [2089.03s] B (TS3003b.sync.487)
+No . Yeah .
+
+395. [2090.25s] D (TS3003b.sync.862)
+Yeah .
+
+396. [2093.64s] B (TS3003b.sync.489)
+Yeah .
+
+397. [2094.57s] C (TS3003b.sync.562)
+Yeah .
+
+398. [2105.96s] A (TS3003b.sync.300)
+Uh okay . I will put the minutes in the project uh project document folder . Um what we're going to do for the next meeting is the Industrial Designer will do the components concept , User Interface Designer the user interface concept , and the trend-watching .
+
+399. [2124.58s] A (TS3003b.sync.301)
+So just keep in mind the things we've said about the target group , uh requirements , and the trends which are uh going on . And uh specific instructions will be sent to you by uh the personal coach .
+
+400. [2140.48s] D (TS3003b.sync.866)
+'Kay .
+
+401. [2140.81s] A (TS3003b.sync.303)
+So um I thank you for this meeting . And I think we have a lunch-break now .
+
+402. [2147.13s] D (TS3003b.sync.868)
+That's good .
+
+403. [2147.68s] B (TS3003b.sync.491)
+Yeah .
+
+404. [2147.94s] A (TS3003b.sync.305)
+So that's a good thing .

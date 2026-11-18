@@ -1,0 +1,3668 @@
+{
+  "case_id": "FULL-TS3003b",
+  "meeting_id": "TS3003b",
+  "series": "AMI-TS3003",
+  "language": "en",
+  "source": "AMI_1.6.2",
+  "participants": [
+    {
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM"
+    },
+    {
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID"
+    },
+    {
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID"
+    },
+    {
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME"
+    }
+  ],
+  "account_map": {},
+  "segments": [
+    {
+      "id": "TS3003b.sync.4",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Okay . Everybody found his place again ? Yeah ? That's nice . Okay so this is our second meeting . And uh still failing ?",
+      "start_ms": 57110,
+      "end_ms": 71000
+    },
+    {
+      "id": "TS3003b.sync.565",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yes .",
+      "start_ms": 60550,
+      "end_ms": 60960
+    },
+    {
+      "id": "TS3003b.sync.567",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah .",
+      "start_ms": 71800,
+      "end_ms": 72110
+    },
+    {
+      "id": "TS3003b.sync.6",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Uh now we're going um into the functional design . Um important thing of this phase is that we're going to uh try to get an agreement about the user requirements , technical function design , and the working design .",
+      "start_ms": 72760,
+      "end_ms": 92450
+    },
+    {
+      "id": "TS3003b.sync.7",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "So that we can move onto the second uh phase . But first this phase . Um first an announcement . There's a little adaptation in the air conditioning system . So",
+      "start_ms": 93120,
+      "end_ms": 107740
+    },
+    {
+      "id": "TS3003b.sync.9",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "There's our ghost mouse again . That that means that you can have a little trouble with , little trouble with the air conditioning , that's because of this uh",
+      "start_ms": 109660,
+      "end_ms": 119930
+    },
+    {
+      "id": "TS3003b.sync.308",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Okay .",
+      "start_ms": 120380,
+      "end_ms": 120740
+    },
+    {
+      "id": "TS3003b.sync.571",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Okay .",
+      "start_ms": 121110,
+      "end_ms": 121480
+    },
+    {
+      "id": "TS3003b.sync.11",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "It's in wing C_ and E_ . So it should be over in a in a while , couple of days . But it's going to be cold anyway , so I don't think you're gonna need it . Then our agenda . Now first the opening . Uh this time I will take the minutes .",
+      "start_ms": 121570,
+      "end_ms": 139110
+    },
+    {
+      "id": "TS3003b.sync.573",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "No .",
+      "start_ms": 132840,
+      "end_ms": 133180
+    },
+    {
+      "id": "TS3003b.sync.13",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Uh you're going to have a presentation . All of you . Um and we've got forty minutes for the whole uh prese for the whole uh presentations . So uh I suggest we take about seven minutes per presentation , and then we can have a little discussion about the new project requirements uh which have been sent to me .",
+      "start_ms": 140360,
+      "end_ms": 163540
+    },
+    {
+      "id": "TS3003b.sync.14",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "And then the decision on the control functions uh which we wanna include and those which we don't wanna include . So we've got forty minutes for all of it . So I suggest um let's start with the first presentation . Um who wants to be first ?",
+      "start_ms": 164390,
+      "end_ms": 181340
+    },
+    {
+      "id": "TS3003b.sync.575",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yes .",
+      "start_ms": 178780,
+      "end_ms": 179070
+    },
+    {
+      "id": "TS3003b.sync.577",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Think I'll go first .",
+      "start_ms": 182760,
+      "end_ms": 183550
+    },
+    {
+      "id": "TS3003b.sync.16",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Okay . So",
+      "start_ms": 183740,
+      "end_ms": 186070
+    },
+    {
+      "id": "TS3003b.sync.18",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Just maybe it's easier if you um Yeah I think you will tell your presentation as well . Just which function you have and what you're gonna talk about .",
+      "start_ms": 187940,
+      "end_ms": 197870
+    },
+    {
+      "id": "TS3003b.sync.581",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "'Kay . My name is Freek Van Ponnen . I'm the Market Expert . But you already knew that .",
+      "start_ms": 206590,
+      "end_ms": 210910
+    },
+    {
+      "id": "TS3003b.sync.583",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Um I've done some research . We have we uh have been doing research in a usability lab where we observed um users operating remote controls . Uh we let them fill out a questionnaire . We had one hundred of these uh test subjects .",
+      "start_ms": 212100,
+      "end_ms": 228220
+    },
+    {
+      "id": "TS3003b.sync.585",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Uh in addition we did some market research . Uh see what the market consists of . What ages are involved .",
+      "start_ms": 229360,
+      "end_ms": 236640
+    },
+    {
+      "id": "TS3003b.sync.587",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Well these are three quite astonishing results , I thought . Um remotes are being considered ugly . F uh seventy five percent of the um",
+      "start_ms": 238900,
+      "end_ms": 249630
+    },
+    {
+      "id": "TS3003b.sync.589",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "people questioned uh indicated that they thought their remote were was ugly . Um and an additional eighty percent indicated that they would spend more money on a fancy-looking remote control . So",
+      "start_ms": 250970,
+      "end_ms": 263200
+    },
+    {
+      "id": "TS3003b.sync.591",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Um in addition remotes were not very functional . Fifty percent of the people indicated they only loo used about ten percent of the buttons on a remote control .",
+      "start_ms": 264670,
+      "end_ms": 273320
+    },
+    {
+      "id": "TS3003b.sync.593",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "And fifty percent of the people indicated that their remote tended to get lost in their room .",
+      "start_ms": 275080,
+      "end_ms": 279390
+    },
+    {
+      "id": "TS3003b.sync.595",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "So",
+      "start_ms": 280470,
+      "end_ms": 280800
+    },
+    {
+      "id": "TS3003b.sync.312",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 281830,
+      "end_ms": 282080
+    },
+    {
+      "id": "TS3003b.sync.597",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "some things .",
+      "start_ms": 282330,
+      "end_ms": 283070
+    },
+    {
+      "id": "TS3003b.sync.599",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Then we did some research to the most relevant functions . Channel selection and volume selection um both got a ten on a scale of one to ten for relevancy . The power button got a nine . And teletext got a six and a half . So these are the most",
+      "start_ms": 285340,
+      "end_ms": 302220
+    },
+    {
+      "id": "TS3003b.sync.601",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "most uh important functions on a remote control . Then there are some one-time use function . That's what I like to call them . That uh audio settings , video settings , and channel settings buttons . Which are not really used very frequently , but are still considered to be of some importance .",
+      "start_ms": 303350,
+      "end_ms": 320740
+    },
+    {
+      "id": "TS3003b.sync.603",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Um channel selection was also indicated to be used very frequently . One hundred and sixty eight times per hour .",
+      "start_ms": 322100,
+      "end_ms": 329430
+    },
+    {
+      "id": "TS3003b.sync.605",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Then these are the This is the market . Um sixty percent of the market consists of users between the ages sixteen and forty f six .",
+      "start_ms": 332140,
+      "end_ms": 341150
+    },
+    {
+      "id": "TS3003b.sync.607",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Um",
+      "start_ms": 342130,
+      "end_ms": 342700
+    },
+    {
+      "id": "TS3003b.sync.609",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Main characteristic of this group is that they're very critical on the remote control . Um they like to use new f new functions . But they also are very critical . They won't spend their money very easily . So",
+      "start_ms": 344140,
+      "end_ms": 356720
+    },
+    {
+      "id": "TS3003b.sync.611",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Um the users of forty six to sixty five years cons The make up forty percent of the market .",
+      "start_ms": 357860,
+      "end_ms": 364230
+    },
+    {
+      "id": "TS3003b.sync.613",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "They are not really very interested in features . But they do tend to spend their money a lot easier .",
+      "start_ms": 365240,
+      "end_ms": 369970
+    },
+    {
+      "id": "TS3003b.sync.615",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Um",
+      "start_ms": 373830,
+      "end_ms": 374310
+    },
+    {
+      "id": "TS3003b.sync.617",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "What I think this indicates for our um",
+      "start_ms": 375350,
+      "end_ms": 378110
+    },
+    {
+      "id": "TS3003b.sync.619",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "design . I think we should make a remote for the future . And this means we would",
+      "start_ms": 379430,
+      "end_ms": 384800
+    },
+    {
+      "id": "TS3003b.sync.621",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "um have to focus on the age ages sixteen to forty five .",
+      "start_ms": 386000,
+      "end_ms": 389840
+    },
+    {
+      "id": "TS3003b.sync.623",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Uh this also makes up most the biggest part of the market , so that will also be where our main profit would be gettable .",
+      "start_ms": 390820,
+      "end_ms": 399380
+    },
+    {
+      "id": "TS3003b.sync.625",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Um this would mean we would have to make a fancy design .",
+      "start_ms": 400470,
+      "end_ms": 403420
+    },
+    {
+      "id": "TS3003b.sync.627",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Um",
+      "start_ms": 404850,
+      "end_ms": 405540
+    },
+    {
+      "id": "TS3003b.sync.629",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "The results also indicated that um about one quarter of the people questioned thought that the remote control caused R_S_ R_S_I_ .",
+      "start_ms": 406600,
+      "end_ms": 416140
+    },
+    {
+      "id": "TS3003b.sync.631",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Um this is certainly something to take into account . And thirty four percent thought that it was hard to learn a n how to operate a new control , remote control . So these are two factors that I think should be included in the design . Besides of course that the remote must look very nice .",
+      "start_ms": 417570,
+      "end_ms": 436720
+    },
+    {
+      "id": "TS3003b.sync.633",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "And the functionality",
+      "start_ms": 438070,
+      "end_ms": 439120
+    },
+    {
+      "id": "TS3003b.sync.635",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "As a lot of people indicated , they only use about ten percent of the buttons , I think we should make very few buttons . Uh this will also be uh beneficial to the design of the remote .",
+      "start_ms": 440410,
+      "end_ms": 451750
+    },
+    {
+      "id": "TS3003b.sync.637",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Uh I think the most frequently used buttons should be emphasised . Especially the channel selection and audio uh selection buttons . 'Cause they're used most and so they should be robust . They shouldn't break down easily .",
+      "start_ms": 453270,
+      "end_ms": 466950
+    },
+    {
+      "id": "TS3003b.sync.639",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Um",
+      "start_ms": 469160,
+      "end_ms": 469720
+    },
+    {
+      "id": "TS3003b.sync.641",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Then as mo as a lot of people indicated that their um remote got lost in the room , it might be",
+      "start_ms": 471640,
+      "end_ms": 478510
+    },
+    {
+      "id": "TS3003b.sync.643",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "and I say might be because it would um certainly boost the uh production costs a lot . But it might be a good idea to make a docking station . And this would , could get a button in it which would send a signal to the remote which would then beep .",
+      "start_ms": 479620,
+      "end_ms": 496290
+    },
+    {
+      "id": "TS3003b.sync.644",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "So you'd know where it is in the room . And in addition to this it could um recharge the batteries in the remote if you put it in .",
+      "start_ms": 496550,
+      "end_ms": 503920
+    },
+    {
+      "id": "TS3003b.sync.646",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Then um a surprisingly great deal of people w indicated that um an L_C_D_ screen in the remote control would be preferred . This was um",
+      "start_ms": 505710,
+      "end_ms": 518260
+    },
+    {
+      "id": "TS3003b.sync.648",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "mostly people in the age of sixteen to twenty five . But up till forty five it remains feasible . This would also greatly increase the production costs but I think these are just some small factors we could consider .",
+      "start_ms": 519580,
+      "end_ms": 535740
+    },
+    {
+      "id": "TS3003b.sync.22",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Okay .",
+      "start_ms": 538030,
+      "end_ms": 538340
+    },
+    {
+      "id": "TS3003b.sync.650",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "That would be all .",
+      "start_ms": 538590,
+      "end_ms": 539250
+    },
+    {
+      "id": "TS3003b.sync.24",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Thank you . So anybody have um any questions until now ?",
+      "start_ms": 540040,
+      "end_ms": 545160
+    },
+    {
+      "id": "TS3003b.sync.652",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Any questions ?",
+      "start_ms": 544200,
+      "end_ms": 544900
+    },
+    {
+      "id": "TS3003b.sync.314",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm-hmm .",
+      "start_ms": 546160,
+      "end_ms": 546780
+    },
+    {
+      "id": "TS3003b.sync.26",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "About functional requirements ? Okay that's clear .",
+      "start_ms": 546230,
+      "end_ms": 549060
+    },
+    {
+      "id": "TS3003b.sync.495",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "No .",
+      "start_ms": 547870,
+      "end_ms": 548250
+    },
+    {
+      "id": "TS3003b.sync.654",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "'Kay .",
+      "start_ms": 550330,
+      "end_ms": 550530
+    },
+    {
+      "id": "TS3003b.sync.28",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Now to the second .",
+      "start_ms": 550670,
+      "end_ms": 551600
+    },
+    {
+      "id": "TS3003b.sync.316",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Uh okay . Um I've been looking at uh the user interface of it . Um f for the techno f functions uh of of it . Um",
+      "start_ms": 560280,
+      "end_ms": 572200
+    },
+    {
+      "id": "TS3003b.sync.32",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 567510,
+      "end_ms": 567660
+    },
+    {
+      "id": "TS3003b.sync.34",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah you can take your time . We've got uh plenty of time , so",
+      "start_ms": 574620,
+      "end_ms": 578480
+    },
+    {
+      "id": "TS3003b.sync.318",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Okay .",
+      "start_ms": 574970,
+      "end_ms": 575430
+    },
+    {
+      "id": "TS3003b.sync.320",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm ?",
+      "start_ms": 576960,
+      "end_ms": 577160
+    },
+    {
+      "id": "TS3003b.sync.658",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah you should go to the top thingy . Slide show . Oh yeah .",
+      "start_ms": 577420,
+      "end_ms": 581870
+    },
+    {
+      "id": "TS3003b.sync.322",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Oh .",
+      "start_ms": 578520,
+      "end_ms": 578910
+    },
+    {
+      "id": "TS3003b.sync.324",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Uh .",
+      "start_ms": 580100,
+      "end_ms": 580520
+    },
+    {
+      "id": "TS3003b.sync.38",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah . There it is . Yeah .",
+      "start_ms": 581580,
+      "end_ms": 583370
+    },
+    {
+      "id": "TS3003b.sync.326",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Okay .",
+      "start_ms": 581650,
+      "end_ms": 581910
+    },
+    {
+      "id": "TS3003b.sync.328",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Um yeah . I think uh we uh must use the general functions uh of the uh remote control . Uh uh I've do I've uh done a little uh research on the internet and not much information about it , Um about uh interface but uh Uh",
+      "start_ms": 584440,
+      "end_ms": 609320
+    },
+    {
+      "id": "TS3003b.sync.330",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah I I've been thinking about a simple manner uh to put a lot of functions uh uh in one um in one uh remote control . Uh so uh you've got a lot of devi uh devices like uh D_V_D_ uh uh television , uh stereo . So um",
+      "start_ms": 611580,
+      "end_ms": 629440
+    },
+    {
+      "id": "TS3003b.sync.331",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "But uh it must be uh user-friendly . So um uh you c you can't put a a lot of uh functions uh in one uh Yeah . Uh uh uh Yeah . In one um remote control . But um",
+      "start_ms": 629940,
+      "end_ms": 646400
+    },
+    {
+      "id": "TS3003b.sync.40",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "One remote .",
+      "start_ms": 645360,
+      "end_ms": 646380
+    },
+    {
+      "id": "TS3003b.sync.333",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 648560,
+      "end_ms": 648940
+    },
+    {
+      "id": "TS3003b.sync.335",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Um yeah . Got uh many functions in one uh remote control , um but um yeah you can see , this is uh quite simple uh remote control .",
+      "start_ms": 651280,
+      "end_ms": 663180
+    },
+    {
+      "id": "TS3003b.sync.336",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Um few uh buttons but uh This uh re uh remote control got a a lot of uh buttons . Um uh people uh don't like it , uh so um",
+      "start_ms": 663540,
+      "end_ms": 674830
+    },
+    {
+      "id": "TS3003b.sync.337",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Well what uh I was uh thinking about was um uh keep the general functions uh like they are . So uh like uh the on-off uh button . Uh keep it uh yeah l like a red button . Uh everybody everybody knows it so uh uh you don't have to change that . Um",
+      "start_ms": 676080,
+      "end_ms": 696880
+    },
+    {
+      "id": "TS3003b.sync.339",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "My personal uh preferences um . Use a display for uh specific uh functions of the different uh device . So um",
+      "start_ms": 699030,
+      "end_ms": 707880
+    },
+    {
+      "id": "TS3003b.sync.341",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Wh what I was th uh thinking about was um you've got um",
+      "start_ms": 708950,
+      "end_ms": 714690
+    },
+    {
+      "id": "TS3003b.sync.343",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Uh this the remote control uh and uh you got here the general functions , uh like uh the on-off button uh sound uh I dunno um And um here you've got a s kind of a display .",
+      "start_ms": 725510,
+      "end_ms": 741450
+    },
+    {
+      "id": "TS3003b.sync.345",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "It's a touchscreen . So um yeah you got a general f uh f the functions of the device uh for a D_V_D_ player or uh so um the pl yeah um f for uh playing uh reverse uh . And um you got here uh real buttons for uh selecting uh a device .",
+      "start_ms": 742760,
+      "end_ms": 764520
+    },
+    {
+      "id": "TS3003b.sync.347",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "So um this button is for a D_V_D_ or So um for every um device you've got a uh a f a b a part uh display of a part buttons . So uh you you never got uh all the buttons uh on w one device . So uh that's uh my uh idea about it . Um yeah and",
+      "start_ms": 765860,
+      "end_ms": 793200
+    },
+    {
+      "id": "TS3003b.sync.48",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Hmm .",
+      "start_ms": 786480,
+      "end_ms": 787630
+    },
+    {
+      "id": "TS3003b.sync.50",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "'Kay .",
+      "start_ms": 790170,
+      "end_ms": 790440
+    },
+    {
+      "id": "TS3003b.sync.349",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Uh let's see . Uh yeah . So a touchscreen . Uh and um th the buttons uh the real buttons uh we have to use um . We better c um uh use uh quite uh large buttons uh for um yeah . Everybody uh have to use it so",
+      "start_ms": 794560,
+      "end_ms": 812620
+    },
+    {
+      "id": "TS3003b.sync.350",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Uh ol even even old people um young people . So uh we must keep uh buttons uh quite s uh simple and quite large . So uh Um",
+      "start_ms": 813030,
+      "end_ms": 825480
+    },
+    {
+      "id": "TS3003b.sync.52",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 823580,
+      "end_ms": 823860
+    },
+    {
+      "id": "TS3003b.sync.352",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah . Uh yeah .",
+      "start_ms": 826980,
+      "end_ms": 828960
+    },
+    {
+      "id": "TS3003b.sync.354",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "That was uh my uh part of it . So",
+      "start_ms": 830420,
+      "end_ms": 832680
+    },
+    {
+      "id": "TS3003b.sync.54",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Okay . Anybody has questions about the technical functions ?",
+      "start_ms": 831720,
+      "end_ms": 836100
+    },
+    {
+      "id": "TS3003b.sync.499",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Well I think if we are gonna use a touchscreen uh we're gonna go way above the twelve and a half Euros .",
+      "start_ms": 836310,
+      "end_ms": 842320
+    },
+    {
+      "id": "TS3003b.sync.356",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "N I I don't think so . Uh you got uh quite a cheap uh touchscreen . S um it's uh not uh in colour or something . Uh it's just uh um one colo Uh yeah .",
+      "start_ms": 842510,
+      "end_ms": 856480
+    },
+    {
+      "id": "TS3003b.sync.58",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 842620,
+      "end_ms": 842950
+    },
+    {
+      "id": "TS3003b.sync.60",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Touchscreen .",
+      "start_ms": 847050,
+      "end_ms": 847510
+    },
+    {
+      "id": "TS3003b.sync.357",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Uh I seen uh w uh something on the internet uh not today but uh a few uh weeks ago . Uh you got uh yeah quite an uh",
+      "start_ms": 857680,
+      "end_ms": 869610
+    },
+    {
+      "id": "TS3003b.sync.359",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "a kind of uh touchscreen um and it's uh for",
+      "start_ms": 871430,
+      "end_ms": 876850
+    },
+    {
+      "id": "TS3003b.sync.361",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "uh twenty uh Euros or uh less uh . So it's possible .",
+      "start_ms": 878160,
+      "end_ms": 885150
+    },
+    {
+      "id": "TS3003b.sync.62",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Huh .",
+      "start_ms": 882600,
+      "end_ms": 883140
+    },
+    {
+      "id": "TS3003b.sync.660",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Hmm .",
+      "start_ms": 883300,
+      "end_ms": 883560
+    },
+    {
+      "id": "TS3003b.sync.64",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "'Kay . That's nice . Uh",
+      "start_ms": 884940,
+      "end_ms": 887010
+    },
+    {
+      "id": "TS3003b.sync.662",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Well it would certainly make a fancy design .",
+      "start_ms": 886270,
+      "end_ms": 888370
+    },
+    {
+      "id": "TS3003b.sync.363",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 888560,
+      "end_ms": 888780
+    },
+    {
+      "id": "TS3003b.sync.66",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 889590,
+      "end_ms": 889990
+    },
+    {
+      "id": "TS3003b.sync.501",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "But the It wouldn't be very robust . It's very fragile and you can get scratches on it .",
+      "start_ms": 889680,
+      "end_ms": 895310
+    },
+    {
+      "id": "TS3003b.sync.664",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "So",
+      "start_ms": 889900,
+      "end_ms": 890500
+    },
+    {
+      "id": "TS3003b.sync.666",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "That is true .",
+      "start_ms": 895440,
+      "end_ms": 896060
+    },
+    {
+      "id": "TS3003b.sync.68",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "That's right . Uh maybe we can first um listen to your presentation ? Uh And then we have a little discussion about the requirements and uh design .",
+      "start_ms": 896050,
+      "end_ms": 906690
+    },
+    {
+      "id": "TS3003b.sync.365",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah that's true .",
+      "start_ms": 896620,
+      "end_ms": 897610
+    },
+    {
+      "id": "TS3003b.sync.668",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "We would have to look into that .",
+      "start_ms": 897090,
+      "end_ms": 898190
+    },
+    {
+      "id": "TS3003b.sync.367",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Uh .",
+      "start_ms": 901600,
+      "end_ms": 901990
+    },
+    {
+      "id": "TS3003b.sync.670",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah .",
+      "start_ms": 901660,
+      "end_ms": 901870
+    },
+    {
+      "id": "TS3003b.sync.503",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "That's .",
+      "start_ms": 901680,
+      "end_ms": 902160
+    },
+    {
+      "id": "TS3003b.sync.505",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Okay .",
+      "start_ms": 904920,
+      "end_ms": 905330
+    },
+    {
+      "id": "TS3003b.sync.72",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "I think it's going to Uh it's not too much . Okay .",
+      "start_ms": 920010,
+      "end_ms": 923840
+    },
+    {
+      "id": "TS3003b.sync.507",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Okay I've got a presentation about the working design . Um first about how it works . It's really simple of course . Everybody knows how a remote works . The user presses a button . The remote determines what button it is , uses the infrared to send a signal to the T_V_ . The T_V_ switches to the frequency , or what function it is .",
+      "start_ms": 923730,
+      "end_ms": 943010
+    },
+    {
+      "id": "TS3003b.sync.509",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "So we've got um the the plate . It gots conductive disks for every button . When the user presses a button , a signal got sent , goes to the LED and transmits tranmi transmits its to the T_V_ .",
+      "start_ms": 944220,
+      "end_ms": 959830
+    },
+    {
+      "id": "TS3003b.sync.510",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "It's a very simple device , technically speaking . So this is a schematic overview . You've got the buttons . The power source . And uh when a button gets pressed , its goes to the chip . The chip uh controls the infrared bulb and perf perhaps a normal bulb . When you press a button you can actually see your pressed button .",
+      "start_ms": 960050,
+      "end_ms": 983240
+    },
+    {
+      "id": "TS3003b.sync.512",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Well um I think we should use default materials , simple plastics . Keep the inner workings simple , so it's robust . Uh I think we should focus on aesthetics , the design and the user interface , because if you're going to use high-tech materials the price is going to go sky-high .",
+      "start_ms": 985580,
+      "end_ms": 1003010
+    },
+    {
+      "id": "TS3003b.sync.514",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "And uh you only have to design a remote once , and if you use high-tech materials it come back in every product .",
+      "start_ms": 1004880,
+      "end_ms": 1011050
+    },
+    {
+      "id": "TS3003b.sync.516",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "So it's , in my idea , it's uh it's gonna be smart to invest in di in design and not in uh in the product itself .",
+      "start_ms": 1012080,
+      "end_ms": 1020460
+    },
+    {
+      "id": "TS3003b.sync.518",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "That's it .",
+      "start_ms": 1021920,
+      "end_ms": 1022500
+    },
+    {
+      "id": "TS3003b.sync.74",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Okay . Thank you .",
+      "start_ms": 1023160,
+      "end_ms": 1024010
+    },
+    {
+      "id": "TS3003b.sync.76",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Okay .",
+      "start_ms": 1031070,
+      "end_ms": 1031570
+    },
+    {
+      "id": "TS3003b.sync.78",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Uh",
+      "start_ms": 1038370,
+      "end_ms": 1039310
+    },
+    {
+      "id": "TS3003b.sync.80",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Okay now I hope everybody has a little bit more insight in the functions we all have and what we are doing right now . Um I'm the Project Manager so I'm here to mess things up and uh tell you some new uh requirements .",
+      "start_ms": 1041770,
+      "end_ms": 1057240
+    },
+    {
+      "id": "TS3003b.sync.82",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Um that's , we've uh got to design a um remote which is only suitable for T_V_ . Um that's because uh it will be too complex and the time to market will be too big , if we wanna have it uh for more functions .",
+      "start_ms": 1058240,
+      "end_ms": 1078270
+    },
+    {
+      "id": "TS3003b.sync.371",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Okay .",
+      "start_ms": 1068800,
+      "end_ms": 1069170
+    },
+    {
+      "id": "TS3003b.sync.373",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1078300,
+      "end_ms": 1078530
+    },
+    {
+      "id": "TS3003b.sync.83",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "So it has to be simple . Uh another point is we have to skip the teletext , because in the world of uh upcoming internet uh we think teletext is going to be uh a thing of the past . And uh it's a function we don't need in our remote control .",
+      "start_ms": 1078780,
+      "end_ms": 1100690
+    },
+    {
+      "id": "TS3003b.sync.85",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Um internet is also mentioned in a function we can use . Uh maybe also on televisions it will be available as well .",
+      "start_ms": 1101830,
+      "end_ms": 1110630
+    },
+    {
+      "id": "TS3003b.sync.86",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Another one is uh the customer is uh forty plus . Uh that's the the market we have to to to target , because we are going to develop a new product which is specially designed for the younger customers .",
+      "start_ms": 1111830,
+      "end_ms": 1125780
+    },
+    {
+      "id": "TS3003b.sync.87",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Um this is uh a bit pity for the Marketing uh Expert . Because he was uh aiming on the the younger persons . So we have to find a market which is above forty plus uh but which will suit our",
+      "start_ms": 1126660,
+      "end_ms": 1142000
+    },
+    {
+      "id": "TS3003b.sync.89",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "uh remote control , and the other way round . And we have to be very uh attent in uh putting the corporate image uh in our product . So it has to be visible in our design , in the way our device works . And uh we have to be uh very clear on this point as well . So I suggest",
+      "start_ms": 1143040,
+      "end_ms": 1167210
+    },
+    {
+      "id": "TS3003b.sync.91",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "let's have a discussion on the control functions .",
+      "start_ms": 1168780,
+      "end_ms": 1172150
+    },
+    {
+      "id": "TS3003b.sync.93",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1173660,
+      "end_ms": 1173990
+    },
+    {
+      "id": "TS3003b.sync.682",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "So is there any discussion possible about the new product requirement ?",
+      "start_ms": 1174940,
+      "end_ms": 1177960
+    },
+    {
+      "id": "TS3003b.sync.95",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Uh we can see if we can find a way uh between the functions we wanna use and the market we wanna reach with our product . Um",
+      "start_ms": 1178980,
+      "end_ms": 1189880
+    },
+    {
+      "id": "TS3003b.sync.379",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1188770,
+      "end_ms": 1188950
+    },
+    {
+      "id": "TS3003b.sync.684",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah 'cause you're you're saying that teletext is gonna be an old feature and it's not gonna be used anymore anyway pretty soon . And new T_V_s will have internet access on them . But I think if you're targeting people of forty plus , the chance that they will have a T_V_ with internet access",
+      "start_ms": 1189340,
+      "end_ms": 1208630
+    },
+    {
+      "id": "TS3003b.sync.686",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "within the next like twenty years is very slim .",
+      "start_ms": 1209760,
+      "end_ms": 1212780
+    },
+    {
+      "id": "TS3003b.sync.688",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "In addition people indicated that teletext simply was an important feature for the remote control . So I think it's pretty dumb to put no teletext feature on it .",
+      "start_ms": 1214140,
+      "end_ms": 1225430
+    },
+    {
+      "id": "TS3003b.sync.381",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1214210,
+      "end_ms": 1214610
+    },
+    {
+      "id": "TS3003b.sync.690",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I'm pretty much against it .",
+      "start_ms": 1227370,
+      "end_ms": 1228400
+    },
+    {
+      "id": "TS3003b.sync.99",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Against the no teletext ?",
+      "start_ms": 1229560,
+      "end_ms": 1230910
+    },
+    {
+      "id": "TS3003b.sync.383",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1230070,
+      "end_ms": 1230440
+    },
+    {
+      "id": "TS3003b.sync.692",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yes .",
+      "start_ms": 1230950,
+      "end_ms": 1232670
+    },
+    {
+      "id": "TS3003b.sync.101",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Um",
+      "start_ms": 1232980,
+      "end_ms": 1234200
+    },
+    {
+      "id": "TS3003b.sync.694",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Besides that , I think the market for forty plus is like",
+      "start_ms": 1235330,
+      "end_ms": 1238780
+    },
+    {
+      "id": "TS3003b.sync.696",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "pretty small .",
+      "start_ms": 1239840,
+      "end_ms": 1240630
+    },
+    {
+      "id": "TS3003b.sync.698",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "But I mean if I s if I see this , it's I think we're just gonna go for another",
+      "start_ms": 1243200,
+      "end_ms": 1248730
+    },
+    {
+      "id": "TS3003b.sync.103",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah it's it is",
+      "start_ms": 1244220,
+      "end_ms": 1245290
+    },
+    {
+      "id": "TS3003b.sync.385",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "forty",
+      "start_ms": 1245200,
+      "end_ms": 1245620
+    },
+    {
+      "id": "TS3003b.sync.105",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Standard remote .",
+      "start_ms": 1249590,
+      "end_ms": 1251070
+    },
+    {
+      "id": "TS3003b.sync.700",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "pretty",
+      "start_ms": 1250420,
+      "end_ms": 1250830
+    },
+    {
+      "id": "TS3003b.sync.107",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "No I think we can",
+      "start_ms": 1252410,
+      "end_ms": 1253840
+    },
+    {
+      "id": "TS3003b.sync.702",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "and not innovative",
+      "start_ms": 1252920,
+      "end_ms": 1254390
+    },
+    {
+      "id": "TS3003b.sync.109",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "I think we can do a lot with the design and the simple buttons which were also mentioned . Uh if we put a lot of effort in those , we can make a remote control with uh just two or three buttons . Or just a remote which is suitable for the market we wanna reach because it is forty percent of the market .",
+      "start_ms": 1255510,
+      "end_ms": 1275770
+    },
+    {
+      "id": "TS3003b.sync.704",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "remote control .",
+      "start_ms": 1255650,
+      "end_ms": 1256380
+    },
+    {
+      "id": "TS3003b.sync.387",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1273570,
+      "end_ms": 1274150
+    },
+    {
+      "id": "TS3003b.sync.110",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "And um if you look in Holland at the whole generation of forty plus , fifty plus , it it's the the biggest share of the of the whole population now .",
+      "start_ms": 1276610,
+      "end_ms": 1289920
+    },
+    {
+      "id": "TS3003b.sync.706",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yes but it's not the biggest part of the",
+      "start_ms": 1291040,
+      "end_ms": 1292980
+    },
+    {
+      "id": "TS3003b.sync.708",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "market .",
+      "start_ms": 1294200,
+      "end_ms": 1294570
+    },
+    {
+      "id": "TS3003b.sync.112",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "No .",
+      "start_ms": 1295490,
+      "end_ms": 1295850
+    },
+    {
+      "id": "TS3003b.sync.710",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "And besides that , they're not very critical so I mean they don't really care",
+      "start_ms": 1295580,
+      "end_ms": 1299730
+    },
+    {
+      "id": "TS3003b.sync.712",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "what the remote control is like . They'll just pretty much take the first thing they see and which looks acceptable .",
+      "start_ms": 1300700,
+      "end_ms": 1306880
+    },
+    {
+      "id": "TS3003b.sync.114",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "But don't you think that if we make a remote which is uh typically made for this market , that people think the people think that's the the device I've looked for although I didn't realise it . So let's try it .",
+      "start_ms": 1308730,
+      "end_ms": 1326040
+    },
+    {
+      "id": "TS3003b.sync.714",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "No .",
+      "start_ms": 1326950,
+      "end_ms": 1327220
+    },
+    {
+      "id": "TS3003b.sync.716",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I think that would be the case in the",
+      "start_ms": 1328220,
+      "end_ms": 1329610
+    },
+    {
+      "id": "TS3003b.sync.718",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "sixteen to forty five age category .",
+      "start_ms": 1331000,
+      "end_ms": 1334140
+    },
+    {
+      "id": "TS3003b.sync.720",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "because they are critical and they they want to have a fancy remote control .",
+      "start_ms": 1336260,
+      "end_ms": 1340770
+    },
+    {
+      "id": "TS3003b.sync.391",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1340710,
+      "end_ms": 1340910
+    },
+    {
+      "id": "TS3003b.sync.722",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "People of forty plus , I mean they want it to work , but",
+      "start_ms": 1341960,
+      "end_ms": 1346050
+    },
+    {
+      "id": "TS3003b.sync.724",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "as soo as soon as it works it's okay with them .",
+      "start_ms": 1347530,
+      "end_ms": 1349760
+    },
+    {
+      "id": "TS3003b.sync.393",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1351560,
+      "end_ms": 1351910
+    },
+    {
+      "id": "TS3003b.sync.116",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1351650,
+      "end_ms": 1352060
+    },
+    {
+      "id": "TS3003b.sync.522",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "I think that if we're If we put our marketing right um we can sell this just like um I don't know if you've heard about it in the news , the the elderly mobile phone ?",
+      "start_ms": 1352770,
+      "end_ms": 1362810
+    },
+    {
+      "id": "TS3003b.sync.726",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "So",
+      "start_ms": 1353210,
+      "end_ms": 1353560
+    },
+    {
+      "id": "TS3003b.sync.118",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah . It's a big success .",
+      "start_ms": 1362980,
+      "end_ms": 1364470
+    },
+    {
+      "id": "TS3003b.sync.524",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Yeah if we if we make a remote control just l with that idea in mind , we could make tons of money , I think . We don't have to focus on on on the on the design then but on functionality . We just",
+      "start_ms": 1364660,
+      "end_ms": 1379400
+    },
+    {
+      "id": "TS3003b.sync.728",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I haven't heard of it .",
+      "start_ms": 1365090,
+      "end_ms": 1366100
+    },
+    {
+      "id": "TS3003b.sync.120",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Very big success . Yeah .",
+      "start_ms": 1365520,
+      "end_ms": 1367680
+    },
+    {
+      "id": "TS3003b.sync.730",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Hmm .",
+      "start_ms": 1371930,
+      "end_ms": 1372150
+    },
+    {
+      "id": "TS3003b.sync.122",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Uh . I think so as well .",
+      "start_ms": 1371950,
+      "end_ms": 1373670
+    },
+    {
+      "id": "TS3003b.sync.395",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1372270,
+      "end_ms": 1372640
+    },
+    {
+      "id": "TS3003b.sync.526",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "change our focus on the project , and I think",
+      "start_ms": 1380680,
+      "end_ms": 1383460
+    },
+    {
+      "id": "TS3003b.sync.528",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "we can uh we can sell this .",
+      "start_ms": 1385010,
+      "end_ms": 1386360
+    },
+    {
+      "id": "TS3003b.sync.124",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Uh I simply think um",
+      "start_ms": 1387220,
+      "end_ms": 1390110
+    },
+    {
+      "id": "TS3003b.sync.128",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "uh that the new products we are gonna make , uh spef specifically design , are designed for uh younger people , uh so maybe we can focus ourself on the elderly people .",
+      "start_ms": 1393120,
+      "end_ms": 1407260
+    },
+    {
+      "id": "TS3003b.sync.130",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "And I think we have to um see what requirements we need for those um remote controls . 'Cause what you told is the channel selection is important . Volume selection , power and teletext . Okay . Um",
+      "start_ms": 1408600,
+      "end_ms": 1430370
+    },
+    {
+      "id": "TS3003b.sync.734",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yes .",
+      "start_ms": 1423960,
+      "end_ms": 1424260
+    },
+    {
+      "id": "TS3003b.sync.399",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1424610,
+      "end_ms": 1425000
+    },
+    {
+      "id": "TS3003b.sync.736",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yes .",
+      "start_ms": 1427460,
+      "end_ms": 1427890
+    },
+    {
+      "id": "TS3003b.sync.401",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1428590,
+      "end_ms": 1428820
+    },
+    {
+      "id": "TS3003b.sync.738",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "But obviously the board tends to disagree .",
+      "start_ms": 1430350,
+      "end_ms": 1432750
+    },
+    {
+      "id": "TS3003b.sync.132",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "No we we haven't voted yet , so Uh I think teletext can be uh",
+      "start_ms": 1433230,
+      "end_ms": 1440550
+    },
+    {
+      "id": "TS3003b.sync.134",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "um can be a function as well . But only if uh if it won't",
+      "start_ms": 1441970,
+      "end_ms": 1447760
+    },
+    {
+      "id": "TS3003b.sync.136",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "higher the the cost , because I don't know if it will be a lot more money to implement teletext as well , but I don't think it will be a problem .",
+      "start_ms": 1448730,
+      "end_ms": 1457050
+    },
+    {
+      "id": "TS3003b.sync.138",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Or is teletext a",
+      "start_ms": 1458560,
+      "end_ms": 1460040
+    },
+    {
+      "id": "TS3003b.sync.405",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "But um deaf people need uh teletext for uh for subtitles . So it's Yeah .",
+      "start_ms": 1459030,
+      "end_ms": 1465060
+    },
+    {
+      "id": "TS3003b.sync.140",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1463250,
+      "end_ms": 1463550
+    },
+    {
+      "id": "TS3003b.sync.740",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah , also .",
+      "start_ms": 1463510,
+      "end_ms": 1464430
+    },
+    {
+      "id": "TS3003b.sync.142",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah . So I suggest uh",
+      "start_ms": 1465480,
+      "end_ms": 1467400
+    },
+    {
+      "id": "TS3003b.sync.742",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I think it'd definitely be a bad idea not to include teletext .",
+      "start_ms": 1466640,
+      "end_ms": 1469710
+    },
+    {
+      "id": "TS3003b.sync.407",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "It's",
+      "start_ms": 1467470,
+      "end_ms": 1467850
+    },
+    {
+      "id": "TS3003b.sync.409",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1469030,
+      "end_ms": 1469340
+    },
+    {
+      "id": "TS3003b.sync.144",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1469070,
+      "end_ms": 1469450
+    },
+    {
+      "id": "TS3003b.sync.146",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Is anybody um really against teletext ?",
+      "start_ms": 1470570,
+      "end_ms": 1473740
+    },
+    {
+      "id": "TS3003b.sync.530",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "No .",
+      "start_ms": 1474400,
+      "end_ms": 1474640
+    },
+    {
+      "id": "TS3003b.sync.148",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "No ? Just that , that we just keep the teletext .",
+      "start_ms": 1475000,
+      "end_ms": 1479560
+    },
+    {
+      "id": "TS3003b.sync.150",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "I think that's a good idea as well , especially for the subtitles .",
+      "start_ms": 1481670,
+      "end_ms": 1484770
+    },
+    {
+      "id": "TS3003b.sync.152",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Maybe we can",
+      "start_ms": 1486800,
+      "end_ms": 1487860
+    },
+    {
+      "id": "TS3003b.sync.154",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "make that um",
+      "start_ms": 1489480,
+      "end_ms": 1491230
+    },
+    {
+      "id": "TS3003b.sync.156",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "another point of advantage in our remote control , if we uh make a k a button ex for example for big subtitles , which is instantly on the remote control . For elderly people they can think , oh I wanna have subtitles , and they push the button and they get the big subtitles .",
+      "start_ms": 1493460,
+      "end_ms": 1511730
+    },
+    {
+      "id": "TS3003b.sync.411",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah yeah .",
+      "start_ms": 1505850,
+      "end_ms": 1506600
+    },
+    {
+      "id": "TS3003b.sync.532",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Uh that's a good idea .",
+      "start_ms": 1512200,
+      "end_ms": 1513300
+    },
+    {
+      "id": "TS3003b.sync.413",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah . Yeah .",
+      "start_ms": 1512450,
+      "end_ms": 1513750
+    },
+    {
+      "id": "TS3003b.sync.158",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Um so I think teletext can v can be very useful in our advantage . Um",
+      "start_ms": 1514020,
+      "end_ms": 1521650
+    },
+    {
+      "id": "TS3003b.sync.160",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Functionality should be few buttons , you said .",
+      "start_ms": 1523240,
+      "end_ms": 1526170
+    },
+    {
+      "id": "TS3003b.sync.744",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yes .",
+      "start_ms": 1527620,
+      "end_ms": 1527990
+    },
+    {
+      "id": "TS3003b.sync.162",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "I think uh that's very important we have a few buttons .",
+      "start_ms": 1528290,
+      "end_ms": 1532390
+    },
+    {
+      "id": "TS3003b.sync.415",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1528520,
+      "end_ms": 1528650
+    },
+    {
+      "id": "TS3003b.sync.746",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Mm-hmm .",
+      "start_ms": 1533070,
+      "end_ms": 1533330
+    },
+    {
+      "id": "TS3003b.sync.164",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "So to keep it simple .",
+      "start_ms": 1535320,
+      "end_ms": 1537010
+    },
+    {
+      "id": "TS3003b.sync.748",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "But",
+      "start_ms": 1535950,
+      "end_ms": 1536250
+    },
+    {
+      "id": "TS3003b.sync.750",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I don't think that's really an issue any more 'cause",
+      "start_ms": 1537940,
+      "end_ms": 1540190
+    },
+    {
+      "id": "TS3003b.sync.752",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Well might be .",
+      "start_ms": 1541630,
+      "end_ms": 1542630
+    },
+    {
+      "id": "TS3003b.sync.417",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "If it's only for televi Yeah .",
+      "start_ms": 1543910,
+      "end_ms": 1546170
+    },
+    {
+      "id": "TS3003b.sync.754",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "But I mean it , if it's only for T_V_ you're not gonna need a lot of buttons anyway . You need a one to zero button , next channel , previous channel ,",
+      "start_ms": 1544170,
+      "end_ms": 1553290
+    },
+    {
+      "id": "TS3003b.sync.419",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1547150,
+      "end_ms": 1547360
+    },
+    {
+      "id": "TS3003b.sync.166",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "No .",
+      "start_ms": 1548690,
+      "end_ms": 1549130
+    },
+    {
+      "id": "TS3003b.sync.421",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1551760,
+      "end_ms": 1552250
+    },
+    {
+      "id": "TS3003b.sync.756",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "volume up , volume down , and some teletext buttons but",
+      "start_ms": 1554410,
+      "end_ms": 1557950
+    },
+    {
+      "id": "TS3003b.sync.168",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1559520,
+      "end_ms": 1559770
+    },
+    {
+      "id": "TS3003b.sync.170",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "But do you need",
+      "start_ms": 1562000,
+      "end_ms": 1562670
+    },
+    {
+      "id": "TS3003b.sync.758",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I think if you if you only l",
+      "start_ms": 1562130,
+      "end_ms": 1563600
+    },
+    {
+      "id": "TS3003b.sync.423",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "So we can s we can skip the display , so uh we don't need it .",
+      "start_ms": 1562510,
+      "end_ms": 1567130
+    },
+    {
+      "id": "TS3003b.sync.172",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "But do you need the buttons for one to zero . Maybe c we can",
+      "start_ms": 1566540,
+      "end_ms": 1573340
+    },
+    {
+      "id": "TS3003b.sync.760",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Nah .",
+      "start_ms": 1567410,
+      "end_ms": 1568110
+    },
+    {
+      "id": "TS3003b.sync.425",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Uh",
+      "start_ms": 1572470,
+      "end_ms": 1573190
+    },
+    {
+      "id": "TS3003b.sync.762",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Think if you're gonna include teletext you do . I think many people like to use that . 'Cause if you should , if you want to switch from channel one to like thirty five , you don't wanna push the next channel button thirty five times .",
+      "start_ms": 1572580,
+      "end_ms": 1585060
+    },
+    {
+      "id": "TS3003b.sync.174",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Maybe we can use uh",
+      "start_ms": 1577110,
+      "end_ms": 1579040
+    },
+    {
+      "id": "TS3003b.sync.427",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1577630,
+      "end_ms": 1577920
+    },
+    {
+      "id": "TS3003b.sync.429",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1584220,
+      "end_ms": 1584390
+    },
+    {
+      "id": "TS3003b.sync.176",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "No , maybe we can implement the scroll button ?",
+      "start_ms": 1584910,
+      "end_ms": 1587970
+    },
+    {
+      "id": "TS3003b.sync.178",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Or a joystick like ?",
+      "start_ms": 1589840,
+      "end_ms": 1591540
+    },
+    {
+      "id": "TS3003b.sync.431",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1590320,
+      "end_ms": 1590720
+    },
+    {
+      "id": "TS3003b.sync.180",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "There are other ways too . Just look if you look at telephones . The Sony telephone has a scroll button which is very useful in searching names or",
+      "start_ms": 1593040,
+      "end_ms": 1601490
+    },
+    {
+      "id": "TS3003b.sync.433",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1595700,
+      "end_ms": 1596130
+    },
+    {
+      "id": "TS3003b.sync.435",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm-hmm .",
+      "start_ms": 1597730,
+      "end_ms": 1598100
+    },
+    {
+      "id": "TS3003b.sync.437",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1600070,
+      "end_ms": 1600290
+    },
+    {
+      "id": "TS3003b.sync.764",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "That's true but um",
+      "start_ms": 1603260,
+      "end_ms": 1605250
+    },
+    {
+      "id": "TS3003b.sync.766",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I don't think there are many T_V_s that can switch channels that fast . And so you would need like",
+      "start_ms": 1606990,
+      "end_ms": 1612380
+    },
+    {
+      "id": "TS3003b.sync.768",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "the T_V_ would need an a function where you can actually view all channels and scroll through it .",
+      "start_ms": 1613630,
+      "end_ms": 1618990
+    },
+    {
+      "id": "TS3003b.sync.770",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "And I dunno if many channels would",
+      "start_ms": 1620250,
+      "end_ms": 1622200
+    },
+    {
+      "id": "TS3003b.sync.772",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "do have that . If many T_V_s have that .",
+      "start_ms": 1624200,
+      "end_ms": 1626120
+    },
+    {
+      "id": "TS3003b.sync.534",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Yeah . And besides that it's um If we're gonna focus on elderly people they'll have to adapt . They're not used to using scroll buttons . So perhaps we should s stick to the basic layout .",
+      "start_ms": 1626060,
+      "end_ms": 1638600
+    },
+    {
+      "id": "TS3003b.sync.439",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1626830,
+      "end_ms": 1627250
+    },
+    {
+      "id": "TS3003b.sync.182",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "That's right .",
+      "start_ms": 1635360,
+      "end_ms": 1635900
+    },
+    {
+      "id": "TS3003b.sync.774",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Mm-hmm .",
+      "start_ms": 1635810,
+      "end_ms": 1636110
+    },
+    {
+      "id": "TS3003b.sync.441",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1635980,
+      "end_ms": 1636180
+    },
+    {
+      "id": "TS3003b.sync.184",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "the numbers yeah . Yeah they can see how much buttons there are going to be on on the display , and if it's too much we can uh reconsider it . But I think there won't be very much buttons . Or there don't have to be a lot .",
+      "start_ms": 1640740,
+      "end_ms": 1654930
+    },
+    {
+      "id": "TS3003b.sync.443",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1651310,
+      "end_ms": 1651630
+    },
+    {
+      "id": "TS3003b.sync.776",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "But I don't think I think if you're gonna make a remote control only to operate a T_V_ , you there's not much you can gain on",
+      "start_ms": 1654010,
+      "end_ms": 1660630
+    },
+    {
+      "id": "TS3003b.sync.778",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "um having as few buttons as possible . 'Cause I think there are pretty many remote controls that can only operate a T_V_ , which already only have the minimum number of buttons . I don't think there's much to be gained in that area .",
+      "start_ms": 1661670,
+      "end_ms": 1675400
+    },
+    {
+      "id": "TS3003b.sync.186",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "The number of buttons ? I think it's very important in the in the design .",
+      "start_ms": 1676180,
+      "end_ms": 1680820
+    },
+    {
+      "id": "TS3003b.sync.445",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Hmm .",
+      "start_ms": 1676200,
+      "end_ms": 1676800
+    },
+    {
+      "id": "TS3003b.sync.780",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah .",
+      "start_ms": 1677790,
+      "end_ms": 1678030
+    },
+    {
+      "id": "TS3003b.sync.188",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "You can make a very fancy design uh with putting the buttons on the right places . And if you have less buttons you can do a lot more with",
+      "start_ms": 1681930,
+      "end_ms": 1690180
+    },
+    {
+      "id": "TS3003b.sync.782",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "That is true but I think there's simply not much to gain on the competition when you when you're making a remote control only for to operate only the T_V_ .",
+      "start_ms": 1691610,
+      "end_ms": 1700010
+    },
+    {
+      "id": "TS3003b.sync.190",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "To operate only the T_V_ yeah .",
+      "start_ms": 1701660,
+      "end_ms": 1703390
+    },
+    {
+      "id": "TS3003b.sync.784",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "'Cause if you have a a remote control only to operate a T_V_ there's simply not a lot of buttons required .",
+      "start_ms": 1702170,
+      "end_ms": 1708970
+    },
+    {
+      "id": "TS3003b.sync.786",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "There's not a lot of functions required so most existing remote controls simply don't have a lot of buttons either .",
+      "start_ms": 1710060,
+      "end_ms": 1715530
+    },
+    {
+      "id": "TS3003b.sync.192",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "No .",
+      "start_ms": 1715800,
+      "end_ms": 1716110
+    },
+    {
+      "id": "TS3003b.sync.447",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "No .",
+      "start_ms": 1716140,
+      "end_ms": 1716370
+    },
+    {
+      "id": "TS3003b.sync.194",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "So .",
+      "start_ms": 1717280,
+      "end_ms": 1717910
+    },
+    {
+      "id": "TS3003b.sync.788",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "So I think it would be very hard to actually gain on the competition here .",
+      "start_ms": 1717660,
+      "end_ms": 1721840
+    },
+    {
+      "id": "TS3003b.sync.196",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "'Kay . So we can",
+      "start_ms": 1722530,
+      "end_ms": 1723760
+    },
+    {
+      "id": "TS3003b.sync.790",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "That would that would cost a a big marketing",
+      "start_ms": 1723040,
+      "end_ms": 1726020
+    },
+    {
+      "id": "TS3003b.sync.792",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "expedition",
+      "start_ms": 1728150,
+      "end_ms": 1728830
+    },
+    {
+      "id": "TS3003b.sync.198",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1728170,
+      "end_ms": 1728770
+    },
+    {
+      "id": "TS3003b.sync.200",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "That's right .",
+      "start_ms": 1729820,
+      "end_ms": 1730310
+    },
+    {
+      "id": "TS3003b.sync.794",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "which was",
+      "start_ms": 1730400,
+      "end_ms": 1730990
+    },
+    {
+      "id": "TS3003b.sync.796",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "one of the arguments to make it only for the T_V_ because we didn't have the time to market a lot .",
+      "start_ms": 1731970,
+      "end_ms": 1736630
+    },
+    {
+      "id": "TS3003b.sync.202",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah . So you suggest we could better um focus on for example the docking station .",
+      "start_ms": 1737000,
+      "end_ms": 1744340
+    },
+    {
+      "id": "TS3003b.sync.204",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Uh uh like other functions .",
+      "start_ms": 1745700,
+      "end_ms": 1747170
+    },
+    {
+      "id": "TS3003b.sync.206",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Instead of f of less buttons .",
+      "start_ms": 1749590,
+      "end_ms": 1752100
+    },
+    {
+      "id": "TS3003b.sync.798",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Maybe .",
+      "start_ms": 1749740,
+      "end_ms": 1750340
+    },
+    {
+      "id": "TS3003b.sync.800",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Well",
+      "start_ms": 1752790,
+      "end_ms": 1753080
+    },
+    {
+      "id": "TS3003b.sync.802",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "yeah I think , mean we obviously need a good way to position all the buttons and",
+      "start_ms": 1754130,
+      "end_ms": 1758370
+    },
+    {
+      "id": "TS3003b.sync.804",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "But I don't think we should spend very much time in that .",
+      "start_ms": 1759390,
+      "end_ms": 1761530
+    },
+    {
+      "id": "TS3003b.sync.208",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Mm . No . Do you think the docking station will",
+      "start_ms": 1762380,
+      "end_ms": 1766710
+    },
+    {
+      "id": "TS3003b.sync.210",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "uh is allowed in the budget we have ?",
+      "start_ms": 1767880,
+      "end_ms": 1771150
+    },
+    {
+      "id": "TS3003b.sync.536",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "It should be possible yes . If it's not too fancy . And if the remote stays rather small , it should be possible yeah .",
+      "start_ms": 1772610,
+      "end_ms": 1779130
+    },
+    {
+      "id": "TS3003b.sync.212",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "'Cause it can be",
+      "start_ms": 1774030,
+      "end_ms": 1774920
+    },
+    {
+      "id": "TS3003b.sync.451",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "No .",
+      "start_ms": 1774350,
+      "end_ms": 1775080
+    },
+    {
+      "id": "TS3003b.sync.214",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "No .",
+      "start_ms": 1776190,
+      "end_ms": 1776600
+    },
+    {
+      "id": "TS3003b.sync.216",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah . Because I think that's uh",
+      "start_ms": 1778990,
+      "end_ms": 1781490
+    },
+    {
+      "id": "TS3003b.sync.453",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "No .",
+      "start_ms": 1779400,
+      "end_ms": 1779570
+    },
+    {
+      "id": "TS3003b.sync.218",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "That's a good advantage point as well . If we have a fancy-looking docking station or very That's a nice requirement .",
+      "start_ms": 1782560,
+      "end_ms": 1793630
+    },
+    {
+      "id": "TS3003b.sync.538",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Yes .",
+      "start_ms": 1785690,
+      "end_ms": 1786120
+    },
+    {
+      "id": "TS3003b.sync.455",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Hmm .",
+      "start_ms": 1789090,
+      "end_ms": 1789250
+    },
+    {
+      "id": "TS3003b.sync.220",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Docking station .",
+      "start_ms": 1794830,
+      "end_ms": 1795800
+    },
+    {
+      "id": "TS3003b.sync.540",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "So we're just gonna focus on the extras ?",
+      "start_ms": 1797000,
+      "end_ms": 1799020
+    },
+    {
+      "id": "TS3003b.sync.222",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "I think so .",
+      "start_ms": 1800460,
+      "end_ms": 1801120
+    },
+    {
+      "id": "TS3003b.sync.542",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Yeah .",
+      "start_ms": 1801240,
+      "end_ms": 1801420
+    },
+    {
+      "id": "TS3003b.sync.457",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1801820,
+      "end_ms": 1802000
+    },
+    {
+      "id": "TS3003b.sync.808",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah I think maybe we should do some research into",
+      "start_ms": 1801920,
+      "end_ms": 1804280
+    },
+    {
+      "id": "TS3003b.sync.810",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "what elderly people like to have in a",
+      "start_ms": 1805310,
+      "end_ms": 1807330
+    },
+    {
+      "id": "TS3003b.sync.224",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1808230,
+      "end_ms": 1808650
+    },
+    {
+      "id": "TS3003b.sync.812",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "like to have extra in a new remote control .",
+      "start_ms": 1808500,
+      "end_ms": 1810390
+    },
+    {
+      "id": "TS3003b.sync.226",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "That's a good point . Um",
+      "start_ms": 1811170,
+      "end_ms": 1813830
+    },
+    {
+      "id": "TS3003b.sync.228",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "You said they easily get lost as well .",
+      "start_ms": 1816420,
+      "end_ms": 1818680
+    },
+    {
+      "id": "TS3003b.sync.814",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yes well fifty percent of the people indicated that remote control tended to get lost .",
+      "start_ms": 1820000,
+      "end_ms": 1824430
+    },
+    {
+      "id": "TS3003b.sync.230",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1822910,
+      "end_ms": 1823220
+    },
+    {
+      "id": "TS3003b.sync.232",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "So maybe we should implement the audio sign , or something .",
+      "start_ms": 1824570,
+      "end_ms": 1829390
+    },
+    {
+      "id": "TS3003b.sync.816",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah that was what I suggested . You have it on Yeah you have it's on some phones too , which have a docking station . And you just press a button and the phone goes ringing .",
+      "start_ms": 1829650,
+      "end_ms": 1842520
+    },
+    {
+      "id": "TS3003b.sync.234",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1831030,
+      "end_ms": 1831460
+    },
+    {
+      "id": "TS3003b.sync.544",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Like with your key-chain , if you whistle it goes uh it makes a sound .",
+      "start_ms": 1831580,
+      "end_ms": 1835480
+    },
+    {
+      "id": "TS3003b.sync.236",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1832880,
+      "end_ms": 1833490
+    },
+    {
+      "id": "TS3003b.sync.459",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Hm .",
+      "start_ms": 1834410,
+      "end_ms": 1834710
+    },
+    {
+      "id": "TS3003b.sync.546",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Yeah .",
+      "start_ms": 1839110,
+      "end_ms": 1839360
+    },
+    {
+      "id": "TS3003b.sync.238",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah . So audio signal should be possible as well . I think it's not too expensive . Uh another",
+      "start_ms": 1842670,
+      "end_ms": 1852790
+    },
+    {
+      "id": "TS3003b.sync.818",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "So you know where it is .",
+      "start_ms": 1843280,
+      "end_ms": 1844030
+    },
+    {
+      "id": "TS3003b.sync.461",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "No .",
+      "start_ms": 1848310,
+      "end_ms": 1848830
+    },
+    {
+      "id": "TS3003b.sync.240",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "point is the L_C_D_ screen .",
+      "start_ms": 1854300,
+      "end_ms": 1856920
+    },
+    {
+      "id": "TS3003b.sync.242",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Um I don't know if that will rise the cost too much , because",
+      "start_ms": 1859200,
+      "end_ms": 1865770
+    },
+    {
+      "id": "TS3003b.sync.548",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Y i um I think we'll have to choose between the docking station or the screen , 'cause",
+      "start_ms": 1865230,
+      "end_ms": 1869740
+    },
+    {
+      "id": "TS3003b.sync.244",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah . It will be too much as well .",
+      "start_ms": 1870820,
+      "end_ms": 1872910
+    },
+    {
+      "id": "TS3003b.sync.550",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "it's uh",
+      "start_ms": 1871190,
+      "end_ms": 1871800
+    },
+    {
+      "id": "TS3003b.sync.463",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1871500,
+      "end_ms": 1871800
+    },
+    {
+      "id": "TS3003b.sync.820",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I think since a lot of people indicated that a new remote control is hard to learn , and we're focusing on elderly people here which tend to have a hard time understanding new devices , it might be a good idea to have just a little screen on it , which would explain a button if you press it . Which would tell you what it does .",
+      "start_ms": 1873150,
+      "end_ms": 1890680
+    },
+    {
+      "id": "TS3003b.sync.246",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1892200,
+      "end_ms": 1892480
+    },
+    {
+      "id": "TS3003b.sync.822",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "And it wouldn't have to be touchscreen or a very expensive screen , but",
+      "start_ms": 1893110,
+      "end_ms": 1897300
+    },
+    {
+      "id": "TS3003b.sync.248",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Based .",
+      "start_ms": 1895660,
+      "end_ms": 1896100
+    },
+    {
+      "id": "TS3003b.sync.465",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Okay . Yeah .",
+      "start_ms": 1895960,
+      "end_ms": 1897560
+    },
+    {
+      "id": "TS3003b.sync.250",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Just the L_C_D_ . Oh just the normal screen .",
+      "start_ms": 1898960,
+      "end_ms": 1901700
+    },
+    {
+      "id": "TS3003b.sync.824",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Just a small screen with two",
+      "start_ms": 1902380,
+      "end_ms": 1904380
+    },
+    {
+      "id": "TS3003b.sync.252",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "That's a good idea . So Some extra info . Feedback .",
+      "start_ms": 1903170,
+      "end_ms": 1907430
+    },
+    {
+      "id": "TS3003b.sync.826",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah .",
+      "start_ms": 1906960,
+      "end_ms": 1907360
+    },
+    {
+      "id": "TS3003b.sync.254",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah . I think that's a good idea as well .",
+      "start_ms": 1908980,
+      "end_ms": 1910600
+    },
+    {
+      "id": "TS3003b.sync.467",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 1909010,
+      "end_ms": 1909280
+    },
+    {
+      "id": "TS3003b.sync.828",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "But I dunno if that would",
+      "start_ms": 1911510,
+      "end_ms": 1913070
+    },
+    {
+      "id": "TS3003b.sync.256",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "As the small screen .",
+      "start_ms": 1914640,
+      "end_ms": 1915840
+    },
+    {
+      "id": "TS3003b.sync.830",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "that would fit into the",
+      "start_ms": 1915190,
+      "end_ms": 1916350
+    },
+    {
+      "id": "TS3003b.sync.832",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "costs .",
+      "start_ms": 1919720,
+      "end_ms": 1920280
+    },
+    {
+      "id": "TS3003b.sync.258",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Extra button info .",
+      "start_ms": 1924270,
+      "end_ms": 1925800
+    },
+    {
+      "id": "TS3003b.sync.260",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "I think that should be possible as well . Um let's see what did we say . Mm . More . Should be fancy to , fancy design , easy to learn . Few buttons , we talked about that . Docking station , L_C_D_ . Um general functions",
+      "start_ms": 1929410,
+      "end_ms": 1950730
+    },
+    {
+      "id": "TS3003b.sync.262",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 1952500,
+      "end_ms": 1953170
+    },
+    {
+      "id": "TS3003b.sync.264",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "'Kay .",
+      "start_ms": 1956040,
+      "end_ms": 1956460
+    },
+    {
+      "id": "TS3003b.sync.266",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "And default materials .",
+      "start_ms": 1960370,
+      "end_ms": 1962800
+    },
+    {
+      "id": "TS3003b.sync.268",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "I think that's a good idea as well , because um elderly people don't mind if it's a titanium cover or just a plastic one . So that doesn't really matter . So I think we nee",
+      "start_ms": 1964520,
+      "end_ms": 1979440
+    },
+    {
+      "id": "TS3003b.sync.834",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "No .",
+      "start_ms": 1975200,
+      "end_ms": 1975790
+    },
+    {
+      "id": "TS3003b.sync.471",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 1975670,
+      "end_ms": 1975910
+    },
+    {
+      "id": "TS3003b.sync.836",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I think probably elderly people would be a little bit more careful with their remote controls than",
+      "start_ms": 1978990,
+      "end_ms": 1984370
+    },
+    {
+      "id": "TS3003b.sync.838",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "youngsters .",
+      "start_ms": 1985530,
+      "end_ms": 1986100
+    },
+    {
+      "id": "TS3003b.sync.270",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Uh let's um specify the target group . Because are we talking about elderly elderly people or people from forty to eighty . Because I think what we're going to design now is for people above sixty , maybe .",
+      "start_ms": 1988800,
+      "end_ms": 2006870
+    },
+    {
+      "id": "TS3003b.sync.473",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm . Yeah .",
+      "start_ms": 2009070,
+      "end_ms": 2009700
+    },
+    {
+      "id": "TS3003b.sync.840",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah .",
+      "start_ms": 2009370,
+      "end_ms": 2009540
+    },
+    {
+      "id": "TS3003b.sync.272",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Uh what do we want ? If we want um a with uh for example the the telephone for elderly people , we can",
+      "start_ms": 2010430,
+      "end_ms": 2019250
+    },
+    {
+      "id": "TS3003b.sync.842",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I think",
+      "start_ms": 2011080,
+      "end_ms": 2011560
+    },
+    {
+      "id": "TS3003b.sync.274",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "target the real elderly people .",
+      "start_ms": 2020510,
+      "end_ms": 2022520
+    },
+    {
+      "id": "TS3003b.sync.844",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I think that would be a If we should do something like that it would be a , I think it would be really good for uh for the image of the company .",
+      "start_ms": 2024270,
+      "end_ms": 2031980
+    },
+    {
+      "id": "TS3003b.sync.276",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah .",
+      "start_ms": 2033230,
+      "end_ms": 2033520
+    },
+    {
+      "id": "TS3003b.sync.846",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "And I think , I think there would be a good market for it .",
+      "start_ms": 2033790,
+      "end_ms": 2036810
+    },
+    {
+      "id": "TS3003b.sync.278",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "So that's the",
+      "start_ms": 2038010,
+      "end_ms": 2038940
+    },
+    {
+      "id": "TS3003b.sync.848",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "If we're able to really bring an innovative product .",
+      "start_ms": 2038500,
+      "end_ms": 2042110
+    },
+    {
+      "id": "TS3003b.sync.282",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Now you're talking about sixty to eighty for example .",
+      "start_ms": 2042480,
+      "end_ms": 2045350
+    },
+    {
+      "id": "TS3003b.sync.850",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah the really",
+      "start_ms": 2045100,
+      "end_ms": 2046260
+    },
+    {
+      "id": "TS3003b.sync.284",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah . Sixty .",
+      "start_ms": 2046810,
+      "end_ms": 2049390
+    },
+    {
+      "id": "TS3003b.sync.475",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 2047350,
+      "end_ms": 2047490
+    },
+    {
+      "id": "TS3003b.sync.852",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "But",
+      "start_ms": 2048300,
+      "end_ms": 2048560
+    },
+    {
+      "id": "TS3003b.sync.854",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "I'd have to look into that a little more .",
+      "start_ms": 2050420,
+      "end_ms": 2051960
+    },
+    {
+      "id": "TS3003b.sync.286",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Okay . And different cultures . Are we",
+      "start_ms": 2052340,
+      "end_ms": 2056920
+    },
+    {
+      "id": "TS3003b.sync.554",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Well I don't think they have different television sets uh",
+      "start_ms": 2057390,
+      "end_ms": 2060940
+    },
+    {
+      "id": "TS3003b.sync.477",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Mm .",
+      "start_ms": 2062020,
+      "end_ms": 2062550
+    },
+    {
+      "id": "TS3003b.sync.288",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Okay .",
+      "start_ms": 2062210,
+      "end_ms": 2062740
+    },
+    {
+      "id": "TS3003b.sync.556",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "in uh every country .",
+      "start_ms": 2062340,
+      "end_ms": 2063440
+    },
+    {
+      "id": "TS3003b.sync.290",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "No .",
+      "start_ms": 2064190,
+      "end_ms": 2064620
+    },
+    {
+      "id": "TS3003b.sync.479",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "No .",
+      "start_ms": 2064800,
+      "end_ms": 2065160
+    },
+    {
+      "id": "TS3003b.sync.558",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "'Cause",
+      "start_ms": 2065470,
+      "end_ms": 2065810
+    },
+    {
+      "id": "TS3003b.sync.292",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "We've got five minutes left just now . Small warning .",
+      "start_ms": 2067610,
+      "end_ms": 2070940
+    },
+    {
+      "id": "TS3003b.sync.481",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "So 'Kay .",
+      "start_ms": 2068430,
+      "end_ms": 2070000
+    },
+    {
+      "id": "TS3003b.sync.856",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "'Kay . And with uh the little screen in it , which explains the buttons . You could I think we n it would be a lot easier to",
+      "start_ms": 2069670,
+      "end_ms": 2077950
+    },
+    {
+      "id": "TS3003b.sync.294",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Should",
+      "start_ms": 2075160,
+      "end_ms": 2075480
+    },
+    {
+      "id": "TS3003b.sync.858",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "adapt it to different cultures .",
+      "start_ms": 2078950,
+      "end_ms": 2081130
+    },
+    {
+      "id": "TS3003b.sync.296",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Yeah . In different languages , you know . Yeah .",
+      "start_ms": 2081650,
+      "end_ms": 2083970
+    },
+    {
+      "id": "TS3003b.sync.860",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah .",
+      "start_ms": 2083180,
+      "end_ms": 2083470
+    },
+    {
+      "id": "TS3003b.sync.560",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Yeah .",
+      "start_ms": 2083370,
+      "end_ms": 2083660
+    },
+    {
+      "id": "TS3003b.sync.483",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 2083900,
+      "end_ms": 2084140
+    },
+    {
+      "id": "TS3003b.sync.298",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "or you have to put a language button in it , but that will be a bit unnecessary I think . It's better to put it on different markets with it all . Okay . So that's the the target . Uh then a few small things .",
+      "start_ms": 2085220,
+      "end_ms": 2103240
+    },
+    {
+      "id": "TS3003b.sync.485",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Right .",
+      "start_ms": 2086120,
+      "end_ms": 2086470
+    },
+    {
+      "id": "TS3003b.sync.487",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "No . Yeah .",
+      "start_ms": 2089030,
+      "end_ms": 2090190
+    },
+    {
+      "id": "TS3003b.sync.862",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "Yeah .",
+      "start_ms": 2090250,
+      "end_ms": 2090570
+    },
+    {
+      "id": "TS3003b.sync.489",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 2093640,
+      "end_ms": 2094060
+    },
+    {
+      "id": "TS3003b.sync.562",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MTD0010ID",
+      "text": "Yeah .",
+      "start_ms": 2094570,
+      "end_ms": 2094820
+    },
+    {
+      "id": "TS3003b.sync.300",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "Uh okay . I will put the minutes in the project uh project document folder . Um what we're going to do for the next meeting is the Industrial Designer will do the components concept , User Interface Designer the user interface concept , and the trend-watching .",
+      "start_ms": 2105960,
+      "end_ms": 2124320
+    },
+    {
+      "id": "TS3003b.sync.301",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "So just keep in mind the things we've said about the target group , uh requirements , and the trends which are uh going on . And uh specific instructions will be sent to you by uh the personal coach .",
+      "start_ms": 2124580,
+      "end_ms": 2139550
+    },
+    {
+      "id": "TS3003b.sync.866",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "'Kay .",
+      "start_ms": 2140480,
+      "end_ms": 2140620
+    },
+    {
+      "id": "TS3003b.sync.303",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "So um I thank you for this meeting . And I think we have a lunch-break now .",
+      "start_ms": 2140810,
+      "end_ms": 2146560
+    },
+    {
+      "id": "TS3003b.sync.868",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MTD012ME",
+      "text": "That's good .",
+      "start_ms": 2147130,
+      "end_ms": 2147750
+    },
+    {
+      "id": "TS3003b.sync.491",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MTD011UID",
+      "text": "Yeah .",
+      "start_ms": 2147680,
+      "end_ms": 2147860
+    },
+    {
+      "id": "TS3003b.sync.305",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "MTD009PM",
+      "text": "So that's a good thing .",
+      "start_ms": 2147940,
+      "end_ms": 2149360
+    }
+  ]
+}

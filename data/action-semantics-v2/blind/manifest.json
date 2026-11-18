@@ -1,0 +1,26 @@
+{
+  "status": "not_ready",
+  "selection": {
+    "minimum_windows": 24,
+    "minimum_new_series": 8,
+    "minimum_chinese_windows": 12
+  },
+  "excluded_series": [
+    "ES2002",
+    "ES2004",
+    "ES2008",
+    "VC249377054",
+    "VC288005073",
+    "VC294580511",
+    "VC382745661",
+    "VC415021211",
+    "VC456490571",
+    "VC497912676",
+    "VC509033656",
+    "VC583448623",
+    "VC675505279",
+    "VC846800286",
+    "VC981201568"
+  ],
+  "note": "Freeze new source windows before model evaluation; no blind quality claim until ready"
+}

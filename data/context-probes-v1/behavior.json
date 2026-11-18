@@ -1,0 +1,246 @@
+{
+  "version": "context-behavior-v1",
+  "status": "frozen",
+  "annotation_status": "agent_reviewed",
+  "reviewer": "codex-independent-contract-review-2026-11-14",
+  "evaluation_role": "synthetic_mechanism_check",
+  "is_blind": false,
+  "input_hash": "a636ad8192fcd681f8ef6e57076ab695ac221de5bc8c59a146b5b57ef7739c47",
+  "labels_hash": "8843ba1d5f3405a9ac8e80eedc0866b64863e2fc3bc93e52356202b1e3c8b09d",
+  "scoring": "Independent source-based boolean judgments per criterion; checkpoints and final results are evaluated separately. No keyword-match scoring.",
+  "cases": [
+    {
+      "case_id": "CP01",
+      "title": "跨检查点补范围并承接",
+      "criteria": [
+        {
+          "id": "prefix_unaccepted",
+          "description": "第8段时保留界面功能清单线索，范围待定且未承接；不得使用第9/10段信息。",
+          "evidence_ids": [
+            "CP01.s1",
+            "CP01.s2",
+            "CP01.s8"
+          ],
+          "checkpoint_after_segment": "CP01.s8"
+        },
+        {
+          "id": "final_content",
+          "description": "最终完整保留移动端、设置页、功能清单及不含登录页的范围。",
+          "evidence_ids": [
+            "CP01.s9",
+            "CP01.s10"
+          ]
+        },
+        {
+          "id": "final_acceptance",
+          "description": "最终仅一项小林承接的创建提议，无重复旧待确认项，无虚构期限。",
+          "evidence_ids": [
+            "CP01.s9",
+            "CP01.s10"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP02",
+      "title": "纠正对象",
+      "criteria": [
+        {
+          "id": "prefix_object",
+          "description": "第8段时工作对象是 Web 端登录页，尚不知道后续纠正。",
+          "evidence_ids": [
+            "CP02.s1",
+            "CP02.s2",
+            "CP02.s8"
+          ],
+          "checkpoint_after_segment": "CP02.s8"
+        },
+        {
+          "id": "final_object",
+          "description": "最终只保留移动端登录页工作，不同时创建 Web 端工作；负责人小林。",
+          "evidence_ids": [
+            "CP02.s9",
+            "CP02.s10"
+          ]
+        },
+        {
+          "id": "revision_history",
+          "description": "保留旧对象到新对象的更新依据，不能改写旧检查点使其提前知道新对象。",
+          "evidence_ids": [
+            "CP02.s1",
+            "CP02.s2",
+            "CP02.s9",
+            "CP02.s10"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP03",
+      "title": "后文取消",
+      "criteria": [
+        {
+          "id": "prefix_commitment",
+          "description": "第8段时保留小林整理报名名单的明确承诺，不能提前视为取消。",
+          "evidence_ids": [
+            "CP03.s1",
+            "CP03.s7"
+          ],
+          "checkpoint_after_segment": "CP03.s8"
+        },
+        {
+          "id": "final_withdrawn",
+          "description": "最终无创建提议；线索保留明确撤回状态及取消依据。",
+          "evidence_ids": [
+            "CP03.s9",
+            "CP03.s10"
+          ]
+        },
+        {
+          "id": "no_stale_question",
+          "description": "已取消工作不再作为待采纳任务询问用户；纯历史说明不算待确认。",
+          "evidence_ids": [
+            "CP03.s9",
+            "CP03.s10"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP04",
+      "title": "同名实体不合并",
+      "criteria": [
+        {
+          "id": "distinct_entities",
+          "description": "项目 A 首页和项目 B 首页分别可识别；相同页面名不构成 same_as。",
+          "evidence_ids": [
+            "CP04.s1",
+            "CP04.s2",
+            "CP04.s4"
+          ]
+        },
+        {
+          "id": "distinct_work",
+          "description": "保留两项检查按钮文案的工作，小林对应 A，小周对应 B，均已承接。",
+          "evidence_ids": [
+            "CP04.s2",
+            "CP04.s3",
+            "CP04.s4",
+            "CP04.s5"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP05",
+      "title": "孤立名词",
+      "criteria": [
+        {
+          "id": "entities_retained",
+          "description": "实体账本保留产品说明书和演示设备及原话提及。",
+          "evidence_ids": [
+            "CP05.s1",
+            "CP05.s2"
+          ]
+        },
+        {
+          "id": "no_task_or_question",
+          "description": "不产生任务、隐式需求或待确认卡；可以保留 entity_only 记录。",
+          "evidence_ids": [
+            "CP05.s3"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP06",
+      "title": "问题背景中的隐式需求",
+      "criteria": [
+        {
+          "id": "need_retained",
+          "description": "待确认内容保留用户不阅读指南、重复重置咨询及减少咨询目标，区分事实与推测的工作目的。",
+          "evidence_ids": [
+            "CP06.s1",
+            "CP06.s2",
+            "CP06.s3",
+            "CP06.s4"
+          ]
+        },
+        {
+          "id": "targeted_question",
+          "description": "提出需要确认的具体工作方向或是否开展调查；不能只问“确认吗”。",
+          "evidence_ids": [
+            "CP06.s1",
+            "CP06.s2",
+            "CP06.s3",
+            "CP06.s4"
+          ]
+        },
+        {
+          "id": "no_invented_commitment",
+          "description": "无创建或更新提议，不断言已指派某人，不新增访谈、问卷、报告或改写指南等确定交付。",
+          "evidence_ids": [
+            "CP06.s4"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP07",
+      "title": "隐式需求后明确化",
+      "criteria": [
+        {
+          "id": "prefix_implicit",
+          "description": "第8段时保留问题线索但尚未分派、未承接，不使用第9/10段信息。",
+          "evidence_ids": [
+            "CP07.s1",
+            "CP07.s2",
+            "CP07.s3",
+            "CP07.s4",
+            "CP07.s7",
+            "CP07.s8"
+          ],
+          "checkpoint_after_segment": "CP07.s8"
+        },
+        {
+          "id": "final_explicit",
+          "description": "最终保留调查不阅读原因及两种情况的范围，小林明确接受，形成一个创建提议。",
+          "evidence_ids": [
+            "CP07.s9",
+            "CP07.s10"
+          ]
+        },
+        {
+          "id": "no_duplicate_need",
+          "description": "同一问题线索得到补全后，不再同时保留“是否开展该调查”的旧待确认项；更新历史仍可见。",
+          "evidence_ids": [
+            "CP07.s1",
+            "CP07.s2",
+            "CP07.s9",
+            "CP07.s10"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP08",
+      "title": "明确单句工作",
+      "criteria": [
+        {
+          "id": "full_action",
+          "description": "保留发送季度预算表给财务部的工作，负责人小林，不误分为隐式需求或模糊工作。",
+          "evidence_ids": [
+            "CP08.s1"
+          ]
+        },
+        {
+          "id": "deadline",
+          "description": "生成一个创建提议，交付日期为2026-11-20；标题无需重复日期。",
+          "evidence_ids": [
+            "CP08.s1"
+          ]
+        }
+      ]
+    }
+  ]
+}

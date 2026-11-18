@@ -1,0 +1,3533 @@
+{
+  "case_id": "FULL-IS1000a",
+  "meeting_id": "IS1000a",
+  "series": "AMI-IS1000",
+  "language": "en",
+  "source": "AMI_1.6.2",
+  "participants": [
+    {
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016"
+    },
+    {
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082"
+    },
+    {
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081"
+    },
+    {
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050"
+    }
+  ],
+  "account_map": {},
+  "segments": [
+    {
+      "id": "IS1000a.sync.521",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Okay .",
+      "start_ms": 37250,
+      "end_ms": 38010
+    },
+    {
+      "id": "IS1000a.sync.702",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Or you get it . Okay .",
+      "start_ms": 38710,
+      "end_ms": 41340
+    },
+    {
+      "id": "IS1000a.sync.523",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "No I don't think so it has to be like that yeah and you have to adjust the length .",
+      "start_ms": 44930,
+      "end_ms": 51420
+    },
+    {
+      "id": "IS1000a.sync.525",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Okay , and then .",
+      "start_ms": 70020,
+      "end_ms": 72860
+    },
+    {
+      "id": "IS1000a.sync.214",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So we uh we will wait for Anna , a few minutes .",
+      "start_ms": 93560,
+      "end_ms": 97480
+    },
+    {
+      "id": "IS1000a.sync.527",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah , s yeah , um .",
+      "start_ms": 96020,
+      "end_ms": 99020
+    },
+    {
+      "id": "IS1000a.sync.706",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Mm . Yours is well",
+      "start_ms": 104960,
+      "end_ms": 107680
+    },
+    {
+      "id": "IS1000a.sync.529",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "I think you can put anywhere you want , actually .",
+      "start_ms": 110910,
+      "end_ms": 113130
+    },
+    {
+      "id": "IS1000a.sync.708",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah but the the mic should not",
+      "start_ms": 114310,
+      "end_ms": 116340
+    },
+    {
+      "id": "IS1000a.sync.531",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "I thin",
+      "start_ms": 114490,
+      "end_ms": 114730
+    },
+    {
+      "id": "IS1000a.sync.533",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "It's not a directional mic , anyway .",
+      "start_ms": 116890,
+      "end_ms": 118650
+    },
+    {
+      "id": "IS1000a.sync.216",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "I think it should work like this . So I will try to get my presentation running .",
+      "start_ms": 122880,
+      "end_ms": 133430
+    },
+    {
+      "id": "IS1000a.sync.535",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Uh .",
+      "start_ms": 126400,
+      "end_ms": 126880
+    },
+    {
+      "id": "IS1000a.sync.712",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah .",
+      "start_ms": 133070,
+      "end_ms": 134120
+    },
+    {
+      "id": "IS1000a.sync.537",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 133510,
+      "end_ms": 134260
+    },
+    {
+      "id": "IS1000a.sync.218",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Mm .",
+      "start_ms": 138260,
+      "end_ms": 138750
+    },
+    {
+      "id": "IS1000a.sync.714",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Mm . Can't help you with that .",
+      "start_ms": 141520,
+      "end_ms": 142970
+    },
+    {
+      "id": "IS1000a.sync.539",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Last .",
+      "start_ms": 143390,
+      "end_ms": 144610
+    },
+    {
+      "id": "IS1000a.sync.220",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "It's no matter .",
+      "start_ms": 144840,
+      "end_ms": 147150
+    },
+    {
+      "id": "IS1000a.sync.716",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Okay , it's y yeah .",
+      "start_ms": 144850,
+      "end_ms": 145790
+    },
+    {
+      "id": "IS1000a.sync.222",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "No problem .",
+      "start_ms": 148980,
+      "end_ms": 149330
+    },
+    {
+      "id": "IS1000a.sync.224",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Ah yes .",
+      "start_ms": 150610,
+      "end_ms": 151600
+    },
+    {
+      "id": "IS1000a.sync.718",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Right .",
+      "start_ms": 154370,
+      "end_ms": 154610
+    },
+    {
+      "id": "IS1000a.sync.541",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Okay .",
+      "start_ms": 158830,
+      "end_ms": 159640
+    },
+    {
+      "id": "IS1000a.sync.720",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Then press uh al",
+      "start_ms": 161880,
+      "end_ms": 163890
+    },
+    {
+      "id": "IS1000a.sync.543",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Okay .",
+      "start_ms": 165230,
+      "end_ms": 165590
+    },
+    {
+      "id": "IS1000a.sync.722",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "This . You know ?",
+      "start_ms": 165370,
+      "end_ms": 166720
+    },
+    {
+      "id": "IS1000a.sync.226",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "I don't know . Just try .",
+      "start_ms": 166090,
+      "end_ms": 168130
+    },
+    {
+      "id": "IS1000a.sync.545",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "'Kay .",
+      "start_ms": 169270,
+      "end_ms": 169470
+    },
+    {
+      "id": "IS1000a.sync.228",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "On this normal",
+      "start_ms": 169960,
+      "end_ms": 171130
+    },
+    {
+      "id": "IS1000a.sync.724",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Oh oh .",
+      "start_ms": 170190,
+      "end_ms": 170870
+    },
+    {
+      "id": "IS1000a.sync.547",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Alt F_ five .",
+      "start_ms": 171110,
+      "end_ms": 172430
+    },
+    {
+      "id": "IS1000a.sync.230",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Good . Doesn't appear on the screen here .",
+      "start_ms": 174100,
+      "end_ms": 176950
+    },
+    {
+      "id": "IS1000a.sync.728",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Right well",
+      "start_ms": 179280,
+      "end_ms": 181260
+    },
+    {
+      "id": "IS1000a.sync.232",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Oh .",
+      "start_ms": 183660,
+      "end_ms": 183870
+    },
+    {
+      "id": "IS1000a.sync.730",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Wow . Amazing . It's working .",
+      "start_ms": 184080,
+      "end_ms": 188800
+    },
+    {
+      "id": "IS1000a.sync.234",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Okay . Thank you . Uh .",
+      "start_ms": 188040,
+      "end_ms": 192490
+    },
+    {
+      "id": "IS1000a.sync.3",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Hold that .",
+      "start_ms": 208300,
+      "end_ms": 208680
+    },
+    {
+      "id": "IS1000a.sync.236",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes and you can put can clip it uh on your",
+      "start_ms": 212930,
+      "end_ms": 215070
+    },
+    {
+      "id": "IS1000a.sync.5",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Okay .",
+      "start_ms": 213260,
+      "end_ms": 213440
+    },
+    {
+      "id": "IS1000a.sync.238",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Somewhere .",
+      "start_ms": 216440,
+      "end_ms": 216870
+    },
+    {
+      "id": "IS1000a.sync.7",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Okay . Mm .",
+      "start_ms": 216640,
+      "end_ms": 217970
+    },
+    {
+      "id": "IS1000a.sync.240",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So , good morning , everyone .",
+      "start_ms": 224470,
+      "end_ms": 226350
+    },
+    {
+      "id": "IS1000a.sync.242",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Um",
+      "start_ms": 227600,
+      "end_ms": 227950
+    },
+    {
+      "id": "IS1000a.sync.244",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Welcome at uh at the kick off meeting of our uh latest project . I hope you all have been uh updated about it .",
+      "start_ms": 229220,
+      "end_ms": 235930
+    },
+    {
+      "id": "IS1000a.sync.734",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah .",
+      "start_ms": 236980,
+      "end_ms": 237340
+    },
+    {
+      "id": "IS1000a.sync.246",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Good .",
+      "start_ms": 238520,
+      "end_ms": 239020
+    },
+    {
+      "id": "IS1000a.sync.549",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "So . Yes .",
+      "start_ms": 238760,
+      "end_ms": 239890
+    },
+    {
+      "id": "IS1000a.sync.248",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So w we will try to structure this uh meeting with an a with an agenda uh as presented here . Um after the opening we will tr get acquainted to each other . See what our roles are in this project .",
+      "start_ms": 240340,
+      "end_ms": 257580
+    },
+    {
+      "id": "IS1000a.sync.250",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So , um",
+      "start_ms": 258770,
+      "end_ms": 260240
+    },
+    {
+      "id": "IS1000a.sync.252",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "We have been provided with uh some uh w technical tools to uh",
+      "start_ms": 262140,
+      "end_ms": 266240
+    },
+    {
+      "id": "IS1000a.sync.254",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "to communicate and to well , learn from each other's plans uh as I can say um so w",
+      "start_ms": 267900,
+      "end_ms": 276210
+    },
+    {
+      "id": "IS1000a.sync.256",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "we will also try to uh",
+      "start_ms": 277530,
+      "end_ms": 279290
+    },
+    {
+      "id": "IS1000a.sync.258",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "to get acquainted to this tools so they are also new to me I don't know whether you worked with them before . Um then we will come to the uh to the to the actual project plan . You all know I hope how it's about uh the uh new r remote control we are going going to design .",
+      "start_ms": 281280,
+      "end_ms": 300170
+    },
+    {
+      "id": "IS1000a.sync.9",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 298360,
+      "end_ms": 298600
+    },
+    {
+      "id": "IS1000a.sync.553",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Total .",
+      "start_ms": 299330,
+      "end_ms": 299980
+    },
+    {
+      "id": "IS1000a.sync.260",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Uh then we will uh discuss uh , well , how it should be and uh",
+      "start_ms": 301700,
+      "end_ms": 307230
+    },
+    {
+      "id": "IS1000a.sync.262",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "wh what uh what our new product should look lite like . And uh well then uh after some twenty five minutes I hope uh we can end this meeting .",
+      "start_ms": 309620,
+      "end_ms": 319100
+    },
+    {
+      "id": "IS1000a.sync.264",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So . Um basically this is about a uh a new c remote control . Um",
+      "start_ms": 322580,
+      "end_ms": 331210
+    },
+    {
+      "id": "IS1000a.sync.266",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "We When you design a new product you of uh you of course want it to be original . Be uh we want to be distinguished , mm ? People uh want to uh when they look at the shelf want to think , well that's the product I I need . So it needs to be trendy . I mean trendy is what people want , so then I w they will buy our product .",
+      "start_ms": 334070,
+      "end_ms": 355850
+    },
+    {
+      "id": "IS1000a.sync.268",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "But then , uh , it also should work uh user friendly and uh otherwise people uh uh well it will not be uh",
+      "start_ms": 357680,
+      "end_ms": 369120
+    },
+    {
+      "id": "IS1000a.sync.270",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "be rated very well in consumer uh articles and like that .",
+      "start_ms": 370580,
+      "end_ms": 373680
+    },
+    {
+      "id": "IS1000a.sync.272",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So , the general outline of uh new project will be we first uh go through a functional design phase . Um",
+      "start_ms": 378660,
+      "end_ms": 391530
+    },
+    {
+      "id": "IS1000a.sync.274",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "You all get uh um certain task uh in this uh in this phase and uh",
+      "start_ms": 392960,
+      "end_ms": 400230
+    },
+    {
+      "id": "IS1000a.sync.276",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "then we will meet again and uh discuss this functional design . And the same holds for the uh",
+      "start_ms": 401410,
+      "end_ms": 408810
+    },
+    {
+      "id": "IS1000a.sync.278",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "ph two phases uh after this , the conceptual design",
+      "start_ms": 409750,
+      "end_ms": 413260
+    },
+    {
+      "id": "IS1000a.sync.280",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "and after that a a more detailed design in which the the final project should get its definite shape .",
+      "start_ms": 414710,
+      "end_ms": 423980
+    },
+    {
+      "id": "IS1000a.sync.282",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Alright , but first we will do some uh tool training .",
+      "start_ms": 426450,
+      "end_ms": 429450
+    },
+    {
+      "id": "IS1000a.sync.284",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "In all in front of you uh you see uh the uh",
+      "start_ms": 431250,
+      "end_ms": 435640
+    },
+    {
+      "id": "IS1000a.sync.286",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "notebooks and w uh n note blocks and we have here a",
+      "start_ms": 436710,
+      "end_ms": 439850
+    },
+    {
+      "id": "IS1000a.sync.288",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "a a a white-board .",
+      "start_ms": 441540,
+      "end_ms": 443390
+    },
+    {
+      "id": "IS1000a.sync.555",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Whitebo",
+      "start_ms": 442800,
+      "end_ms": 443410
+    },
+    {
+      "id": "IS1000a.sync.11",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 443550,
+      "end_ms": 443740
+    },
+    {
+      "id": "IS1000a.sync.290",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "And um well it should work uh I've read it from my uh from some colleague that it should work with some kind of toolbar . I didn't find out yet how it work , but maybe one of you did , so",
+      "start_ms": 445880,
+      "end_ms": 458920
+    },
+    {
+      "id": "IS1000a.sync.292",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Um",
+      "start_ms": 460400,
+      "end_ms": 460800
+    },
+    {
+      "id": "IS1000a.sync.740",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Under documents in the shared folder . Okay .",
+      "start_ms": 461000,
+      "end_ms": 463330
+    },
+    {
+      "id": "IS1000a.sync.294",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes . Do Do we have to say something about that ? I I I'm not fully updated about this shared folder uh .",
+      "start_ms": 464260,
+      "end_ms": 471170
+    },
+    {
+      "id": "IS1000a.sync.742",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah , I guess we'll have a shared folder uh with documents that we can share . And uh , yeah .",
+      "start_ms": 472500,
+      "end_ms": 478410
+    },
+    {
+      "id": "IS1000a.sync.296",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes well we will then find out ho how it works .",
+      "start_ms": 478020,
+      "end_ms": 482050
+    },
+    {
+      "id": "IS1000a.sync.744",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yes .",
+      "start_ms": 482660,
+      "end_ms": 483050
+    },
+    {
+      "id": "IS1000a.sync.298",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Um .",
+      "start_ms": 483650,
+      "end_ms": 484270
+    },
+    {
+      "id": "IS1000a.sync.300",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Well , this seems to me , yes , some computer program but I didn't find it yet .",
+      "start_ms": 486420,
+      "end_ms": 490470
+    },
+    {
+      "id": "IS1000a.sync.302",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So , we'll come to that later .",
+      "start_ms": 492000,
+      "end_ms": 493830
+    },
+    {
+      "id": "IS1000a.sync.304",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So , uh now we will try out the white-board we have here .",
+      "start_ms": 495300,
+      "end_ms": 500320
+    },
+    {
+      "id": "IS1000a.sync.306",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So ,",
+      "start_ms": 502290,
+      "end_ms": 502680
+    },
+    {
+      "id": "IS1000a.sync.308",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "I would suggest uh",
+      "start_ms": 504970,
+      "end_ms": 507190
+    },
+    {
+      "id": "IS1000a.sync.746",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Each of us is going .",
+      "start_ms": 507510,
+      "end_ms": 508510
+    },
+    {
+      "id": "IS1000a.sync.310",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Well , yes , um we uh we should try to t to draw on it and then well it should be smart some way . I I'm not really sure how this works , but",
+      "start_ms": 508800,
+      "end_ms": 521310
+    },
+    {
+      "id": "IS1000a.sync.748",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Okay , shall I start ?",
+      "start_ms": 521190,
+      "end_ms": 522320
+    },
+    {
+      "id": "IS1000a.sync.13",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm . Yeah .",
+      "start_ms": 522340,
+      "end_ms": 523150
+    },
+    {
+      "id": "IS1000a.sync.557",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah , you can start it you know .",
+      "start_ms": 522470,
+      "end_ms": 524080
+    },
+    {
+      "id": "IS1000a.sync.312",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes , a good idea Mael .",
+      "start_ms": 522850,
+      "end_ms": 524930
+    },
+    {
+      "id": "IS1000a.sync.15",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "I think for us it's just like a normal whiteboard , but they'll be recording what we write down .",
+      "start_ms": 524130,
+      "end_ms": 528700
+    },
+    {
+      "id": "IS1000a.sync.750",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "So , i",
+      "start_ms": 527850,
+      "end_ms": 528720
+    },
+    {
+      "id": "IS1000a.sync.559",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "No they will record through that . There's a sensor over there which is going to record the strokes that you make .",
+      "start_ms": 528850,
+      "end_ms": 533760
+    },
+    {
+      "id": "IS1000a.sync.17",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm . Mm .",
+      "start_ms": 531120,
+      "end_ms": 532150
+    },
+    {
+      "id": "IS1000a.sync.19",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "But for us it's just like a normal whiteboard .",
+      "start_ms": 533240,
+      "end_ms": 535290
+    },
+    {
+      "id": "IS1000a.sync.314",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Okay .",
+      "start_ms": 533610,
+      "end_ms": 533850
+    },
+    {
+      "id": "IS1000a.sync.561",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 534970,
+      "end_ms": 535260
+    },
+    {
+      "id": "IS1000a.sync.316",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "'Kay .",
+      "start_ms": 536230,
+      "end_ms": 536450
+    },
+    {
+      "id": "IS1000a.sync.752",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "But it's",
+      "start_ms": 539800,
+      "end_ms": 540260
+    },
+    {
+      "id": "IS1000a.sync.754",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Actually , I think I cannot go with uh",
+      "start_ms": 545110,
+      "end_ms": 547760
+    },
+    {
+      "id": "IS1000a.sync.318",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "You you",
+      "start_ms": 548400,
+      "end_ms": 548860
+    },
+    {
+      "id": "IS1000a.sync.320",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "D doesn't it work ?",
+      "start_ms": 551540,
+      "end_ms": 552380
+    },
+    {
+      "id": "IS1000a.sync.322",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Maybe someo Maybe maybe Anna , maybe you can start . Then he can maybe find out to get his cord right .",
+      "start_ms": 553600,
+      "end_ms": 560960
+    },
+    {
+      "id": "IS1000a.sync.23",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 555660,
+      "end_ms": 555880
+    },
+    {
+      "id": "IS1000a.sync.756",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah .",
+      "start_ms": 555730,
+      "end_ms": 556980
+    },
+    {
+      "id": "IS1000a.sync.25",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "I have to draw .",
+      "start_ms": 562380,
+      "end_ms": 563090
+    },
+    {
+      "id": "IS1000a.sync.324",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So um",
+      "start_ms": 562600,
+      "end_ms": 564240
+    },
+    {
+      "id": "IS1000a.sync.326",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "L Why don't you draw uh your favourite animal on on th on the white-board .",
+      "start_ms": 565160,
+      "end_ms": 571230
+    },
+    {
+      "id": "IS1000a.sync.27",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "M my my favourite animal . Sorry this is all tangled up here .",
+      "start_ms": 570620,
+      "end_ms": 574680
+    },
+    {
+      "id": "IS1000a.sync.328",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Oh , I see uh",
+      "start_ms": 579420,
+      "end_ms": 581590
+    },
+    {
+      "id": "IS1000a.sync.29",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "That's better .",
+      "start_ms": 580980,
+      "end_ms": 581810
+    },
+    {
+      "id": "IS1000a.sync.565",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 584460,
+      "end_ms": 584790
+    },
+    {
+      "id": "IS1000a.sync.330",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yeah .",
+      "start_ms": 585560,
+      "end_ms": 586080
+    },
+    {
+      "id": "IS1000a.sync.332",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes . Mm .",
+      "start_ms": 587630,
+      "end_ms": 588460
+    },
+    {
+      "id": "IS1000a.sync.334",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So draw it . We will try to guess what it is .",
+      "start_ms": 594540,
+      "end_ms": 597320
+    },
+    {
+      "id": "IS1000a.sync.33",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm . I'm a very bad drawer .",
+      "start_ms": 595690,
+      "end_ms": 600650
+    },
+    {
+      "id": "IS1000a.sync.35",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Weird .",
+      "start_ms": 602830,
+      "end_ms": 603080
+    },
+    {
+      "id": "IS1000a.sync.37",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Um . You're not gonna be able to guess from my drawing . I'm a bad drawer . Okay .",
+      "start_ms": 607110,
+      "end_ms": 612240
+    },
+    {
+      "id": "IS1000a.sync.338",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Mm .",
+      "start_ms": 614730,
+      "end_ms": 614940
+    },
+    {
+      "id": "IS1000a.sync.39",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "They're ears , by the way . No . Um close though .",
+      "start_ms": 617710,
+      "end_ms": 621180
+    },
+    {
+      "id": "IS1000a.sync.567",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "'s a cat .",
+      "start_ms": 617720,
+      "end_ms": 618370
+    },
+    {
+      "id": "IS1000a.sync.41",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Okay so like a pet animal .",
+      "start_ms": 626750,
+      "end_ms": 628230
+    },
+    {
+      "id": "IS1000a.sync.760",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Okay .",
+      "start_ms": 632980,
+      "end_ms": 633310
+    },
+    {
+      "id": "IS1000a.sync.43",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Like a cat .",
+      "start_ms": 636190,
+      "end_ms": 636650
+    },
+    {
+      "id": "IS1000a.sync.569",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 637140,
+      "end_ms": 637550
+    },
+    {
+      "id": "IS1000a.sync.340",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "It's like a cat , so I guess it's a cat .",
+      "start_ms": 639340,
+      "end_ms": 641680
+    },
+    {
+      "id": "IS1000a.sync.45",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "No , not a cat though .",
+      "start_ms": 641350,
+      "end_ms": 643350
+    },
+    {
+      "id": "IS1000a.sync.342",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "What is this now ?",
+      "start_ms": 645030,
+      "end_ms": 645800
+    },
+    {
+      "id": "IS1000a.sync.571",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Ah you forget about it .",
+      "start_ms": 658870,
+      "end_ms": 660220
+    },
+    {
+      "id": "IS1000a.sync.762",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "You're on the knife .",
+      "start_ms": 661600,
+      "end_ms": 662250
+    },
+    {
+      "id": "IS1000a.sync.573",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah , uh I think it's fine . I just don't want to carry it off .",
+      "start_ms": 662650,
+      "end_ms": 669070
+    },
+    {
+      "id": "IS1000a.sync.575",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Man , this wires , eh ? We need a wireless microphone .",
+      "start_ms": 671290,
+      "end_ms": 675010
+    },
+    {
+      "id": "IS1000a.sync.577",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "You know ? Pro specially we should next project we should take l like that .",
+      "start_ms": 678790,
+      "end_ms": 683560
+    },
+    {
+      "id": "IS1000a.sync.344",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So , that's the cat . Oh .",
+      "start_ms": 688880,
+      "end_ms": 691360
+    },
+    {
+      "id": "IS1000a.sync.47",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Okay . So . It's not a cat , it's a dog . Yes .",
+      "start_ms": 688960,
+      "end_ms": 694560
+    },
+    {
+      "id": "IS1000a.sync.579",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "So .",
+      "start_ms": 691380,
+      "end_ms": 691810
+    },
+    {
+      "id": "IS1000a.sync.766",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Mael .",
+      "start_ms": 691540,
+      "end_ms": 691790
+    },
+    {
+      "id": "IS1000a.sync.346",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "It's a dog .",
+      "start_ms": 692260,
+      "end_ms": 692780
+    },
+    {
+      "id": "IS1000a.sync.348",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So but that's also kind of cat , isn't it ?",
+      "start_ms": 694350,
+      "end_ms": 696810
+    },
+    {
+      "id": "IS1000a.sync.581",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Oh the dog doesn't have a tail ?",
+      "start_ms": 695690,
+      "end_ms": 697120
+    },
+    {
+      "id": "IS1000a.sync.49",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "It's got a tail then .",
+      "start_ms": 697620,
+      "end_ms": 698780
+    },
+    {
+      "id": "IS1000a.sync.350",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "B bo both predators .",
+      "start_ms": 697880,
+      "end_ms": 699680
+    },
+    {
+      "id": "IS1000a.sync.583",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah , sure , yeah . I thought so . The dogs have a tail .",
+      "start_ms": 698950,
+      "end_ms": 703280
+    },
+    {
+      "id": "IS1000a.sync.51",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Yeah yeah .",
+      "start_ms": 700600,
+      "end_ms": 701480
+    },
+    {
+      "id": "IS1000a.sync.352",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So , thank you . Uh d did you uh work out cord ?",
+      "start_ms": 703290,
+      "end_ms": 706660
+    },
+    {
+      "id": "IS1000a.sync.53",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "So do cats . And you guessed cats without a tail .",
+      "start_ms": 703490,
+      "end_ms": 707730
+    },
+    {
+      "id": "IS1000a.sync.587",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 708060,
+      "end_ms": 708480
+    },
+    {
+      "id": "IS1000a.sync.770",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah , I think I will go without without it , right ?",
+      "start_ms": 708520,
+      "end_ms": 712210
+    },
+    {
+      "id": "IS1000a.sync.55",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Okay .",
+      "start_ms": 710340,
+      "end_ms": 710670
+    },
+    {
+      "id": "IS1000a.sync.354",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Okay .",
+      "start_ms": 712400,
+      "end_ms": 712780
+    },
+    {
+      "id": "IS1000a.sync.589",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "It'll still not extend , right ? It's not up to that .",
+      "start_ms": 715860,
+      "end_ms": 718420
+    },
+    {
+      "id": "IS1000a.sync.57",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Okay , there you go . So what favourite characteristics . Uh . Dogs are always friendly and loyal and fun .",
+      "start_ms": 722420,
+      "end_ms": 729230
+    },
+    {
+      "id": "IS1000a.sync.59",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "A horse ?",
+      "start_ms": 750070,
+      "end_ms": 750580
+    },
+    {
+      "id": "IS1000a.sync.591",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "It's a horse .",
+      "start_ms": 750590,
+      "end_ms": 751470
+    },
+    {
+      "id": "IS1000a.sync.61",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "This is why you're the designer . And I'm marketing .",
+      "start_ms": 755750,
+      "end_ms": 761930
+    },
+    {
+      "id": "IS1000a.sync.356",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes . Yes , yes this is Yes definitely a horse . Yes . Oh very good . So",
+      "start_ms": 757810,
+      "end_ms": 766510
+    },
+    {
+      "id": "IS1000a.sync.63",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Ah",
+      "start_ms": 766790,
+      "end_ms": 767400
+    },
+    {
+      "id": "IS1000a.sync.358",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "I suppose it",
+      "start_ms": 767710,
+      "end_ms": 768700
+    },
+    {
+      "id": "IS1000a.sync.593",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Ah I think you can put that .",
+      "start_ms": 768010,
+      "end_ms": 770100
+    },
+    {
+      "id": "IS1000a.sync.65",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm . That's it .",
+      "start_ms": 775570,
+      "end_ms": 776480
+    },
+    {
+      "id": "IS1000a.sync.67",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "A blue and black zebra .",
+      "start_ms": 782560,
+      "end_ms": 784090
+    },
+    {
+      "id": "IS1000a.sync.360",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes .",
+      "start_ms": 785250,
+      "end_ms": 786410
+    },
+    {
+      "id": "IS1000a.sync.362",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Can you can meet them in Africa , I think . Yes . Very good . So",
+      "start_ms": 790230,
+      "end_ms": 794370
+    },
+    {
+      "id": "IS1000a.sync.71",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "The very rare blue zebras . Yes .",
+      "start_ms": 794550,
+      "end_ms": 796420
+    },
+    {
+      "id": "IS1000a.sync.599",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "I'll tell to get it off my",
+      "start_ms": 796940,
+      "end_ms": 800110
+    },
+    {
+      "id": "IS1000a.sync.364",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Ma Matthew ?",
+      "start_ms": 798050,
+      "end_ms": 798770
+    },
+    {
+      "id": "IS1000a.sync.601",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Uh ?",
+      "start_ms": 805410,
+      "end_ms": 805840
+    },
+    {
+      "id": "IS1000a.sync.603",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Mm-hmm .",
+      "start_ms": 809240,
+      "end_ms": 810240
+    },
+    {
+      "id": "IS1000a.sync.366",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So",
+      "start_ms": 809980,
+      "end_ms": 810260
+    },
+    {
+      "id": "IS1000a.sync.73",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "You got a lot of room here . You can probably reach .",
+      "start_ms": 813440,
+      "end_ms": 815660
+    },
+    {
+      "id": "IS1000a.sync.368",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Maybe",
+      "start_ms": 813700,
+      "end_ms": 813980
+    },
+    {
+      "id": "IS1000a.sync.605",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Oh y it's not for that .",
+      "start_ms": 815640,
+      "end_ms": 816900
+    },
+    {
+      "id": "IS1000a.sync.75",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "No ?",
+      "start_ms": 817250,
+      "end_ms": 817430
+    },
+    {
+      "id": "IS1000a.sync.607",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "No .",
+      "start_ms": 817840,
+      "end_ms": 817950
+    },
+    {
+      "id": "IS1000a.sync.370",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "I hope you have some space in your uh the horse of uh Mael .",
+      "start_ms": 818540,
+      "end_ms": 822240
+    },
+    {
+      "id": "IS1000a.sync.609",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Okay . Yeah .",
+      "start_ms": 820640,
+      "end_ms": 821180
+    },
+    {
+      "id": "IS1000a.sync.611",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "So what should I draw ? Mm .",
+      "start_ms": 826410,
+      "end_ms": 827780
+    },
+    {
+      "id": "IS1000a.sync.613",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "He has already to do cat .",
+      "start_ms": 828820,
+      "end_ms": 831240
+    },
+    {
+      "id": "IS1000a.sync.77",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "I took a dog .",
+      "start_ms": 831480,
+      "end_ms": 834000
+    },
+    {
+      "id": "IS1000a.sync.79",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Um .",
+      "start_ms": 841260,
+      "end_ms": 841860
+    },
+    {
+      "id": "IS1000a.sync.81",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "A mouse ?",
+      "start_ms": 843570,
+      "end_ms": 844450
+    },
+    {
+      "id": "IS1000a.sync.372",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "This looks likes a cat who has been driven over .",
+      "start_ms": 849430,
+      "end_ms": 855430
+    },
+    {
+      "id": "IS1000a.sync.83",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Okay .",
+      "start_ms": 856360,
+      "end_ms": 856930
+    },
+    {
+      "id": "IS1000a.sync.776",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah . And we should sum up its favourite charas characteristics , right ?",
+      "start_ms": 857490,
+      "end_ms": 865260
+    },
+    {
+      "id": "IS1000a.sync.85",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 866370,
+      "end_ms": 867980
+    },
+    {
+      "id": "IS1000a.sync.376",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes , the moustache .",
+      "start_ms": 870230,
+      "end_ms": 871480
+    },
+    {
+      "id": "IS1000a.sync.778",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "So",
+      "start_ms": 872300,
+      "end_ms": 872930
+    },
+    {
+      "id": "IS1000a.sync.378",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "That's that's definitely a cat .",
+      "start_ms": 873420,
+      "end_ms": 874860
+    },
+    {
+      "id": "IS1000a.sync.87",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 875130,
+      "end_ms": 875360
+    },
+    {
+      "id": "IS1000a.sync.780",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Uh yeah . And i Th They like to sleep , that's why you said you they are like this .",
+      "start_ms": 875620,
+      "end_ms": 881920
+    },
+    {
+      "id": "IS1000a.sync.782",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah .",
+      "start_ms": 887170,
+      "end_ms": 887310
+    },
+    {
+      "id": "IS1000a.sync.380",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "It's quite , you know relaxed situation . Yes .",
+      "start_ms": 889070,
+      "end_ms": 894080
+    },
+    {
+      "id": "IS1000a.sync.91",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 894950,
+      "end_ms": 895230
+    },
+    {
+      "id": "IS1000a.sync.384",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes , okay .",
+      "start_ms": 906200,
+      "end_ms": 909130
+    },
+    {
+      "id": "IS1000a.sync.786",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "She has the small legs .",
+      "start_ms": 911750,
+      "end_ms": 912990
+    },
+    {
+      "id": "IS1000a.sync.386",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Th thank you , Matthew .",
+      "start_ms": 912960,
+      "end_ms": 913810
+    },
+    {
+      "id": "IS1000a.sync.788",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah .",
+      "start_ms": 914060,
+      "end_ms": 915280
+    },
+    {
+      "id": "IS1000a.sync.790",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Thank you , Matthew . Perfect .",
+      "start_ms": 919120,
+      "end_ms": 922670
+    },
+    {
+      "id": "IS1000a.sync.95",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "It's a very big rat . Or a very small cat .",
+      "start_ms": 922140,
+      "end_ms": 926570
+    },
+    {
+      "id": "IS1000a.sync.792",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Oh a rat , okay .",
+      "start_ms": 923860,
+      "end_ms": 925430
+    },
+    {
+      "id": "IS1000a.sync.390",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes , this is certain uh",
+      "start_ms": 927930,
+      "end_ms": 930230
+    },
+    {
+      "id": "IS1000a.sync.392",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "some contribution to our project . So . Let's see . Which animal has not been drawn yet .",
+      "start_ms": 931620,
+      "end_ms": 940570
+    },
+    {
+      "id": "IS1000a.sync.794",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "And you ,",
+      "start_ms": 932510,
+      "end_ms": 934110
+    },
+    {
+      "id": "IS1000a.sync.97",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm 'kay .",
+      "start_ms": 932880,
+      "end_ms": 933190
+    },
+    {
+      "id": "IS1000a.sync.99",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Your turn .",
+      "start_ms": 933590,
+      "end_ms": 934920
+    },
+    {
+      "id": "IS1000a.sync.394",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So you've all drawn land animals , so why not draw an animal from the water .",
+      "start_ms": 952270,
+      "end_ms": 957210
+    },
+    {
+      "id": "IS1000a.sync.796",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "A bird . Okay , in the water .",
+      "start_ms": 956470,
+      "end_ms": 958510
+    },
+    {
+      "id": "IS1000a.sync.107",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Ah I don't know what that is . It's a bit",
+      "start_ms": 968950,
+      "end_ms": 971550
+    },
+    {
+      "id": "IS1000a.sync.798",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Mm .",
+      "start_ms": 971350,
+      "end_ms": 972640
+    },
+    {
+      "id": "IS1000a.sync.109",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "It's a bit hard to guess .",
+      "start_ms": 972660,
+      "end_ms": 973760
+    },
+    {
+      "id": "IS1000a.sync.800",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah . Put it colours . Maybe it would help us .",
+      "start_ms": 973840,
+      "end_ms": 980690
+    },
+    {
+      "id": "IS1000a.sync.396",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Mm .",
+      "start_ms": 976130,
+      "end_ms": 977090
+    },
+    {
+      "id": "IS1000a.sync.615",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "So",
+      "start_ms": 977430,
+      "end_ms": 977650
+    },
+    {
+      "id": "IS1000a.sync.113",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Yeah .",
+      "start_ms": 980000,
+      "end_ms": 980370
+    },
+    {
+      "id": "IS1000a.sync.398",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes .",
+      "start_ms": 980640,
+      "end_ms": 980940
+    },
+    {
+      "id": "IS1000a.sync.617",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "The cat is going to eat the fish or the rat ?",
+      "start_ms": 981220,
+      "end_ms": 983270
+    },
+    {
+      "id": "IS1000a.sync.802",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "With different pen widths .",
+      "start_ms": 982850,
+      "end_ms": 984460
+    },
+    {
+      "id": "IS1000a.sync.115",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm",
+      "start_ms": 984640,
+      "end_ms": 985040
+    },
+    {
+      "id": "IS1000a.sync.402",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So",
+      "start_ms": 987270,
+      "end_ms": 987770
+    },
+    {
+      "id": "IS1000a.sync.117",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Oh , it's a shark now .",
+      "start_ms": 993410,
+      "end_ms": 994170
+    },
+    {
+      "id": "IS1000a.sync.804",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Ah it's a shark , yeah .",
+      "start_ms": 994150,
+      "end_ms": 995100
+    },
+    {
+      "id": "IS1000a.sync.404",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Oh , yes , why not ? Good idea .",
+      "start_ms": 996000,
+      "end_ms": 998930
+    },
+    {
+      "id": "IS1000a.sync.619",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Ah it's a baby shark , it looks to me , you know it's going to eat the cat rather than the cat eating the fish , no ?",
+      "start_ms": 999360,
+      "end_ms": 1005380
+    },
+    {
+      "id": "IS1000a.sync.121",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1001300,
+      "end_ms": 1001570
+    },
+    {
+      "id": "IS1000a.sync.808",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Oh .",
+      "start_ms": 1004830,
+      "end_ms": 1005490
+    },
+    {
+      "id": "IS1000a.sync.123",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Now it's a swordfish .",
+      "start_ms": 1005670,
+      "end_ms": 1007390
+    },
+    {
+      "id": "IS1000a.sync.408",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Why not . A swordfish .",
+      "start_ms": 1010460,
+      "end_ms": 1011430
+    },
+    {
+      "id": "IS1000a.sync.810",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "You have some in in Australia , right ? Yeah . I dunno .",
+      "start_ms": 1010870,
+      "end_ms": 1015020
+    },
+    {
+      "id": "IS1000a.sync.127",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Swordfish . Um , maybe .",
+      "start_ms": 1013070,
+      "end_ms": 1016060
+    },
+    {
+      "id": "IS1000a.sync.129",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "I've never seen one , no .",
+      "start_ms": 1017360,
+      "end_ms": 1018480
+    },
+    {
+      "id": "IS1000a.sync.812",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Oh well .",
+      "start_ms": 1017600,
+      "end_ms": 1017870
+    },
+    {
+      "id": "IS1000a.sync.814",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah .",
+      "start_ms": 1018860,
+      "end_ms": 1019040
+    },
+    {
+      "id": "IS1000a.sync.412",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "I hope it still works . So",
+      "start_ms": 1022010,
+      "end_ms": 1024620
+    },
+    {
+      "id": "IS1000a.sync.816",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Perfect . So I dunno if we need to spend time on that , actually But uh",
+      "start_ms": 1023890,
+      "end_ms": 1028840
+    },
+    {
+      "id": "IS1000a.sync.621",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "You should go for the next one it seems to me .",
+      "start_ms": 1028480,
+      "end_ms": 1030960
+    },
+    {
+      "id": "IS1000a.sync.414",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "W Well , this uh this tool seemed to work . Let's continue to uh to the real stuff .",
+      "start_ms": 1029290,
+      "end_ms": 1036800
+    },
+    {
+      "id": "IS1000a.sync.818",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah , exactly , yeah .",
+      "start_ms": 1033040,
+      "end_ms": 1034180
+    },
+    {
+      "id": "IS1000a.sync.131",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 1033270,
+      "end_ms": 1033710
+    },
+    {
+      "id": "IS1000a.sync.820",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Wow .",
+      "start_ms": 1035930,
+      "end_ms": 1037380
+    },
+    {
+      "id": "IS1000a.sync.416",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Um our project uh finance uh",
+      "start_ms": 1039080,
+      "end_ms": 1042810
+    },
+    {
+      "id": "IS1000a.sync.418",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "thing . Uh when we are and when w you are uh going to design w uh we must keep in mind that the selling price of the product uh will be about twenty five Euros , so when",
+      "start_ms": 1044240,
+      "end_ms": 1057800
+    },
+    {
+      "id": "IS1000a.sync.420",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "designing a project uh I also look at you uh Mael , keep in mind uh uh uh People uh",
+      "start_ms": 1059080,
+      "end_ms": 1067250
+    },
+    {
+      "id": "IS1000a.sync.623",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Twenty four .",
+      "start_ms": 1059180,
+      "end_ms": 1059920
+    },
+    {
+      "id": "IS1000a.sync.822",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah .",
+      "start_ms": 1064390,
+      "end_ms": 1064540
+    },
+    {
+      "id": "IS1000a.sync.422",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "want to get the feeling this is a twenty five Euro project uh pr um",
+      "start_ms": 1068310,
+      "end_ms": 1072910
+    },
+    {
+      "id": "IS1000a.sync.824",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Per remote control , yeah ? Per project .",
+      "start_ms": 1073590,
+      "end_ms": 1075890
+    },
+    {
+      "id": "IS1000a.sync.424",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "product .",
+      "start_ms": 1074050,
+      "end_ms": 1074540
+    },
+    {
+      "id": "IS1000a.sync.133",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1074990,
+      "end_ms": 1075360
+    },
+    {
+      "id": "IS1000a.sync.426",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes . Okay . Um more interesting for our company of course , p uh profit aim , about fifty million Euro . So we have to sell uh quite a lot of this uh um things . Uh we will try to uh",
+      "start_ms": 1076130,
+      "end_ms": 1098100
+    },
+    {
+      "id": "IS1000a.sync.428",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "to get at a international market uh so um it will be I think mainly Europe and uh Northern America ,",
+      "start_ms": 1099430,
+      "end_ms": 1106570
+    },
+    {
+      "id": "IS1000a.sync.625",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Ah yeah , the sale man , four million .",
+      "start_ms": 1106680,
+      "end_ms": 1108980
+    },
+    {
+      "id": "IS1000a.sync.430",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "maybe some uh Asian countries .",
+      "start_ms": 1107910,
+      "end_ms": 1109440
+    },
+    {
+      "id": "IS1000a.sync.432",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Um also important for you all is um the the product uh production cost must be maximal uh twelve uh twelve Euro and fifty cents .",
+      "start_ms": 1111010,
+      "end_ms": 1125070
+    },
+    {
+      "id": "IS1000a.sync.828",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "So it's half of the selling price , if I am good in mathematics .",
+      "start_ms": 1124000,
+      "end_ms": 1128360
+    },
+    {
+      "id": "IS1000a.sync.434",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes , of course . Uh um I mean we still have to uh to make a profit , huh ?",
+      "start_ms": 1127600,
+      "end_ms": 1133550
+    },
+    {
+      "id": "IS1000a.sync.830",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Of course .",
+      "start_ms": 1133720,
+      "end_ms": 1134320
+    },
+    {
+      "id": "IS1000a.sync.627",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "They have to sell at least four million to make a profit",
+      "start_ms": 1133830,
+      "end_ms": 1136880
+    },
+    {
+      "id": "IS1000a.sync.135",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1134450,
+      "end_ms": 1135070
+    },
+    {
+      "id": "IS1000a.sync.436",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "You all have to be paid .",
+      "start_ms": 1134790,
+      "end_ms": 1136060
+    },
+    {
+      "id": "IS1000a.sync.137",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1136400,
+      "end_ms": 1136650
+    },
+    {
+      "id": "IS1000a.sync.629",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Ah we have to make we have to sell at least four million to make our own profit . Fifty mill",
+      "start_ms": 1138070,
+      "end_ms": 1142660
+    },
+    {
+      "id": "IS1000a.sync.438",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Excuse me ?",
+      "start_ms": 1138140,
+      "end_ms": 1138680
+    },
+    {
+      "id": "IS1000a.sync.832",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Oh you're g very good in mathematics . Four million .",
+      "start_ms": 1141940,
+      "end_ms": 1146760
+    },
+    {
+      "id": "IS1000a.sync.139",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Yes .",
+      "start_ms": 1143360,
+      "end_ms": 1143650
+    },
+    {
+      "id": "IS1000a.sync.440",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes , indeed .",
+      "start_ms": 1145190,
+      "end_ms": 1146700
+    },
+    {
+      "id": "IS1000a.sync.442",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So uh well I think w when we are working on the international market , uh in principle it has enough customers uh so when we have a good product we uh we could uh meet this this aim , I think .",
+      "start_ms": 1148250,
+      "end_ms": 1161240
+    },
+    {
+      "id": "IS1000a.sync.834",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah .",
+      "start_ms": 1149190,
+      "end_ms": 1149390
+    },
+    {
+      "id": "IS1000a.sync.444",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So , that about finance .",
+      "start_ms": 1162480,
+      "end_ms": 1163790
+    },
+    {
+      "id": "IS1000a.sync.446",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "And uh now just let have some discussion about what is a good remote control and uh well keep in mind this this first point , it has to be original , it has to be trendy , it has to be user friendly .",
+      "start_ms": 1165080,
+      "end_ms": 1179440
+    },
+    {
+      "id": "IS1000a.sync.448",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Um , maybe someone can mention some additional uh prerequisites for a good remote control .",
+      "start_ms": 1182060,
+      "end_ms": 1191670
+    },
+    {
+      "id": "IS1000a.sync.141",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 1190320,
+      "end_ms": 1190530
+    },
+    {
+      "id": "IS1000a.sync.635",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Of course it should have a on off button .",
+      "start_ms": 1195540,
+      "end_ms": 1197420
+    },
+    {
+      "id": "IS1000a.sync.143",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 1197710,
+      "end_ms": 1197980
+    },
+    {
+      "id": "IS1000a.sync.450",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes , well i it should have the the the the expected functionality uh of a remote control .",
+      "start_ms": 1198920,
+      "end_ms": 1204430
+    },
+    {
+      "id": "IS1000a.sync.145",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1202620,
+      "end_ms": 1202900
+    },
+    {
+      "id": "IS1000a.sync.147",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Yeah .",
+      "start_ms": 1204560,
+      "end_ms": 1204700
+    },
+    {
+      "id": "IS1000a.sync.637",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah , s and it depends what application you are using it for . You might need uh",
+      "start_ms": 1204590,
+      "end_ms": 1210150
+    },
+    {
+      "id": "IS1000a.sync.149",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1208400,
+      "end_ms": 1208670
+    },
+    {
+      "id": "IS1000a.sync.452",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "We wer we were thinking television . Uh .",
+      "start_ms": 1210450,
+      "end_ms": 1212080
+    },
+    {
+      "id": "IS1000a.sync.151",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1212050,
+      "end_ms": 1212300
+    },
+    {
+      "id": "IS1000a.sync.639",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "We are targ targeting the television set . So , you need to record the channels . You need to browse the browse the channels in upward downward way ,",
+      "start_ms": 1212330,
+      "end_ms": 1226730
+    },
+    {
+      "id": "IS1000a.sync.153",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1215710,
+      "end_ms": 1215920
+    },
+    {
+      "id": "IS1000a.sync.155",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Yeah .",
+      "start_ms": 1217970,
+      "end_ms": 1218140
+    },
+    {
+      "id": "IS1000a.sync.454",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Mm-hmm .",
+      "start_ms": 1218970,
+      "end_ms": 1219300
+    },
+    {
+      "id": "IS1000a.sync.456",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes , yes . Th th that's very handy I I always miss it and on some remote controls that you can go channel up or down ins instead of retyping the number , especially when you have a lot of channels .",
+      "start_ms": 1225980,
+      "end_ms": 1236700
+    },
+    {
+      "id": "IS1000a.sync.157",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1226410,
+      "end_ms": 1226590
+    },
+    {
+      "id": "IS1000a.sync.641",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Uh",
+      "start_ms": 1229400,
+      "end_ms": 1229520
+    },
+    {
+      "id": "IS1000a.sync.643",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "And",
+      "start_ms": 1230850,
+      "end_ms": 1231380
+    },
+    {
+      "id": "IS1000a.sync.159",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1233470,
+      "end_ms": 1233730
+    },
+    {
+      "id": "IS1000a.sync.161",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1235060,
+      "end_ms": 1235210
+    },
+    {
+      "id": "IS1000a.sync.645",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Uh , and",
+      "start_ms": 1236190,
+      "end_ms": 1237390
+    },
+    {
+      "id": "IS1000a.sync.836",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "And uh just before starting the detailed discussion , maybe we You are the marketing guy ? Or th So you are the marketing . And you are in the u use user interface uh design . So just yeah I wanted to to be sure . And I I'm the the industrial designer okay . Because I I don't know you very well , actually , but yeah . Okay . Mael . Happy to meet you . Okay . It's very uh",
+      "start_ms": 1237120,
+      "end_ms": 1264430
+    },
+    {
+      "id": "IS1000a.sync.163",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "I'm marketing .",
+      "start_ms": 1242120,
+      "end_ms": 1243020
+    },
+    {
+      "id": "IS1000a.sync.647",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Marketing .",
+      "start_ms": 1242550,
+      "end_ms": 1243060
+    },
+    {
+      "id": "IS1000a.sync.165",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Yep .",
+      "start_ms": 1244690,
+      "end_ms": 1244810
+    },
+    {
+      "id": "IS1000a.sync.649",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 1247480,
+      "end_ms": 1247750
+    },
+    {
+      "id": "IS1000a.sync.458",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes .",
+      "start_ms": 1248080,
+      "end_ms": 1248210
+    },
+    {
+      "id": "IS1000a.sync.651",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 1249230,
+      "end_ms": 1249460
+    },
+    {
+      "id": "IS1000a.sync.653",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Sure .",
+      "start_ms": 1251080,
+      "end_ms": 1251430
+    },
+    {
+      "id": "IS1000a.sync.167",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 1254580,
+      "end_ms": 1254810
+    },
+    {
+      "id": "IS1000a.sync.460",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes .",
+      "start_ms": 1254960,
+      "end_ms": 1255380
+    },
+    {
+      "id": "IS1000a.sync.657",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Oh .",
+      "start_ms": 1255690,
+      "end_ms": 1256040
+    },
+    {
+      "id": "IS1000a.sync.659",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "I'm Matthew . You know . Matth s uh Anna . And um uh Matthew , yeah . I thi think you know me , yeah ? right yeah .",
+      "start_ms": 1257170,
+      "end_ms": 1268990
+    },
+    {
+      "id": "IS1000a.sync.169",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Anna .",
+      "start_ms": 1261230,
+      "end_ms": 1261570
+    },
+    {
+      "id": "IS1000a.sync.462",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "A and I'm Nanne .",
+      "start_ms": 1263380,
+      "end_ms": 1264610
+    },
+    {
+      "id": "IS1000a.sync.464",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So",
+      "start_ms": 1266510,
+      "end_ms": 1266810
+    },
+    {
+      "id": "IS1000a.sync.838",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Uh so yeah uh Just uh on your web page but uh yeah not uh not face to face .",
+      "start_ms": 1266590,
+      "end_ms": 1274430
+    },
+    {
+      "id": "IS1000a.sync.466",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes .",
+      "start_ms": 1267780,
+      "end_ms": 1269010
+    },
+    {
+      "id": "IS1000a.sync.468",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So . Um",
+      "start_ms": 1272000,
+      "end_ms": 1273630
+    },
+    {
+      "id": "IS1000a.sync.470",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "S",
+      "start_ms": 1276440,
+      "end_ms": 1276580
+    },
+    {
+      "id": "IS1000a.sync.661",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "So .",
+      "start_ms": 1277050,
+      "end_ms": 1277800
+    },
+    {
+      "id": "IS1000a.sync.840",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "So mm",
+      "start_ms": 1277070,
+      "end_ms": 1277800
+    },
+    {
+      "id": "IS1000a.sync.472",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "S s",
+      "start_ms": 1277560,
+      "end_ms": 1278040
+    },
+    {
+      "id": "IS1000a.sync.171",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1278580,
+      "end_ms": 1278810
+    },
+    {
+      "id": "IS1000a.sync.474",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Are there some other very important things to to do well ,",
+      "start_ms": 1279030,
+      "end_ms": 1283770
+    },
+    {
+      "id": "IS1000a.sync.663",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "So",
+      "start_ms": 1279100,
+      "end_ms": 1279470
+    },
+    {
+      "id": "IS1000a.sync.842",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "So I",
+      "start_ms": 1279110,
+      "end_ms": 1279930
+    },
+    {
+      "id": "IS1000a.sync.476",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "to specify in this first phase of of the project . So the browse function , as you m mentioned .",
+      "start_ms": 1285380,
+      "end_ms": 1293590
+    },
+    {
+      "id": "IS1000a.sync.173",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm . Yeah . Oth yeah .",
+      "start_ms": 1291390,
+      "end_ms": 1294210
+    },
+    {
+      "id": "IS1000a.sync.665",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "And uh ,",
+      "start_ms": 1293160,
+      "end_ms": 1294000
+    },
+    {
+      "id": "IS1000a.sync.667",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "you'd need the usual ones , like the changing the volume , changing the the channel and then you uh Today we have uh um teletext and all those things . Tomorrow you might have a some more functions which might come through that , so",
+      "start_ms": 1295620,
+      "end_ms": 1314550
+    },
+    {
+      "id": "IS1000a.sync.478",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes . Yeah .",
+      "start_ms": 1303250,
+      "end_ms": 1304080
+    },
+    {
+      "id": "IS1000a.sync.480",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes .",
+      "start_ms": 1313280,
+      "end_ms": 1313660
+    },
+    {
+      "id": "IS1000a.sync.175",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1313610,
+      "end_ms": 1313860
+    },
+    {
+      "id": "IS1000a.sync.844",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Like what ? Like internet on the on T_V_ ?",
+      "start_ms": 1313960,
+      "end_ms": 1317710
+    },
+    {
+      "id": "IS1000a.sync.669",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah I_P_O_ or . Now we are looking for",
+      "start_ms": 1316100,
+      "end_ms": 1319580
+    },
+    {
+      "id": "IS1000a.sync.177",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1316400,
+      "end_ms": 1316750
+    },
+    {
+      "id": "IS1000a.sync.671",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "television things or I_P_ . For example personal video recorder and all those stuffs are coming up .",
+      "start_ms": 1320740,
+      "end_ms": 1328370
+    },
+    {
+      "id": "IS1000a.sync.846",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah .",
+      "start_ms": 1323920,
+      "end_ms": 1324160
+    },
+    {
+      "id": "IS1000a.sync.179",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1326190,
+      "end_ms": 1326490
+    },
+    {
+      "id": "IS1000a.sync.181",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "But we can't really design for something that hasn't been invented yet .",
+      "start_ms": 1328610,
+      "end_ms": 1331370
+    },
+    {
+      "id": "IS1000a.sync.673",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 1329710,
+      "end_ms": 1329930
+    },
+    {
+      "id": "IS1000a.sync.675",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Ah it's it's it's it's coming up , actually . The personal video recorder and all those things it is coming up .",
+      "start_ms": 1331490,
+      "end_ms": 1337520
+    },
+    {
+      "id": "IS1000a.sync.482",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Mm , well uh I I think",
+      "start_ms": 1336230,
+      "end_ms": 1338520
+    },
+    {
+      "id": "IS1000a.sync.484",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Uh w y you two should should , I think , think this over uh w espec what , what functionality .",
+      "start_ms": 1341490,
+      "end_ms": 1349470
+    },
+    {
+      "id": "IS1000a.sync.848",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Actually , yeah w",
+      "start_ms": 1341510,
+      "end_ms": 1342760
+    },
+    {
+      "id": "IS1000a.sync.677",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Let's Let's take",
+      "start_ms": 1342110,
+      "end_ms": 1343210
+    },
+    {
+      "id": "IS1000a.sync.850",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Of course , and first before um designing the func well thinking about the functionalities , we need to know what are the user requirements . Um then if they need internet , then we would be able to to p to propose something with uh uh T_V_ over I_P_ . But before",
+      "start_ms": 1349560,
+      "end_ms": 1368160
+    },
+    {
+      "id": "IS1000a.sync.183",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm . Yeah .",
+      "start_ms": 1357260,
+      "end_ms": 1358080
+    },
+    {
+      "id": "IS1000a.sync.486",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Mm-hmm .",
+      "start_ms": 1358750,
+      "end_ms": 1359130
+    },
+    {
+      "id": "IS1000a.sync.185",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Yeah .",
+      "start_ms": 1359300,
+      "end_ms": 1359450
+    },
+    {
+      "id": "IS1000a.sync.187",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1361420,
+      "end_ms": 1361600
+    },
+    {
+      "id": "IS1000a.sync.189",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Yeah .",
+      "start_ms": 1363570,
+      "end_ms": 1363760
+    },
+    {
+      "id": "IS1000a.sync.191",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "But",
+      "start_ms": 1367400,
+      "end_ms": 1367580
+    },
+    {
+      "id": "IS1000a.sync.193",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Ninety percent of the time , ninety nine percent of the time , people will be using the main functions , the volume , the different channels , so we can have all the fancy things as well but the main controls need to be very obvious and very easy to use .",
+      "start_ms": 1368180,
+      "end_ms": 1379690
+    },
+    {
+      "id": "IS1000a.sync.488",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Mm mm mm . Keep k keep in mind i it's a it's a twenty five Euro unit , so uh uh the the very fancy stuff uh",
+      "start_ms": 1379070,
+      "end_ms": 1388000
+    },
+    {
+      "id": "IS1000a.sync.490",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "w we can leave that out , I think . So twenty five Euro you expect a quite , well normal but good functioning user friendly remote control .",
+      "start_ms": 1389540,
+      "end_ms": 1400040
+    },
+    {
+      "id": "IS1000a.sync.195",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1391690,
+      "end_ms": 1391930
+    },
+    {
+      "id": "IS1000a.sync.197",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1396770,
+      "end_ms": 1396970
+    },
+    {
+      "id": "IS1000a.sync.679",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Oh in that case you can you always hook up with uh someone who is providing that and you know , you you sell their product as well as your product with them , you know .",
+      "start_ms": 1400450,
+      "end_ms": 1412980
+    },
+    {
+      "id": "IS1000a.sync.199",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm .",
+      "start_ms": 1410620,
+      "end_ms": 1410810
+    },
+    {
+      "id": "IS1000a.sync.852",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah , but w w we want to design a new one . Mm .",
+      "start_ms": 1413090,
+      "end_ms": 1420130
+    },
+    {
+      "id": "IS1000a.sync.201",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "So try and get T_V_ manufacturers to",
+      "start_ms": 1413110,
+      "end_ms": 1414970
+    },
+    {
+      "id": "IS1000a.sync.681",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah . No , it's okay , yeah I understand . So we need some numbering buttons , some teletext things and then um",
+      "start_ms": 1416040,
+      "end_ms": 1424430
+    },
+    {
+      "id": "IS1000a.sync.854",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Yeah .",
+      "start_ms": 1420500,
+      "end_ms": 1420680
+    },
+    {
+      "id": "IS1000a.sync.856",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "The Yeah , the main is browsing . Yeah .",
+      "start_ms": 1424510,
+      "end_ms": 1426750
+    },
+    {
+      "id": "IS1000a.sync.492",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Yes , but but but ab about the spec the buttons , the buttons uh that will be on it . I I think we can discuss that in the in the next meeting .",
+      "start_ms": 1425520,
+      "end_ms": 1434050
+    },
+    {
+      "id": "IS1000a.sync.683",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 1428760,
+      "end_ms": 1429130
+    },
+    {
+      "id": "IS1000a.sync.685",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 1434240,
+      "end_ms": 1434560
+    },
+    {
+      "id": "IS1000a.sync.494",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Uh I would like to get this wrapped up and go to an end of this meeting .",
+      "start_ms": 1435350,
+      "end_ms": 1441460
+    },
+    {
+      "id": "IS1000a.sync.687",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Okay .",
+      "start_ms": 1442000,
+      "end_ms": 1442410
+    },
+    {
+      "id": "IS1000a.sync.496",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So",
+      "start_ms": 1443680,
+      "end_ms": 1443900
+    },
+    {
+      "id": "IS1000a.sync.689",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Okay , we are alread mm . Mm .",
+      "start_ms": 1443700,
+      "end_ms": 1445750
+    },
+    {
+      "id": "IS1000a.sync.858",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Okay .",
+      "start_ms": 1445310,
+      "end_ms": 1445640
+    },
+    {
+      "id": "IS1000a.sync.498",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So you know now the basic the basic things . And",
+      "start_ms": 1445620,
+      "end_ms": 1449470
+    },
+    {
+      "id": "IS1000a.sync.691",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah .",
+      "start_ms": 1448280,
+      "end_ms": 1448560
+    },
+    {
+      "id": "IS1000a.sync.203",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 1448680,
+      "end_ms": 1448890
+    },
+    {
+      "id": "IS1000a.sync.500",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "well just just for the next meeting , um",
+      "start_ms": 1451360,
+      "end_ms": 1454340
+    },
+    {
+      "id": "IS1000a.sync.693",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "L",
+      "start_ms": 1451870,
+      "end_ms": 1452140
+    },
+    {
+      "id": "IS1000a.sync.502",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "well , uh , you wor yes , work on a design , keep it general , I mean so w we will be still fle flexible with maybe adding some functions . So",
+      "start_ms": 1457140,
+      "end_ms": 1470260
+    },
+    {
+      "id": "IS1000a.sync.860",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Mm-hmm .",
+      "start_ms": 1469760,
+      "end_ms": 1470200
+    },
+    {
+      "id": "IS1000a.sync.504",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "Um",
+      "start_ms": 1471460,
+      "end_ms": 1472730
+    },
+    {
+      "id": "IS1000a.sync.506",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "you will be working on on",
+      "start_ms": 1474100,
+      "end_ms": 1475520
+    },
+    {
+      "id": "IS1000a.sync.508",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "technical function design , so",
+      "start_ms": 1476630,
+      "end_ms": 1478020
+    },
+    {
+      "id": "IS1000a.sync.695",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Yeah , sure .",
+      "start_ms": 1479350,
+      "end_ms": 1479830
+    },
+    {
+      "id": "IS1000a.sync.510",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "And uh you and you and uh uh uh well , think about requirements , eh ? Does it need internet , or or do do we stay at",
+      "start_ms": 1480450,
+      "end_ms": 1490210
+    },
+    {
+      "id": "IS1000a.sync.205",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 1486870,
+      "end_ms": 1487150
+    },
+    {
+      "id": "IS1000a.sync.697",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Stam .",
+      "start_ms": 1491350,
+      "end_ms": 1491790
+    },
+    {
+      "id": "IS1000a.sync.512",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "basic basic television uh interface .",
+      "start_ms": 1491360,
+      "end_ms": 1494830
+    },
+    {
+      "id": "IS1000a.sync.207",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Yeah .",
+      "start_ms": 1492160,
+      "end_ms": 1492290
+    },
+    {
+      "id": "IS1000a.sync.514",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So , uh",
+      "start_ms": 1497640,
+      "end_ms": 1500190
+    },
+    {
+      "id": "IS1000a.sync.516",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "I think we should now all go work uh uh at this and uh you will be informed via email and other kind of communication .",
+      "start_ms": 1501360,
+      "end_ms": 1510030
+    },
+    {
+      "id": "IS1000a.sync.209",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Mm-hmm .",
+      "start_ms": 1505630,
+      "end_ms": 1505840
+    },
+    {
+      "id": "IS1000a.sync.211",
+      "speaker": "A",
+      "speaker_name": "Speaker A",
+      "person_ref": "FIE081",
+      "text": "Yeah .",
+      "start_ms": 1510000,
+      "end_ms": 1510150
+    },
+    {
+      "id": "IS1000a.sync.699",
+      "speaker": "C",
+      "speaker_name": "Speaker C",
+      "person_ref": "MIO050",
+      "text": "Okay .",
+      "start_ms": 1510780,
+      "end_ms": 1511290
+    },
+    {
+      "id": "IS1000a.sync.518",
+      "speaker": "B",
+      "speaker_name": "Speaker B",
+      "person_ref": "MIO082",
+      "text": "So next meeting will be in uh in thirty minutes uh . K keep it in mind .",
+      "start_ms": 1511370,
+      "end_ms": 1514650
+    },
+    {
+      "id": "IS1000a.sync.862",
+      "speaker": "D",
+      "speaker_name": "Speaker D",
+      "person_ref": "MIO016",
+      "text": "Perfect .",
+      "start_ms": 1511510,
+      "end_ms": 1511990
+    }
+  ]
+}

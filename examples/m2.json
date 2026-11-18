@@ -1,0 +1,14 @@
+{
+  "meeting_id": "M2",
+  "series": "登录改版",
+  "started_at": "2026-11-16T10:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "source": "synthetic_design_example",
+  "media": null,
+  "audience": ["host", "chen"],
+  "speaker_map": {"王宁": "host", "陈可": "chen"},
+  "segments": [
+    {"id": "M2.1", "start_ms": 10000, "end_ms": 14600, "speaker": "陈可", "text": "上周说的三个登录失败案例，今天早上我已经发到研发群了。"},
+    {"id": "M2.2", "start_ms": 20000, "end_ms": 26500, "speaker": "王宁", "text": "登录改版第一批的范围今天改一下，内部员工和试点客户都开放。"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "meeting_id": "M1",
+  "series": "登录改版",
+  "started_at": "2026-11-09T10:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "source": "synthetic_design_example",
+  "media": null,
+  "audience": ["host", "chen"],
+  "roster": {"host": "王宁", "chen": "陈可"},
+  "speaker_map": {"王宁": "host", "说话人 2": "chen"},
+  "segments": [
+    {"id": "M1.1", "start_ms": 12000, "end_ms": 16500, "speaker": "王宁", "text": "登录失败的三个案例，谁来整理发到研发群？"},
+    {"id": "M1.2", "start_ms": 17000, "end_ms": 21100, "speaker": "说话人 2", "text": "我来，这周五下班前发群里。"},
+    {"id": "M1.3", "start_ms": 24000, "end_ms": 28100, "speaker": "王宁", "text": "上线后要不要再做个监控面板？先放着，今天不定。"},
+    {"id": "M1.4", "start_ms": 30000, "end_ms": 34500, "speaker": "王宁", "text": "这次登录改版的灰度范围定了，第一批只对内部员工开放。"}
+  ]
+}

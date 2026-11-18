@@ -1,0 +1,7 @@
+{
+  "status": "frozen",
+  "input_hash": "6672ffb747804fb82cca7f3caf069a1b36259371925421ddd7d1b77cd29bfff6",
+  "labels_hash": "0d0298c26b3d5435622bfc85aabeee02376aa0baa9eb70a10d37f85493ef6458",
+  "provenance": "data/mvp-v1 dev inputs unchanged; source-based semantic annotations frozen before evidence-v1 outputs",
+  "annotation_status": "agent_reviewed"
+}

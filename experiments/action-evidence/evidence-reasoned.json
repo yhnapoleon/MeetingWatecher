@@ -1,0 +1,14 @@
+{
+  "interpret_work": {
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "temperature": 1,
+    "max_tokens": 16384
+  },
+  "check_work": {
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "temperature": 1,
+    "max_tokens": 16384
+  }
+}

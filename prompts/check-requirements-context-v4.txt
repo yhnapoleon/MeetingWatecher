@@ -1,0 +1,5 @@
+另逐项核验 source_requirements 与 description_answers，输出 requirement_checks，每个 question_id 恰好一次。
+先判断来源要求是否真实且必要，再比较仅从描述得到的答案与来源答案是否同义。covered 表示最终描述有依据地保留必要关系；missing 表示必要内容未表达；not_required 表示来源问题提取有误或只是普通背景，须说明原文依据；uncertain 表示仍无法可靠判断。
+target_ref 使用 record:R1 这样的记录引用；整项工作遗漏时先写 new_work_findings，再用 finding:1 指向输出覆盖发现数组的第一项（先 new_work_findings 后 uncertain_findings，序号从 1 起）。missing/uncertain 可指向本轮可写记录或对应的 finding。not_required 可以 target_ref=null。covered 必须指向 description_answers 中实际回答的工作记录；背景记录不能证明任务内容完整。
+修正再核验只提供与修正记录或原遗漏 finding 相关的问题，其余问题沿用先前结论；不要重新引入其他 question_id。再核验不新增 finding；已补回的工作应绑定实际新增 record，原遗漏不成立则 not_required。
+不要把“描述中出现了信号、问题等词”当成关系完整。普通背景也不能强行增加核对等义务。missing_details 将由程序结合这些判定补入，原有内容/分类/gap 核验仍需完成。

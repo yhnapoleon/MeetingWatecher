@@ -1,0 +1,4 @@
+[
+  {"meeting": "M2", "viewer": "host", "tasks": ["T18"]},
+  {"meeting": "M2", "viewer": "guest", "tasks": ["T18", "T17"]}
+]

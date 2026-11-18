@@ -1,0 +1,14 @@
+{
+  "source": "synthetic_design_example",
+  "meeting_id": "M2",
+  "series": "登录改版",
+  "as_of": "2026-11-16T09:59:59+08:00",
+  "tasks": [
+    {"guid": "T17", "summary": "整理三个登录失败案例并发研发群", "status": "open", "readers": ["host", "chen"], "origin": "M1"},
+    {"guid": "T18", "summary": "提交联调时间表", "status": "open", "readers": ["host", "guest"], "origin": "shared_tasklist"},
+    {"guid": "T19", "summary": "发布测试包", "status": "done", "readers": ["host", "guest"], "origin": "shared_tasklist", "completed_at": "2026-11-13T15:00:00+08:00"}
+  ],
+  "decisions": [
+    {"id": "D1", "statement": "登录改版第一批只对内部员工开放", "evidence": ["M1.4"], "readers": ["host", "chen"]}
+  ]
+}

@@ -1,0 +1,8 @@
+case_id,event_id,event_type,operation,description,owner_ref,due_text,due_date,target_guid,evidence_ids,status,reviewer
+M1,1,认领,create,整理三个登录失败案例并发研发群,chen,这周五下班前,2026-11-13,,M1.1|M1.2,draft,
+M1,2,暂缓,none,暂缓监控面板提议,,,,,M1.3,draft,
+M1,3,决策,record_decision,首批只对内部员工开放,,,,,M1.4,draft,
+M2,1,完成报告,complete,三个登录失败案例已发研发群,chen,,,T17,M2.1,draft,
+M2,2,决策,supersede_decision,首批扩大到内部员工和试点客户,,,,,M2.2,draft,
+M3,1,分派并承接,create,将验收清单发到项目群,host,周三,2026-11-11,,M3.1|M3.2,draft,
+V65,1,会内安排,none,主持人预告现场提问,,,,,V65.1|V65.4,draft,

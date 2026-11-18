@@ -1,0 +1,29 @@
+{
+  "annotation_status": "draft_for_review",
+  "policy": "v0.1_owner_report_can_complete",
+  "after_m1": {
+    "create": [
+      {"local_id": "A1", "task": "整理三个登录失败案例并发研发群", "owner": "chen", "owner_evidence": "M1.2", "due_text": "这周五下班前", "due_date": "2026-11-13", "due_time": null, "evidence": ["M1.1", "M1.2"], "simulated_guid": "T17"}
+    ],
+    "no_create": [{"evidence": ["M1.3"], "reason": "提出监控面板，明确暂缓"}],
+    "decisions": [{"id": "D1", "statement": "登录改版第一批只对内部员工开放", "evidence": ["M1.4"]}],
+    "minutes_facts": [
+      {"text": "陈可承接整理案例并发研发群，计划周五下班前交付", "evidence": ["M1.1", "M1.2"], "identity_basis": "speaker_map:chen"},
+      {"text": "监控面板暂缓决定", "evidence": ["M1.3"]},
+      {"text": "首批灰度仅对内部员工开放", "evidence": ["M1.4"]}
+    ]
+  },
+  "recaps": [
+    {"meeting": "M2", "viewer": "host", "expected": ["T17", "T18"], "forbidden": []},
+    {"meeting": "M2", "viewer": "guest", "expected": ["T18"], "forbidden": ["T17"]}
+  ],
+  "after_m2": {
+    "update": [{"guid": "T17", "from": "open", "to": "done", "evidence": ["M2.1"]}],
+    "create": [],
+    "decisions": [{"id": "D2", "statement": "登录改版首批包括内部员工和试点客户", "supersedes": "D1", "evidence": ["M2.2"]}],
+    "minutes_facts": [
+      {"text": "负责人报告三个案例已发研发群", "evidence": ["M2.1"]},
+      {"text": "首批灰度增加试点客户", "evidence": ["M2.2"]}
+    ]
+  }
+}

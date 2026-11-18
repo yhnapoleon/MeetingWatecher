@@ -1,0 +1,870 @@
+{
+  "annotation_status": "agent_authored",
+  "is_blind": false,
+  "cases": [
+    {
+      "id": "M2",
+      "meeting": {
+        "case_id": "M2",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "M2",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "end_ms": 14600,
+            "id": "M2.1",
+            "person_ref": "chen",
+            "speaker": "陈可",
+            "speaker_name": "陈可",
+            "start_ms": 10000,
+            "text": "上周说的三个登录失败案例，今天早上我已经发到研发群了。"
+          },
+          {
+            "end_ms": 26500,
+            "id": "M2.2",
+            "person_ref": "host",
+            "speaker": "王宁",
+            "speaker_name": "王宁",
+            "start_ms": 20000,
+            "text": "登录改版第一批的范围今天改一下，内部员工和试点客户都开放。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_design_example",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "SIM-c2760ea80866",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "SIM-c2760ea80866": "done"
+        },
+        "new_tasks": 0,
+        "pending": true,
+        "dates": {
+          "SIM-c2760ea80866": "2026-11-13"
+        },
+        "no_review": false
+      },
+      "meaning": "本人完成旧工作，旧期限保持；范围调整仍待负责人"
+    },
+    {
+      "id": "HT02",
+      "meeting": {
+        "case_id": "HT02",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "HT02",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "HT02.1",
+            "speaker": "陈可",
+            "speaker_name": "陈可",
+            "person_ref": "chen",
+            "text": "上周说的三个登录失败案例我已经整理好并发到研发群了。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-HT02",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-HT02": "done"
+        },
+        "new_tasks": 0,
+        "pending": false,
+        "new_due": null,
+        "dates": {
+          "H-HT02": "2026-11-13"
+        },
+        "no_review": true
+      },
+      "meaning": "上周说的三个登录失败案例我已经整理好并发到研发群了。"
+    },
+    {
+      "id": "HT03",
+      "meeting": {
+        "case_id": "HT03",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "HT03",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "HT03.1",
+            "speaker": "陈可",
+            "speaker_name": "陈可",
+            "person_ref": "chen",
+            "text": "上周已完成的三个登录失败案例整理任务发现漏项，请重新打开，我继续补齐。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-HT03",
+          "status": "done",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-HT03": "open"
+        },
+        "new_tasks": 0,
+        "pending": false,
+        "new_due": null,
+        "dates": {
+          "H-HT03": "2026-11-13"
+        },
+        "no_review": true
+      },
+      "meaning": "上周已完成的三个登录失败案例整理任务发现漏项，请重新打开，我继续补齐。"
+    },
+    {
+      "id": "HT04",
+      "meeting": {
+        "case_id": "HT04",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "HT04",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "HT04.1",
+            "speaker": "陈可",
+            "speaker_name": "陈可",
+            "person_ref": "chen",
+            "text": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-HT04",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        },
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-HT04-other",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-HT04": "open",
+          "H-HT04-other": "open"
+        },
+        "new_tasks": 0,
+        "pending": true,
+        "new_due": null,
+        "dates": {
+          "H-HT04": "2026-11-13",
+          "H-HT04-other": "2026-11-13"
+        },
+        "no_review": false
+      },
+      "meaning": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+    },
+    {
+      "id": "HT05",
+      "meeting": {
+        "case_id": "HT05",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "HT05",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "HT05.1",
+            "speaker": "王宁",
+            "speaker_name": "王宁",
+            "person_ref": "host",
+            "text": "陈可的三个登录失败案例已经整理好发到研发群了，他今天不在。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-HT05",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-HT05": "open"
+        },
+        "new_tasks": 0,
+        "pending": true,
+        "new_due": null,
+        "dates": {
+          "H-HT05": "2026-11-13"
+        },
+        "no_review": false
+      },
+      "meaning": "陈可的三个登录失败案例已经整理好发到研发群了，他今天不在。"
+    },
+    {
+      "id": "HT06",
+      "meeting": {
+        "case_id": "HT06",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "HT06",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "HT06.1",
+            "speaker": "陈可",
+            "speaker_name": "陈可",
+            "person_ref": "chen",
+            "text": "上周三个登录失败案例我已经发到研发群了。另外我会整理这次支付失败的两个案例，2026年11月20日下班前发到支付群。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-HT06",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-HT06": "done"
+        },
+        "new_tasks": 1,
+        "pending": false,
+        "new_due": "2026-11-20",
+        "dates": {
+          "H-HT06": "2026-11-13"
+        },
+        "no_review": true
+      },
+      "meaning": "上周三个登录失败案例我已经发到研发群了。另外我会整理这次支付失败的两个案例，2026年11月20日下班前发到支付群。"
+    },
+    {
+      "id": "HT07",
+      "meeting": {
+        "case_id": "HT07",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "HT07",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "HT07.1",
+            "speaker": "陈可",
+            "speaker_name": "陈可",
+            "person_ref": "chen",
+            "text": "三个登录失败案例还没整理完，截止时间改到2026年11月20日，我会在那天下班前发到研发群。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-HT07",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-HT07": "open"
+        },
+        "new_tasks": 0,
+        "pending": false,
+        "new_due": null,
+        "dates": {
+          "H-HT07": "2026-11-20"
+        },
+        "no_review": true
+      },
+      "meaning": "三个登录失败案例还没整理完，截止时间改到2026年11月20日，我会在那天下班前发到研发群。"
+    },
+    {
+      "id": "HT08",
+      "meeting": {
+        "case_id": "HT08",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "HT08",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "HT08.1",
+            "speaker": "陈可",
+            "speaker_name": "陈可",
+            "person_ref": "chen",
+            "text": "上周三个登录失败案例还没整理好，也没有发到研发群，目前只完成了一个。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-HT08",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-HT08": "open"
+        },
+        "new_tasks": 0,
+        "pending": false,
+        "new_due": null,
+        "dates": {
+          "H-HT08": "2026-11-13"
+        },
+        "no_review": true
+      },
+      "meaning": "上周三个登录失败案例还没整理好，也没有发到研发群，目前只完成了一个。"
+    },
+    {
+      "id": "TU09",
+      "meeting": {
+        "case_id": "TU09",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "TU09",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "TU09.1",
+            "speaker": "陈可",
+            "person_ref": "chen",
+            "text": "三个登录失败案例我在整理，截止时间可能推到2026年11月20日，要不再看看？"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-TU09",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-TU09": "open"
+        },
+        "dates": {
+          "H-TU09": "2026-11-13"
+        },
+        "new_tasks": 0,
+        "new_due": null,
+        "pending": true,
+        "no_review": false,
+        "review_type": "ambiguous"
+      },
+      "meaning": "上周说的三个登录失败案例我已经整理好并发到研发群了。"
+    },
+    {
+      "id": "TU10",
+      "meeting": {
+        "case_id": "TU10",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "TU10",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "TU10.1",
+            "speaker": "陈可",
+            "person_ref": "chen",
+            "text": "三个登录失败案例仍由我整理，取消原先的截止日期，这项任务暂时不设期限。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-TU10",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-TU10": "open"
+        },
+        "dates": {
+          "H-TU10": null
+        },
+        "new_tasks": 0,
+        "new_due": null,
+        "pending": false,
+        "no_review": true,
+        "review_type": null
+      },
+      "meaning": "上周说的三个登录失败案例我已经整理好并发到研发群了。"
+    },
+    {
+      "id": "TU11",
+      "meeting": {
+        "case_id": "TU11",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "TU11",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "TU11.1",
+            "speaker": "陈可",
+            "person_ref": "chen",
+            "text": "三个登录失败案例目前整理完一个。"
+          },
+          {
+            "id": "TU11.2",
+            "speaker": "王宁",
+            "person_ref": "host",
+            "text": "把截止日期改到2026年11月20日。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-TU11",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-TU11": "open"
+        },
+        "dates": {
+          "H-TU11": "2026-11-13"
+        },
+        "new_tasks": 0,
+        "new_due": null,
+        "pending": true,
+        "no_review": false,
+        "review_type": "ambiguous"
+      },
+      "meaning": "上周说的三个登录失败案例我已经整理好并发到研发群了。"
+    },
+    {
+      "id": "TU12",
+      "meeting": {
+        "case_id": "TU12",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "TU12",
+        "roster": {
+          "chen": "陈可",
+          "host": "王宁"
+        },
+        "segments": [
+          {
+            "id": "TU12.1",
+            "speaker": "陈可",
+            "person_ref": "chen",
+            "text": "把我负责的三个登录失败案例整理任务名称改为登录错误样例归档，其他内容不变。"
+          }
+        ],
+        "series": "登录改版",
+        "source": "synthetic_history_time_contrast",
+        "started_at": "2026-11-16T02:00:00+00:00",
+        "timezone": "Asia/Shanghai",
+        "audience": [
+          "host",
+          "chen"
+        ],
+        "writers": [
+          "host"
+        ],
+        "account_map": {
+          "host": "host",
+          "chen": "chen"
+        }
+      },
+      "tasks": [
+        {
+          "due_date": "2026-11-13",
+          "due_text": "这周五下班前",
+          "guid": "H-TU12",
+          "status": "open",
+          "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。",
+          "assignee": "chen",
+          "series": "登录改版",
+          "readers": [
+            "host",
+            "chen"
+          ],
+          "writers": [
+            "host",
+            "chen"
+          ],
+          "origin": "shared_tasklist"
+        }
+      ],
+      "expected": {
+        "statuses": {
+          "H-TU12": "open"
+        },
+        "dates": {
+          "H-TU12": "2026-11-13"
+        },
+        "new_tasks": 0,
+        "new_due": null,
+        "pending": true,
+        "no_review": false,
+        "review_type": "execution_blocked"
+      },
+      "meaning": "上周说的三个登录失败案例我已经整理好并发到研发群了。"
+    }
+  ]
+}

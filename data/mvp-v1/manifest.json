@@ -1,0 +1,229 @@
+{
+  "version": "mvp-v1.0-draft",
+  "raw": [
+    {
+      "path": "raw/AMI_LICENCE.txt",
+      "bytes": 13197,
+      "sha256": "d52fd9c7c19eec9f0bec3107554c10937203e261259d73b01637a61501fec7f7",
+      "source": "ami_public_manual_1.6.2.zip!LICENCE.txt"
+    },
+    {
+      "path": "raw/ami_public_manual_1.6.2.zip",
+      "bytes": 22887865,
+      "sha256": "b56e5babb2496b8795deeeda7e71178d7fbc9963f94276cf2a3f4b56ebbc9f9d",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusAnnotations/ami_public_manual_1.6.2.zip"
+    },
+    {
+      "path": "raw/ES2002a.Corner.avi",
+      "bytes": 49940610,
+      "sha256": "40fdbfda266ca2ecdc56c214738234aa1ec1e21dbbf4d5a1fdd53f974cc2e730",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2002a/video/ES2002a.Corner.avi"
+    },
+    {
+      "path": "raw/ES2002a.Corner.rm",
+      "bytes": 8090368,
+      "sha256": "83a6a6d5e5b266f3e49de2b88be611f2d49b6ebfc2482a8a401f0c3b35390a6f",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2002a/video/ES2002a.Corner.rm"
+    },
+    {
+      "path": "raw/ES2002a.Mix-Headset.rm",
+      "bytes": 2660658,
+      "sha256": "cde9742dce6a9e5c8aa8e5bff61ef56bbb9ace95b29e7eb60d8cdb790aa68126",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2002a/audio/ES2002a.Mix-Headset.rm"
+    },
+    {
+      "path": "raw/ES2002b.Corner.rm",
+      "bytes": 14686419,
+      "sha256": "ec751ec02e59ced96f47ff4dae541dfd9f755b8f5da7dc8f1cd73bfc779cc137",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2002b/video/ES2002b.Corner.rm"
+    },
+    {
+      "path": "raw/ES2002b.Mix-Headset.rm",
+      "bytes": 4764952,
+      "sha256": "9a2fa499cf9f33c61e583c16c42abdf8f661644b98d34b5590bfb1478f9ca3ba",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2002b/audio/ES2002b.Mix-Headset.rm"
+    },
+    {
+      "path": "raw/ES2002c.Corner.rm",
+      "bytes": 15478045,
+      "sha256": "425de5df38030bf45791b03286b1d09d3b69f8fd0382ed371afdc5736308e2bf",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2002c/video/ES2002c.Corner.rm"
+    },
+    {
+      "path": "raw/ES2002c.Mix-Headset.rm",
+      "bytes": 5065852,
+      "sha256": "24402bdae62af183b7acaeee5c3a8d921d7778fa33b6b5e99f5118b0d65a9ec6",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2002c/audio/ES2002c.Mix-Headset.rm"
+    },
+    {
+      "path": "raw/ES2004b.Corner.rm",
+      "bytes": 15068807,
+      "sha256": "8eb8329a5ab01ef6e67fdbd35dfa61d94f5e69b582b96870a763cff53cb2824b",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2004b/video/ES2004b.Corner.rm"
+    },
+    {
+      "path": "raw/ES2004b.Mix-Headset.rm",
+      "bytes": 4903366,
+      "sha256": "cb082538ddfdaee11d707d2dc54ab48680a37f6cd3ee1fe5e18af8d488777577",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2004b/audio/ES2004b.Mix-Headset.rm"
+    },
+    {
+      "path": "raw/ES2004c.Corner.rm",
+      "bytes": 15067782,
+      "sha256": "534c8872d5253e2f5e5b455345c778ca611169f469389693a8f13c1f4ff43bb8",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2004c/video/ES2004c.Corner.rm"
+    },
+    {
+      "path": "raw/ES2004c.Mix-Headset.rm",
+      "bytes": 4879294,
+      "sha256": "a3080d785efb2c1e5bf789b09e4438c7f9ccffe9832ab0ffb2530dfa8f1aa70a",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2004c/audio/ES2004c.Mix-Headset.rm"
+    },
+    {
+      "path": "raw/ES2004d.Corner.rm",
+      "bytes": 14263763,
+      "sha256": "f4475a6284c0c8bc5a8d006f3d3ab17d2d436745c3b7bee5a0f7b536f8fe6610",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2004d/video/ES2004d.Corner.rm"
+    },
+    {
+      "path": "raw/ES2004d.Mix-Headset.rm",
+      "bytes": 4644592,
+      "sha256": "3aec2e5510077e07aae9f9f58cb786d0914d831d5ebeeeca2af5de2872acc429",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2004d/audio/ES2004d.Mix-Headset.rm"
+    },
+    {
+      "path": "raw/ES2008a.Corner.rm",
+      "bytes": 6712937,
+      "sha256": "3c82cf9832b1f5bd203f3228e950f7a244dad91d294c6a084bdf8a9379d6c162",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2008a/video/ES2008a.Corner.rm"
+    },
+    {
+      "path": "raw/ES2008a.Mix-Headset.rm",
+      "bytes": 2181224,
+      "sha256": "f2d511399891c6693910b5601d9e0017c88b5fd9ae6c11ee7e5c0f664b547f80",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2008a/audio/ES2008a.Mix-Headset.rm"
+    },
+    {
+      "path": "raw/ES2008b.Corner.rm",
+      "bytes": 13530368,
+      "sha256": "5ea0216a154b4165e3fed6e5bddfc49cac3b65afee80668943db4bb0991df122",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2008b/video/ES2008b.Corner.rm"
+    },
+    {
+      "path": "raw/ES2008b.Mix-Headset.rm",
+      "bytes": 4664652,
+      "sha256": "6fee6a9c837be543a10f39c59fad3ac7f3775c03a755fc231f4f2bc5bddd2c9b",
+      "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2008b/audio/ES2008b.Mix-Headset.rm"
+    },
+    {
+      "path": "raw/vcsum_LICENSE",
+      "bytes": 1063,
+      "sha256": "cb4b732082a845af53cc3beaacb9f1ed7c124f6406daa547d664b36b65f36e88",
+      "source": "https://raw.githubusercontent.com/hahahawu/VCSum/8e51d72e4e6f3af4074fd5b260b6f6d2e75e86c7/LICENSE"
+    },
+    {
+      "path": "raw/vcsum_overall_context.txt",
+      "bytes": 10598249,
+      "sha256": "12814cb3f20bde67ef785fad89b7720e21761e3f8d8d2d3efc7dedccb2dd76af",
+      "source": "https://raw.githubusercontent.com/hahahawu/VCSum/8e51d72e4e6f3af4074fd5b260b6f6d2e75e86c7/vcsum_data/overall_context.txt"
+    },
+    {
+      "path": "raw/vcsum_short_dev.txt",
+      "bytes": 2199072,
+      "sha256": "6414aa52153aba24dfc4a99c43ec24a47a61361c0d8372ac0e4972d3b41cc4dd",
+      "source": "https://raw.githubusercontent.com/hahahawu/VCSum/8e51d72e4e6f3af4074fd5b260b6f6d2e75e86c7/vcsum_data/short_dev.txt"
+    }
+  ],
+  "clips": [
+    {
+      "path": "clips/C01.mp4",
+      "bytes": 232442,
+      "sha256": "ce232633f575f411344bf67f6ea2ad74f7febe16cd0c3f9190b146e86c9f9395"
+    },
+    {
+      "path": "clips/C02.mp4",
+      "bytes": 218878,
+      "sha256": "cfc0da2615bd5df64aebc7b5d20cf82de04794831511eb1911ed55805f8ce13d"
+    },
+    {
+      "path": "clips/C03.mp4",
+      "bytes": 302365,
+      "sha256": "557a0c0c352e06c1ec4957bb0cfa836b24aad0f468e262ecf81f9e47e5e7873a"
+    },
+    {
+      "path": "clips/C04.mp4",
+      "bytes": 240640,
+      "sha256": "2645a765e2b0097d962baa160cb8d7521971a9be3eb8c7f3cbbd803f9c4cb505"
+    },
+    {
+      "path": "clips/C05.mp4",
+      "bytes": 326415,
+      "sha256": "1b2f039dc046568fb4fcce540327c9cd4e3a3eb78dd122e265a9df4ed20a690a"
+    },
+    {
+      "path": "clips/C06.mp4",
+      "bytes": 167634,
+      "sha256": "80e0ac5ff9a68db3d5e54d8e7dcf782012ecafa4762b1436e12839074ec38d8d"
+    },
+    {
+      "path": "clips/C07.mp4",
+      "bytes": 333925,
+      "sha256": "3aa0ba3b296f5f63036b2ec350a424a804bc7909577d2f950e2878a21fa8b95e"
+    },
+    {
+      "path": "clips/C08.mp4",
+      "bytes": 174885,
+      "sha256": "75743ba6c8703785daf51274c968e6ee2d8441da0f3453d08f0e08519689139c"
+    },
+    {
+      "path": "clips/C09.mp4",
+      "bytes": 321504,
+      "sha256": "e3d190b6b9f87aafbbae3c403336aab1f266cd644cd93f41522b1433c7f7ba93"
+    },
+    {
+      "path": "clips/C10.mp4",
+      "bytes": 102307,
+      "sha256": "d2a4e7818bb2d8a2ed64d26139e0ff43c6777b9beeef9231b20c1784bb775135"
+    },
+    {
+      "path": "clips/C11.mp4",
+      "bytes": 112344,
+      "sha256": "122094045fac603ffd4c125c3361346134af3fd3404c4c0cc8a475503803f409"
+    },
+    {
+      "path": "clips/C12.mp4",
+      "bytes": 175323,
+      "sha256": "6ea78694bc9b17d3043194d685f4eaecf96376bffaf51dac5c3a526ee4370924"
+    },
+    {
+      "path": "clips/C13.mp4",
+      "bytes": 338963,
+      "sha256": "5132b637d14133a2a339a1206d983b8be251f154fa6dae87696bd64211aa5fdd"
+    },
+    {
+      "path": "clips/C14.mp4",
+      "bytes": 497765,
+      "sha256": "8898ae6fe9e755e7feb4e2621b89462824d3ccedc5fa02d2350aad38871ec160"
+    },
+    {
+      "path": "clips/C15.mp4",
+      "bytes": 138955,
+      "sha256": "1d878befb3df371534b02a36979e56accec162a6be33228983b3d3923caf5191"
+    },
+    {
+      "path": "clips/C16.mp4",
+      "bytes": 230516,
+      "sha256": "04894f91ac70d868c0e0bef95f10a66f68b31f498f2297dcbee21979859a6df0"
+    },
+    {
+      "path": "clips/C17.mp4",
+      "bytes": 88127,
+      "sha256": "55cd6d0fa88ae7835188ea278a7d2727bf3e84dcd74462d1796294b1d7296536"
+    },
+    {
+      "path": "clips/C18.mp4",
+      "bytes": 165964,
+      "sha256": "6d004dac698361423e7d393d7603d91b168d73cbc56238f8c07a53a619c503c8"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "id": "PN03",
+      "meeting": {
+        "case_id": "PN03",
+        "meeting_id": "PN03",
+        "series": "PN03",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "PN03.1",
+            "speaker": "甲",
+            "text": "下一次会议前，我具体研究什么？"
+          },
+          {
+            "id": "PN03.2",
+            "speaker": "主持",
+            "text": "说明书吧，大家都堆着却不看。"
+          },
+          {
+            "id": "PN03.3",
+            "speaker": "甲",
+            "text": "好。"
+          }
+        ]
+      },
+      "actor": "host",
+      "source": "runs/no-seeded-source",
+      "expected": {
+        "created": 1,
+        "items": 1,
+        "reason": "明确个人询问自己的研究安排并接受",
+        "no_due": false
+      }
+    }
+  ],
+  "cases_hash": "77497bfdfaf14c9a3073220a3b7b12ab906e25dc974597a9259f66b2dd7a1789",
+  "is_blind": false
+}

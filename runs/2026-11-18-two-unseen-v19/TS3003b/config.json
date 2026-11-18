@@ -1,0 +1,128 @@
+{
+  "strategy": "context-v5",
+  "model": "deepseek-flash",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "prompts": {
+    "facts": "96d71e55441152bc339393394a8e8384551e3863557a701839704f052002232a",
+    "decisions": "5868297a2da42c803e0af05b931baa72b7a7e990b2f00095851e50039ac384aa"
+  },
+  "input_version": 3,
+  "validation_version": 11,
+  "inference": {
+    "track_context": {
+      "thinking": "enabled",
+      "reasoning_effort": "high",
+      "temperature": 1,
+      "max_tokens": 16384
+    },
+    "interpret_work": {
+      "thinking": "enabled",
+      "reasoning_effort": "low",
+      "temperature": 1,
+      "max_tokens": 32768
+    },
+    "check_work": {
+      "thinking": "enabled",
+      "reasoning_effort": "high",
+      "temperature": 1,
+      "max_tokens": 16384
+    }
+  },
+  "decision_review": {
+    "version": 2,
+    "prompts": {
+      "decision_verify": "40453ba089b8426837ef6b160782fb7bca127996219214486826973be7a6f62a",
+      "decision_scan": "898439be67d051f1c5b772eee910b1da556b9a3eecac7516301713a507aef18f",
+      "decision_merge": "f7a357fafbff77c735e293a9449e49ac49826056e3b5fb73c4c91b2193ade214",
+      "decision_reconcile": "0eb5c73d9f658ddea2ed48f8a456c6ff616a345107e0efd89a9700c1bae34e87",
+      "decision_close": "0c9f42138d5e1403b134cac6f7970e28d998eaacfdc37eb549e4b24787b0a82a",
+      "decision_history": "985db2ee4f0c6b939c969d06b9aba81ec5b042cc01ce355a43b73488257c7608"
+    },
+    "implementation": "cab8a2affb93d921ac678dc1efe4fbd7c5a40a494d3aee3b58dafea5c14eb480"
+  },
+  "minutes_review": {
+    "version": 1,
+    "prompts": {
+      "check_minutes": "5b1dee1395579f7b69e2af091b0afb4060bcaa6b48f7f53c81e21c485c35e8e0",
+      "repair_minutes": "645db3034024728bd741a34906c7b6bdf56fb8ccd42292ec2016968848700926",
+      "check_minutes_repair": "5b1dee1395579f7b69e2af091b0afb4060bcaa6b48f7f53c81e21c485c35e8e0"
+    },
+    "code": "ca1df7f2b614051b2bdc04537556ac24c3f738eaf12e698cf7a2d059901f0768"
+  },
+  "task_pipeline": {
+    "version": 19,
+    "repair_enabled": true,
+    "model": "deepseek-flash",
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "inference": {
+      "track_context": {
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "temperature": 1,
+        "max_tokens": 16384
+      },
+      "interpret_work": {
+        "thinking": "enabled",
+        "reasoning_effort": "low",
+        "temperature": 1,
+        "max_tokens": 32768
+      },
+      "check_work": {
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "temperature": 1,
+        "max_tokens": 16384
+      },
+      "repair_work": {
+        "thinking": "enabled",
+        "reasoning_effort": "low",
+        "temperature": 1,
+        "max_tokens": 32768
+      },
+      "check_repair": {
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "temperature": 1,
+        "max_tokens": 16384
+      }
+    },
+    "prompts": {
+      "track_context": "ce51cb63e0b06f82cc71acfc8e399fd1646811ac3fbd590aaffccf177e979ab5",
+      "interpret_work": "f6b5714afa97128035a9dada4e73b6f33723ad76c380fc073ea495f4b861b293",
+      "check_work": "2f66a33ca90178edf512cf5fc37543a171a14630a61729543f26c394b2eb1942",
+      "repair_work": "e3ce4e67ca703c41939494a1a1f62a67d54cd3b613e3983ed06a9d6bda85d344",
+      "check_repair": "b22c4f62f300423399257479de4c7a4014c8e1a2a3e10be71b929a46e5c5dae9"
+    },
+    "code": {
+      "task_pipeline.py": "f9d889e7c5d8541c5df7f0f2555901eca27eb7b5effd6474d4bd517326b81416",
+      "task_events.py": "172405d24aab84e2a9dfd32b557fc9b7e8a3e6757e124ebdc6e0c94add8ccea9",
+      "context_pipeline.py": "79648dc81d01b7ca812dec0df9a02d08b5b0ed54aed759140f6a8d732f619520",
+      "context_state.py": "c307a82b0ea9c8d0a6a795b47ad9543d332fa9281e8a01786260e03f10575a1b",
+      "context_updates.py": "fac9ac6048852e607170d338faaed8dfec896024f49e463e4c0481a252bf33b3",
+      "context_new_work.py": "3ab2dddb9f1dd2535ab2aaeba7ee3843c667ad378e6c84b9c81a1b1c36e5fe77",
+      "context_v2.py": "1bd880fcdb4e9f213a4580b5b99f838e7caba5a4612b1076512d7f4179467a95",
+      "context_protocol.py": "bfd12a0af689e0c252570c98de1fee3e3a3a71497224704cd2e0cb551ed4c51c",
+      "context_coverage.py": "9b94591f004ff264dc0e352141f6e346b5151e1591924ef8fbf678b88524b59f",
+      "context_v3.py": "6e1cacb19be3a19c58b6927a814db2741450cf9ecddda9f9a649168806e82cae",
+      "context_protocol_v3.py": "1abd6147d90d7ee225b58b4925b413ff3c262c1b5da11d98da1bbad17875a8b4",
+      "context_v5.py": "28e7c95679dd5edaba184088a9ddb30753f8c809fddbd33ecd00af136ea8e26c",
+      "context_protocol_v5.py": "75577698034b916b9fb86beb4981eef229afb3c349679078f5b9552976f7d3f1",
+      "context_protocol_v4.py": "9da113036a786ac14fb3e245d9cde35cf403d2d697c8c745424abeddbd960fa9",
+      "context_tracking_reliable.py": "f3f3706489f3b39dd8010696631dbab6666da71371cdf869260eee254b3f56ab",
+      "context_checkpoints.py": "64a1a1af514d9f201f61b8819e1bbdbe0b642307bca04c516588d4628df8d899",
+      "context_wire.py": "8d317b58b658b8380d691975f92e6df374f7ea49e2c2b3ecbab37e62edafc0d0",
+      "reference_repair.py": "f3d99d4ec476780d9ac9e9c9f256bcc537f1a68114ecd8caf9595d050dea2063",
+      "stage_runner.py": "f1f61cdef122c4ce7fa5b68f1918cf6a93c9000cba429f1f18178afbd310bd02",
+      "model_client.py": "92d96ca47a8fea5f735cec311c7f651574f99c36ebc5e4674bf3447497f1afe8",
+      "check_transport.py": "4f8b31895fe94447edee436e0bc37e5f1cdb6b5e4cee3b49950289111b694b9a"
+    },
+    "protocol": "context-v5-system-review",
+    "wire_protocol": "original-source-id-v2",
+    "tracking": {
+      "protocol": "source-grounded-v1",
+      "max_bytes": 6000,
+      "max_segments": 128,
+      "max_split_depth": 1
+    }
+  }
+}

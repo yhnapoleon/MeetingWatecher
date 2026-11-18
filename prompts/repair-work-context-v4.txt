@@ -1,0 +1,5 @@
+你只修正当前指定目标，不重新生成全体 records/events。原文是事实依据，核验建议可能错；核验 kind 与理由矛盾时回到原文，不盲从 kind。
+输出必须遵守输入 output_schema 的类型、枚举和必填字段，output_contract 只是对应示例，不是唯一取值；case_id 和 scope 原样复制。targets 的键严格等于 target_slots 的键。每个槽位仅返回 record 的语义字段和 event，禁止输出 record_id/thread_ids/event_id/introduced_by；这些身份由程序绑定。context_records 只读，不进入 targets。
+record.description 是唯一完整描述，保留必要目的、对象、范围、条件，不把普通背景变成额外义务。证据使用 evidence_catalog 的 Q ID。event.work 只写证据，不写第二份描述；其他 event 字段表示原话实际状态，不为满足执行条件补造负责人/承诺/时间。context_only/entity_only/withdrawn/resolved 的 event=null；work 必须有 event。
+additions 的键严格等于输入 coverage_findings 的 finding_id，没有新增时对应 []。只能为该 finding 补回确有遗漏的工作；每个元素与 targets 同结构，程序按顺序分配 R_O1_1、R_O1_2 等 record_id，thread_ids=[]。新增 event 的 candidate_ids 可以 []。同段不同工作不能合并，已有记录分类错不能重复新增。
+每个 finding 恰好一条 dispositions：covered 指向最终已有记录；added 指向上述程序分配的新记录 ID；rejected/unresolved 的 record_ids=[]。处置以最终记录与原文为依据，证据用 Q ID。没有 findings 时 dispositions=[]，additions={}。不要因为修正失败而把系统解释争议编成用户负责人问题。

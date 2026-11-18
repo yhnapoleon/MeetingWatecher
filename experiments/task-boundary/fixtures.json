@@ -1,0 +1,1492 @@
+{
+  "cases": [
+    {
+      "id": "P01a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P01a",
+        "meeting_id": "P01a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P01a.1",
+            "speaker": "host",
+            "text": "现在在白板画喜欢的动物。"
+          },
+          {
+            "id": "P01a.2",
+            "speaker": "lin",
+            "text": "我先来。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P01b",
+        "meeting_id": "P01b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P01b.1",
+            "speaker": "host",
+            "text": "会后请把白板上的动物图整理后发给大家。"
+          },
+          {
+            "id": "P01b.2",
+            "speaker": "lin",
+            "text": "好。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P02a",
+        "meeting_id": "P02a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P02a.1",
+            "speaker": "host",
+            "text": "遥控器只控制电视，不支持DVD。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P02b",
+        "meeting_id": "P02b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P02b.1",
+            "speaker": "host",
+            "text": "遥控器只控制电视，不支持DVD。小林，请据此修改规格并发评审。"
+          },
+          {
+            "id": "P02b.2",
+            "speaker": "lin",
+            "text": "好。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P03a",
+        "meeting_id": "P03a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P03a.1",
+            "speaker": "host",
+            "text": "今天决定取消图文电视功能。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P03b",
+        "meeting_id": "P03b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P03b.1",
+            "speaker": "host",
+            "text": "取消图文电视功能，小林把这一项从规格表移除。"
+          },
+          {
+            "id": "P03b.2",
+            "speaker": "lin",
+            "text": "好。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P04a",
+        "meeting_id": "P04a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P04a.1",
+            "speaker": "host",
+            "text": "接下来有30分钟做下一阶段工作。我会上传纪要。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P04b",
+        "meeting_id": "P04b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P04b.1",
+            "speaker": "host",
+            "text": "接下来30分钟，小林看组件概念，小周看界面功能。我会上传纪要。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P05a",
+        "meeting_id": "P05a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P05a.1",
+            "speaker": "host",
+            "text": "培训时老师常问：“人事要我们核对孩子信息，能发群里吗？”"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P05b",
+        "meeting_id": "P05b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P05b.1",
+            "speaker": "host",
+            "text": "培训时老师常问：“人事要我们核对孩子信息，能发群里吗？”"
+          },
+          {
+            "id": "P05b.2",
+            "speaker": "host",
+            "text": "说回本园这次核对，小林请核对名单。"
+          },
+          {
+            "id": "P05b.3",
+            "speaker": "lin",
+            "text": "好。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P06a",
+        "meeting_id": "P06a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P06a.1",
+            "speaker": "host",
+            "text": "我在举一个老师们过去常问的问题：怎么恢复出厂设置？"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P06b",
+        "meeting_id": "P06b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P06b.1",
+            "speaker": "host",
+            "text": "客服反馈用户常问怎么恢复出厂设置，这影响我们减少重复咨询的目标，尚未决定怎么做。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P07a",
+        "meeting_id": "P07a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P07a.1",
+            "speaker": "host",
+            "text": "我们可以会后细化这个场景，先作为一个建议。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P07b",
+        "meeting_id": "P07b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P07b.1",
+            "speaker": "host",
+            "text": "小林，这个场景会后细化一下可以吗？"
+          },
+          {
+            "id": "P07b.2",
+            "speaker": "lin",
+            "text": "可以，我来。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P08a",
+        "meeting_id": "P08a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P08a.1",
+            "speaker": "host",
+            "text": "这类遥控器可以支持录像功能。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P08b",
+        "meeting_id": "P08b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P08b.1",
+            "speaker": "lin",
+            "text": "能否支持录像我去了解一下，如果我能查到的话。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P09a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P09a",
+        "meeting_id": "P09a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P09a.1",
+            "speaker": "host",
+            "text": "感谢参加，稍后导览员带大家参观，请在入口集合。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P09b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P09b",
+        "meeting_id": "P09b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P09b.1",
+            "speaker": "host",
+            "text": "导览路线还没排。小林请在活动开始前排好路线并发给导览员。"
+          },
+          {
+            "id": "P09b.2",
+            "speaker": "lin",
+            "text": "好。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P10a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P10a",
+        "meeting_id": "P10a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P10a.1",
+            "speaker": "host",
+            "text": "上一位老师的环节结束，下面交给安老师。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P10b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P10b",
+        "meeting_id": "P10b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P10b.1",
+            "speaker": "host",
+            "text": "这个客户投诉交给安老师跟进。"
+          },
+          {
+            "id": "P10b.2",
+            "speaker": "an",
+            "text": "好。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P11a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P11a",
+        "meeting_id": "P11a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P11a.1",
+            "speaker": "lin",
+            "text": "纪要我已经发了，现在正放入共享文件夹。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P11b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P11b",
+        "meeting_id": "P11b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P11b.1",
+            "speaker": "lin",
+            "text": "我会把纪要发给大家，再放进共享文件夹。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P12a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P12a",
+        "meeting_id": "P12a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P12a.1",
+            "speaker": "host",
+            "text": "之前定的第一批只限员工。现在第一批范围改为员工和试点客户。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P12b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P12b",
+        "meeting_id": "P12b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P12b.1",
+            "speaker": "host",
+            "text": "之前定的第一批只限员工。现在第一批范围改为员工和试点客户。小林今天下班前改好灰度配置并发测试。"
+          },
+          {
+            "id": "P12b.2",
+            "speaker": "lin",
+            "text": "好。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P13a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P13a",
+        "meeting_id": "P13a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P13a.1",
+            "speaker": "host",
+            "text": "有需要可以会后找老师交流。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P13b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P13b",
+        "meeting_id": "P13b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P13b.1",
+            "speaker": "lin",
+            "text": "还有两个问题，我会后单独联系袁老师。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P14a",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P14a",
+        "meeting_id": "P14a",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P14a.1",
+            "speaker": "host",
+            "text": "核对的是哪个页面？"
+          },
+          {
+            "id": "P14a.2",
+            "speaker": "lin",
+            "text": "移动端登录页。"
+          },
+          {
+            "id": "P14a.3",
+            "speaker": "host",
+            "text": "好，清楚了。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P14b",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "P14b",
+        "meeting_id": "P14b",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "P14b.1",
+            "speaker": "lin",
+            "text": "核对的是哪个页面？"
+          },
+          {
+            "id": "P14b.2",
+            "speaker": "host",
+            "text": "移动端登录页。"
+          },
+          {
+            "id": "P14b.3",
+            "speaker": "lin",
+            "text": "好，我来检查这个页面的按钮文案。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R01",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "R01",
+        "meeting_id": "R01",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "R01.1",
+            "speaker": "host",
+            "text": "半小时后再开会。小林，请整理移动端登录页的功能清单。"
+          },
+          {
+            "id": "R01.2",
+            "speaker": "lin",
+            "text": "好。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R02",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "R02",
+        "meeting_id": "R02",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "R02.1",
+            "speaker": "host",
+            "text": "半小时后再开会。小林，请整理移动端登录页的功能清单。"
+          },
+          {
+            "id": "R02.2",
+            "speaker": "zhou",
+            "text": "好。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R03",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "R03",
+        "meeting_id": "R03",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "R03.1",
+            "speaker": "host",
+            "text": "半小时后再开会。小林，请整理移动端登录页的功能清单。"
+          },
+          {
+            "id": "R03.2",
+            "speaker": "lin",
+            "text": "会议时间我可以，任务我还要评估。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R04",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "R04",
+        "meeting_id": "R04",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "R04.1",
+            "speaker": "host",
+            "text": "小周，请整理电脑端注册页的功能清单。"
+          },
+          {
+            "id": "R04.2",
+            "speaker": "zhou",
+            "text": "Okay."
+          }
+        ]
+      }
+    },
+    {
+      "id": "R05",
+      "group": "pairs",
+      "actor": "host",
+      "meeting": {
+        "case_id": "R05",
+        "meeting_id": "R05",
+        "series": "任务边界对照",
+        "language": "zh",
+        "source": "synthetic_boundary_contrast",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "R05.1",
+            "speaker": "host",
+            "text": "先介绍一个培训时老师常问的例子：怎么核对名单？"
+          },
+          {
+            "id": "R05.2",
+            "speaker": "host",
+            "text": "例子中的老师担心姓名重复。"
+          },
+          {
+            "id": "R05.3",
+            "speaker": "host",
+            "text": "我们目前有两个班。"
+          },
+          {
+            "id": "R05.4",
+            "speaker": "host",
+            "text": "一个是大班。"
+          },
+          {
+            "id": "R05.5",
+            "speaker": "host",
+            "text": "一个是小班。"
+          },
+          {
+            "id": "R05.6",
+            "speaker": "host",
+            "text": "两个班的表分开放。"
+          },
+          {
+            "id": "R05.7",
+            "speaker": "host",
+            "text": "先不要把例子当本次工作安排。"
+          },
+          {
+            "id": "R05.8",
+            "speaker": "lin",
+            "text": "我在听介绍。"
+          },
+          {
+            "id": "R05.9",
+            "speaker": "host",
+            "text": "现在安排本次工作：小林核对大班名单中的重复姓名。"
+          },
+          {
+            "id": "R05.10",
+            "speaker": "lin",
+            "text": "好，我来。"
+          }
+        ]
+      }
+    }
+  ]
+}

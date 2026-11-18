@@ -1,0 +1,803 @@
+{
+  "meeting": {
+    "case_id": "HT04",
+    "meeting_date": "2026-11-16",
+    "meeting_id": "HT04",
+    "roster": {
+      "chen": "陈可",
+      "host": "王宁"
+    },
+    "segments": [
+      {
+        "id": "HT04.1",
+        "speaker": "陈可",
+        "speaker_name": "陈可",
+        "person_ref": "chen",
+        "text": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+      }
+    ],
+    "series": "登录改版",
+    "source": "synthetic_history_time_contrast",
+    "started_at": "2026-11-16T02:00:00+00:00",
+    "timezone": "Asia/Shanghai",
+    "audience": [
+      "host",
+      "chen"
+    ],
+    "writers": [
+      "host"
+    ],
+    "account_map": {
+      "host": "host",
+      "chen": "chen"
+    }
+  },
+  "history": {
+    "tasks": [
+      {
+        "due_date": "2026-11-13",
+        "due_text": "这周五下班前",
+        "guid": "H-HT04",
+        "owner_ref": "chen",
+        "status": "open",
+        "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。"
+      },
+      {
+        "due_date": "2026-11-13",
+        "due_text": "这周五下班前",
+        "guid": "H-HT04-other",
+        "owner_ref": "chen",
+        "status": "open",
+        "summary": "整理登录失败的三个案例，并在本周五下班前发到研发群。"
+      }
+    ]
+  },
+  "pipeline": {
+    "checked_records": [
+      {
+        "record_id": "R1",
+        "thread_ids": [
+          "T1"
+        ],
+        "kind": "work",
+        "content_basis": "explicit",
+        "description": "整理上周提到的登录失败案例任务，并已完成、发到群里。",
+        "evidence": [
+          {
+            "segment_id": "HT04.1",
+            "start": 0,
+            "end": 27,
+            "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+          }
+        ],
+        "missing_fields": [],
+        "question": null,
+        "issuer_ref": null,
+        "need_basis": {
+          "goal": null,
+          "evidence": []
+        },
+        "check": {
+          "verdict": "supported",
+          "reason": "陈可报告上周提到的登录失败案例整理任务已完成并发群，属于既有工作的完成汇报，应保留为 work。；描述忠实反映原话：整理登录失败案例任务，已完成并发到群里。",
+          "evidence": [
+            {
+              "segment_id": "HT04.1",
+              "start": 0,
+              "end": 27,
+              "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+            }
+          ],
+          "issues": []
+        },
+        "gap_checks": [],
+        "clarification": {
+          "status": "not_needed",
+          "basis": "陈可报告上周提到的登录失败案例整理任务已完成并发群，属于既有工作的完成汇报，应保留为 work。",
+          "fields": [],
+          "question": null,
+          "evidence": [
+            "Q1"
+          ]
+        },
+        "proposed_kind": null,
+        "event_supported": true,
+        "content_audit": {
+          "verdict": "supported",
+          "reason": "描述忠实反映原话：整理登录失败案例任务，已完成并发到群里。",
+          "evidence": [
+            "Q1"
+          ],
+          "missing_details": []
+        }
+      }
+    ],
+    "checked_events": [
+      {
+        "event_id": "E1",
+        "candidate_ids": [
+          "C1"
+        ],
+        "work": {
+          "evidence": [
+            {
+              "segment_id": "HT04.1",
+              "start": 0,
+              "end": 27,
+              "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+            }
+          ],
+          "description": "整理上周提到的登录失败案例任务，并已完成、发到群里。"
+        },
+        "owner": {
+          "kind": "person",
+          "ref": "chen",
+          "label": "陈可",
+          "evidence": [
+            {
+              "segment_id": "HT04.1",
+              "start": 0,
+              "end": 27,
+              "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+            }
+          ]
+        },
+        "commitment": {
+          "kind": "unknown",
+          "evidence": []
+        },
+        "time": {
+          "kind": "unspecified",
+          "text": null,
+          "date": null,
+          "evidence": [],
+          "change": "keep"
+        },
+        "state": {
+          "kind": "completed",
+          "evidence": [
+            {
+              "segment_id": "HT04.1",
+              "start": 0,
+              "end": 27,
+              "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+            }
+          ]
+        },
+        "relation": {
+          "kind": "ambiguous",
+          "target_guid": null,
+          "evidence": [
+            {
+              "segment_id": "HT04.1",
+              "start": 0,
+              "end": 27,
+              "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+            }
+          ],
+          "candidate_guids": [
+            "H-HT04",
+            "H-HT04-other"
+          ]
+        },
+        "record_id": "R1",
+        "other_changes": [],
+        "checks": {
+          "work": {
+            "verdict": "supported",
+            "reason": "原话明确提到登录失败案例整理任务并已完成发群，工作内容与对象忠实。",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          },
+          "owner": {
+            "verdict": "supported",
+            "reason": "说话人陈可以第一人称报告自己完成，负责人为陈可。",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          },
+          "commitment": {
+            "verdict": "supported",
+            "reason": "这是既有任务的完成汇报，不涉及重新承接，commitment=unknown 忠实。",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          },
+          "time": {
+            "verdict": "supported",
+            "reason": "原话未提出新期限，keep 且 unspecified 忠实；历史期限不需复制。",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          },
+          "state": {
+            "verdict": "supported",
+            "reason": "原话明确“已经做完并发群了”，completed 忠实。",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          },
+          "relation": {
+            "verdict": "supported",
+            "reason": "历史中存在两条同摘要任务 H-HT04 与 H-HT04-other，均与本次完成汇报匹配，无法唯一确定，ambiguous 忠实。",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "coverage_findings": [],
+    "trace": {
+      "checkpoints": [
+        {
+          "through_segment": "HT04.1",
+          "ledger": {
+            "entities": [
+              {
+                "entity_id": "N1",
+                "label": "登录失败案例",
+                "mentions": [
+                  {
+                    "segment_id": "HT04.1",
+                    "start": 0,
+                    "end": 27,
+                    "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+                  }
+                ]
+              }
+            ],
+            "links": [],
+            "threads": [
+              {
+                "thread_id": "T1",
+                "entity_ids": [
+                  "N1"
+                ],
+                "updates": [
+                  {
+                    "after_segment": "HT04.1",
+                    "kind": "work",
+                    "description": "陈可报告：上周提到的登录失败案例整理任务已完成，并已发到群里；这是既有任务的完成汇报。",
+                    "evidence": [
+                      {
+                        "segment_id": "HT04.1",
+                        "start": 0,
+                        "end": 27,
+                        "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "ledger": {
+        "entities": [
+          {
+            "entity_id": "N1",
+            "label": "登录失败案例",
+            "mentions": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          }
+        ],
+        "links": [],
+        "threads": [
+          {
+            "thread_id": "T1",
+            "entity_ids": [
+              "N1"
+            ],
+            "updates": [
+              {
+                "after_segment": "HT04.1",
+                "kind": "work",
+                "description": "陈可报告：上周提到的登录失败案例整理任务已完成，并已发到群里；这是既有任务的完成汇报。",
+                "evidence": [
+                  {
+                    "segment_id": "HT04.1",
+                    "start": 0,
+                    "end": 27,
+                    "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "candidate_id": "C1",
+          "thread_id": "T1",
+          "spans": [
+            {
+              "segment_id": "HT04.1",
+              "start": 0,
+              "end": 27,
+              "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+            }
+          ]
+        }
+      ],
+      "records": [
+        {
+          "record_id": "R1",
+          "thread_ids": [
+            "T1"
+          ],
+          "kind": "work",
+          "content_basis": "explicit",
+          "description": "整理上周提到的登录失败案例任务，并已完成、发到群里。",
+          "evidence": [
+            {
+              "segment_id": "HT04.1",
+              "start": 0,
+              "end": 27,
+              "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+            }
+          ],
+          "missing_fields": [],
+          "question": null,
+          "issuer_ref": null,
+          "need_basis": {
+            "goal": null,
+            "evidence": []
+          }
+        }
+      ],
+      "events": [
+        {
+          "event_id": "E1",
+          "candidate_ids": [
+            "C1"
+          ],
+          "work": {
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ],
+            "description": "整理上周提到的登录失败案例任务，并已完成、发到群里。"
+          },
+          "owner": {
+            "kind": "person",
+            "ref": "chen",
+            "label": "陈可",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          },
+          "commitment": {
+            "kind": "unknown",
+            "evidence": []
+          },
+          "time": {
+            "kind": "unspecified",
+            "text": null,
+            "date": null,
+            "evidence": [],
+            "change": "keep"
+          },
+          "state": {
+            "kind": "completed",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          },
+          "relation": {
+            "kind": "ambiguous",
+            "target_guid": null,
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ],
+            "candidate_guids": [
+              "H-HT04",
+              "H-HT04-other"
+            ]
+          },
+          "record_id": "R1",
+          "other_changes": []
+        }
+      ],
+      "checked_events": [
+        {
+          "event_id": "E1",
+          "candidate_ids": [
+            "C1"
+          ],
+          "work": {
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ],
+            "description": "整理上周提到的登录失败案例任务，并已完成、发到群里。"
+          },
+          "owner": {
+            "kind": "person",
+            "ref": "chen",
+            "label": "陈可",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          },
+          "commitment": {
+            "kind": "unknown",
+            "evidence": []
+          },
+          "time": {
+            "kind": "unspecified",
+            "text": null,
+            "date": null,
+            "evidence": [],
+            "change": "keep"
+          },
+          "state": {
+            "kind": "completed",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ]
+          },
+          "relation": {
+            "kind": "ambiguous",
+            "target_guid": null,
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ],
+            "candidate_guids": [
+              "H-HT04",
+              "H-HT04-other"
+            ]
+          },
+          "record_id": "R1",
+          "other_changes": [],
+          "checks": {
+            "work": {
+              "verdict": "supported",
+              "reason": "原话明确提到登录失败案例整理任务并已完成发群，工作内容与对象忠实。",
+              "evidence": [
+                {
+                  "segment_id": "HT04.1",
+                  "start": 0,
+                  "end": 27,
+                  "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+                }
+              ]
+            },
+            "owner": {
+              "verdict": "supported",
+              "reason": "说话人陈可以第一人称报告自己完成，负责人为陈可。",
+              "evidence": [
+                {
+                  "segment_id": "HT04.1",
+                  "start": 0,
+                  "end": 27,
+                  "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+                }
+              ]
+            },
+            "commitment": {
+              "verdict": "supported",
+              "reason": "这是既有任务的完成汇报，不涉及重新承接，commitment=unknown 忠实。",
+              "evidence": [
+                {
+                  "segment_id": "HT04.1",
+                  "start": 0,
+                  "end": 27,
+                  "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+                }
+              ]
+            },
+            "time": {
+              "verdict": "supported",
+              "reason": "原话未提出新期限，keep 且 unspecified 忠实；历史期限不需复制。",
+              "evidence": [
+                {
+                  "segment_id": "HT04.1",
+                  "start": 0,
+                  "end": 27,
+                  "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+                }
+              ]
+            },
+            "state": {
+              "verdict": "supported",
+              "reason": "原话明确“已经做完并发群了”，completed 忠实。",
+              "evidence": [
+                {
+                  "segment_id": "HT04.1",
+                  "start": 0,
+                  "end": 27,
+                  "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+                }
+              ]
+            },
+            "relation": {
+              "verdict": "supported",
+              "reason": "历史中存在两条同摘要任务 H-HT04 与 H-HT04-other，均与本次完成汇报匹配，无法唯一确定，ambiguous 忠实。",
+              "evidence": [
+                {
+                  "segment_id": "HT04.1",
+                  "start": 0,
+                  "end": 27,
+                  "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "uncovered_spans": [],
+      "checked_records": [
+        {
+          "record_id": "R1",
+          "thread_ids": [
+            "T1"
+          ],
+          "kind": "work",
+          "content_basis": "explicit",
+          "description": "整理上周提到的登录失败案例任务，并已完成、发到群里。",
+          "evidence": [
+            {
+              "segment_id": "HT04.1",
+              "start": 0,
+              "end": 27,
+              "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+            }
+          ],
+          "missing_fields": [],
+          "question": null,
+          "issuer_ref": null,
+          "need_basis": {
+            "goal": null,
+            "evidence": []
+          },
+          "check": {
+            "verdict": "supported",
+            "reason": "陈可报告上周提到的登录失败案例整理任务已完成并发群，属于既有工作的完成汇报，应保留为 work。；描述忠实反映原话：整理登录失败案例任务，已完成并发到群里。",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ],
+            "issues": []
+          },
+          "gap_checks": [],
+          "clarification": {
+            "status": "not_needed",
+            "basis": "陈可报告上周提到的登录失败案例整理任务已完成并发群，属于既有工作的完成汇报，应保留为 work。",
+            "fields": [],
+            "question": null,
+            "evidence": [
+              "Q1"
+            ]
+          },
+          "proposed_kind": null,
+          "event_supported": true,
+          "content_audit": {
+            "verdict": "supported",
+            "reason": "描述忠实反映原话：整理登录失败案例任务，已完成并发到群里。",
+            "evidence": [
+              "Q1"
+            ],
+            "missing_details": []
+          }
+        }
+      ],
+      "coverage_scope": "b282efc6b12e274be8ece7bff3f31d215f60df0cfdbd1fad65501ac0a1da1536",
+      "coverage_findings": [],
+      "coverage_plan": {
+        "scope": "b282efc6b12e274be8ece7bff3f31d215f60df0cfdbd1fad65501ac0a1da1536",
+        "records": [
+          {
+            "record_id": "R1",
+            "thread_ids": [
+              "T1"
+            ],
+            "kind": "work",
+            "content_basis": "explicit",
+            "description": "整理上周提到的登录失败案例任务，并已完成、发到群里。",
+            "evidence": [
+              {
+                "segment_id": "HT04.1",
+                "start": 0,
+                "end": 27,
+                "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+              }
+            ],
+            "missing_fields": [],
+            "question": null,
+            "issuer_ref": null,
+            "need_basis": {
+              "goal": null,
+              "evidence": []
+            },
+            "check": {
+              "verdict": "supported",
+              "reason": "陈可报告上周提到的登录失败案例整理任务已完成并发群，属于既有工作的完成汇报，应保留为 work。；描述忠实反映原话：整理登录失败案例任务，已完成并发到群里。",
+              "evidence": [
+                {
+                  "segment_id": "HT04.1",
+                  "start": 0,
+                  "end": 27,
+                  "quote": "上周说的那项登录失败案例整理任务，我已经做完并发群了。"
+                }
+              ],
+              "issues": []
+            },
+            "gap_checks": [],
+            "clarification": {
+              "status": "not_needed",
+              "basis": "陈可报告上周提到的登录失败案例整理任务已完成并发群，属于既有工作的完成汇报，应保留为 work。",
+              "fields": [],
+              "question": null,
+              "evidence": [
+                "Q1"
+              ]
+            },
+            "proposed_kind": null,
+            "event_supported": true,
+            "content_audit": {
+              "verdict": "supported",
+              "reason": "描述忠实反映原话：整理登录失败案例任务，已完成并发到群里。",
+              "evidence": [
+                "Q1"
+              ],
+              "missing_details": []
+            }
+          }
+        ],
+        "findings": [],
+        "catalog": [
+          "Q1"
+        ],
+        "target_record_ids": [],
+        "needs_repair": false
+      },
+      "errors": [],
+      "config": {
+        "version": 12,
+        "repair_enabled": true,
+        "model": "deepseek-flash",
+        "endpoint": "https://api.deepseek.com/chat/completions",
+        "inference": {
+          "track_context": {
+            "thinking": "enabled",
+            "reasoning_effort": "high",
+            "temperature": 1,
+            "max_tokens": 16384
+          },
+          "interpret_work": {
+            "thinking": "enabled",
+            "reasoning_effort": "high",
+            "temperature": 1,
+            "max_tokens": 16384
+          },
+          "check_work": {
+            "thinking": "disabled",
+            "temperature": 0,
+            "max_tokens": 16384
+          },
+          "repair_work": {
+            "thinking": "enabled",
+            "reasoning_effort": "high",
+            "temperature": 1,
+            "max_tokens": 16384
+          },
+          "check_repair": {
+            "thinking": "disabled",
+            "temperature": 0,
+            "max_tokens": 16384
+          }
+        },
+        "checkpoint_size": 8,
+        "prompts": {
+          "track_context": "974cb0a9e9076108d17b37b12a94527322614f74eb10f930abaec50c77aff2d9",
+          "interpret_work": "f66b60740728729406a008a1810d480665e5432ed9ef7b4d6e4495179066230b",
+          "check_work": "bc1356d4312b066025f0c5e77f686c601b7ba88af155ee381c4d5d536657ee77",
+          "repair_work": "e35b090ed3dde23074ec585935155ed5a8ca35d8ef299d0f2f78aa155f107a86",
+          "check_repair": "f5952f3a10cf8cc52a98f454d381c6f284dda3e22ba69f312a314f6fee62d1b9"
+        },
+        "code": {
+          "task_pipeline.py": "f9d889e7c5d8541c5df7f0f2555901eca27eb7b5effd6474d4bd517326b81416",
+          "task_events.py": "172405d24aab84e2a9dfd32b557fc9b7e8a3e6757e124ebdc6e0c94add8ccea9",
+          "context_pipeline.py": "79648dc81d01b7ca812dec0df9a02d08b5b0ed54aed759140f6a8d732f619520",
+          "context_state.py": "ca3ef310acc56e583f8e04670d19369d43b7b2550350c62c1f97d3bcd7749d8e",
+          "context_updates.py": "fac9ac6048852e607170d338faaed8dfec896024f49e463e4c0481a252bf33b3",
+          "context_new_work.py": "fce3489becaa3b4d094c9fd08f8886affc42fa177e355e4ab67816f6ae248f5e",
+          "context_v2.py": "85685223a69374af43ae419bacc388cfb1bf93a5f01ffdae772e7af5d5578477",
+          "context_protocol.py": "bfd12a0af689e0c252570c98de1fee3e3a3a71497224704cd2e0cb551ed4c51c",
+          "context_coverage.py": "9b94591f004ff264dc0e352141f6e346b5151e1591924ef8fbf678b88524b59f",
+          "context_v3.py": "1f54802c740d4c586f0e47f6a7e7ad53a20cd27c865358edc3b80fab6f83a4f5",
+          "context_protocol_v3.py": "1abd6147d90d7ee225b58b4925b413ff3c262c1b5da11d98da1bbad17875a8b4",
+          "context_v5.py": "cd7804b913d47f6c4188310dd78221dff24d0b998ba89af142bca83fb67e9141",
+          "context_protocol_v5.py": "93b781872545abb9e0c5b38aff8108fad952f601e8a6ff9886f974211786af53",
+          "context_protocol_v4.py": "9da113036a786ac14fb3e245d9cde35cf403d2d697c8c745424abeddbd960fa9",
+          "context_tracking_v5.py": "bc7f55056973eca1f8cacba62c1eb8fe11ea47f81e4d9f77a12f77575b813c4e"
+        },
+        "protocol": "context-v5-incremental-evidence",
+        "experiment_variant": "b",
+        "experiment_freeze": "none"
+      }
+    }
+  }
+}

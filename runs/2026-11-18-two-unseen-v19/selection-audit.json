@@ -1,0 +1,10 @@
+{
+  "meetings": [
+    "IS1000a",
+    "TS3003b"
+  ],
+  "selection": "First qualifying unused IS and TS groups alphabetically; >=2 action and decision sentences, under40min.",
+  "prior_search": "rg -l IS1000a|TS3003b across project excluding zip/sqlite/pyc and raw archive. Only data/generalization-v1/raw/qmsum-tree.json matched; filename metadata, not prior inference.",
+  "scope": "Independent full meetings, different cohorts, same scenario domain; not cross-domain generalization.",
+  "annotation_timing": "Both full transcripts read before model inference. Original references preserved and curated references frozen."
+}

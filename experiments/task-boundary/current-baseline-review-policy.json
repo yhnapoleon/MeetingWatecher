@@ -1,0 +1,24 @@
+{
+  "version": "current-baseline-2026-11-17",
+  "scope": "One fresh round: original 95 scenarios plus 20 semantic-v1 cases; report both strata and combined result.",
+  "authorship": "Assistant source-based review; not independent human gold and not a blind holdout.",
+  "freeze": "Freeze before new predictions. No production code, prompts, labels, inference configuration, or policy changes during this run.",
+  "sampling": "Exactly one outer evaluation per scenario; only the existing bounded technical recovery is allowed. No manual grants and no best-of reruns. Original failures count.",
+  "metrics": {
+    "technical_completion": "All required source processing nodes completed, processed with no extraction errors. A chain requires both M1 and M2 and no runner exception.",
+    "semantic_correctness_given_completion": "Source-reviewed semantically correct complete scenarios divided by all technically complete scenarios; show numerator and denominator.",
+    "end_to_end": "Technically complete, semantically correct and required persistence/side effects correct scenarios divided by all scheduled scenarios. Incomplete and semantic failures both count as non-pass.",
+    "automatic_contract": "Report existing automatic contract gates separately; parsed/processed/automatic PASS is not semantic correctness.",
+    "unresolved_semantic20": "Against frozen semantic-v1 required_unresolved, count retained and missing propositions in the required field, plus unsupported additions; no keyword-only grading.",
+    "usage": "All recorded requests, known tokens, unknown-usage requests, local normalization, automatic retries, waiting and exhausted nodes. Never count unknown usage as zero."
+  },
+  "review": {
+    "required": "Use current manifest rules, user-policy overlay and semantic-v1 frozen expectations. Equivalent wording and reasonable merge/split are permitted if roles, objects, scope, commitments, dates and final state are preserved.",
+    "unsupported": "Inspect facts, decisions, unresolved, work descriptions, owner/commitment/time, review questions and actual writes against source. A system diagnosis with no business instruction is distinguished from an invented user obligation.",
+    "collection": "A verified unresolved issue with stable collected_issues entry and evidence can satisfy issue collection even when the work branch retains interpretation_unresolved, provided no required real work is lost and no unsupported task or action question is introduced. Apply by source meaning, not by case ID or evidence overlap alone.",
+    "real_work_unresolved": "If an actual required work remains unrepresented or cannot be safely interpreted, record business incomplete even if the technical status is processed; do not excuse it via issue collection.",
+    "optional": "Do not penalize omitted optional content. Added content still requires source support. Formatting or non-obstructive duplication is recorded separately from semantic failure.",
+    "known_semantic_failures": "C11, C24, P08b, CP01, SV15 are evaluated normally, not excluded, automatically failed, or tuned during this run.",
+    "disputed_labels": "Keep the pre-run contract score; record ambiguity and a sensitivity analysis separately. Do not rewrite labels to make current predictions pass."
+  }
+}

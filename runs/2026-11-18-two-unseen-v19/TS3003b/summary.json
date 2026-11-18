@@ -1,0 +1,16 @@
+{
+  "status": "processed",
+  "seconds": 897.32,
+  "calls": 20,
+  "tokens": 1211247,
+  "counts": {
+    "items": 5,
+    "facts": 20,
+    "unresolved": 10,
+    "decisions": 10,
+    "updates": 0
+  },
+  "errors": [],
+  "repeat_no_model_calls": true,
+  "reopen_consistent": true
+}

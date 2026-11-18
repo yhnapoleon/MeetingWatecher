@@ -1,0 +1,478 @@
+{
+  "annotation_status": "agent_authored",
+  "is_blind": false,
+  "cases_hash": "a1508272142d63e47b8c51223fe12ad947c74698de478d25e14304aa54770940",
+  "cases": [
+    {
+      "id": "FP01",
+      "meeting": {
+        "case_id": "FP01",
+        "meeting_id": "FP01",
+        "series": "FP01",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "FP01.1",
+            "speaker": "甲",
+            "text": "我来整理合同，下次会前完成。"
+          }
+        ]
+      },
+      "expected": {
+        "created": 1,
+        "items": 1,
+        "review": false,
+        "due_text": "下次会前"
+      }
+    },
+    {
+      "id": "FP02",
+      "meeting": {
+        "case_id": "FP02",
+        "meeting_id": "FP02",
+        "series": "FP02",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "FP02.1",
+            "speaker": "甲",
+            "text": "我来核对这份合同的付款条款，目前没有约定截止时间。"
+          }
+        ]
+      },
+      "expected": {
+        "created": 1,
+        "items": 1,
+        "review": false,
+        "no_date": true
+      }
+    },
+    {
+      "id": "FP03",
+      "meeting": {
+        "case_id": "FP03",
+        "meeting_id": "FP03",
+        "series": "FP03",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "FP03.1",
+            "speaker": "主持",
+            "text": "小林，请整理付款记录。"
+          },
+          {
+            "id": "FP03.2",
+            "speaker": "乙",
+            "text": "好的，我听到了。"
+          },
+          {
+            "id": "FP03.3",
+            "speaker": "主持",
+            "text": "小林还没有回复是否承接。"
+          }
+        ]
+      },
+      "expected": {
+        "created": 0,
+        "items": 1,
+        "review": true,
+        "missing": [
+          "commitment"
+        ]
+      }
+    },
+    {
+      "id": "FP04",
+      "meeting": {
+        "case_id": "FP04",
+        "meeting_id": "FP04",
+        "series": "FP04",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "FP04.1",
+            "speaker": "甲",
+            "text": "我们可以在会后整理一下访谈意见。"
+          },
+          {
+            "id": "FP04.2",
+            "speaker": "主持",
+            "text": "这只是建议，还没有决定是否做。"
+          }
+        ]
+      },
+      "expected": {
+        "created": 0,
+        "items": 0,
+        "review": true,
+        "missing": [
+          "commitment"
+        ]
+      }
+    },
+    {
+      "id": "FP05",
+      "meeting": {
+        "case_id": "FP05",
+        "meeting_id": "FP05",
+        "series": "FP05",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "FP05.1",
+            "speaker": "主持",
+            "text": "谁来检查合同条款？"
+          },
+          {
+            "id": "FP05.2",
+            "speaker": "甲",
+            "text": "这个我可以承担，我负责检查合同条款。"
+          }
+        ]
+      },
+      "expected": {
+        "created": 1,
+        "items": 1,
+        "review": false
+      }
+    },
+    {
+      "id": "FP06",
+      "meeting": {
+        "case_id": "FP06",
+        "meeting_id": "FP06",
+        "series": "FP06",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "FP06.1",
+            "speaker": "甲",
+            "text": "我来整理付款记录。"
+          },
+          {
+            "id": "FP06.2",
+            "speaker": "主持",
+            "text": "期限可能周四也可能周五，等客户回复再决定。"
+          },
+          {
+            "id": "FP06.3",
+            "speaker": "甲",
+            "text": "工作我先做，期限还没确定。"
+          }
+        ]
+      },
+      "expected": {
+        "created": 0,
+        "items": 1,
+        "review": true,
+        "no_date": true,
+        "missing": [
+          "time"
+        ]
+      }
+    },
+    {
+      "id": "FP07",
+      "meeting": {
+        "case_id": "FP07",
+        "meeting_id": "FP07",
+        "series": "FP07",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "FP07.1",
+            "speaker": "主持",
+            "text": "客户总问怎么恢复设备设置，虽然操作指南写了，但很多人不看。"
+          },
+          {
+            "id": "FP07.2",
+            "speaker": "乙",
+            "text": "这影响了减少重复咨询的目标。"
+          },
+          {
+            "id": "FP07.3",
+            "speaker": "主持",
+            "text": "还没决定具体做什么，也没安排负责人。"
+          }
+        ]
+      },
+      "expected": {
+        "created": 0,
+        "items": 0,
+        "review": true,
+        "category": "implicit_need"
+      }
+    },
+    {
+      "id": "FP08",
+      "meeting": {
+        "case_id": "FP08",
+        "meeting_id": "FP08",
+        "series": "FP08",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "FP08.1",
+            "speaker": "主持",
+            "text": "大家稍后会收到系统自动发送的通知邮件。"
+          },
+          {
+            "id": "FP08.2",
+            "speaker": "甲",
+            "text": "好的，知道了。"
+          },
+          {
+            "id": "FP08.3",
+            "speaker": "主持",
+            "text": "这只是通知，没有后续工作安排。"
+          }
+        ]
+      },
+      "expected": {
+        "created": 0,
+        "items": 0,
+        "review": false
+      }
+    }
+  ]
+}

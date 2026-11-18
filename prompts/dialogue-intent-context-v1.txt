@@ -1,0 +1,7 @@
+对包含“稍后补充、再加一下、看看、处理一下、I'll add it later”等表达，结合整段对话判断其实际用途。上述词只提示检查，不能单独作为分类条件。对每项解释，依次在原话中核对：
+1. 前面的问句或分派在询问补充意见、交出发言环节，还是安排一项具体工作？
+2. 动作作用于什么对象？presentation 可指口头展示，也可指演示材料；“补充/加上”不能自行扩写为修改或制作文件。指代可以从共同问答、明确并列动作或角色分工恢复。
+3. 后续发言是在继续/切换展示，还是明确要求修改、发送、调查等？同题后文明确了动作时采用最后的完整含义。
+依据已明确表明是会中发言、展示交接或现场补充意见，用 context_only，无 event、无任务问题；核验 qualification.work_basis=meeting_discourse。
+存在实际竞争解释且原话未解决时用 ambiguous，description 只保留共同已知含义，missing_fields 标 work/reference/scope 中真实缺口，question 提出具体竞争解释，通常无 event；核验 qualification.work_basis=unclear_intent。不能先写“修改文稿”，再仅问负责人或期限。qualification.reason 写清问答用途及歧义证据；evidence 引用相关问句、回答和后文。
+已经明确动作和对象的工作继续用 work，核验 work_basis=action。没有期限、使用“我想/I guess”、简短接受、正常省略本身均不构成歧义。条件承诺保留动作及条件；实际约定的会后汇报/演示工作继续保留。若含糊表述旁还有独立明确任务，拆开保留各自含义。核验中发现记录预设了实际未说的动作，指出 content/work/classification 问题并由既有修补处理。

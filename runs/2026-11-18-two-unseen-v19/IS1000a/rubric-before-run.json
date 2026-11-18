@@ -1,0 +1,13 @@
+{
+  "task_scope": "Source-supported future work or accepted personal commitment. Include items and can_add_task cards, deduplicate by record_id.",
+  "task_prediction_unit": "A meaningful task identity. A bundled prediction may hit multiple reference actions without multiplying prediction TP.",
+  "decision_scope": "Source-supported adopted business direction, communicated constraint, or agreed operational decision; separate routing overlap from false content.",
+  "decision_prediction_unit": "Independent content claims, grouping semantically identical claims. Do not change atomization based on correctness.",
+  "acceptance": "Accept semantic paraphrase, reasonable source-grounded implications, conditional adoption, and appropriate bundling. Do not infer owner, hard dates, execution scope or finality beyond evidence.",
+  "false_positive": "Unsupported content, stale/reversed final state, material wrong entity/value/owner, or unaccepted proposal presented as commitment.",
+  "reference_scope": "Human source-first reannotation with acceptable and unacceptable answers, frozen before inference. Original AMI labels preserved; report original coverage separately.",
+  "review": "Primary assistant personally reads full input and each prediction with source context. Corpus/model labels are evidence, not automatic truth.",
+  "revisions": "Any post-run reference correction must retain frozen reference and document source, reason, and effect on metrics in a separate file.",
+  "technical_retry_policy": "Existing automatic recovery plus at most one explicit Service retry batch per meeting for technical failure. Preserve first-attempt outputs. No semantic reruns.",
+  "no_tuning": "Identical v19 production code, prompts, model and inference to prior retest; two independent empty histories."
+}

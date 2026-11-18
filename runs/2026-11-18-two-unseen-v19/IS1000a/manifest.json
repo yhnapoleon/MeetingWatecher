@@ -1,0 +1,82 @@
+{
+  "meeting_id": "IS1000a",
+  "scope": "Complete Service, independent empty history, fresh model outputs",
+  "original_metadata": {
+    "{http://nite.sourceforge.net/}id": "meet_1",
+    "type": "scenario",
+    "observation": "IS1000a",
+    "name": "AMI scenario meeting",
+    "dateOnly": "29-10-2004",
+    "startTime": "10h46",
+    "description": "AMI scenario Hub -- meeting ",
+    "duration": "1490",
+    "visibility": "seen",
+    "seen_type": "training",
+    "k10": "1",
+    "k5": "1"
+  },
+  "segments": 389,
+  "word_coverage": {
+    "D": {
+      "source_tokens": 538,
+      "covered_tokens": 538,
+      "orphan_punctuation": 0,
+      "recovered_word_ids": [],
+      "lexical_coverage": 1.0
+    },
+    "B": {
+      "source_tokens": 1816,
+      "covered_tokens": 1816,
+      "orphan_punctuation": 0,
+      "recovered_word_ids": [],
+      "lexical_coverage": 1.0
+    },
+    "A": {
+      "source_tokens": 485,
+      "covered_tokens": 485,
+      "orphan_punctuation": 0,
+      "recovered_word_ids": [],
+      "lexical_coverage": 1.0
+    },
+    "C": {
+      "source_tokens": 661,
+      "covered_tokens": 661,
+      "orphan_punctuation": 0,
+      "recovered_word_ids": [],
+      "lexical_coverage": 1.0
+    }
+  },
+  "inference": {
+    "track_context": {
+      "thinking": "enabled",
+      "reasoning_effort": "high",
+      "temperature": 1,
+      "max_tokens": 16384
+    },
+    "interpret_work": {
+      "thinking": "enabled",
+      "reasoning_effort": "low",
+      "temperature": 1,
+      "max_tokens": 32768
+    },
+    "check_work": {
+      "thinking": "enabled",
+      "reasoning_effort": "high",
+      "temperature": 1,
+      "max_tokens": 16384
+    }
+  },
+  "decision_review": true,
+  "source_sha256": "b56e5babb2496b8795deeeda7e71178d7fbc9963f94276cf2a3f4b56ebbc9f9d",
+  "input_sha256": "ed26eb391397539fd471500fe27bb87eaeacf2b85b62287b818ccb315859cf97",
+  "prior_exposure": "No local experiment/document/model-output match before preparation. Only qmsum-tree.json raw filename metadata matched. Different participant groups from prior ES2002 and IB400x, same AMI remote-control scenario domain.",
+  "selection": "First alphabetically in each IS and TS group with >=2 action and >=2 decision sentences, under 40 minutes, no local previous experiment. Selected before inference.",
+  "reference_sha256": "a42a86f3d566e16ea0156aa9ad99fb13ae85f21e8d4475ec85b473f648a3b963",
+  "rubric_sha256": "2080088ab315562b2665de191b38c2194283d2233cbe94ab46dc45e204285b03",
+  "annotation_phase": "Source-first full transcript read by primary assistant; acceptable answers frozen before inference.",
+  "limitations": [
+    "Two new local meetings in different participant groups, same AMI remote-control scenario domain.",
+    "Human reannotated references, with original AMI reference coverage reported separately.",
+    "Acceptable semantic answers explicitly listed; no multi-rater agreement measured."
+  ]
+}

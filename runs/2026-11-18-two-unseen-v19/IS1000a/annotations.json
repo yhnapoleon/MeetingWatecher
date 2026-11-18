@@ -1,0 +1,283 @@
+{
+  "tasks": [
+    {
+      "record_id": "R16",
+      "verdict": "TP",
+      "reference_hits": [
+        "T1",
+        "T2"
+      ],
+      "reason": "370–377段确有一般设计与技术功能设计分派，输出保留两种工作及灵活设计要求，按工作内容可同时命中。C紧邻回应Yeah,sure使其承接并非凭空捏造，但文本连续you不足以证实两份职责均归C；原角色/AMI分别指向UI与ID。主分计内容正确，负责人字段保留争议；含负责人绑定的严格伴随评分不通过本条。",
+      "checked_turns": [
+        294,
+        295,
+        305,
+        370,
+        372,
+        373,
+        375,
+        376,
+        377,
+        388
+      ],
+      "owner_review": "两份职责合并后全绑定C不可靠。应拆分UI一般设计/ID技术设计，或显式待确认；不能宣称负责人验证通过。",
+      "strict_record_verdict": "FP",
+      "strict_reference_hits": []
+    },
+    {
+      "record_id": "R15",
+      "verdict": "TP",
+      "reference_hits": [
+        "T3"
+      ],
+      "reason": "337、340及378–382段明确要求思考用户需求和互联网取舍，描述受支持。原文you two/you and you指代含混，输出保留组且以candidate/承接确认呈现，可接受；不强行要求已定位到Anna才算工作内容召回。",
+      "checked_turns": [
+        337,
+        340,
+        378,
+        379,
+        381,
+        382,
+        388
+      ],
+      "owner_review": "任务内容正确，人员尚未落实；原AMI营销角色未被结构化定位。",
+      "strict_record_verdict": "TP",
+      "strict_reference_hits": [
+        "T3"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "index": 1,
+      "reference_hits": [
+        "D8"
+      ],
+      "claims": [
+        {
+          "name": "功能、概念、详细设计阶段",
+          "verdict": "TP",
+          "reason": "63–67段主持人说明三个阶段，并说后续阶段同样开会讨论。"
+        }
+      ],
+      "checked_turns": [
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "index": 2,
+      "reference_hits": [
+        "D7"
+      ],
+      "claims": [
+        {
+          "name": "原创、时尚、易用的设计目标",
+          "verdict": "TP",
+          "reason": "60–62段提出，271段再次作为讨论前提。按一组产品设计目标计，不按每个形容词增加TP。"
+        }
+      ],
+      "checked_turns": [
+        60,
+        61,
+        62,
+        271
+      ]
+    },
+    {
+      "index": 3,
+      "reference_hits": [],
+      "claims": [
+        {
+          "name": "使用共享文件夹与白板开展协作和会中熟悉",
+          "verdict": "TP",
+          "reason": "51–54、76–88段有工具安排并实际试用。可以算操作性安排；没有把会中练习变为会后任务，也没有声称已掌握共享文件夹。"
+        }
+      ],
+      "checked_turns": [
+        51,
+        54,
+        76,
+        78,
+        79,
+        82,
+        83,
+        84,
+        88,
+        238
+      ],
+      "routing_issue": "操作性安排，可放流程/事实，不算虚构"
+    },
+    {
+      "index": 4,
+      "reference_hits": [
+        "D1",
+        "D2"
+      ],
+      "claims": [
+        {
+          "name": "售价约25欧元",
+          "verdict": "TP",
+          "reason": "243段明确目标售价，输出保留约数。"
+        },
+        {
+          "name": "生产成本上限12.5欧元",
+          "verdict": "TP",
+          "reason": "255段明确maximal，输出最高12.50正确。"
+        }
+      ],
+      "checked_turns": [
+        243,
+        247,
+        255,
+        256,
+        257
+      ]
+    },
+    {
+      "index": 5,
+      "reference_hits": [
+        "D3"
+      ],
+      "claims": [
+        {
+          "name": "利润目标5000万欧元",
+          "verdict": "TP",
+          "reason": "251段profit aim，未写成已实现利润。"
+        },
+        {
+          "name": "销量目标约400万台",
+          "verdict": "TP",
+          "reason": "259、263段计算并获265–267回应。结合利润目标语境，输出以实现利润可接受，不解释为会计学普遍盈亏平衡公式。"
+        }
+      ],
+      "checked_turns": [
+        251,
+        259,
+        263,
+        265,
+        266,
+        267,
+        268
+      ]
+    },
+    {
+      "index": 6,
+      "reference_hits": [
+        "D5",
+        "D6"
+      ],
+      "claims": [
+        {
+          "name": "电视遥控应用范围",
+          "verdict": "TP",
+          "reason": "281–283段确认电视应用，输出也明说电视遥控器。"
+        },
+        {
+          "name": "基础电视控制功能方向",
+          "verdict": "TP",
+          "reason": "274–287、323–324、356–358段支持开关、频道、音量、图文电视的功能方向。359段延期的是具体按钮方案，输出未断言实体按钮布局已最终锁定；因此不按措辞边界判FP。"
+        }
+      ],
+      "checked_turns": [
+        274,
+        276,
+        281,
+        283,
+        287,
+        320,
+        323,
+        324,
+        347,
+        356,
+        358,
+        359
+      ]
+    },
+    {
+      "index": 7,
+      "reference_hits": [],
+      "claims": [
+        {
+          "name": "预算内舍弃过分花哨功能",
+          "verdict": "TP",
+          "reason": "348–349段主持人直接提出取舍。没有无限扩张成永久禁止互联网等一切高级功能。"
+        }
+      ],
+      "checked_turns": [
+        333,
+        340,
+        347,
+        348,
+        349,
+        378,
+        381
+      ]
+    }
+  ],
+  "missing_decisions": [
+    {
+      "reference": "D4",
+      "cause": "分段扫描已发现目标市场区域，最终裁决未保留；事实第7条准确保留欧洲/北美及可能的亚洲。",
+      "cross_section_fact_index": 7
+    }
+  ],
+  "missing_tasks": [],
+  "non_task_review_audit": [
+    {
+      "record_id": "R8",
+      "verdict": "合理保留需求",
+      "reason": "133–135段对有线设备不便的抱怨/下项目建议无具体承接；implicit_need且can_add_task=false正确。"
+    }
+  ],
+  "corpus_reference_coverage": {
+    "actions": {
+      "full": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "partial": [],
+      "note": "工作内容覆盖；不代表原AMI三个人员绑定均恢复。"
+    },
+    "decisions": {
+      "full": [
+        "D1",
+        "D2",
+        "D4"
+      ],
+      "partial": [
+        "D3",
+        "D5"
+      ],
+      "note": "原D3含利润和国际市场，决定栏只有前者；原D5有完整必要按钮及record，输出仅核心功能方向。不能把重注后的7/8直接写成原AMI召回。"
+    }
+  },
+  "cross_section_reference_hits": {
+    "actions": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "decisions": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ]
+  },
+  "field_review": {
+    "date": "due_date均为null；下次会议/30分钟后有原文支持，未伪造日历日期。",
+    "owner": "R16合并职责绑定不可靠；R15保留组并请求承接确认。内容覆盖3/3，不等于3项均已定位负责人。"
+  },
+  "result_sha256": "8a6b7dd419c3bb2d05435da0ba92780f7eb35f01f2d60908ee3c7aba247c113a",
+  "reviewer": "Primary assistant; personally read full transcript and every final task, decision and review card, with relevant later context. No model judge.",
+  "metric_scope": "Work-identity/content precision and reference recall; owner/date/review-route quality separately audited. See scoring-clarification.json for frozen strict companion."
+}

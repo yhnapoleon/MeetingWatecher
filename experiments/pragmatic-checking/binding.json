@@ -1,0 +1,232 @@
+{
+  "cases": [
+    {
+      "id": "PT01",
+      "meeting": {
+        "case_id": "PT01",
+        "meeting_id": "PT01",
+        "series": "PT01",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "PT01.1",
+            "speaker": "甲",
+            "text": "我来核对这份合同的付款条款，目前没有约定截止时间。"
+          }
+        ]
+      },
+      "actor": "host",
+      "source": "runs/2026-11-15-pragmatic-checking/contrast/PT01/model",
+      "expected": {
+        "created": 1,
+        "items": 1,
+        "reason": "未定的是核对任务期限，不能写成付款条款无期限",
+        "no_due": true
+      }
+    },
+    {
+      "id": "PT02",
+      "meeting": {
+        "case_id": "PT02",
+        "meeting_id": "PT02",
+        "series": "PT02",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "PT02.1",
+            "speaker": "甲",
+            "text": "我来核对这份合同。合同的付款条款没有约定付款期限，核对时把这个问题列出来。"
+          }
+        ]
+      },
+      "actor": "host",
+      "source": "runs/2026-11-15-pragmatic-checking/contrast/PT02/model",
+      "expected": {
+        "created": 1,
+        "items": 1,
+        "reason": "条款缺付款期限，是材料属性，非任务期限",
+        "no_due": true
+      }
+    },
+    {
+      "id": "PT03",
+      "meeting": {
+        "case_id": "PT03",
+        "meeting_id": "PT03",
+        "series": "PT03",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "PT03.1",
+            "speaker": "主持",
+            "text": "这项核对工作要什么时候完成？"
+          },
+          {
+            "id": "PT03.2",
+            "speaker": "甲",
+            "text": "还没定，不过我会负责核对这份合同的付款条款。"
+          }
+        ]
+      },
+      "actor": "host",
+      "source": "runs/2026-11-15-pragmatic-checking/contrast/PT03/model",
+      "expected": {
+        "created": 1,
+        "items": 1,
+        "reason": "问答指向任务期限未定",
+        "no_due": true
+      }
+    },
+    {
+      "id": "PT04",
+      "meeting": {
+        "case_id": "PT04",
+        "meeting_id": "PT04",
+        "series": "PT04",
+        "meeting_date": "2026-11-15",
+        "participants": [
+          {
+            "speaker": "甲",
+            "speaker_name": "小林",
+            "person_ref": "lin"
+          },
+          {
+            "speaker": "乙",
+            "speaker_name": "小周",
+            "person_ref": "zhou"
+          },
+          {
+            "speaker": "主持",
+            "speaker_name": "主持人",
+            "person_ref": "host"
+          }
+        ],
+        "account_map": {
+          "lin": "lin",
+          "zhou": "zhou",
+          "host": "host"
+        },
+        "audience": [
+          "host",
+          "lin",
+          "zhou"
+        ],
+        "writers": [
+          "host"
+        ],
+        "segments": [
+          {
+            "id": "PT04.1",
+            "speaker": "主持",
+            "text": "这份合同约定了付款时间吗？"
+          },
+          {
+            "id": "PT04.2",
+            "speaker": "甲",
+            "text": "还没有，我来核对它的付款条款。"
+          }
+        ]
+      },
+      "actor": "host",
+      "source": "runs/2026-11-15-pragmatic-checking/contrast/PT04/model",
+      "expected": {
+        "created": 1,
+        "items": 1,
+        "reason": "问答指向合同内部付款时间",
+        "no_due": true
+      }
+    }
+  ],
+  "cases_hash": "b7c6d792228cb5eb87b07852fab05309eddd6716b0a55b1bf6b62dab2f3b2744",
+  "is_blind": false
+}

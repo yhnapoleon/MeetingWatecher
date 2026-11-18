@@ -1,0 +1,39 @@
+{
+  "version": "user-review-2026-11-16",
+  "authority": "用户在阅读五项问题后给出的产品判断与评审调整",
+  "M2": {
+    "scope_change_is_actionable": true,
+    "preserve": [
+      "登录改版第一批范围调整",
+      "内部员工和试点客户都开放",
+      "今天"
+    ],
+    "owner": "原文未指定个人；可保留待分配归属，不反问已明确的内容或执行决定",
+    "decision_and_work_can_coexist": true,
+    "old_zero_scope_work_gate": "retired",
+    "migration": "旧分数仅保留作历史；须按新业务契约重评，不能只将旧失败翻成通过"
+  },
+  "M1_collection_proposal": {
+    "display_name": "待定事项",
+    "trigger": "明确说先放着、今天不定、以后再议等暂不推进的议题",
+    "behavior": "仅收集内容、来源和搁置状态；不创建执行任务、不立即追问负责人/承接/期限；后续明确推进时再转为工作",
+    "distinction": "已确定要做但没有截止日的任务仍是任务，不因无日期归入待定事项",
+    "implementation_status": "implemented_in_optional_context_v5",
+    "validation": "live-v3: four Service M1 runs; no-date and same-meeting activation each two runs passed; cross-meeting auto-activation not implemented"
+  },
+  "C23": {
+    "required_content": [
+      "会后或稍后单独联系袁校长",
+      "继续沟通其他问题"
+    ],
+    "nonblocking_detail": "原文未明确承诺的补问未听清内容的目的关系",
+    "blocking_errors": [
+      "漏掉联系工作",
+      "联系人错误",
+      "虚构新的执行义务",
+      "已有的结构/归属/操作错误"
+    ],
+    "explicit_purpose_control": "明确说把没听清的问题补问清楚时，仍检查该明确动作；无关背景反例不增加补问义务",
+    "effect": "缺少上述推断目的不再单独导致不通过；旧输出不改，新旧评分并列"
+  }
+}

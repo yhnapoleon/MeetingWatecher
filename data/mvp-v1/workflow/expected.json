@@ -1,0 +1,11 @@
+{
+  "source": "synthetic_mvp_fixture",
+  "recaps": [
+    {"meeting":"W1","viewer":"host","expected":["W41","W42"],"forbidden":[]},
+    {"meeting":"W1","viewer":"guest","expected":["W42"],"forbidden":["W41"]},
+    {"meeting":"W2","viewer":"host","expected":["W42"],"forbidden":[]},
+    {"meeting":"W2","viewer":"guest","expected":[],"forbidden":["W41","W42"]},
+    {"meeting":"W3","viewer":"host","expected":["W41","W42"],"forbidden":[]},
+    {"meeting":"W3","viewer":"guest","expected":[],"forbidden":["W41","W42"]}
+  ]
+}

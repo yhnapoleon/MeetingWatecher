@@ -1,0 +1,14 @@
+{
+  "status": "frozen",
+  "source_labels": "runs\\2026-11-15-field-preservation\\regression\\labels.snapshot.jsonl",
+  "source_hash": "2e5c3f9c4b2bc6b2162acdf67731f7c878266431bb43b8b3dbc18e351442a0bf",
+  "labels_hash": "e3fe43c6770a37ea22a27462a2a1f47792f3fadf6c48638d39274c48fbf7a0f9",
+  "changed_content": [
+    "C09.1"
+  ],
+  "changed_review_basis": [
+    "C03.2"
+  ],
+  "annotation_status": "agent_reviewed",
+  "note": "与旧标签并列比较；C26仍建议，不能因我们可以一词直接算承诺。"
+}

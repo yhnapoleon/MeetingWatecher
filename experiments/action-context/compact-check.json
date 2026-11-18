@@ -1,0 +1,5 @@
+{
+  "track_context": {"thinking":"enabled","reasoning_effort":"high","temperature":1,"max_tokens":16384},
+  "interpret_work": {"thinking":"enabled","reasoning_effort":"high","temperature":1,"max_tokens":16384},
+  "check_work": {"thinking":"disabled","temperature":0,"max_tokens":16384}
+}

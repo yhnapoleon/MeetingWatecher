@@ -1,0 +1,298 @@
+{
+  "meetings": {
+    "IS1000a": {
+      "meeting_id": "IS1000a",
+      "status": "processed",
+      "metric_scope": "Work-identity/content precision and reference recall; owner/date/review-route quality separately audited. See scoring-clarification.json for frozen strict companion.",
+      "initial_status": "processed",
+      "explicit_recovery_calls": 0,
+      "tasks": {
+        "tp": 2,
+        "fp": 0,
+        "predictions": 2,
+        "reference_hits": 3,
+        "reference": 3,
+        "fn": 0,
+        "precision": 1.0,
+        "reference_recall": 1.0
+      },
+      "decisions": {
+        "tp": 10,
+        "fp": 0,
+        "predictions": 10,
+        "reference_hits": 7,
+        "reference": 8,
+        "fn": 1,
+        "precision": 1.0,
+        "reference_recall": 0.875
+      },
+      "missing_tasks": [],
+      "missing_decisions": [
+        "D4"
+      ],
+      "decision_rows": 7,
+      "review_counts": {
+        "implicit_need": 1,
+        "ambiguous": 1
+      },
+      "result_sha256": "8a6b7dd419c3bb2d05435da0ba92780f7eb35f01f2d60908ee3c7aba247c113a",
+      "reference_sha256": "a42a86f3d566e16ea0156aa9ad99fb13ae85f21e8d4475ec85b473f648a3b963",
+      "limitations": [
+        "Two new local meetings in different participant groups, same AMI remote-control scenario domain.",
+        "Human reannotated references, with original AMI reference coverage reported separately.",
+        "Acceptable semantic answers explicitly listed; no multi-rater agreement measured."
+      ],
+      "owner_sensitive_record_metric": {
+        "tp": 1,
+        "fp": 1,
+        "predictions": 2,
+        "reference_hits": 1,
+        "reference": 3,
+        "fn": 2,
+        "precision": 0.5,
+        "reference_recall": 0.3333333333333333
+      },
+      "cross_section_content_reference_recall": {
+        "actions": {
+          "hits": 3,
+          "reference": 3,
+          "recall": 1.0
+        },
+        "decisions": {
+          "hits": 8,
+          "reference": 8,
+          "recall": 1.0
+        }
+      },
+      "corpus_reference_coverage": {
+        "actions": {
+          "full": [
+            "T1",
+            "T2",
+            "T3"
+          ],
+          "partial": [],
+          "note": "工作内容覆盖；不代表原AMI三个人员绑定均恢复。"
+        },
+        "decisions": {
+          "full": [
+            "D1",
+            "D2",
+            "D4"
+          ],
+          "partial": [
+            "D3",
+            "D5"
+          ],
+          "note": "原D3含利润和国际市场，决定栏只有前者；原D5有完整必要按钮及record，输出仅核心功能方向。不能把重注后的7/8直接写成原AMI召回。"
+        }
+      },
+      "usage": {
+        "status": "processed",
+        "seconds": 804.08,
+        "calls": 18,
+        "tokens": 869029,
+        "counts": {
+          "items": 2,
+          "facts": 15,
+          "unresolved": 1,
+          "decisions": 7,
+          "updates": 0
+        },
+        "errors": [],
+        "repeat_no_model_calls": true,
+        "reopen_consistent": true
+      },
+      "acceptance": {
+        "final_status": "processed",
+        "source_unchanged": true,
+        "source_snapshot_files": 76,
+        "same_configuration_as_two_meeting_retest": true,
+        "reference_unchanged": true,
+        "input_unchanged": true,
+        "tracking_status": "complete",
+        "completed_segments": 389,
+        "total_segments": 389,
+        "tracking_splits": 0,
+        "final_errors": [],
+        "database_integrity": true,
+        "reopen_consistent": true,
+        "offline_repeat_no_inference": true,
+        "independent_empty_history": true
+      }
+    },
+    "TS3003b": {
+      "meeting_id": "TS3003b",
+      "status": "processed",
+      "metric_scope": "Work-identity/content precision and reference recall; owner/date/review-route quality separately audited. See scoring-clarification.json for frozen strict companion.",
+      "initial_status": "processed",
+      "explicit_recovery_calls": 0,
+      "tasks": {
+        "tp": 5,
+        "fp": 0,
+        "predictions": 5,
+        "reference_hits": 4,
+        "reference": 4,
+        "fn": 0,
+        "precision": 1.0,
+        "reference_recall": 1.0
+      },
+      "decisions": {
+        "tp": 13,
+        "fp": 0,
+        "predictions": 13,
+        "reference_hits": 11,
+        "reference": 12,
+        "fn": 1,
+        "precision": 1.0,
+        "reference_recall": 0.9166666666666666
+      },
+      "missing_tasks": [],
+      "missing_decisions": [
+        "D11"
+      ],
+      "decision_rows": 10,
+      "review_counts": {
+        "ambiguous": 3
+      },
+      "result_sha256": "6f19dc0b09dda2844f07c31ebe54bf73dbf337c35b67c17933c9b685402c8f0c",
+      "reference_sha256": "49b609cb5094c19553faf207e4a7bd77441fabcb84aafa59d8a0d13e19c2337e",
+      "limitations": [
+        "Two new local meetings in different participant groups, same AMI remote-control scenario domain.",
+        "Human reannotated references, with original AMI reference coverage reported separately.",
+        "Acceptable semantic answers explicitly listed; no multi-rater agreement measured."
+      ],
+      "owner_sensitive_record_metric": {
+        "tp": 5,
+        "fp": 0,
+        "predictions": 5,
+        "reference_hits": 4,
+        "reference": 4,
+        "fn": 0,
+        "precision": 1.0,
+        "reference_recall": 1.0
+      },
+      "cross_section_content_reference_recall": {
+        "actions": {
+          "hits": 4,
+          "reference": 4,
+          "recall": 1.0
+        },
+        "decisions": {
+          "hits": 12,
+          "reference": 12,
+          "recall": 1.0
+        }
+      },
+      "corpus_reference_coverage": {
+        "actions": {
+          "full": [
+            "T1",
+            "T2"
+          ],
+          "partial": [],
+          "note": "T2由R15用户界面概念与R16趋势观察共同覆盖。"
+        },
+        "decisions": {
+          "full": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6",
+            "D7",
+            "D8",
+            "D9",
+            "D10"
+          ],
+          "partial": [],
+          "missing": [
+            "D11"
+          ],
+          "note": "原D7后半老年定位由第2行覆盖，声音由第5行覆盖；不重复加独立主张。"
+        }
+      },
+      "usage": {
+        "status": "processed",
+        "seconds": 897.32,
+        "calls": 20,
+        "tokens": 1211247,
+        "counts": {
+          "items": 5,
+          "facts": 20,
+          "unresolved": 10,
+          "decisions": 10,
+          "updates": 0
+        },
+        "errors": [],
+        "repeat_no_model_calls": true,
+        "reopen_consistent": true
+      },
+      "acceptance": {
+        "final_status": "processed",
+        "source_unchanged": true,
+        "source_snapshot_files": 76,
+        "same_configuration_as_two_meeting_retest": true,
+        "reference_unchanged": true,
+        "input_unchanged": true,
+        "tracking_status": "complete",
+        "completed_segments": 404,
+        "total_segments": 404,
+        "tracking_splits": 0,
+        "final_errors": [],
+        "database_integrity": true,
+        "reopen_consistent": true,
+        "offline_repeat_no_inference": true,
+        "independent_empty_history": true
+      }
+    }
+  },
+  "total": {
+    "tasks": {
+      "tp": 7,
+      "fp": 0,
+      "predictions": 7,
+      "reference_hits": 7,
+      "reference": 7,
+      "fn": 0,
+      "precision": 1.0,
+      "reference_recall": 1.0
+    },
+    "decisions": {
+      "tp": 23,
+      "fp": 0,
+      "predictions": 23,
+      "reference_hits": 18,
+      "reference": 20,
+      "fn": 2,
+      "precision": 1.0,
+      "reference_recall": 0.9
+    },
+    "owner_sensitive_record_metric": {
+      "tp": 6,
+      "fp": 1,
+      "predictions": 7,
+      "reference_hits": 5,
+      "reference": 7,
+      "fn": 2,
+      "precision": 0.8571428571428571,
+      "reference_recall": 0.7142857142857143
+    },
+    "cross_section_decision_reference_recall": {
+      "hits": 20,
+      "reference": 20,
+      "recall": 1.0
+    },
+    "requests": 38,
+    "tokens": 2080276
+  },
+  "metric_scope": "Content-based primary scores; frozen owner-sensitive companion retained. See scoring-clarification.json.",
+  "human_review": "Primary assistant personally reviewed both full transcripts and final predictions; no model judge.",
+  "post_run_reference_changes": [],
+  "limitations": [
+    "Same AMI remote-control scenario domain; different participant groups.",
+    "No production fixes applied.",
+    "High content scores do not imply verified owners or consistent unresolved status."
+  ]
+}

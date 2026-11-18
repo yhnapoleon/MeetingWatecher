@@ -1,0 +1,1 @@
+对于每项已确定的决定，在上述输出中另填 reaffirms（可见历史记录 id 或 null）。对照本场确认句、完整主张与 history：同一对象、适用范围、条件、例外和取值全部相同，且能唯一定位到同一现行决定时，沿用其 attribute，reaffirms 填该 id，supersedes 填 null。换一种措辞陈述同一规则也属重申。明确变更原规则时，supersedes 填旧 id，reaffirms 填 null。另一个批次或对象单独作决定，即使取值相同也独立登记。单纯回忆旧规定不能证明今天仍然采用；关系不确定时两个 id 均填 null。

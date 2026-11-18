@@ -1,0 +1,441 @@
+{
+  "cases": [
+    {
+      "id": "C02",
+      "meeting": {
+        "case_id": "C02",
+        "meeting_id": "ES2002a",
+        "series": "ES2002",
+        "language": "en",
+        "source": "AMI_1.6.2",
+        "meeting_date": "13-12-04",
+        "segments": [
+          {
+            "id": "ES2002a.B.dialog-act.dharshi.194",
+            "start_ms": 979730,
+            "end_ms": 981670,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005",
+            "text": "the next meeting's gonna be in thirty minutes."
+          },
+          {
+            "id": "ES2002a.B.dialog-act.dharshi.195",
+            "start_ms": 981670,
+            "end_ms": 985490,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005",
+            "text": "So that's about um about ten to twelve by my watch."
+          },
+          {
+            "id": "ES2002a.B.dialog-act.dharshi.196",
+            "start_ms": 985490,
+            "end_ms": 994810,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005",
+            "text": "Um so inbetween now and then, um as the industrial designer, you're gonna be working on you know the actual working design of it"
+          },
+          {
+            "id": "ES2002a.A.dialog-act.dharshi.42",
+            "start_ms": 993880,
+            "end_ms": 994020,
+            "speaker": "A",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE006",
+            "text": "Yep."
+          },
+          {
+            "id": "ES2002a.B.dialog-act.dharshi.197",
+            "start_ms": 994810,
+            "end_ms": 996690,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005",
+            "text": "so y you know what you're doing there."
+          }
+        ],
+        "participants": [
+          {
+            "speaker": "A",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE006"
+          },
+          {
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005"
+          },
+          {
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE007"
+          },
+          {
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "MEE008"
+          }
+        ],
+        "tenant": "eval-C02"
+      },
+      "source": "runs/2026-11-15-pragmatic-checking/integrated/C02/model"
+    },
+    {
+      "id": "C03",
+      "meeting": {
+        "case_id": "C03",
+        "meeting_id": "ES2002a",
+        "series": "ES2002",
+        "language": "en",
+        "source": "AMI_1.6.2",
+        "meeting_date": "13-12-04",
+        "segments": [
+          {
+            "id": "ES2002a.B.dialog-act.dharshi.199",
+            "start_ms": 996690,
+            "end_ms": 1000990,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005",
+            "text": "Um for user interface, technical functions,"
+          },
+          {
+            "id": "ES2002a.B.dialog-act.dharshi.200",
+            "start_ms": 1000990,
+            "end_ms": 1003160,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005",
+            "text": "I guess that's you know like what we've been talking about,"
+          },
+          {
+            "id": "ES2002a.B.dialog-act.dharshi.201",
+            "start_ms": 1003160,
+            "end_ms": 1004080,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005",
+            "text": "what it'll actually do."
+          },
+          {
+            "id": "ES2002a.B.dialog-act.dharshi.202",
+            "start_ms": 1004080,
+            "end_ms": 1008750,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005",
+            "text": "Um and uh marketing executive,"
+          },
+          {
+            "id": "ES2002a.B.dialog-act.dharshi.203",
+            "start_ms": 1010020,
+            "end_ms": 1016480,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005",
+            "text": "you'll be just thinking about what it actually what, you know, what requirements it has to has to fulfil"
+          },
+          {
+            "id": "ES2002a.B.dialog-act.dharshi.204",
+            "start_ms": 1016480,
+            "end_ms": 1019310,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005",
+            "text": "and you'll all get instructions emailed to you, I guess."
+          },
+          {
+            "id": "ES2002a.D.dialog-act.dharshi.173",
+            "start_ms": 1019670,
+            "end_ms": 1020010,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "MEE008",
+            "text": "Okay."
+          }
+        ],
+        "participants": [
+          {
+            "speaker": "A",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE006"
+          },
+          {
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE005"
+          },
+          {
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE007"
+          },
+          {
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "MEE008"
+          }
+        ],
+        "tenant": "eval-C03"
+      },
+      "source": "runs/2026-11-15-pragmatic-checking/integrated/C03/model"
+    },
+    {
+      "id": "C09",
+      "meeting": {
+        "case_id": "C09",
+        "meeting_id": "ES2004b",
+        "series": "ES2004",
+        "language": "en",
+        "source": "AMI_1.6.2",
+        "meeting_date": "19-01-05",
+        "segments": [
+          {
+            "id": "ES2004b.D.dialog-act.s9553330.261",
+            "start_ms": 2294550,
+            "end_ms": 2297310,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE016",
+            "text": "What would you specifically like marketing to look at before the next meeting?"
+          },
+          {
+            "id": "ES2004b.A.dialog-act.s9553330.143",
+            "start_ms": 2294790,
+            "end_ms": 2295020,
+            "speaker": "A",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEO015",
+            "text": "True."
+          },
+          {
+            "id": "ES2004b.C.dialog-act.s9553330.217",
+            "start_ms": 2295260,
+            "end_ms": 2295550,
+            "speaker": "C",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE014",
+            "text": "Okay."
+          },
+          {
+            "id": "ES2004b.D.dialog-act.s9553330.262",
+            "start_ms": 2297310,
+            "end_ms": 2300040,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE016",
+            "text": "Or shall I just sort of generally look at all the issues involved?"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.260",
+            "start_ms": 2300120,
+            "end_ms": 2301910,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "I think you might get guidance,"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.261",
+            "start_ms": 2301910,
+            "end_ms": 2303750,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "but um"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.262",
+            "start_ms": 2305500,
+            "end_ms": 2305640,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "I th"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.263",
+            "start_ms": 2307170,
+            "end_ms": 2308490,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "Instruction manuals,"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.264",
+            "start_ms": 2308490,
+            "end_ms": 2313270,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "'cause there tends to be a demonised thing,"
+          },
+          {
+            "id": "ES2004b.D.dialog-act.s9553330.263",
+            "start_ms": 2308520,
+            "end_ms": 2308850,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE016",
+            "text": "Okay."
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.265",
+            "start_ms": 2313270,
+            "end_ms": 2316860,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "u um, they're everyone's got like a big pile of them,"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.266",
+            "start_ms": 2316860,
+            "end_ms": 2318510,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "but no one really uses them."
+          }
+        ],
+        "participants": [
+          {
+            "speaker": "A",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEO015"
+          },
+          {
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013"
+          },
+          {
+            "speaker": "C",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE014"
+          },
+          {
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE016"
+          }
+        ],
+        "tenant": "eval-C09"
+      },
+      "source": "runs/2026-11-15-pragmatic-checking/integrated/C09/model"
+    },
+    {
+      "id": "C20",
+      "meeting": {
+        "case_id": "C20",
+        "meeting_id": "VC136",
+        "series": "VC675505279",
+        "language": "zh",
+        "source": "VCSum",
+        "meeting_date": null,
+        "segments": [
+          {
+            "id": "vc.136.166.1",
+            "start_ms": null,
+            "end_ms": null,
+            "speaker": "1",
+            "speaker_name": null,
+            "person_ref": null,
+            "text": "好，那今天就再到这，再次感谢各位教授，然后彭这个老老师的一个支持。"
+          },
+          {
+            "id": "vc.136.166.2",
+            "start_ms": null,
+            "end_ms": null,
+            "speaker": "1",
+            "speaker_name": null,
+            "person_ref": null,
+            "text": "然后今天我们的线上研究会就到这里，然后后面的话我们会把这个视频剪辑，然后给大家确认，然后还有这个文稿可以吧。"
+          },
+          {
+            "id": "vc.136.166.3",
+            "start_ms": null,
+            "end_ms": null,
+            "speaker": "1",
+            "speaker_name": null,
+            "person_ref": null,
+            "text": "好嘞。"
+          }
+        ],
+        "tenant": "eval-C20"
+      },
+      "source": "runs/2026-11-15-pragmatic-checking/integrated/C20/model"
+    },
+    {
+      "id": "C21",
+      "meeting": {
+        "case_id": "C21",
+        "meeting_id": "VC178",
+        "series": "VC981201568",
+        "language": "zh",
+        "source": "VCSum",
+        "meeting_date": null,
+        "segments": [
+          {
+            "id": "vc.178.27.0",
+            "start_ms": null,
+            "end_ms": null,
+            "speaker": "6",
+            "speaker_name": null,
+            "person_ref": null,
+            "text": "对，然后意见都非常宝贵，我们会整理出来。"
+          },
+          {
+            "id": "vc.178.27.1",
+            "start_ms": null,
+            "end_ms": null,
+            "speaker": "6",
+            "speaker_name": null,
+            "person_ref": null,
+            "text": "我觉得我们因为早上我也跟那个现在的这个新院长在聊这个话题，因为大家都觉得要讲的话很多，现在已经快 6 点了，沉淀下来你又觉得很长是吧？"
+          }
+        ],
+        "tenant": "eval-C21"
+      },
+      "source": "runs/2026-11-15-pragmatic-checking/integrated/C21/model"
+    },
+    {
+      "id": "C26",
+      "meeting": {
+        "case_id": "C26",
+        "meeting_id": "VC230",
+        "series": "VC249377054",
+        "language": "zh",
+        "source": "VCSum",
+        "meeting_date": null,
+        "segments": [
+          {
+            "id": "vc.230.106.3",
+            "start_ms": null,
+            "end_ms": null,
+            "speaker": "9",
+            "speaker_name": null,
+            "person_ref": null,
+            "text": "那接下来我们可以解决是说面向业务用户的这个界面化的沉淀，所以就是我理解在您的这个场景里面。"
+          },
+          {
+            "id": "vc.230.106.4",
+            "start_ms": null,
+            "end_ms": null,
+            "speaker": "9",
+            "speaker_name": null,
+            "person_ref": null,
+            "text": "我们可以在会后稍后稍微落地和细化一下这个场景。"
+          }
+        ],
+        "tenant": "eval-C26"
+      },
+      "source": "runs/2026-11-15-pragmatic-checking/integrated/C26/model"
+    }
+  ],
+  "cases_hash": "aed3e648ee72b6a0f32373aab38b2167fe2d43adbdb1b550598d5020104996e6",
+  "is_blind": false
+}

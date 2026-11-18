@@ -1,0 +1,8 @@
+{
+  "timing": "Post-run clarification, explicitly retained alongside frozen pre-run rubric; no input, reference, production or model-output changes.",
+  "reason": "IS1000a merges two real jobs and binds both to C. C has a nearby acceptance, while role/reference mapping separates UI and ID. Content identity can be recalled without treating this ownership binding as verified.",
+  "main": "Content-only task TP/FP and content reference recall, consistent with accepting reasonable source-grounded answers; do not call it full-field accuracy.",
+  "strict_companion": "Apply frozen owner-sensitive record criterion: IS1000a R16 is not accepted as a fully reliable record. R15 remains a supported candidate with explicit confirmation. Report this companion separately rather than silently relaxing the frozen rubric.",
+  "reference_changes_after_inference": [],
+  "cross_section": "Decision references present only in facts are misses for decision-column recall but recovered for whole-minutes content coverage. Both figures must be labeled."
+}

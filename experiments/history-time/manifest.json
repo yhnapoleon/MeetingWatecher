@@ -1,0 +1,13 @@
+{
+  "fixtures_hash": "71741f7350f14a548c86d998c78cdb87a63633c08df4172ff54f1b106988377c",
+  "prompts": {
+    "baseline": "79222cfb9c0cf76b5d7b6048425ab3819bbacf44630f1aecc45db1f3b9133f89",
+    "current-time": "d23b4dd588b882d5bfa210e62cafcbe942b4df2df5f29a52dff0ed94ed6618b0"
+  },
+  "source": {
+    "path": "runs\\2026-11-14-context-prerequisites\\guarded-replay\\model\\ea192c9e8826200bfd0592d6486eee459ff2ae55e1319eab204ac2707887762e",
+    "request_hash": "34c41555d43f23e2193bdae0d1a259e3e8b06a234189cc1dce47f4be35824c6d",
+    "response_hash": "84fe01d547c45a8f2e440b6c1d127582b663566b26fd02c5e5f10f03e5ed720e",
+    "retry_response_hash": "81914220b59dac137cba4837aa95b7e50685992ca8e6ebf960db3ed2d775f8e3"
+  }
+}

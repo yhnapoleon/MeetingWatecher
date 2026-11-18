@@ -1,0 +1,276 @@
+{
+  "actions": [
+    {
+      "id": "T1",
+      "text": "界面设计师准备概括性的设计，保持可增加功能的灵活性。",
+      "evidence_turns": [
+        294,
+        305,
+        370,
+        372
+      ],
+      "acceptable_answers": [
+        "一般／初步设计、界面工作设计；可与技术设计合并但要保留职责"
+      ],
+      "unacceptable_answers": [
+        "明确完整按钮清单已定；改成已完成报告"
+      ],
+      "original_reference": "T1",
+      "owner": "C / MIO050 / Matthew / UI",
+      "evidence_ids": [
+        "IS1000a.sync.836",
+        "IS1000a.sync.659",
+        "IS1000a.sync.500",
+        "IS1000a.sync.502"
+      ]
+    },
+    {
+      "id": "T2",
+      "text": "工业设计师准备技术功能设计。",
+      "evidence_turns": [
+        294,
+        375,
+        376
+      ],
+      "acceptable_answers": [
+        "技术功能设计、工作原理设计；职称或人物标识均可"
+      ],
+      "unacceptable_answers": [
+        "只写会中展示现成材料"
+      ],
+      "original_reference": "T2",
+      "owner": "D / MIO016 / Mael / ID",
+      "evidence_ids": [
+        "IS1000a.sync.836",
+        "IS1000a.sync.506",
+        "IS1000a.sync.508"
+      ]
+    },
+    {
+      "id": "T3",
+      "text": "营销专家研究用户需求，包括是否需要互联网或基本电视功能。",
+      "evidence_turns": [
+        295,
+        306,
+        340,
+        378,
+        381,
+        382
+      ],
+      "acceptable_answers": [
+        "用户需求分析；无需逐项列互联网，只要保留需求研究职责"
+      ],
+      "unacceptable_answers": [
+        "把互联网连接当已决定必做功能"
+      ],
+      "original_reference": "T3",
+      "owner": "A / FIE081 / Anna / ME",
+      "evidence_ids": [
+        "IS1000a.sync.163",
+        "IS1000a.sync.169",
+        "IS1000a.sync.850",
+        "IS1000a.sync.510",
+        "IS1000a.sync.512",
+        "IS1000a.sync.207"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D1",
+      "text": "遥控器售价目标约25欧元。",
+      "evidence_turns": [
+        243,
+        247,
+        348,
+        349
+      ],
+      "acceptable_answers": [
+        "约25欧元或25欧元目标价"
+      ],
+      "unacceptable_answers": [
+        "生产成本25欧元"
+      ],
+      "original_reference": "D1",
+      "owner": null,
+      "evidence_ids": [
+        "IS1000a.sync.418",
+        "IS1000a.sync.422",
+        "IS1000a.sync.488",
+        "IS1000a.sync.490"
+      ]
+    },
+    {
+      "id": "D2",
+      "text": "生产成本上限12.5欧元。",
+      "evidence_turns": [
+        255
+      ],
+      "acceptable_answers": [
+        "不超过／最多12.5欧元"
+      ],
+      "unacceptable_answers": [
+        "必须恰好花12.5欧元；售价12.5欧元"
+      ],
+      "original_reference": "D2",
+      "owner": null,
+      "evidence_ids": [
+        "IS1000a.sync.432"
+      ]
+    },
+    {
+      "id": "D3",
+      "text": "利润目标约5000万欧元。",
+      "evidence_turns": [
+        251
+      ],
+      "acceptable_answers": [
+        "利润目标／profit aim 50 million"
+      ],
+      "unacceptable_answers": [
+        "已经获得利润5000万"
+      ],
+      "original_reference": "D3-part-profit",
+      "owner": null,
+      "evidence_ids": [
+        "IS1000a.sync.426"
+      ]
+    },
+    {
+      "id": "D4",
+      "text": "面向国际市场，主要考虑欧洲和北美。",
+      "evidence_turns": [
+        252,
+        254,
+        268
+      ],
+      "acceptable_answers": [
+        "国际市场；欧洲北美为重点；亚洲可选"
+      ],
+      "unacceptable_answers": [
+        "仅允许欧洲北美；亚洲已强制纳入"
+      ],
+      "original_reference": "D3-part-market",
+      "owner": null,
+      "evidence_ids": [
+        "IS1000a.sync.428",
+        "IS1000a.sync.430",
+        "IS1000a.sync.442"
+      ]
+    },
+    {
+      "id": "D5",
+      "text": "产品面向电视遥控。",
+      "evidence_turns": [
+        281,
+        283,
+        349,
+        381
+      ],
+      "acceptable_answers": [
+        "电视遥控器／电视应用，后续额外功能仍可研究"
+      ],
+      "unacceptable_answers": [
+        "此时已确定多设备通用遥控"
+      ],
+      "original_reference": "D4",
+      "owner": null,
+      "evidence_ids": [
+        "IS1000a.sync.452",
+        "IS1000a.sync.639",
+        "IS1000a.sync.490",
+        "IS1000a.sync.512"
+      ]
+    },
+    {
+      "id": "D6",
+      "text": "保留电视遥控的基础功能方向，如开关、频道与音量；具体按钮留待下次。",
+      "evidence_turns": [
+        274,
+        276,
+        283,
+        287,
+        323,
+        347,
+        359
+      ],
+      "acceptable_answers": [
+        "基础电视控制／开关频道音量；可补充录制或teletext的讨论但须区分未定布局",
+        "最终具体按钮清单未定，同时说明基础功能方向"
+      ],
+      "unacceptable_answers": [
+        "已确定不可再改的完整实体按钮清单；必须具备高级PVR/互联网"
+      ],
+      "original_reference": "D5-reannotated",
+      "owner": null,
+      "evidence_ids": [
+        "IS1000a.sync.635",
+        "IS1000a.sync.450",
+        "IS1000a.sync.639",
+        "IS1000a.sync.456",
+        "IS1000a.sync.667",
+        "IS1000a.sync.193",
+        "IS1000a.sync.492"
+      ]
+    },
+    {
+      "id": "D7",
+      "text": "产品应原创、时尚且易用，预算内正常可靠功能优先。",
+      "evidence_turns": [
+        60,
+        61,
+        271,
+        347,
+        349
+      ],
+      "acceptable_answers": [
+        "原创／差异化、时尚、用户友好；可分列或合并",
+        "普通但好用、预算内避免过分花哨"
+      ],
+      "unacceptable_answers": [
+        "所有高级功能永久禁止"
+      ],
+      "original_reference": null,
+      "owner": null,
+      "evidence_ids": [
+        "IS1000a.sync.266",
+        "IS1000a.sync.268",
+        "IS1000a.sync.446",
+        "IS1000a.sync.193",
+        "IS1000a.sync.490"
+      ]
+    },
+    {
+      "id": "D8",
+      "text": "按功能、概念、详细设计三个阶段推进。",
+      "evidence_turns": [
+        63,
+        65,
+        66,
+        67
+      ],
+      "acceptable_answers": [
+        "三个阶段及其顺序"
+      ],
+      "unacceptable_answers": [
+        "把会中白板训练算产品开发阶段"
+      ],
+      "original_reference": null,
+      "owner": null,
+      "evidence_ids": [
+        "IS1000a.sync.272",
+        "IS1000a.sync.276",
+        "IS1000a.sync.278",
+        "IS1000a.sync.280"
+      ]
+    }
+  ],
+  "notes": [
+    "原D3一个句子包含利润与国际市场，拆成两个参考单位。",
+    "原D5把必要功能写成最终按钮；原文359段明确延期讨论具体按钮，因此重注为基础功能方向，保留“具体未定”。",
+    "T1/T2末段you指代依赖角色和原标注：支持按角色归属；不因现场应答声次序反推换人。",
+    "白板画动物、调设备、会中发言均非会后待办；无线麦克风是吐槽／建议，没有执行承接。",
+    "下次会议30分钟后可作为有据的额外日程事实或决定，不要求凭录制日期捏造硬日历日期。",
+    "原文完整通读389段后冻结，未查看任何该会议模型输出。"
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "can_add_task": false,
+    "category": "implicit_need",
+    "check_reason": "C 明确抱怨有线麦克风不便并提出需要无线麦克风，还建议下个项目采用；这是尚未形成承诺的资源需求。；描述保留了有线不便、需要无线麦克风以及下个项目建议采用的含义。",
+    "content_basis": "explicit",
+    "description": "C says the wired microphone is inconvenient and that they need a wireless microphone, suggesting they should use one in the next project.",
+    "description_status": "supported_interpretation",
+    "evidence_ids": [
+      "IS1000a.sync.573",
+      "IS1000a.sync.575",
+      "IS1000a.sync.577"
+    ],
+    "issuer_ref": "MIO050",
+    "missing_fields": [
+      "commitment"
+    ],
+    "question": "这项工作是否已经由对应负责人承接，还是尚待决定？",
+    "record_id": "R8",
+    "requires_adoption": true,
+    "resolution": null
+  },
+  {
+    "can_add_task": true,
+    "category": "ambiguous",
+    "check_reason": "B 明确要求被点到的两人思考需求：是否需要互联网，还是保持基本电视接口；D 也说明功能设计前需先了解用户需求。这是本场实际分派的需求思考工作。；描述完整保留了思考新遥控器用户需求、在互联网/TV-over-IP 与基本电视接口之间判断的范围，以及发生在功能设计决定之前这一目的。",
+    "content_basis": "explicit",
+    "description": "Think through the new remote control's user requirements: whether it needs internet/TV-over-IP functionality or should stay with a basic television interface, before functional-design decisions are made.",
+    "description_status": "supported_interpretation",
+    "evidence_ids": [
+      "IS1000a.sync.484",
+      "IS1000a.sync.850",
+      "IS1000a.sync.510",
+      "IS1000a.sync.512"
+    ],
+    "issuer_ref": "MIO082",
+    "missing_fields": [
+      "commitment"
+    ],
+    "question": "这项分派是否已由对应负责人承接？",
+    "record_id": "R15",
+    "resolution": null
+  }
+]

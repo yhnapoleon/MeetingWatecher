@@ -1,0 +1,1775 @@
+{
+  "input": {
+    "meeting": {
+      "case_id": "SV05",
+      "meeting_id": "SV05",
+      "series": "语义验收 semantic-v1",
+      "language": "zh",
+      "source": "synthetic_semantic_v1",
+      "started_at": "2026-11-16T10:00:00+08:00",
+      "audience": [
+        "host",
+        "lin",
+        "zhou",
+        "an"
+      ],
+      "writers": [
+        "host"
+      ],
+      "speaker_map": {
+        "host": "host",
+        "lin": "lin",
+        "zhou": "zhou",
+        "an": "an"
+      },
+      "roster": {
+        "host": "主持人",
+        "lin": "小林",
+        "zhou": "小周",
+        "an": "安老师"
+      },
+      "segments": [
+        {
+          "id": "SV05.1",
+          "speaker": "host",
+          "text": "明天培训在哪个教室，讲义用哪个版本？"
+        },
+        {
+          "id": "SV05.2",
+          "speaker": "zhou",
+          "text": "教室定在三楼会议室。"
+        },
+        {
+          "id": "SV05.3",
+          "speaker": "host",
+          "text": "讲义版本还没决定。"
+        }
+      ]
+    },
+    "actor": "host",
+    "tasks": []
+  },
+  "extraction": {
+    "_errors": [],
+    "_minutes_review": {
+      "accepted_candidates": [
+        {
+          "claim_id": "F1",
+          "evidence": [
+            "Q2"
+          ],
+          "kind": "fact",
+          "statement": "明天培训的教室已确定为三楼会议室。"
+        },
+        {
+          "claim_id": "F2",
+          "evidence": [
+            "Q3"
+          ],
+          "kind": "fact",
+          "statement": "讲义版本尚未决定。"
+        },
+        {
+          "claim_id": "U1",
+          "evidence": [
+            "Q1",
+            "Q3"
+          ],
+          "kind": "unresolved",
+          "statement": "明天培训使用哪个版本的讲义仍未确定。"
+        }
+      ],
+      "covered_deferred_record_ids": [],
+      "deferred_context_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "initial_check": {
+        "case_id": "SV05",
+        "checks": {
+          "F1": {
+            "adoption_evidence": [],
+            "content": "supported",
+            "deferred_record_ids": [],
+            "evidence": [
+              "Q1",
+              "Q2"
+            ],
+            "final_status": "decided",
+            "reason": "Q2明确回答教室定在三楼会议室，与陈述一致；该问题已当场确定。",
+            "route": "fact",
+            "speech_scope": "current"
+          },
+          "F2": {
+            "adoption_evidence": [],
+            "content": "supported",
+            "deferred_record_ids": [],
+            "evidence": [
+              "Q1",
+              "Q3"
+            ],
+            "final_status": "open",
+            "reason": "Q3明确说讲义版本还没决定，支持该事实；版本选择仍开放。",
+            "route": "fact",
+            "speech_scope": "current"
+          },
+          "U1": {
+            "adoption_evidence": [],
+            "content": "supported",
+            "deferred_record_ids": [],
+            "evidence": [
+              "Q1",
+              "Q3"
+            ],
+            "final_status": "open",
+            "reason": "Q1提出讲义版本问题，Q3确认尚未决定，本场未给出答案，仍待解决。",
+            "route": "unresolved",
+            "speech_scope": "current"
+          }
+        },
+        "coverage_findings": [],
+        "scope": "0270dffb973ccea7e726450d7e95a7cffd8d4ee9bfdc521242056def599a8894"
+      },
+      "original_candidates": [
+        {
+          "claim_id": "F1",
+          "evidence": [
+            "Q2"
+          ],
+          "kind": "fact",
+          "statement": "明天培训的教室已确定为三楼会议室。"
+        },
+        {
+          "claim_id": "F2",
+          "evidence": [
+            "Q3"
+          ],
+          "kind": "fact",
+          "statement": "讲义版本尚未决定。"
+        },
+        {
+          "claim_id": "U1",
+          "evidence": [
+            "Q1",
+            "Q3"
+          ],
+          "kind": "unresolved",
+          "statement": "明天培训使用哪个版本的讲义仍未确定。"
+        }
+      ],
+      "status": "accepted"
+    },
+    "_task_trace": {
+      "candidates": [
+        {
+          "candidate_id": "C1",
+          "spans": [
+            {
+              "end": 18,
+              "quote": "明天培训在哪个教室，讲义用哪个版本？",
+              "segment_id": "SV05.1",
+              "start": 0
+            },
+            {
+              "end": 10,
+              "quote": "教室定在三楼会议室。",
+              "segment_id": "SV05.2",
+              "start": 0
+            }
+          ],
+          "thread_id": "T1"
+        },
+        {
+          "candidate_id": "C2",
+          "spans": [
+            {
+              "end": 18,
+              "quote": "明天培训在哪个教室，讲义用哪个版本？",
+              "segment_id": "SV05.1",
+              "start": 0
+            },
+            {
+              "end": 9,
+              "quote": "讲义版本还没决定。",
+              "segment_id": "SV05.3",
+              "start": 0
+            }
+          ],
+          "thread_id": "T2"
+        }
+      ],
+      "checked_events": [],
+      "checked_records": [
+        {
+          "check": {
+            "evidence": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 10,
+                "quote": "教室定在三楼会议室。",
+                "segment_id": "SV05.2",
+                "start": 0
+              }
+            ],
+            "issues": [],
+            "reason": "主持人询问明天培训教室，小周回答定在三楼会议室，问题已当场得到回答，属于已解决的核对，无会后动作。；描述忠实反映问答过程及已解决状态，未添加会后动作。",
+            "verdict": "supported"
+          },
+          "clarification": {
+            "basis": "主持人询问明天培训教室，小周回答定在三楼会议室，问题已当场得到回答，属于已解决的核对，无会后动作。",
+            "evidence": [
+              "Q1",
+              "Q2"
+            ],
+            "fields": [],
+            "question": null,
+            "status": "not_needed"
+          },
+          "content_audit": {
+            "evidence": [
+              "Q1",
+              "Q2"
+            ],
+            "missing_details": [],
+            "reason": "描述忠实反映问答过程及已解决状态，未添加会后动作。",
+            "verdict": "supported"
+          },
+          "content_basis": "explicit",
+          "description": "主持人询问明天培训的教室，小周回答教室定在三楼会议室；该问题已在会上得到回答，无会后动作。",
+          "event_supported": true,
+          "evidence": [
+            {
+              "end": 18,
+              "quote": "明天培训在哪个教室，讲义用哪个版本？",
+              "segment_id": "SV05.1",
+              "start": 0
+            },
+            {
+              "end": 10,
+              "quote": "教室定在三楼会议室。",
+              "segment_id": "SV05.2",
+              "start": 0
+            }
+          ],
+          "gap_checks": [],
+          "issuer_ref": "host",
+          "kind": "resolved",
+          "missing_fields": [],
+          "need_basis": {
+            "evidence": [],
+            "goal": null
+          },
+          "proposed_kind": null,
+          "qualification": {
+            "adoption_evidence": [],
+            "evidence": [
+              "Q1",
+              "Q2"
+            ],
+            "reason": "本场问答核对教室信息，回答后即解决，不构成独立待办工作。",
+            "speech_scope": "current",
+            "work_basis": "none"
+          },
+          "question": null,
+          "record_id": "R1",
+          "thread_ids": [
+            "T1"
+          ]
+        },
+        {
+          "check": {
+            "evidence": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "讲义版本还没决定。",
+                "segment_id": "SV05.3",
+                "start": 0
+              }
+            ],
+            "issues": [
+              "classification",
+              "work"
+            ],
+            "reason": "主持人先问讲义用哪个版本，随后自述“讲义版本还没决定”，原文只表明版本待定，未建立选定版本、落实或分派的工作动作；保留为待明确的歧义事项更忠实。；描述忠实保留讲义版本尚未确定，并说明未明确是否落实及负责人，未虚构动作或负责人。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+            "verdict": "insufficient"
+          },
+          "clarification": {
+            "basis": "主持人先问讲义用哪个版本，随后自述“讲义版本还没决定”，原文只表明版本待定，未建立选定版本、落实或分派的工作动作；保留为待明确的歧义事项更忠实。",
+            "evidence": [
+              "Q1",
+              "Q3"
+            ],
+            "fields": [
+              "work"
+            ],
+            "question": "明天培训的讲义版本尚未确定，是否需要落实选定讲义版本？",
+            "status": "needed"
+          },
+          "content_audit": {
+            "evidence": [
+              "Q1",
+              "Q3"
+            ],
+            "missing_details": [],
+            "reason": "描述忠实保留讲义版本尚未确定，并说明未明确是否落实及负责人，未虚构动作或负责人。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+            "verdict": "insufficient"
+          },
+          "content_basis": "explicit",
+          "description": "明天培训的讲义版本尚未确定；当前仅反映存在待明确的讲义版本需求，尚未明确是否落实选定版本或由谁负责。",
+          "event_supported": true,
+          "evidence": [
+            {
+              "end": 18,
+              "quote": "明天培训在哪个教室，讲义用哪个版本？",
+              "segment_id": "SV05.1",
+              "start": 0
+            },
+            {
+              "end": 9,
+              "quote": "讲义版本还没决定。",
+              "segment_id": "SV05.3",
+              "start": 0
+            }
+          ],
+          "gap_checks": [
+            {
+              "blocking_for": "content",
+              "evidence": [
+                "Q1",
+                "Q3"
+              ],
+              "field": "work",
+              "reason": "原文明确存在待选版本这一会改变工作对象的未决事项，需确认是否落实选定讲义版本。",
+              "verdict": "supported"
+            }
+          ],
+          "issuer_ref": "host",
+          "kind": "implicit_need",
+          "missing_fields": [
+            "work"
+          ],
+          "need_basis": {
+            "evidence": [
+              "Q1",
+              "Q3"
+            ],
+            "goal": "确保明天培训使用明确的讲义版本"
+          },
+          "proposed_kind": "ambiguous",
+          "qualification": {
+            "adoption_evidence": [],
+            "evidence": [
+              "Q1",
+              "Q3"
+            ],
+            "reason": "本场提出讲义版本问题并说明尚未决定，但未形成明确工作安排，工作资格尚不确定。",
+            "speech_scope": "current",
+            "work_basis": "uncertain"
+          },
+          "question": "明天培训的讲义版本尚未确定，是否需要落实选定讲义版本？",
+          "record_id": "R2",
+          "thread_ids": [
+            "T2"
+          ]
+        }
+      ],
+      "checkpoints": [
+        {
+          "ledger": {
+            "entities": [
+              {
+                "entity_id": "N1",
+                "label": "明天培训",
+                "mentions": [
+                  {
+                    "end": 18,
+                    "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                    "segment_id": "SV05.1",
+                    "start": 0
+                  },
+                  {
+                    "end": 10,
+                    "quote": "教室定在三楼会议室。",
+                    "segment_id": "SV05.2",
+                    "start": 0
+                  }
+                ]
+              },
+              {
+                "entity_id": "N2",
+                "label": "三楼会议室",
+                "mentions": [
+                  {
+                    "end": 10,
+                    "quote": "教室定在三楼会议室。",
+                    "segment_id": "SV05.2",
+                    "start": 0
+                  }
+                ]
+              },
+              {
+                "entity_id": "N3",
+                "label": "讲义版本",
+                "mentions": [
+                  {
+                    "end": 18,
+                    "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                    "segment_id": "SV05.1",
+                    "start": 0
+                  },
+                  {
+                    "end": 9,
+                    "quote": "讲义版本还没决定。",
+                    "segment_id": "SV05.3",
+                    "start": 0
+                  }
+                ]
+              }
+            ],
+            "links": [
+              {
+                "evidence": [
+                  {
+                    "end": 18,
+                    "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                    "segment_id": "SV05.1",
+                    "start": 0
+                  },
+                  {
+                    "end": 10,
+                    "quote": "教室定在三楼会议室。",
+                    "segment_id": "SV05.2",
+                    "start": 0
+                  }
+                ],
+                "relation": "related",
+                "source": "N2",
+                "target": "N1"
+              },
+              {
+                "evidence": [
+                  {
+                    "end": 18,
+                    "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                    "segment_id": "SV05.1",
+                    "start": 0
+                  },
+                  {
+                    "end": 9,
+                    "quote": "讲义版本还没决定。",
+                    "segment_id": "SV05.3",
+                    "start": 0
+                  }
+                ],
+                "relation": "related",
+                "source": "N3",
+                "target": "N1"
+              }
+            ],
+            "threads": [
+              {
+                "entity_ids": [
+                  "N1",
+                  "N2"
+                ],
+                "thread_id": "T1",
+                "updates": [
+                  {
+                    "after_segment": "SV05.1",
+                    "description": "主持人询问明天培训在哪个教室，场地尚未明确",
+                    "evidence": [
+                      {
+                        "end": 18,
+                        "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                        "segment_id": "SV05.1",
+                        "start": 0
+                      }
+                    ],
+                    "kind": "ambiguous"
+                  },
+                  {
+                    "after_segment": "SV05.2",
+                    "description": "小周说明教室定在三楼会议室，明天培训的教室问题已得到回答",
+                    "evidence": [
+                      {
+                        "end": 10,
+                        "quote": "教室定在三楼会议室。",
+                        "segment_id": "SV05.2",
+                        "start": 0
+                      }
+                    ],
+                    "kind": "resolved"
+                  }
+                ]
+              },
+              {
+                "entity_ids": [
+                  "N1",
+                  "N3"
+                ],
+                "thread_id": "T2",
+                "updates": [
+                  {
+                    "after_segment": "SV05.1",
+                    "description": "主持人询问明天培训讲义用哪个版本，版本尚未明确",
+                    "evidence": [
+                      {
+                        "end": 18,
+                        "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                        "segment_id": "SV05.1",
+                        "start": 0
+                      }
+                    ],
+                    "kind": "ambiguous"
+                  },
+                  {
+                    "after_segment": "SV05.3",
+                    "description": "主持人说明讲义版本还没决定，明天培训的讲义版本仍待确定",
+                    "evidence": [
+                      {
+                        "end": 9,
+                        "quote": "讲义版本还没决定。",
+                        "segment_id": "SV05.3",
+                        "start": 0
+                      }
+                    ],
+                    "kind": "ambiguous"
+                  }
+                ]
+              }
+            ]
+          },
+          "through_segment": "SV05.3"
+        }
+      ],
+      "config": {
+        "checkpoint_size": 8,
+        "code": {
+          "context_coverage.py": "9b94591f004ff264dc0e352141f6e346b5151e1591924ef8fbf678b88524b59f",
+          "context_new_work.py": "fce3489becaa3b4d094c9fd08f8886affc42fa177e355e4ab67816f6ae248f5e",
+          "context_pipeline.py": "79648dc81d01b7ca812dec0df9a02d08b5b0ed54aed759140f6a8d732f619520",
+          "context_protocol.py": "bfd12a0af689e0c252570c98de1fee3e3a3a71497224704cd2e0cb551ed4c51c",
+          "context_protocol_v3.py": "1abd6147d90d7ee225b58b4925b413ff3c262c1b5da11d98da1bbad17875a8b4",
+          "context_protocol_v4.py": "9da113036a786ac14fb3e245d9cde35cf403d2d697c8c745424abeddbd960fa9",
+          "context_protocol_v5.py": "cf68cb6d33f7e79e1ec22efbc4fbc1a65556c916ca70752c27e7b2dc044368e0",
+          "context_state.py": "fc0bb73218c9d639019a2b219f87db456969f4516171b837618ac1c15e09b1e5",
+          "context_tracking_v5.py": "bc7f55056973eca1f8cacba62c1eb8fe11ea47f81e4d9f77a12f77575b813c4e",
+          "context_updates.py": "fac9ac6048852e607170d338faaed8dfec896024f49e463e4c0481a252bf33b3",
+          "context_v2.py": "efa630db185edc03a49268702b69d9dc80732ffe5be76619d4ee9a0bdd80da55",
+          "context_v3.py": "6e1cacb19be3a19c58b6927a814db2741450cf9ecddda9f9a649168806e82cae",
+          "context_v5.py": "5b90070c7f4187fc83baeb2ca2bc3518b39b693a8799b23ce19c820c8e6765d1",
+          "model_client.py": "09ee0de503908873248fc0122fe30ae7c9dfc7146f62a6d6d5417c17f3c406bd",
+          "stage_runner.py": "18270d433d60c97b6846897a20fe3d9ef192fbacaa683552c38e40a90fd1d326",
+          "task_events.py": "172405d24aab84e2a9dfd32b557fc9b7e8a3e6757e124ebdc6e0c94add8ccea9",
+          "task_pipeline.py": "f9d889e7c5d8541c5df7f0f2555901eca27eb7b5effd6474d4bd517326b81416"
+        },
+        "endpoint": "https://api.deepseek.com/chat/completions",
+        "experiment_freeze": "none",
+        "experiment_variant": "b",
+        "inference": {
+          "check_repair": {
+            "max_tokens": 16384,
+            "temperature": 0,
+            "thinking": "disabled"
+          },
+          "check_work": {
+            "max_tokens": 16384,
+            "temperature": 0,
+            "thinking": "disabled"
+          },
+          "interpret_work": {
+            "max_tokens": 16384,
+            "reasoning_effort": "high",
+            "temperature": 1,
+            "thinking": "enabled"
+          },
+          "repair_work": {
+            "max_tokens": 16384,
+            "reasoning_effort": "high",
+            "temperature": 1,
+            "thinking": "enabled"
+          },
+          "track_context": {
+            "max_tokens": 16384,
+            "reasoning_effort": "high",
+            "temperature": 1,
+            "thinking": "enabled"
+          }
+        },
+        "model": "deepseek-flash",
+        "prompts": {
+          "check_repair": "6ae5ba4ebd15213f7dfc5817cfd0ac604dd2134ffaf1db02fb0dbeabaadd593e",
+          "check_work": "f1088ab309bb2955700354440161a9c0d022c3f7d4d3f45fb847949dfac2a071",
+          "interpret_work": "f66b60740728729406a008a1810d480665e5432ed9ef7b4d6e4495179066230b",
+          "repair_work": "e35b090ed3dde23074ec585935155ed5a8ca35d8ef299d0f2f78aa155f107a86",
+          "track_context": "974cb0a9e9076108d17b37b12a94527322614f74eb10f930abaec50c77aff2d9"
+        },
+        "protocol": "context-v5-system-review",
+        "repair_enabled": true,
+        "version": 13
+      },
+      "context_records": [],
+      "coverage_findings": [],
+      "coverage_plan": {
+        "catalog": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ],
+        "findings": [],
+        "needs_repair": true,
+        "records": [
+          {
+            "check": {
+              "evidence": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 10,
+                  "quote": "教室定在三楼会议室。",
+                  "segment_id": "SV05.2",
+                  "start": 0
+                }
+              ],
+              "issues": [],
+              "reason": "主持人询问明天培训教室，小周回答定在三楼会议室，问题已当场得到回答，属于已解决的核对，无会后动作。；描述忠实反映问答过程及已解决状态，未添加会后动作。",
+              "verdict": "supported"
+            },
+            "clarification": {
+              "basis": "主持人询问明天培训教室，小周回答定在三楼会议室，问题已当场得到回答，属于已解决的核对，无会后动作。",
+              "evidence": [
+                "Q1",
+                "Q2"
+              ],
+              "fields": [],
+              "question": null,
+              "status": "not_needed"
+            },
+            "content_audit": {
+              "evidence": [
+                "Q1",
+                "Q2"
+              ],
+              "missing_details": [],
+              "reason": "描述忠实反映问答过程及已解决状态，未添加会后动作。",
+              "verdict": "supported"
+            },
+            "content_basis": "explicit",
+            "description": "主持人询问明天培训的教室，小周回答教室定在三楼会议室；该问题已在会上得到回答，无会后动作。",
+            "event_supported": true,
+            "evidence": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 10,
+                "quote": "教室定在三楼会议室。",
+                "segment_id": "SV05.2",
+                "start": 0
+              }
+            ],
+            "gap_checks": [],
+            "issuer_ref": "host",
+            "kind": "resolved",
+            "missing_fields": [],
+            "need_basis": {
+              "evidence": [],
+              "goal": null
+            },
+            "proposed_kind": null,
+            "qualification": {
+              "adoption_evidence": [],
+              "evidence": [
+                "Q1",
+                "Q2"
+              ],
+              "reason": "本场问答核对教室信息，回答后即解决，不构成独立待办工作。",
+              "speech_scope": "current",
+              "work_basis": "none"
+            },
+            "question": null,
+            "record_id": "R1",
+            "thread_ids": [
+              "T1"
+            ]
+          },
+          {
+            "check": {
+              "evidence": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 9,
+                  "quote": "讲义版本还没决定。",
+                  "segment_id": "SV05.3",
+                  "start": 0
+                }
+              ],
+              "issues": [
+                "work"
+              ],
+              "reason": "主持人询问讲义版本，随后说明版本还没决定，存在待选版本与负责人的真实未决事项，保留为 ambiguous 合理。；描述忠实保留讲义版本尚未确定及未说明负责人、版本，未虚构动作。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+              "verdict": "insufficient"
+            },
+            "clarification": {
+              "basis": "主持人询问讲义版本，随后说明版本还没决定，存在待选版本与负责人的真实未决事项，保留为 ambiguous 合理。",
+              "evidence": [
+                "Q1",
+                "Q3"
+              ],
+              "fields": [
+                "owner",
+                "reference"
+              ],
+              "question": "明天培训的讲义版本由谁负责选定？；明天培训的讲义需要选定哪个版本？",
+              "status": "needed"
+            },
+            "content_audit": {
+              "evidence": [
+                "Q1",
+                "Q3"
+              ],
+              "missing_details": [],
+              "reason": "描述忠实保留讲义版本尚未确定及未说明负责人、版本，未虚构动作。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+              "verdict": "insufficient"
+            },
+            "content_basis": "explicit",
+            "description": "明天培训的讲义版本尚未确定；原话未说明由谁选定哪个版本或何时确定。",
+            "event_supported": true,
+            "evidence": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "讲义版本还没决定。",
+                "segment_id": "SV05.3",
+                "start": 0
+              }
+            ],
+            "gap_checks": [
+              {
+                "blocking_for": "operation",
+                "evidence": [
+                  "Q3"
+                ],
+                "field": "owner",
+                "reason": "原话未说明由谁负责选定讲义版本。",
+                "verdict": "supported"
+              },
+              {
+                "blocking_for": "content",
+                "evidence": [
+                  "Q3"
+                ],
+                "field": "reference",
+                "reason": "原话只说版本还没决定，未说明候选版本或选定依据。",
+                "verdict": "supported"
+              }
+            ],
+            "issuer_ref": "host",
+            "kind": "ambiguous",
+            "missing_fields": [
+              "owner",
+              "reference"
+            ],
+            "need_basis": {
+              "evidence": [],
+              "goal": null
+            },
+            "proposed_kind": null,
+            "qualification": {
+              "adoption_evidence": [],
+              "evidence": [
+                "Q1",
+                "Q3"
+              ],
+              "reason": "本场提出讲义版本问题并明确尚未决定，属于当前未决事项，但尚未形成具体工作安排。",
+              "speech_scope": "current",
+              "work_basis": "uncertain"
+            },
+            "question": "明天培训的讲义版本还没决定，需要确认由谁负责选定哪个版本吗？",
+            "record_id": "R2",
+            "thread_ids": [
+              "T2"
+            ]
+          }
+        ],
+        "scope": "c2082b8f8ef6e72bc7090e99acddae90d9129b48087cffc9c5a85a91161f6b7a",
+        "target_record_ids": [
+          "R2"
+        ]
+      },
+      "coverage_scope": "c2082b8f8ef6e72bc7090e99acddae90d9129b48087cffc9c5a85a91161f6b7a",
+      "deferred_topics": [],
+      "errors": [],
+      "events": [],
+      "item_records": [],
+      "ledger": {
+        "entities": [
+          {
+            "entity_id": "N1",
+            "label": "明天培训",
+            "mentions": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 10,
+                "quote": "教室定在三楼会议室。",
+                "segment_id": "SV05.2",
+                "start": 0
+              }
+            ]
+          },
+          {
+            "entity_id": "N2",
+            "label": "三楼会议室",
+            "mentions": [
+              {
+                "end": 10,
+                "quote": "教室定在三楼会议室。",
+                "segment_id": "SV05.2",
+                "start": 0
+              }
+            ]
+          },
+          {
+            "entity_id": "N3",
+            "label": "讲义版本",
+            "mentions": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "讲义版本还没决定。",
+                "segment_id": "SV05.3",
+                "start": 0
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "evidence": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 10,
+                "quote": "教室定在三楼会议室。",
+                "segment_id": "SV05.2",
+                "start": 0
+              }
+            ],
+            "relation": "related",
+            "source": "N2",
+            "target": "N1"
+          },
+          {
+            "evidence": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "讲义版本还没决定。",
+                "segment_id": "SV05.3",
+                "start": 0
+              }
+            ],
+            "relation": "related",
+            "source": "N3",
+            "target": "N1"
+          }
+        ],
+        "threads": [
+          {
+            "entity_ids": [
+              "N1",
+              "N2"
+            ],
+            "thread_id": "T1",
+            "updates": [
+              {
+                "after_segment": "SV05.1",
+                "description": "主持人询问明天培训在哪个教室，场地尚未明确",
+                "evidence": [
+                  {
+                    "end": 18,
+                    "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                    "segment_id": "SV05.1",
+                    "start": 0
+                  }
+                ],
+                "kind": "ambiguous"
+              },
+              {
+                "after_segment": "SV05.2",
+                "description": "小周说明教室定在三楼会议室，明天培训的教室问题已得到回答",
+                "evidence": [
+                  {
+                    "end": 10,
+                    "quote": "教室定在三楼会议室。",
+                    "segment_id": "SV05.2",
+                    "start": 0
+                  }
+                ],
+                "kind": "resolved"
+              }
+            ]
+          },
+          {
+            "entity_ids": [
+              "N1",
+              "N3"
+            ],
+            "thread_id": "T2",
+            "updates": [
+              {
+                "after_segment": "SV05.1",
+                "description": "主持人询问明天培训讲义用哪个版本，版本尚未明确",
+                "evidence": [
+                  {
+                    "end": 18,
+                    "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                    "segment_id": "SV05.1",
+                    "start": 0
+                  }
+                ],
+                "kind": "ambiguous"
+              },
+              {
+                "after_segment": "SV05.3",
+                "description": "主持人说明讲义版本还没决定，明天培训的讲义版本仍待确定",
+                "evidence": [
+                  {
+                    "end": 9,
+                    "quote": "讲义版本还没决定。",
+                    "segment_id": "SV05.3",
+                    "start": 0
+                  }
+                ],
+                "kind": "ambiguous"
+              }
+            ]
+          }
+        ]
+      },
+      "pending": [
+        {
+          "evidence_ids": [
+            "SV05.1",
+            "SV05.3"
+          ],
+          "reason": "interpretation_unresolved",
+          "record_id": "R2"
+        }
+      ],
+      "records": [
+        {
+          "check": {
+            "evidence": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 10,
+                "quote": "教室定在三楼会议室。",
+                "segment_id": "SV05.2",
+                "start": 0
+              }
+            ],
+            "issues": [],
+            "reason": "主持人询问明天培训教室，小周回答定在三楼会议室，问题已当场得到回答，属于已解决的核对，无会后动作。；描述忠实反映问答过程及已解决状态，未添加会后动作。",
+            "verdict": "supported"
+          },
+          "clarification": {
+            "basis": "主持人询问明天培训教室，小周回答定在三楼会议室，问题已当场得到回答，属于已解决的核对，无会后动作。",
+            "evidence": [
+              "Q1",
+              "Q2"
+            ],
+            "fields": [],
+            "question": null,
+            "status": "not_needed"
+          },
+          "content_audit": {
+            "evidence": [
+              "Q1",
+              "Q2"
+            ],
+            "missing_details": [],
+            "reason": "描述忠实反映问答过程及已解决状态，未添加会后动作。",
+            "verdict": "supported"
+          },
+          "content_basis": "explicit",
+          "description": "主持人询问明天培训的教室，小周回答教室定在三楼会议室；该问题已在会上得到回答，无会后动作。",
+          "event_supported": true,
+          "evidence": [
+            {
+              "end": 18,
+              "quote": "明天培训在哪个教室，讲义用哪个版本？",
+              "segment_id": "SV05.1",
+              "start": 0
+            },
+            {
+              "end": 10,
+              "quote": "教室定在三楼会议室。",
+              "segment_id": "SV05.2",
+              "start": 0
+            }
+          ],
+          "gap_checks": [],
+          "issuer_ref": "host",
+          "kind": "resolved",
+          "missing_fields": [],
+          "need_basis": {
+            "evidence": [],
+            "goal": null
+          },
+          "proposed_kind": null,
+          "qualification": {
+            "adoption_evidence": [],
+            "evidence": [
+              "Q1",
+              "Q2"
+            ],
+            "reason": "本场问答核对教室信息，回答后即解决，不构成独立待办工作。",
+            "speech_scope": "current",
+            "work_basis": "none"
+          },
+          "question": null,
+          "record_id": "R1",
+          "thread_ids": [
+            "T1"
+          ]
+        },
+        {
+          "check": {
+            "evidence": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "讲义版本还没决定。",
+                "segment_id": "SV05.3",
+                "start": 0
+              }
+            ],
+            "issues": [
+              "classification",
+              "work"
+            ],
+            "reason": "主持人先问讲义用哪个版本，随后自述“讲义版本还没决定”，原文只表明版本待定，未建立选定版本、落实或分派的工作动作；保留为待明确的歧义事项更忠实。；描述忠实保留讲义版本尚未确定，并说明未明确是否落实及负责人，未虚构动作或负责人。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+            "verdict": "insufficient"
+          },
+          "clarification": {
+            "basis": "主持人先问讲义用哪个版本，随后自述“讲义版本还没决定”，原文只表明版本待定，未建立选定版本、落实或分派的工作动作；保留为待明确的歧义事项更忠实。",
+            "evidence": [
+              "Q1",
+              "Q3"
+            ],
+            "fields": [
+              "work"
+            ],
+            "question": "明天培训的讲义版本尚未确定，是否需要落实选定讲义版本？",
+            "status": "needed"
+          },
+          "content_audit": {
+            "evidence": [
+              "Q1",
+              "Q3"
+            ],
+            "missing_details": [],
+            "reason": "描述忠实保留讲义版本尚未确定，并说明未明确是否落实及负责人，未虚构动作或负责人。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+            "verdict": "insufficient"
+          },
+          "content_basis": "explicit",
+          "description": "明天培训的讲义版本尚未确定；当前仅反映存在待明确的讲义版本需求，尚未明确是否落实选定版本或由谁负责。",
+          "event_supported": true,
+          "evidence": [
+            {
+              "end": 18,
+              "quote": "明天培训在哪个教室，讲义用哪个版本？",
+              "segment_id": "SV05.1",
+              "start": 0
+            },
+            {
+              "end": 9,
+              "quote": "讲义版本还没决定。",
+              "segment_id": "SV05.3",
+              "start": 0
+            }
+          ],
+          "gap_checks": [
+            {
+              "blocking_for": "content",
+              "evidence": [
+                "Q1",
+                "Q3"
+              ],
+              "field": "work",
+              "reason": "原文明确存在待选版本这一会改变工作对象的未决事项，需确认是否落实选定讲义版本。",
+              "verdict": "supported"
+            }
+          ],
+          "issuer_ref": "host",
+          "kind": "implicit_need",
+          "missing_fields": [
+            "work"
+          ],
+          "need_basis": {
+            "evidence": [
+              "Q1",
+              "Q3"
+            ],
+            "goal": "确保明天培训使用明确的讲义版本"
+          },
+          "proposed_kind": "ambiguous",
+          "qualification": {
+            "adoption_evidence": [],
+            "evidence": [
+              "Q1",
+              "Q3"
+            ],
+            "reason": "本场提出讲义版本问题并说明尚未决定，但未形成明确工作安排，工作资格尚不确定。",
+            "speech_scope": "current",
+            "work_basis": "uncertain"
+          },
+          "question": "明天培训的讲义版本尚未确定，是否需要落实选定讲义版本？",
+          "record_id": "R2",
+          "thread_ids": [
+            "T2"
+          ]
+        }
+      ],
+      "repair": {
+        "after": {
+          "checked_events": [],
+          "checked_records": [
+            {
+              "check": {
+                "evidence": [
+                  {
+                    "end": 18,
+                    "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                    "segment_id": "SV05.1",
+                    "start": 0
+                  },
+                  {
+                    "end": 9,
+                    "quote": "讲义版本还没决定。",
+                    "segment_id": "SV05.3",
+                    "start": 0
+                  }
+                ],
+                "issues": [
+                  "classification",
+                  "work"
+                ],
+                "reason": "主持人先问讲义用哪个版本，随后自述“讲义版本还没决定”，原文只表明版本待定，未建立选定版本、落实或分派的工作动作；保留为待明确的歧义事项更忠实。；描述忠实保留讲义版本尚未确定，并说明未明确是否落实及负责人，未虚构动作或负责人。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+                "verdict": "insufficient"
+              },
+              "clarification": {
+                "basis": "主持人先问讲义用哪个版本，随后自述“讲义版本还没决定”，原文只表明版本待定，未建立选定版本、落实或分派的工作动作；保留为待明确的歧义事项更忠实。",
+                "evidence": [
+                  "Q1",
+                  "Q3"
+                ],
+                "fields": [
+                  "work"
+                ],
+                "question": "明天培训的讲义版本尚未确定，是否需要落实选定讲义版本？",
+                "status": "needed"
+              },
+              "content_audit": {
+                "evidence": [
+                  "Q1",
+                  "Q3"
+                ],
+                "missing_details": [],
+                "reason": "描述忠实保留讲义版本尚未确定，并说明未明确是否落实及负责人，未虚构动作或负责人。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+                "verdict": "insufficient"
+              },
+              "content_basis": "explicit",
+              "description": "明天培训的讲义版本尚未确定；当前仅反映存在待明确的讲义版本需求，尚未明确是否落实选定版本或由谁负责。",
+              "event_supported": true,
+              "evidence": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 9,
+                  "quote": "讲义版本还没决定。",
+                  "segment_id": "SV05.3",
+                  "start": 0
+                }
+              ],
+              "gap_checks": [
+                {
+                  "blocking_for": "content",
+                  "evidence": [
+                    "Q1",
+                    "Q3"
+                  ],
+                  "field": "work",
+                  "reason": "原文明确存在待选版本这一会改变工作对象的未决事项，需确认是否落实选定讲义版本。",
+                  "verdict": "supported"
+                }
+              ],
+              "issuer_ref": "host",
+              "kind": "implicit_need",
+              "missing_fields": [
+                "work"
+              ],
+              "need_basis": {
+                "evidence": [
+                  "Q1",
+                  "Q3"
+                ],
+                "goal": "确保明天培训使用明确的讲义版本"
+              },
+              "proposed_kind": "ambiguous",
+              "qualification": {
+                "adoption_evidence": [],
+                "evidence": [
+                  "Q1",
+                  "Q3"
+                ],
+                "reason": "本场提出讲义版本问题并说明尚未决定，但未形成明确工作安排，工作资格尚不确定。",
+                "speech_scope": "current",
+                "work_basis": "uncertain"
+              },
+              "question": "明天培训的讲义版本尚未确定，是否需要落实选定讲义版本？",
+              "record_id": "R2",
+              "thread_ids": [
+                "T2"
+              ]
+            }
+          ],
+          "disposition_checks": [],
+          "issue_checks": {
+            "R2:work": {
+              "evidence": [
+                "Q1",
+                "Q3"
+              ],
+              "reason": "首检异议指出工作资格与分类不一致；修正后按原文将记录归为 ambiguous，仅保留版本待定的真实未决事项，不再预设已成立的工作，异议已消除。",
+              "status": "resolved"
+            }
+          },
+          "uncovered_spans": []
+        },
+        "before": {
+          "candidates": [
+            {
+              "candidate_id": "C1",
+              "spans": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 10,
+                  "quote": "教室定在三楼会议室。",
+                  "segment_id": "SV05.2",
+                  "start": 0
+                }
+              ],
+              "thread_id": "T1"
+            },
+            {
+              "candidate_id": "C2",
+              "spans": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 9,
+                  "quote": "讲义版本还没决定。",
+                  "segment_id": "SV05.3",
+                  "start": 0
+                }
+              ],
+              "thread_id": "T2"
+            }
+          ],
+          "checked_events": [],
+          "checked_records": [
+            {
+              "check": {
+                "evidence": [
+                  {
+                    "end": 18,
+                    "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                    "segment_id": "SV05.1",
+                    "start": 0
+                  },
+                  {
+                    "end": 10,
+                    "quote": "教室定在三楼会议室。",
+                    "segment_id": "SV05.2",
+                    "start": 0
+                  }
+                ],
+                "issues": [],
+                "reason": "主持人询问明天培训教室，小周回答定在三楼会议室，问题已当场得到回答，属于已解决的核对，无会后动作。；描述忠实反映问答过程及已解决状态，未添加会后动作。",
+                "verdict": "supported"
+              },
+              "clarification": {
+                "basis": "主持人询问明天培训教室，小周回答定在三楼会议室，问题已当场得到回答，属于已解决的核对，无会后动作。",
+                "evidence": [
+                  "Q1",
+                  "Q2"
+                ],
+                "fields": [],
+                "question": null,
+                "status": "not_needed"
+              },
+              "content_audit": {
+                "evidence": [
+                  "Q1",
+                  "Q2"
+                ],
+                "missing_details": [],
+                "reason": "描述忠实反映问答过程及已解决状态，未添加会后动作。",
+                "verdict": "supported"
+              },
+              "content_basis": "explicit",
+              "description": "主持人询问明天培训的教室，小周回答教室定在三楼会议室；该问题已在会上得到回答，无会后动作。",
+              "event_supported": true,
+              "evidence": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 10,
+                  "quote": "教室定在三楼会议室。",
+                  "segment_id": "SV05.2",
+                  "start": 0
+                }
+              ],
+              "gap_checks": [],
+              "issuer_ref": "host",
+              "kind": "resolved",
+              "missing_fields": [],
+              "need_basis": {
+                "evidence": [],
+                "goal": null
+              },
+              "proposed_kind": null,
+              "qualification": {
+                "adoption_evidence": [],
+                "evidence": [
+                  "Q1",
+                  "Q2"
+                ],
+                "reason": "本场问答核对教室信息，回答后即解决，不构成独立待办工作。",
+                "speech_scope": "current",
+                "work_basis": "none"
+              },
+              "question": null,
+              "record_id": "R1",
+              "thread_ids": [
+                "T1"
+              ]
+            },
+            {
+              "check": {
+                "evidence": [
+                  {
+                    "end": 18,
+                    "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                    "segment_id": "SV05.1",
+                    "start": 0
+                  },
+                  {
+                    "end": 9,
+                    "quote": "讲义版本还没决定。",
+                    "segment_id": "SV05.3",
+                    "start": 0
+                  }
+                ],
+                "issues": [
+                  "work"
+                ],
+                "reason": "主持人询问讲义版本，随后说明版本还没决定，存在待选版本与负责人的真实未决事项，保留为 ambiguous 合理。；描述忠实保留讲义版本尚未确定及未说明负责人、版本，未虚构动作。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+                "verdict": "insufficient"
+              },
+              "clarification": {
+                "basis": "主持人询问讲义版本，随后说明版本还没决定，存在待选版本与负责人的真实未决事项，保留为 ambiguous 合理。",
+                "evidence": [
+                  "Q1",
+                  "Q3"
+                ],
+                "fields": [
+                  "owner",
+                  "reference"
+                ],
+                "question": "明天培训的讲义版本由谁负责选定？；明天培训的讲义需要选定哪个版本？",
+                "status": "needed"
+              },
+              "content_audit": {
+                "evidence": [
+                  "Q1",
+                  "Q3"
+                ],
+                "missing_details": [],
+                "reason": "描述忠实保留讲义版本尚未确定及未说明负责人、版本，未虚构动作。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+                "verdict": "insufficient"
+              },
+              "content_basis": "explicit",
+              "description": "明天培训的讲义版本尚未确定；原话未说明由谁选定哪个版本或何时确定。",
+              "event_supported": true,
+              "evidence": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 9,
+                  "quote": "讲义版本还没决定。",
+                  "segment_id": "SV05.3",
+                  "start": 0
+                }
+              ],
+              "gap_checks": [
+                {
+                  "blocking_for": "operation",
+                  "evidence": [
+                    "Q3"
+                  ],
+                  "field": "owner",
+                  "reason": "原话未说明由谁负责选定讲义版本。",
+                  "verdict": "supported"
+                },
+                {
+                  "blocking_for": "content",
+                  "evidence": [
+                    "Q3"
+                  ],
+                  "field": "reference",
+                  "reason": "原话只说版本还没决定，未说明候选版本或选定依据。",
+                  "verdict": "supported"
+                }
+              ],
+              "issuer_ref": "host",
+              "kind": "ambiguous",
+              "missing_fields": [
+                "owner",
+                "reference"
+              ],
+              "need_basis": {
+                "evidence": [],
+                "goal": null
+              },
+              "proposed_kind": null,
+              "qualification": {
+                "adoption_evidence": [],
+                "evidence": [
+                  "Q1",
+                  "Q3"
+                ],
+                "reason": "本场提出讲义版本问题并明确尚未决定，属于当前未决事项，但尚未形成具体工作安排。",
+                "speech_scope": "current",
+                "work_basis": "uncertain"
+              },
+              "question": "明天培训的讲义版本还没决定，需要确认由谁负责选定哪个版本吗？",
+              "record_id": "R2",
+              "thread_ids": [
+                "T2"
+              ]
+            }
+          ],
+          "events": [],
+          "records": [
+            {
+              "content_basis": "explicit",
+              "description": "主持人询问明天培训的教室，小周回答教室定在三楼会议室；该问题已在会上得到回答，无会后动作。",
+              "evidence": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 10,
+                  "quote": "教室定在三楼会议室。",
+                  "segment_id": "SV05.2",
+                  "start": 0
+                }
+              ],
+              "issuer_ref": "host",
+              "kind": "resolved",
+              "missing_fields": [],
+              "need_basis": {
+                "evidence": [],
+                "goal": null
+              },
+              "question": null,
+              "record_id": "R1",
+              "thread_ids": [
+                "T1"
+              ]
+            },
+            {
+              "content_basis": "explicit",
+              "description": "明天培训的讲义版本尚未确定；原话未说明由谁选定哪个版本或何时确定。",
+              "evidence": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 9,
+                  "quote": "讲义版本还没决定。",
+                  "segment_id": "SV05.3",
+                  "start": 0
+                }
+              ],
+              "issuer_ref": "host",
+              "kind": "ambiguous",
+              "missing_fields": [
+                "owner",
+                "reference"
+              ],
+              "need_basis": {
+                "evidence": [],
+                "goal": null
+              },
+              "question": "明天培训的讲义版本还没决定，需要确认由谁负责选定哪个版本吗？",
+              "record_id": "R2",
+              "thread_ids": [
+                "T2"
+              ]
+            }
+          ],
+          "uncovered_spans": []
+        },
+        "dispositions": [],
+        "findings": [],
+        "issues": [
+          {
+            "evidence": [
+              {
+                "end": 18,
+                "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                "segment_id": "SV05.1",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "讲义版本还没决定。",
+                "segment_id": "SV05.3",
+                "start": 0
+              }
+            ],
+            "field": "work",
+            "issue_id": "R2:work",
+            "reason": "主持人询问讲义版本，随后说明版本还没决定，存在待选版本与负责人的真实未决事项，保留为 ambiguous 合理。；描述忠实保留讲义版本尚未确定及未说明负责人、版本，未虚构动作。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+            "record_id": "R2"
+          }
+        ],
+        "proposal": {
+          "candidates": [
+            {
+              "candidate_id": "C1",
+              "spans": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 10,
+                  "quote": "教室定在三楼会议室。",
+                  "segment_id": "SV05.2",
+                  "start": 0
+                }
+              ],
+              "thread_id": "T1"
+            },
+            {
+              "candidate_id": "C2",
+              "spans": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 9,
+                  "quote": "讲义版本还没决定。",
+                  "segment_id": "SV05.3",
+                  "start": 0
+                }
+              ],
+              "thread_id": "T2"
+            }
+          ],
+          "dispositions": [],
+          "events": [],
+          "records": [
+            {
+              "content_basis": "explicit",
+              "description": "明天培训的讲义版本尚未确定；当前仅反映存在待明确的讲义版本需求，尚未明确是否落实选定版本或由谁负责。",
+              "evidence": [
+                {
+                  "end": 18,
+                  "quote": "明天培训在哪个教室，讲义用哪个版本？",
+                  "segment_id": "SV05.1",
+                  "start": 0
+                },
+                {
+                  "end": 9,
+                  "quote": "讲义版本还没决定。",
+                  "segment_id": "SV05.3",
+                  "start": 0
+                }
+              ],
+              "issuer_ref": "host",
+              "kind": "implicit_need",
+              "missing_fields": [
+                "work"
+              ],
+              "need_basis": {
+                "evidence": [
+                  "Q1",
+                  "Q3"
+                ],
+                "goal": "确保明天培训使用明确的讲义版本"
+              },
+              "question": "明天培训的讲义版本尚未确定，是否需要落实选定讲义版本？",
+              "record_id": "R2",
+              "thread_ids": [
+                "T2"
+              ]
+            }
+          ]
+        },
+        "status": "checked",
+        "target_record_ids": [
+          "R2"
+        ]
+      },
+      "reports": [],
+      "review_records": [
+        {
+          "can_add_task": false,
+          "category": "interpretation_unresolved",
+          "check_reason": "主持人先问讲义用哪个版本，随后自述“讲义版本还没决定”，原文只表明版本待定，未建立选定版本、落实或分派的工作动作；保留为待明确的歧义事项更忠实。；描述忠实保留讲义版本尚未确定，并说明未明确是否落实及负责人，未虚构动作或负责人。；工作资格与分类不一致，须回原话解决，不能预设工作再向用户追问。",
+          "content_basis": "unknown",
+          "description": "原话：明天培训在哪个教室，讲义用哪个版本？；讲义版本还没决定。",
+          "description_status": "unverified_hypothesis",
+          "evidence_ids": [
+            "SV05.1",
+            "SV05.3"
+          ],
+          "issuer_ref": null,
+          "missing_fields": [],
+          "question": "原话含义尚未可靠确定，当前没有可执行的工作解释。",
+          "record_id": "R2"
+        }
+      ],
+      "uncovered_spans": []
+    },
+    "decisions": [
+      {
+        "attribute": "培训教室",
+        "evidence_ids": [
+          "SV05.2"
+        ],
+        "statement": "明天培训的教室定在三楼会议室。",
+        "supersedes": null
+      }
+    ],
+    "facts": [
+      {
+        "evidence_ids": [
+          "SV05.2"
+        ],
+        "statement": "明天培训的教室已确定为三楼会议室。"
+      },
+      {
+        "evidence_ids": [
+          "SV05.3"
+        ],
+        "statement": "讲义版本尚未决定。"
+      }
+    ],
+    "items": [],
+    "unresolved": [
+      {
+        "evidence_ids": [
+          "SV05.1",
+          "SV05.3"
+        ],
+        "statement": "明天培训使用哪个版本的讲义仍未确定。"
+      }
+    ],
+    "updates": []
+  },
+  "source": "runs/2026-11-16-context-v5-system-implementation/semantic-focused/r1/semantic/SV05",
+  "source_sha256": "5e95aeb3762d36ec2cb4c2615453a2432b493d1d2d1c71e10cfbd892f8799d19"
+}

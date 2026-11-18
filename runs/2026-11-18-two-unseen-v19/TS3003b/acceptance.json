@@ -1,0 +1,17 @@
+{
+  "final_status": "processed",
+  "source_unchanged": true,
+  "source_snapshot_files": 76,
+  "same_configuration_as_two_meeting_retest": true,
+  "reference_unchanged": true,
+  "input_unchanged": true,
+  "tracking_status": "complete",
+  "completed_segments": 404,
+  "total_segments": 404,
+  "tracking_splits": 0,
+  "final_errors": [],
+  "database_integrity": true,
+  "reopen_consistent": true,
+  "offline_repeat_no_inference": true,
+  "independent_empty_history": true
+}

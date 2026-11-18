@@ -1,0 +1,2 @@
+本次只修正 target_record_ids 中的记录。record_checks/event_checks 是具体待复查问题，按完整原文判断；核验可能有误，不为通过核验而编造新事实。
+输出与解释阶段相同的 JSON，records 恰好覆盖目标 ID，保持各自 record_id/thread_ids。只输出这些记录的 events，允许补回遗漏事件或撤掉错误事件。context_records 是其他记录，仅供理解边界，不得重写或复制。保留已有正确字段，纠正错误分类、遗漏承接、修饰对象、多余缺口或错误提问；确实未决定的内容仍如实保留。

@@ -1,0 +1,516 @@
+{
+  "version": "context-prerequisites-v1",
+  "status": "frozen",
+  "annotation_status": "agent_authored",
+  "is_blind": false,
+  "cases": [
+    {
+      "case_id": "C02",
+      "criteria": [
+        {
+          "id": "work_and_owner",
+          "description": "保留准备产品工作设计的工作，执行者为工业设计师 MEE006，并识别其 Yep 承接。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.196",
+            "ES2002a.A.dialog-act.dharshi.42"
+          ]
+        },
+        {
+          "id": "window_not_deadline",
+          "description": "两会之间是开展工作时段；不得写成下次会前完成或填入完成截止日期。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.194",
+            "ES2002a.B.dialog-act.dharshi.196"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "C03",
+      "criteria": [
+        {
+          "id": "ui_work_restored",
+          "description": "将用户界面技术功能还原为 UI 设计师 MEE007 的工作，保留产品实际上能做什么的功能含义；不能只保留无动作实体或丢弃。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.199",
+            "ES2002a.B.dialog-act.dharshi.200",
+            "ES2002a.B.dialog-act.dharshi.201"
+          ]
+        },
+        {
+          "id": "ui_assignment_not_acceptance",
+          "description": "UI 工作为可由上下文还原的分工，但没有本人承接；保留待确认承接，不能把市场人员 Okay 归给 UI。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.199",
+            "ES2002a.D.dialog-act.dharshi.173"
+          ]
+        },
+        {
+          "id": "marketing_work_separate",
+          "description": "另行保留市场人员 MEE008 梳理产品应满足的需求；短回应归属不确定性可进入承接确认，但不能因此删除完整工作含义。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.202",
+            "ES2002a.B.dialog-act.dharshi.203",
+            "ES2002a.D.dialog-act.dharshi.173"
+          ]
+        },
+        {
+          "id": "no_email_task",
+          "description": "收到邮件指示不构成主持人主动发送邮件的已分派任务；不得制造该任务或分配发送人。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.204"
+          ]
+        },
+        {
+          "id": "no_duplicate_review",
+          "description": "同一工作不同时出现语义重复的需求确认和原话遗漏确认；不同工作可以共享引用，不能误合并。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.199",
+            "ES2002a.B.dialog-act.dharshi.200",
+            "ES2002a.B.dialog-act.dharshi.201",
+            "ES2002a.D.dialog-act.dharshi.173",
+            "ES2002a.B.dialog-act.dharshi.202",
+            "ES2002a.B.dialog-act.dharshi.203",
+            "ES2002a.B.dialog-act.dharshi.204"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "C09",
+      "criteria": [
+        {
+          "id": "research_meaning_retained",
+          "description": "保留对用户看待或使用说明书的问题的研究含义，联系说明书堆积却没人使用的背景；只写看看说明书不通过。",
+          "evidence_ids": [
+            "ES2004b.D.dialog-act.s9553330.261",
+            "ES2004b.B.dialog-act.s9553330.263",
+            "ES2004b.B.dialog-act.s9553330.264",
+            "ES2004b.B.dialog-act.s9553330.265",
+            "ES2004b.B.dialog-act.s9553330.266"
+          ]
+        },
+        {
+          "id": "inference_separate_from_commitment",
+          "description": "区分研究目的的上下文解释与市场人员 Okay 是否承接；不能仅因研究目的非逐字命令就认定完全没有工作，也不能把短回应直接当作接受推测出来的所有范围。",
+          "evidence_ids": [
+            "ES2004b.D.dialog-act.s9553330.262",
+            "ES2004b.B.dialog-act.s9553330.263",
+            "ES2004b.D.dialog-act.s9553330.263",
+            "ES2004b.B.dialog-act.s9553330.266"
+          ]
+        },
+        {
+          "id": "review_before_task",
+          "description": "本轮新产品策略下，以隐式需求或内容范围待确认工作展示，具体确认是否研究用户看法/使用问题；不自动将该推测范围当成确定承诺创建。",
+          "evidence_ids": [
+            "ES2004b.D.dialog-act.s9553330.261",
+            "ES2004b.B.dialog-act.s9553330.263",
+            "ES2004b.B.dialog-act.s9553330.266"
+          ]
+        },
+        {
+          "id": "no_extra_deliverable",
+          "description": "不得把问卷、访谈、报告、改写说明书等未提出的研究方法或交付物写成已确定任务要求。",
+          "evidence_ids": [
+            "ES2004b.D.dialog-act.s9553330.261",
+            "ES2004b.B.dialog-act.s9553330.263",
+            "ES2004b.B.dialog-act.s9553330.266"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "C20",
+      "criteria": [
+        {
+          "id": "video_work_retained",
+          "description": "保留剪辑线上研究会视频并交大家确认的完整工作和团队承诺；个人负责人不确定不应导致删除。",
+          "evidence_ids": [
+            "vc.136.166.2"
+          ]
+        },
+        {
+          "id": "manuscript_retained_without_invented_action",
+          "description": "另保留文稿实体与处理动作不明的交付线索；可询问文稿要做什么，但不得断言整理、制作、发送或并入已承诺视频工作。",
+          "evidence_ids": [
+            "vc.136.166.2"
+          ]
+        },
+        {
+          "id": "no_person_or_deadline_invention",
+          "description": "不把我们映射成无依据个人负责人，后面不当作交付期限。",
+          "evidence_ids": [
+            "vc.136.166.2"
+          ]
+        },
+        {
+          "id": "separate_known_and_unknown",
+          "description": "视频工作不因相邻文稿动作未知被阻断，文稿不凭空生成动作。",
+          "evidence_ids": [
+            "vc.136.166.2"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "C21",
+      "criteria": [
+        {
+          "id": "team_commitment_retained",
+          "description": "保留整理收到意见的明确团队承诺；不能因个人负责人未知改成纯建议、隐式需求或没有工作。",
+          "evidence_ids": [
+            "vc.178.27.0"
+          ]
+        },
+        {
+          "id": "owner_only_confirmation",
+          "description": "需要确认时针对个人负责人或执行身份，不重复询问会上已经明确的是否整理；不制造期限或个人。",
+          "evidence_ids": [
+            "vc.178.27.0"
+          ]
+        },
+        {
+          "id": "background_not_blocker",
+          "description": "篇幅较长不变成必须确认的执行范围，保留整理意见的承诺。",
+          "evidence_ids": [
+            "vc.178.27.0"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "C26",
+      "criteria": [
+        {
+          "id": "suggestion_retained",
+          "description": "保留会后落地和细化该场景的建议，动作已明确，不应因可以而丢弃内容。",
+          "evidence_ids": [
+            "vc.230.106.3",
+            "vc.230.106.4"
+          ]
+        },
+        {
+          "id": "not_accepted_task",
+          "description": "未见承接，放在可采纳建议或待确认工作中；不生成已答应的创建任务提议，不把会后稍后当作截止期限。",
+          "evidence_ids": [
+            "vc.230.106.4"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CTX_ES2002a_roles",
+      "criteria": [
+        {
+          "id": "three_roles_separate",
+          "description": "完整保留工业设计师的工作设计、UI 设计师的技术功能、市场人员的需求梳理三项工作，角色对应正确，不能因同一产品而合并。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.196",
+            "ES2002a.B.dialog-act.dharshi.199",
+            "ES2002a.B.dialog-act.dharshi.201",
+            "ES2002a.B.dialog-act.dharshi.202",
+            "ES2002a.B.dialog-act.dharshi.203"
+          ]
+        },
+        {
+          "id": "ellipsis_restored_not_hidden_need",
+          "description": "借助前文连续分工恢复 UI 省略动作；此处是上下文分工，不因句子不完整而降为仅实体或待推测隐式需求。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.196",
+            "ES2002a.B.dialog-act.dharshi.199",
+            "ES2002a.B.dialog-act.dharshi.201"
+          ]
+        },
+        {
+          "id": "acceptance_independent",
+          "description": "工业设计师 Yep 属于其自身工作，市场人员 Okay 不属于 UI；UI 保留未承接分工，市场短回应不确定性单列。",
+          "evidence_ids": [
+            "ES2002a.A.dialog-act.dharshi.42",
+            "ES2002a.B.dialog-act.dharshi.199",
+            "ES2002a.D.dialog-act.dharshi.173"
+          ]
+        },
+        {
+          "id": "no_email_or_deadline",
+          "description": "不创建发送邮件任务；两会之间的开展时段不转为三项工作的完成期限。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.194",
+            "ES2002a.B.dialog-act.dharshi.196",
+            "ES2002a.B.dialog-act.dharshi.204"
+          ]
+        },
+        {
+          "id": "no_duplicate_review",
+          "description": "同一工作不同时出现语义重复的需求确认和原话遗漏确认；不同工作可以共享引用，不能误合并。",
+          "evidence_ids": [
+            "ES2002a.B.dialog-act.dharshi.196",
+            "ES2002a.B.dialog-act.dharshi.199",
+            "ES2002a.B.dialog-act.dharshi.201",
+            "ES2002a.B.dialog-act.dharshi.202",
+            "ES2002a.B.dialog-act.dharshi.203",
+            "ES2002a.A.dialog-act.dharshi.42",
+            "ES2002a.D.dialog-act.dharshi.173",
+            "ES2002a.B.dialog-act.dharshi.194",
+            "ES2002a.B.dialog-act.dharshi.204"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP01",
+      "title": "跨检查点补范围并承接",
+      "criteria": [
+        {
+          "id": "prefix_unaccepted",
+          "description": "第8段时保留界面功能清单线索，范围待定且未承接；不得使用第9/10段信息。",
+          "evidence_ids": [
+            "CP01.s1",
+            "CP01.s2",
+            "CP01.s8"
+          ],
+          "checkpoint_after_segment": "CP01.s8"
+        },
+        {
+          "id": "final_content",
+          "description": "最终完整保留移动端、设置页、功能清单及不含登录页的范围。",
+          "evidence_ids": [
+            "CP01.s9",
+            "CP01.s10"
+          ]
+        },
+        {
+          "id": "final_acceptance",
+          "description": "最终仅一项小林承接的创建提议，无重复旧待确认项，无虚构期限。",
+          "evidence_ids": [
+            "CP01.s9",
+            "CP01.s10"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP02",
+      "title": "纠正对象",
+      "criteria": [
+        {
+          "id": "prefix_object",
+          "description": "第8段时工作对象是 Web 端登录页，尚不知道后续纠正。",
+          "evidence_ids": [
+            "CP02.s1",
+            "CP02.s2",
+            "CP02.s8"
+          ],
+          "checkpoint_after_segment": "CP02.s8"
+        },
+        {
+          "id": "final_object",
+          "description": "最终只保留移动端登录页工作，不同时创建 Web 端工作；负责人小林。",
+          "evidence_ids": [
+            "CP02.s9",
+            "CP02.s10"
+          ]
+        },
+        {
+          "id": "revision_history",
+          "description": "保留旧对象到新对象的更新依据，不能改写旧检查点使其提前知道新对象。",
+          "evidence_ids": [
+            "CP02.s1",
+            "CP02.s2",
+            "CP02.s9",
+            "CP02.s10"
+          ]
+        },
+        {
+          "id": "answered_check_closed",
+          "description": "后文已明确移动端对象，不再询问已解决的页面核对。",
+          "evidence_ids": [
+            "CP02.s1",
+            "CP02.s2",
+            "CP02.s8",
+            "CP02.s9",
+            "CP02.s10"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP03",
+      "title": "后文取消",
+      "criteria": [
+        {
+          "id": "prefix_commitment",
+          "description": "第8段时保留小林整理报名名单的明确承诺，不能提前视为取消。",
+          "evidence_ids": [
+            "CP03.s1",
+            "CP03.s7"
+          ],
+          "checkpoint_after_segment": "CP03.s8"
+        },
+        {
+          "id": "final_withdrawn",
+          "description": "最终无创建提议；线索保留明确撤回状态及取消依据。",
+          "evidence_ids": [
+            "CP03.s9",
+            "CP03.s10"
+          ]
+        },
+        {
+          "id": "no_stale_question",
+          "description": "已取消工作不再作为待采纳任务询问用户；纯历史说明不算待确认。",
+          "evidence_ids": [
+            "CP03.s9",
+            "CP03.s10"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP04",
+      "title": "同名实体不合并",
+      "criteria": [
+        {
+          "id": "distinct_entities",
+          "description": "项目 A 首页和项目 B 首页分别可识别；相同页面名不构成 same_as。",
+          "evidence_ids": [
+            "CP04.s1",
+            "CP04.s2",
+            "CP04.s4"
+          ]
+        },
+        {
+          "id": "distinct_work",
+          "description": "保留两项检查按钮文案的工作，小林对应 A，小周对应 B，均已承接。",
+          "evidence_ids": [
+            "CP04.s2",
+            "CP04.s3",
+            "CP04.s4",
+            "CP04.s5"
+          ]
+        },
+        {
+          "id": "constraint_not_task",
+          "description": "分别保留两份结果作为对应工作的约束，不另造待分派工作或追问负责人。",
+          "evidence_ids": [
+            "CP04.s1",
+            "CP04.s2",
+            "CP04.s4",
+            "CP04.s3",
+            "CP04.s5"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP05",
+      "title": "孤立名词",
+      "criteria": [
+        {
+          "id": "entities_retained",
+          "description": "实体账本保留产品说明书和演示设备及原话提及。",
+          "evidence_ids": [
+            "CP05.s1",
+            "CP05.s2"
+          ]
+        },
+        {
+          "id": "no_task_or_question",
+          "description": "不产生任务、隐式需求或待确认卡；可以保留 entity_only 记录。",
+          "evidence_ids": [
+            "CP05.s3"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP06",
+      "title": "问题背景中的隐式需求",
+      "criteria": [
+        {
+          "id": "need_retained",
+          "description": "待确认内容保留用户不阅读指南、重复重置咨询及减少咨询目标，区分事实与推测的工作目的。",
+          "evidence_ids": [
+            "CP06.s1",
+            "CP06.s2",
+            "CP06.s3",
+            "CP06.s4"
+          ]
+        },
+        {
+          "id": "targeted_question",
+          "description": "提出需要确认的具体工作方向或是否开展调查；不能只问“确认吗”。",
+          "evidence_ids": [
+            "CP06.s1",
+            "CP06.s2",
+            "CP06.s3",
+            "CP06.s4"
+          ]
+        },
+        {
+          "id": "no_invented_commitment",
+          "description": "无创建或更新提议，不断言已指派某人，不新增访谈、问卷、报告或改写指南等确定交付。",
+          "evidence_ids": [
+            "CP06.s4"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP07",
+      "title": "隐式需求后明确化",
+      "criteria": [
+        {
+          "id": "prefix_implicit",
+          "description": "第8段时保留问题线索但尚未分派、未承接，不使用第9/10段信息。",
+          "evidence_ids": [
+            "CP07.s1",
+            "CP07.s2",
+            "CP07.s3",
+            "CP07.s4",
+            "CP07.s7",
+            "CP07.s8"
+          ],
+          "checkpoint_after_segment": "CP07.s8"
+        },
+        {
+          "id": "final_explicit",
+          "description": "最终保留调查不阅读原因及两种情况的范围，小林明确接受，形成一个创建提议。",
+          "evidence_ids": [
+            "CP07.s9",
+            "CP07.s10"
+          ]
+        },
+        {
+          "id": "no_duplicate_need",
+          "description": "同一问题线索得到补全后，不再同时保留“是否开展该调查”的旧待确认项；更新历史仍可见。",
+          "evidence_ids": [
+            "CP07.s1",
+            "CP07.s2",
+            "CP07.s9",
+            "CP07.s10"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CP08",
+      "title": "明确单句工作",
+      "criteria": [
+        {
+          "id": "full_action",
+          "description": "保留发送季度预算表给财务部的工作，负责人小林，不误分为隐式需求或模糊工作。",
+          "evidence_ids": [
+            "CP08.s1"
+          ]
+        },
+        {
+          "id": "deadline",
+          "description": "生成一个创建提议，交付日期为2026-11-20；标题无需重复日期。",
+          "evidence_ids": [
+            "CP08.s1"
+          ]
+        }
+      ]
+    }
+  ]
+}

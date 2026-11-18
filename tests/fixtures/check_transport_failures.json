@@ -1,0 +1,5504 @@
+[
+  {
+    "case_id": "C14",
+    "attempt": "attempt-1",
+    "text": "{\"case_id\": \"C14\", \"scope\": \"b15ec246a4967c7d895189c314782b91f32b45afe18987427d8857f664daf760\", \"record_checks\": {\"R1\": {\"kind\": \"work\", \"reason\": \"C 提出产品范围问题（是否只做电视遥控器、能否加入录像机功能、还是只保留电视相关按钮），A 回应“I'll look into that”并附加“If I can”，构成一项带条件的实际跟进工作，属本场当前话语。\", \"evidence\": [\"Q1\", \"Q3\", \"Q4\", \"Q6\", \"Q9\", \"Q11\"], \"content\": {\"verdict\": \"supported\", \"reason\": \"描述忠实保留了 A 去了解产品范围问题（电视专用、录像机功能可行性、仅电视按钮）以及“if able”的条件，未虚构交付物或期限。\", \"evidence\": [\"Q1\", \"Q3\", \"Q4\", \"Q6\", \"Q9\", \"Q11\"], \"missing_details\": []}, \"gap_checks\": [], \"qualification\": {\"speech_scope\": \"current\", \"work_basis\": \"action\", \"evidence\": [\"Q1\", \"Q3\", \"Q4\", \"Q6\", \"Q9\", \"Q11\"], \"adoption_evidence\": [], \"reason\": \"C 在本场提出范围问题，A 当场承接去了解，属本场实际工作安排。\"}}, \"checks\": {\"E1.work\": {\"verdict\": \"supported\", \"reason\": \"A 明确说“I'll look into that”，承接了解 C 提出的产品范围问题（电视专用、录像机功能、仅电视按钮），工作内容与对象忠实。\", \"evidence\": [\"Q1\", \"Q3\", \"Q4\", \"Q6\", \"Q9\"]}, \"E1.owner\": {\"verdict\": \"supported\", \"reason\": \"“I'll look into that”由 A（Project Manager，FEE029）说出，执行者为 A。\", \"evidence\": [\"Q9\", \"Q11\"]}, \"E1.commitment\": {\"verdict\": \"supported\", \"reason\": \"A 承接后紧接“If I can”，承诺带条件，conditional 忠实。\", \"evidence\": [\"Q9\", \"Q11\"]}, \"E1.time\": {\"verdict\": \"supported\", \"reason\": \"原文未给出任何期限，time 为 unspecified、change=keep 忠实。\", \"evidence\": [\"Q9\"]}, \"E1.state\": {\"verdict\": \"supported\", \"reason\": \"A 表示将去了解，尚未开始或完成，future_work 忠实。\", \"evidence\": [\"Q9\", \"Q11\"]}, \"E1.relation\": {\"verdict\": \"supported\", \"reason\": \"history.tasks 为空，无旧任务可关联，relation=new 忠实。\", \"evidence\": [\"Q9\"]}}, \"coverage_findings\": []}",
+    "contract": {
+      "additionalProperties": false,
+      "properties": {
+        "case_id": {
+          "example": "C14",
+          "type": "string"
+        },
+        "checks": {
+          "additionalProperties": false,
+          "properties": {
+            "E1.commitment": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            },
+            "E1.owner": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            },
+            "E1.relation": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            },
+            "E1.state": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            },
+            "E1.time": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            },
+            "E1.work": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "E1.work",
+            "E1.owner",
+            "E1.commitment",
+            "E1.time",
+            "E1.state",
+            "E1.relation"
+          ],
+          "type": "object"
+        },
+        "coverage_findings": {
+          "example": [],
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "example": "遗漏的独立工作或已有工作缺失内容",
+                "type": "string"
+              },
+              "evidence": {
+                "items": {
+                  "example": "Q1",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "related_record_ids": {
+                "example": [],
+                "items": {
+                  "example": "R1",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "relation": {
+                "enum": [
+                  "new_work",
+                  "same_work",
+                  "uncertain"
+                ],
+                "example": "new_work",
+                "type": "string"
+              }
+            },
+            "required": [
+              "description",
+              "evidence",
+              "relation",
+              "related_record_ids"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "record_checks": {
+          "additionalProperties": false,
+          "properties": {
+            "R1": {
+              "additionalProperties": false,
+              "properties": {
+                "content": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "evidence": {
+                      "items": {
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "missing_details": {
+                      "example": [],
+                      "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "description": {
+                            "example": "原话应保留的必要目的或范围",
+                            "type": "string"
+                          },
+                          "evidence": {
+                            "items": {
+                              "example": "Q1",
+                              "type": "string"
+                            },
+                            "type": "array"
+                          }
+                        },
+                        "required": [
+                          "description",
+                          "evidence"
+                        ],
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "reason": {
+                      "example": "依据",
+                      "type": "string"
+                    },
+                    "verdict": {
+                      "enum": [
+                        "supported",
+                        "insufficient",
+                        "contradicted"
+                      ],
+                      "example": "supported",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "verdict",
+                    "reason",
+                    "evidence",
+                    "missing_details"
+                  ],
+                  "type": "object"
+                },
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "gap_checks": {
+                  "example": [],
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "evidence": {
+                        "items": {
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "field": {
+                        "enum": [
+                          "commitment",
+                          "owner",
+                          "reference",
+                          "relation",
+                          "scope",
+                          "time",
+                          "work"
+                        ],
+                        "example": "commitment",
+                        "type": "string"
+                      },
+                      "question": {
+                        "example": null,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "status": {
+                        "enum": [
+                          "not_needed",
+                          "needed"
+                        ],
+                        "example": "not_needed",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "field",
+                      "status",
+                      "reason",
+                      "evidence",
+                      "question"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "kind": {
+                  "enum": [
+                    "ambiguous",
+                    "context_only",
+                    "deferred_topic",
+                    "entity_only",
+                    "implicit_need",
+                    "resolved",
+                    "withdrawn",
+                    "work"
+                  ],
+                  "example": "work",
+                  "type": "string"
+                },
+                "qualification": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "adoption_evidence": {
+                      "example": [],
+                      "items": {
+                        "enum": [
+                          "Q1",
+                          "Q2",
+                          "Q3",
+                          "Q4",
+                          "Q5",
+                          "Q6",
+                          "Q7",
+                          "Q8",
+                          "Q9",
+                          "Q10",
+                          "Q11",
+                          "Q12",
+                          "Q13"
+                        ],
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "evidence": {
+                      "items": {
+                        "enum": [
+                          "Q1",
+                          "Q2",
+                          "Q3",
+                          "Q4",
+                          "Q5",
+                          "Q6",
+                          "Q7",
+                          "Q8",
+                          "Q9",
+                          "Q10",
+                          "Q11",
+                          "Q12",
+                          "Q13"
+                        ],
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "reason": {
+                      "example": "依据",
+                      "type": "string"
+                    },
+                    "speech_scope": {
+                      "enum": [
+                        "current",
+                        "quoted",
+                        "historical",
+                        "uncertain"
+                      ],
+                      "example": "current",
+                      "type": "string"
+                    },
+                    "work_basis": {
+                      "enum": [
+                        "action",
+                        "work_report",
+                        "goal_need",
+                        "option",
+                        "entity_mention",
+                        "none",
+                        "uncertain"
+                      ],
+                      "example": "action",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "speech_scope",
+                    "work_basis",
+                    "evidence",
+                    "adoption_evidence",
+                    "reason"
+                  ],
+                  "type": "object"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "kind",
+                "reason",
+                "evidence",
+                "content",
+                "gap_checks",
+                "qualification"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "R1"
+          ],
+          "type": "object"
+        },
+        "scope": {
+          "example": "b15ec246a4967c7d895189c314782b91f32b45afe18987427d8857f664daf760",
+          "type": "string"
+        }
+      },
+      "required": [
+        "case_id",
+        "scope",
+        "record_checks",
+        "checks",
+        "coverage_findings"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "candidates": [
+        {
+          "candidate_id": "C1",
+          "spans": [
+            {
+              "end": 55,
+              "quote": "are we designing a remote control for a television only",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+              "start": 0
+            },
+            {
+              "end": 63,
+              "quote": "um, and if if this device is just to be used for the television",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+              "start": 0
+            },
+            {
+              "end": 80,
+              "quote": "would we even technically be possible to include video recorder functions on it?",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+              "start": 0
+            },
+            {
+              "end": 22,
+              "quote": "I don't know that yet.",
+              "segment_id": "ES2008a.A.dialog-act.vkaraisk.107",
+              "start": 0
+            },
+            {
+              "end": 95,
+              "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+              "start": 0
+            },
+            {
+              "end": 20,
+              "quote": "I'll look into that.",
+              "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+              "start": 0
+            },
+            {
+              "end": 9,
+              "quote": "If I can.",
+              "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+              "start": 0
+            },
+            {
+              "end": 23,
+              "quote": "I think it's just T_V_,",
+              "segment_id": "ES2008a.D.dialog-act.vkaraisk.57",
+              "start": 0
+            },
+            {
+              "end": 110,
+              "quote": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.",
+              "segment_id": "ES2008a.D.dialog-act.vkaraisk.58",
+              "start": 0
+            }
+          ],
+          "thread_id": "T1"
+        }
+      ],
+      "check_targets": {
+        "event_field_keys": [
+          "E1.work",
+          "E1.owner",
+          "E1.commitment",
+          "E1.time",
+          "E1.state",
+          "E1.relation"
+        ],
+        "record_ids": [
+          "R1"
+        ]
+      },
+      "coverage_review": {
+        "unrepresented_evidence": [
+          "Q2",
+          "Q5",
+          "Q7",
+          "Q8",
+          "Q10",
+          "Q12",
+          "Q13"
+        ],
+        "unthreaded_entities": []
+      },
+      "disposition_reference_records": {},
+      "events": [
+        {
+          "candidate_ids": [
+            "C1"
+          ],
+          "commitment": {
+            "evidence": [
+              {
+                "end": 20,
+                "quote": "I'll look into that.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "If I can.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+                "start": 0
+              }
+            ],
+            "kind": "conditional"
+          },
+          "event_id": "E1",
+          "other_changes": [],
+          "owner": {
+            "evidence": [
+              {
+                "end": 20,
+                "quote": "I'll look into that.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "If I can.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+                "start": 0
+              }
+            ],
+            "kind": "person",
+            "label": "Project Manager",
+            "ref": "FEE029"
+          },
+          "record_id": "R1",
+          "relation": {
+            "candidate_guids": [],
+            "evidence": [],
+            "kind": "new",
+            "target_guid": null
+          },
+          "state": {
+            "evidence": [
+              {
+                "end": 20,
+                "quote": "I'll look into that.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "If I can.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+                "start": 0
+              }
+            ],
+            "kind": "future_work"
+          },
+          "time": {
+            "change": "keep",
+            "date": null,
+            "evidence": [],
+            "kind": "unspecified",
+            "text": null
+          },
+          "work": {
+            "description": "Project Manager A will, if able, look into the unresolved product scope of the current television remote control, specifically whether it is intended for television only and whether video recorder functions could technically be included, or whether it should just have television-related buttons.",
+            "evidence": [
+              {
+                "end": 55,
+                "quote": "are we designing a remote control for a television only",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+                "start": 0
+              },
+              {
+                "end": 63,
+                "quote": "um, and if if this device is just to be used for the television",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+                "start": 0
+              },
+              {
+                "end": 80,
+                "quote": "would we even technically be possible to include video recorder functions on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+                "start": 0
+              },
+              {
+                "end": 95,
+                "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                "start": 0
+              },
+              {
+                "end": 20,
+                "quote": "I'll look into that.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "If I can.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+                "start": 0
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_catalog": {
+        "Q1": {
+          "quote": "are we designing a remote control for a television only",
+          "segment_id": "ES2008a.C.dialog-act.vkaraisk.43"
+        },
+        "Q10": {
+          "quote": "Mm-hmm hmm.",
+          "segment_id": "ES2008a.D.dialog-act.vkaraisk.56"
+        },
+        "Q11": {
+          "quote": "If I can.",
+          "segment_id": "ES2008a.A.dialog-act.vkaraisk.110"
+        },
+        "Q12": {
+          "quote": "I think it's just T_V_,",
+          "segment_id": "ES2008a.D.dialog-act.vkaraisk.57"
+        },
+        "Q13": {
+          "quote": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.",
+          "segment_id": "ES2008a.D.dialog-act.vkaraisk.58"
+        },
+        "Q2": {
+          "quote": "Good question.",
+          "segment_id": "ES2008a.A.dialog-act.vkaraisk.106"
+        },
+        "Q3": {
+          "quote": "um, and if if this device is just to be used for the television",
+          "segment_id": "ES2008a.C.dialog-act.vkaraisk.44"
+        },
+        "Q4": {
+          "quote": "would we even technically be possible to include video recorder functions on it?",
+          "segment_id": "ES2008a.C.dialog-act.vkaraisk.45"
+        },
+        "Q5": {
+          "quote": "I don't know that yet.",
+          "segment_id": "ES2008a.A.dialog-act.vkaraisk.107"
+        },
+        "Q6": {
+          "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+          "segment_id": "ES2008a.C.dialog-act.vkaraisk.46"
+        },
+        "Q7": {
+          "quote": "Mm.",
+          "segment_id": "ES2008a.B.dialog-act.vkaraisk.88"
+        },
+        "Q8": {
+          "quote": "It's a good question. Um.",
+          "segment_id": "ES2008a.A.dialog-act.vkaraisk.108"
+        },
+        "Q9": {
+          "quote": "I'll look into that.",
+          "segment_id": "ES2008a.A.dialog-act.vkaraisk.109"
+        }
+      },
+      "history": {
+        "tasks": []
+      },
+      "ledger": {
+        "entities": [
+          {
+            "entity_id": "N1",
+            "label": "television remote control",
+            "mentions": [
+              {
+                "end": 55,
+                "quote": "are we designing a remote control for a television only",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+                "start": 0
+              },
+              {
+                "end": 63,
+                "quote": "um, and if if this device is just to be used for the television",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+                "start": 0
+              },
+              {
+                "end": 80,
+                "quote": "would we even technically be possible to include video recorder functions on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+                "start": 0
+              },
+              {
+                "end": 95,
+                "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                "start": 0
+              },
+              {
+                "end": 110,
+                "quote": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.",
+                "segment_id": "ES2008a.D.dialog-act.vkaraisk.58",
+                "start": 0
+              }
+            ]
+          },
+          {
+            "entity_id": "N2",
+            "label": "television",
+            "mentions": [
+              {
+                "end": 55,
+                "quote": "are we designing a remote control for a television only",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+                "start": 0
+              },
+              {
+                "end": 63,
+                "quote": "um, and if if this device is just to be used for the television",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+                "start": 0
+              },
+              {
+                "end": 95,
+                "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                "start": 0
+              },
+              {
+                "end": 23,
+                "quote": "I think it's just T_V_,",
+                "segment_id": "ES2008a.D.dialog-act.vkaraisk.57",
+                "start": 0
+              },
+              {
+                "end": 110,
+                "quote": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.",
+                "segment_id": "ES2008a.D.dialog-act.vkaraisk.58",
+                "start": 0
+              }
+            ]
+          },
+          {
+            "entity_id": "N3",
+            "label": "video recorder functions",
+            "mentions": [
+              {
+                "end": 80,
+                "quote": "would we even technically be possible to include video recorder functions on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+                "start": 0
+              }
+            ]
+          },
+          {
+            "entity_id": "N4",
+            "label": "television-related buttons",
+            "mentions": [
+              {
+                "end": 95,
+                "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                "start": 0
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "evidence": [
+              {
+                "end": 55,
+                "quote": "are we designing a remote control for a television only",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+                "start": 0
+              },
+              {
+                "end": 63,
+                "quote": "um, and if if this device is just to be used for the television",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+                "start": 0
+              }
+            ],
+            "relation": "related",
+            "source": "N1",
+            "target": "N2"
+          },
+          {
+            "evidence": [
+              {
+                "end": 80,
+                "quote": "would we even technically be possible to include video recorder functions on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+                "start": 0
+              }
+            ],
+            "relation": "related",
+            "source": "N1",
+            "target": "N3"
+          },
+          {
+            "evidence": [
+              {
+                "end": 95,
+                "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                "start": 0
+              }
+            ],
+            "relation": "related",
+            "source": "N1",
+            "target": "N4"
+          }
+        ],
+        "threads": [
+          {
+            "entity_ids": [
+              "N1",
+              "N2",
+              "N3",
+              "N4"
+            ],
+            "thread_id": "T1",
+            "updates": [
+              {
+                "after_segment": "ES2008a.C.dialog-act.vkaraisk.43",
+                "description": "C 提出产品范围问题：是否只设计用于电视的遥控器。",
+                "evidence": [
+                  {
+                    "end": 55,
+                    "quote": "are we designing a remote control for a television only",
+                    "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.C.dialog-act.vkaraisk.44",
+                "description": "C 补充条件：如果该设备只用于电视，则继续讨论其功能范围。",
+                "evidence": [
+                  {
+                    "end": 63,
+                    "quote": "um, and if if this device is just to be used for the television",
+                    "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.C.dialog-act.vkaraisk.45",
+                "description": "C 询问在该遥控器上加入录像机功能在技术上是否可行。",
+                "evidence": [
+                  {
+                    "end": 80,
+                    "quote": "would we even technically be possible to include video recorder functions on it?",
+                    "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.A.dialog-act.vkaraisk.107",
+                "description": "A 表示尚不知道是否能加入录像机功能，范围问题仍未确定。",
+                "evidence": [
+                  {
+                    "end": 22,
+                    "quote": "I don't know that yet.",
+                    "segment_id": "ES2008a.A.dialog-act.vkaraisk.107",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.C.dialog-act.vkaraisk.46",
+                "description": "C 提出另一种范围选择：是否只保留电视相关按钮。",
+                "evidence": [
+                  {
+                    "end": 95,
+                    "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                    "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.A.dialog-act.vkaraisk.109",
+                "description": "A（项目经理）承接去了解该问题：是否可在电视遥控器上加入录像机功能／确认产品范围问题。",
+                "evidence": [
+                  {
+                    "end": 20,
+                    "quote": "I'll look into that.",
+                    "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+                    "start": 0
+                  }
+                ],
+                "kind": "work"
+              },
+              {
+                "after_segment": "ES2008a.A.dialog-act.vkaraisk.110",
+                "description": "A 对上述“去了解”的承诺附加条件：如果自己能做到（“If I can”）。",
+                "evidence": [
+                  {
+                    "end": 9,
+                    "quote": "If I can.",
+                    "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.D.dialog-act.vkaraisk.57",
+                "description": "D（市场专家）认为产品范围就是电视（“just T_V_”），为范围讨论提供一条背景判断。",
+                "evidence": [
+                  {
+                    "end": 23,
+                    "quote": "I think it's just T_V_,",
+                    "segment_id": "ES2008a.D.dialog-act.vkaraisk.57",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.D.dialog-act.vkaraisk.58",
+                "description": "D 进一步说明这是新的电视遥控器产品，提示资料并未提及录像机功能，用以支持其范围理解。",
+                "evidence": [
+                  {
+                    "end": 110,
+                    "quote": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.",
+                    "segment_id": "ES2008a.D.dialog-act.vkaraisk.58",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              }
+            ]
+          }
+        ]
+      },
+      "meeting": {
+        "case_id": "C14",
+        "language": "en",
+        "meeting_date": "04-02-05",
+        "meeting_id": "ES2008a",
+        "participants": [
+          {
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager"
+          },
+          {
+            "person_ref": "FEE030",
+            "speaker": "B",
+            "speaker_name": "Industrial Designer"
+          },
+          {
+            "person_ref": "MEE031",
+            "speaker": "C",
+            "speaker_name": "User Interface Designer"
+          },
+          {
+            "person_ref": "FEE032",
+            "speaker": "D",
+            "speaker_name": "Marketing Expert"
+          }
+        ],
+        "roster": {
+          "FEE029": "Project Manager",
+          "FEE030": "Industrial Designer",
+          "FEE032": "Marketing Expert",
+          "MEE031": "User Interface Designer"
+        },
+        "segments": [
+          {
+            "end_ms": 789090,
+            "id": "ES2008a.C.dialog-act.vkaraisk.43",
+            "person_ref": "MEE031",
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "start_ms": 784520,
+            "text": "are we designing a remote control for a television only"
+          },
+          {
+            "end_ms": 790110,
+            "id": "ES2008a.A.dialog-act.vkaraisk.106",
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "start_ms": 788524,
+            "text": "Good question."
+          },
+          {
+            "end_ms": 793980,
+            "id": "ES2008a.C.dialog-act.vkaraisk.44",
+            "person_ref": "MEE031",
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "start_ms": 789090,
+            "text": "um, and if if this device is just to be used for the television"
+          },
+          {
+            "end_ms": 799090,
+            "id": "ES2008a.C.dialog-act.vkaraisk.45",
+            "person_ref": "MEE031",
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "start_ms": 795050,
+            "text": "would we even technically be possible to include video recorder functions on it?"
+          },
+          {
+            "end_ms": 802860,
+            "id": "ES2008a.A.dialog-act.vkaraisk.107",
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "start_ms": 801049,
+            "text": "I don't know that yet."
+          },
+          {
+            "end_ms": 808290,
+            "id": "ES2008a.C.dialog-act.vkaraisk.46",
+            "person_ref": "MEE031",
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "start_ms": 801800,
+            "text": "Um or should we just stick to just stick to having television television related buttons on it?"
+          },
+          {
+            "end_ms": 808350,
+            "id": "ES2008a.B.dialog-act.vkaraisk.88",
+            "person_ref": "FEE030",
+            "speaker": "B",
+            "speaker_name": "Industrial Designer",
+            "start_ms": 808130,
+            "text": "Mm."
+          },
+          {
+            "end_ms": 812080,
+            "id": "ES2008a.A.dialog-act.vkaraisk.108",
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "start_ms": 810400,
+            "text": "It's a good question. Um."
+          },
+          {
+            "end_ms": 814840,
+            "id": "ES2008a.A.dialog-act.vkaraisk.109",
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "start_ms": 813951,
+            "text": "I'll look into that."
+          },
+          {
+            "end_ms": 814700,
+            "id": "ES2008a.D.dialog-act.vkaraisk.56",
+            "person_ref": "FEE032",
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "start_ms": 814080,
+            "text": "Mm-hmm hmm."
+          },
+          {
+            "end_ms": 816700,
+            "id": "ES2008a.A.dialog-act.vkaraisk.110",
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "start_ms": 815990,
+            "text": "If I can."
+          },
+          {
+            "end_ms": 817600,
+            "id": "ES2008a.D.dialog-act.vkaraisk.57",
+            "person_ref": "FEE032",
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "start_ms": 816240,
+            "text": "I think it's just T_V_,"
+          },
+          {
+            "end_ms": 826530,
+            "id": "ES2008a.D.dialog-act.vkaraisk.58",
+            "person_ref": "FEE032",
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "start_ms": 817600,
+            "text": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say."
+          }
+        ],
+        "series": "ES2008",
+        "source": "AMI_1.6.2"
+      },
+      "output_contract": "\n仅输出符合以下完整结构的 JSON（数组按实际情况可为空，示例不是答案）：\n{\"case_id\": \"C14\", \"scope\": \"b15ec246a4967c7d895189c314782b91f32b45afe18987427d8857f664daf760\", \"record_checks\": {\"R1\": {\"kind\": \"work\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"content\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"missing_details\": []}, \"gap_checks\": [], \"qualification\": {\"speech_scope\": \"current\", \"work_basis\": \"action\", \"evidence\": [\"Q1\"], \"adoption_evidence\": [], \"reason\": \"依据\"}}}, \"checks\": {\"E1.work\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}, \"E1.owner\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}, \"E1.commitment\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}, \"E1.time\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}, \"E1.state\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}, \"E1.relation\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}}, \"coverage_findings\": []}\n非空 $.record_checks.R1.content.missing_details 的每个元素必须完整包含：{\"description\": \"原话应保留的必要目的或范围\", \"evidence\": [\"Q1\"]}\n非空 $.record_checks.R1.gap_checks 的每个元素必须完整包含：{\"field\": \"commitment\", \"status\": \"not_needed\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"question\": null}\n非空 $.coverage_findings 的每个元素必须完整包含：{\"description\": \"遗漏的独立工作或已有工作缺失内容\", \"evidence\": [\"Q1\"], \"relation\": \"new_work\", \"related_record_ids\": []}\n数组为空只是示例值，不表示可以省略非空元素的字段。每个输入 record_id/event_id 恰好核验一次，不重复输出相同 ID。",
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "case_id": {
+            "example": "C14",
+            "type": "string"
+          },
+          "checks": {
+            "additionalProperties": false,
+            "properties": {
+              "E1.commitment": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              },
+              "E1.owner": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              },
+              "E1.relation": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              },
+              "E1.state": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              },
+              "E1.time": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              },
+              "E1.work": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "E1.work",
+              "E1.owner",
+              "E1.commitment",
+              "E1.time",
+              "E1.state",
+              "E1.relation"
+            ],
+            "type": "object"
+          },
+          "coverage_findings": {
+            "example": [],
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "description": {
+                  "example": "遗漏的独立工作或已有工作缺失内容",
+                  "type": "string"
+                },
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "related_record_ids": {
+                  "example": [],
+                  "items": {
+                    "example": "R1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "relation": {
+                  "enum": [
+                    "new_work",
+                    "same_work",
+                    "uncertain"
+                  ],
+                  "example": "new_work",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description",
+                "evidence",
+                "relation",
+                "related_record_ids"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "record_checks": {
+            "additionalProperties": false,
+            "properties": {
+              "R1": {
+                "additionalProperties": false,
+                "properties": {
+                  "content": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "evidence": {
+                        "items": {
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "missing_details": {
+                        "example": [],
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "description": {
+                              "example": "原话应保留的必要目的或范围",
+                              "type": "string"
+                            },
+                            "evidence": {
+                              "items": {
+                                "example": "Q1",
+                                "type": "string"
+                              },
+                              "type": "array"
+                            }
+                          },
+                          "required": [
+                            "description",
+                            "evidence"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "verdict": {
+                        "enum": [
+                          "supported",
+                          "insufficient",
+                          "contradicted"
+                        ],
+                        "example": "supported",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "verdict",
+                      "reason",
+                      "evidence",
+                      "missing_details"
+                    ],
+                    "type": "object"
+                  },
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "gap_checks": {
+                    "example": [],
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "evidence": {
+                          "items": {
+                            "example": "Q1",
+                            "type": "string"
+                          },
+                          "type": "array"
+                        },
+                        "field": {
+                          "enum": [
+                            "commitment",
+                            "owner",
+                            "reference",
+                            "relation",
+                            "scope",
+                            "time",
+                            "work"
+                          ],
+                          "example": "commitment",
+                          "type": "string"
+                        },
+                        "question": {
+                          "example": null,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "reason": {
+                          "example": "依据",
+                          "type": "string"
+                        },
+                        "status": {
+                          "enum": [
+                            "not_needed",
+                            "needed"
+                          ],
+                          "example": "not_needed",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "field",
+                        "status",
+                        "reason",
+                        "evidence",
+                        "question"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "kind": {
+                    "enum": [
+                      "ambiguous",
+                      "context_only",
+                      "deferred_topic",
+                      "entity_only",
+                      "implicit_need",
+                      "resolved",
+                      "withdrawn",
+                      "work"
+                    ],
+                    "example": "work",
+                    "type": "string"
+                  },
+                  "qualification": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "adoption_evidence": {
+                        "example": [],
+                        "items": {
+                          "enum": [
+                            "Q1",
+                            "Q2",
+                            "Q3",
+                            "Q4",
+                            "Q5",
+                            "Q6",
+                            "Q7",
+                            "Q8",
+                            "Q9",
+                            "Q10",
+                            "Q11",
+                            "Q12",
+                            "Q13"
+                          ],
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "evidence": {
+                        "items": {
+                          "enum": [
+                            "Q1",
+                            "Q2",
+                            "Q3",
+                            "Q4",
+                            "Q5",
+                            "Q6",
+                            "Q7",
+                            "Q8",
+                            "Q9",
+                            "Q10",
+                            "Q11",
+                            "Q12",
+                            "Q13"
+                          ],
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "speech_scope": {
+                        "enum": [
+                          "current",
+                          "quoted",
+                          "historical",
+                          "uncertain"
+                        ],
+                        "example": "current",
+                        "type": "string"
+                      },
+                      "work_basis": {
+                        "enum": [
+                          "action",
+                          "work_report",
+                          "goal_need",
+                          "option",
+                          "entity_mention",
+                          "none",
+                          "uncertain"
+                        ],
+                        "example": "action",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "speech_scope",
+                      "work_basis",
+                      "evidence",
+                      "adoption_evidence",
+                      "reason"
+                    ],
+                    "type": "object"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "kind",
+                  "reason",
+                  "evidence",
+                  "content",
+                  "gap_checks",
+                  "qualification"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "R1"
+            ],
+            "type": "object"
+          },
+          "scope": {
+            "example": "b15ec246a4967c7d895189c314782b91f32b45afe18987427d8857f664daf760",
+            "type": "string"
+          }
+        },
+        "required": [
+          "case_id",
+          "scope",
+          "record_checks",
+          "checks",
+          "coverage_findings"
+        ],
+        "type": "object"
+      },
+      "read_only_context": [],
+      "records": [
+        {
+          "content_basis": "contextual",
+          "description": "Project Manager A will, if able, look into the unresolved product scope of the current television remote control, specifically whether it is intended for television only and whether video recorder functions could technically be included, or whether it should just have television-related buttons.",
+          "evidence": [
+            {
+              "end": 55,
+              "quote": "are we designing a remote control for a television only",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+              "start": 0
+            },
+            {
+              "end": 63,
+              "quote": "um, and if if this device is just to be used for the television",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+              "start": 0
+            },
+            {
+              "end": 80,
+              "quote": "would we even technically be possible to include video recorder functions on it?",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+              "start": 0
+            },
+            {
+              "end": 95,
+              "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+              "start": 0
+            },
+            {
+              "end": 20,
+              "quote": "I'll look into that.",
+              "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+              "start": 0
+            },
+            {
+              "end": 9,
+              "quote": "If I can.",
+              "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+              "start": 0
+            }
+          ],
+          "issuer_ref": "MEE031",
+          "kind": "work",
+          "missing_fields": [],
+          "need_basis": {
+            "evidence": [],
+            "goal": null
+          },
+          "question": null,
+          "record_id": "R1",
+          "thread_ids": [
+            "T1"
+          ]
+        }
+      ],
+      "scope": "b15ec246a4967c7d895189c314782b91f32b45afe18987427d8857f664daf760"
+    },
+    "finish_reason": "stop",
+    "source": "runs/2026-11-16-context-v5-system-implementation/focused-strict/r1/corpus/C14/model/context_v2/5e1baa6cff2303e3358a27119cb05457fbc644fc84298cb1fdc890f32dae2559/check_work/996d7b573429bd2667b836991c1e2222dd8e99c09de2280a74834ef5bfc9706a/attempt-1",
+    "response_sha256": "4429e083779c86c5a4f0ca9ed7d1b7671aceb6a5a506629c779ad024d38ab56e",
+    "source_input": {
+      "meeting": {
+        "case_id": "C14",
+        "meeting_id": "ES2008a",
+        "series": "ES2008",
+        "language": "en",
+        "source": "AMI_1.6.2",
+        "meeting_date": "04-02-05",
+        "segments": [
+          {
+            "id": "ES2008a.C.dialog-act.vkaraisk.43",
+            "start_ms": 784520,
+            "end_ms": 789090,
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE031",
+            "text": "are we designing a remote control for a television only"
+          },
+          {
+            "id": "ES2008a.A.dialog-act.vkaraisk.106",
+            "start_ms": 788524,
+            "end_ms": 790110,
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029",
+            "text": "Good question."
+          },
+          {
+            "id": "ES2008a.C.dialog-act.vkaraisk.44",
+            "start_ms": 789090,
+            "end_ms": 793980,
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE031",
+            "text": "um, and if if this device is just to be used for the television"
+          },
+          {
+            "id": "ES2008a.C.dialog-act.vkaraisk.45",
+            "start_ms": 795050,
+            "end_ms": 799090,
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE031",
+            "text": "would we even technically be possible to include video recorder functions on it?"
+          },
+          {
+            "id": "ES2008a.A.dialog-act.vkaraisk.107",
+            "start_ms": 801049,
+            "end_ms": 802860,
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029",
+            "text": "I don't know that yet."
+          },
+          {
+            "id": "ES2008a.C.dialog-act.vkaraisk.46",
+            "start_ms": 801800,
+            "end_ms": 808290,
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE031",
+            "text": "Um or should we just stick to just stick to having television television related buttons on it?"
+          },
+          {
+            "id": "ES2008a.B.dialog-act.vkaraisk.88",
+            "start_ms": 808130,
+            "end_ms": 808350,
+            "speaker": "B",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "FEE030",
+            "text": "Mm."
+          },
+          {
+            "id": "ES2008a.A.dialog-act.vkaraisk.108",
+            "start_ms": 810400,
+            "end_ms": 812080,
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029",
+            "text": "It's a good question. Um."
+          },
+          {
+            "id": "ES2008a.A.dialog-act.vkaraisk.109",
+            "start_ms": 813951,
+            "end_ms": 814840,
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029",
+            "text": "I'll look into that."
+          },
+          {
+            "id": "ES2008a.D.dialog-act.vkaraisk.56",
+            "start_ms": 814080,
+            "end_ms": 814700,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE032",
+            "text": "Mm-hmm hmm."
+          },
+          {
+            "id": "ES2008a.A.dialog-act.vkaraisk.110",
+            "start_ms": 815990,
+            "end_ms": 816700,
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029",
+            "text": "If I can."
+          },
+          {
+            "id": "ES2008a.D.dialog-act.vkaraisk.57",
+            "start_ms": 816240,
+            "end_ms": 817600,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE032",
+            "text": "I think it's just T_V_,"
+          },
+          {
+            "id": "ES2008a.D.dialog-act.vkaraisk.58",
+            "start_ms": 817600,
+            "end_ms": 826530,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE032",
+            "text": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say."
+          }
+        ],
+        "participants": [
+          {
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029"
+          },
+          {
+            "speaker": "B",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "FEE030"
+          },
+          {
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE031"
+          },
+          {
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE032"
+          }
+        ]
+      },
+      "actor": "evaluator",
+      "tasks": []
+    }
+  },
+  {
+    "case_id": "C14",
+    "attempt": "attempt-2",
+    "text": "{\"case_id\": \"C14\", \"scope\": \"b15ec246a4967c7d895189c314782b91f32b45afe18987427d8857f664daf760\", \"record_checks\": {\"R1\": {\"kind\": \"work\", \"reason\": \"C 提出产品范围问题（是否只做电视遥控器、能否加入录像机功能、还是只保留电视相关按钮），A 回应“I'll look into that. If I can.”，构成一项带条件的实际工作承接，应保留为 work。\", \"evidence\": [\"Q1\", \"Q3\", \"Q4\", \"Q6\", \"Q9\", \"Q11\"], \"content\": {\"verdict\": \"supported\", \"reason\": \"描述忠实保留了 A 去了解产品范围问题这一动作、条件“if able”，以及待澄清的具体范围选项（仅电视、可否加入录像机功能、只保留电视相关按钮）。\", \"evidence\": [\"Q1\", \"Q3\", \"Q4\", \"Q6\", \"Q9\", \"Q11\"], \"missing_details\": []}, \"gap_checks\": [], \"qualification\": {\"speech_scope\": \"current\", \"work_basis\": \"action\", \"evidence\": [\"Q1\", \"Q3\", \"Q4\", \"Q6\", \"Q9\", \"Q11\"], \"adoption_evidence\": [], \"reason\": \"本场 C 直接提出范围问题，A 当场回应将去了解，属于当前话语中的实际工作承接。\"}}, \"checks\": {\"E1.work\": {\"verdict\": \"supported\", \"reason\": \"A 的“I'll look into that”承接了 C 提出的产品范围问题，工作内容与对象忠实。\", \"evidence\": [\"Q1\", \"Q3\", \"Q4\", \"Q6\", \"Q9\"]}, \"E1.owner\": {\"verdict\": \"supported\", \"reason\": \"“I'll look into that”由 A（Project Manager，FEE029）说出，执行者归属正确。\", \"evidence\": [\"Q9\", \"Q11\"]}, \"E1.commitment\": {\"verdict\": \"supported\", \"reason\": \"A 说“I'll look into that. If I can.”，是带条件的自我承接，conditional 忠实。\", \"evidence\": [\"Q9\", \"Q11\"]}, \"E1.time\": {\"verdict\": \"supported\", \"reason\": \"原文未给出任何期限，time 为 unspecified、change=keep 忠实。\", \"evidence\": [\"Q9\"]}, \"E1.state\": {\"verdict\": \"supported\", \"reason\": \"该了解工作尚未开始，属未来工作，future_work 忠实。\", \"evidence\": [\"Q9\", \"Q11\"]}, \"E1.relation\": {\"verdict\": \"supported\", \"reason\": \"history.tasks 为空，无旧任务可关联，relation=new 正确。\", \"evidence\": [\"Q9\"]}}, \"coverage_findings\": []}}",
+    "contract": {
+      "additionalProperties": false,
+      "properties": {
+        "case_id": {
+          "example": "C14",
+          "type": "string"
+        },
+        "checks": {
+          "additionalProperties": false,
+          "properties": {
+            "E1.commitment": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            },
+            "E1.owner": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            },
+            "E1.relation": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            },
+            "E1.state": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            },
+            "E1.time": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            },
+            "E1.work": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                },
+                "verdict": {
+                  "enum": [
+                    "supported",
+                    "insufficient",
+                    "contradicted"
+                  ],
+                  "example": "supported",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "verdict",
+                "reason",
+                "evidence"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "E1.work",
+            "E1.owner",
+            "E1.commitment",
+            "E1.time",
+            "E1.state",
+            "E1.relation"
+          ],
+          "type": "object"
+        },
+        "coverage_findings": {
+          "example": [],
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "example": "遗漏的独立工作或已有工作缺失内容",
+                "type": "string"
+              },
+              "evidence": {
+                "items": {
+                  "example": "Q1",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "related_record_ids": {
+                "example": [],
+                "items": {
+                  "example": "R1",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "relation": {
+                "enum": [
+                  "new_work",
+                  "same_work",
+                  "uncertain"
+                ],
+                "example": "new_work",
+                "type": "string"
+              }
+            },
+            "required": [
+              "description",
+              "evidence",
+              "relation",
+              "related_record_ids"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "record_checks": {
+          "additionalProperties": false,
+          "properties": {
+            "R1": {
+              "additionalProperties": false,
+              "properties": {
+                "content": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "evidence": {
+                      "items": {
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "missing_details": {
+                      "example": [],
+                      "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "description": {
+                            "example": "原话应保留的必要目的或范围",
+                            "type": "string"
+                          },
+                          "evidence": {
+                            "items": {
+                              "example": "Q1",
+                              "type": "string"
+                            },
+                            "type": "array"
+                          }
+                        },
+                        "required": [
+                          "description",
+                          "evidence"
+                        ],
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "reason": {
+                      "example": "依据",
+                      "type": "string"
+                    },
+                    "verdict": {
+                      "enum": [
+                        "supported",
+                        "insufficient",
+                        "contradicted"
+                      ],
+                      "example": "supported",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "verdict",
+                    "reason",
+                    "evidence",
+                    "missing_details"
+                  ],
+                  "type": "object"
+                },
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "gap_checks": {
+                  "example": [],
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "evidence": {
+                        "items": {
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "field": {
+                        "enum": [
+                          "commitment",
+                          "owner",
+                          "reference",
+                          "relation",
+                          "scope",
+                          "time",
+                          "work"
+                        ],
+                        "example": "commitment",
+                        "type": "string"
+                      },
+                      "question": {
+                        "example": null,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "status": {
+                        "enum": [
+                          "not_needed",
+                          "needed"
+                        ],
+                        "example": "not_needed",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "field",
+                      "status",
+                      "reason",
+                      "evidence",
+                      "question"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "kind": {
+                  "enum": [
+                    "ambiguous",
+                    "context_only",
+                    "deferred_topic",
+                    "entity_only",
+                    "implicit_need",
+                    "resolved",
+                    "withdrawn",
+                    "work"
+                  ],
+                  "example": "work",
+                  "type": "string"
+                },
+                "qualification": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "adoption_evidence": {
+                      "example": [],
+                      "items": {
+                        "enum": [
+                          "Q1",
+                          "Q2",
+                          "Q3",
+                          "Q4",
+                          "Q5",
+                          "Q6",
+                          "Q7",
+                          "Q8",
+                          "Q9",
+                          "Q10",
+                          "Q11",
+                          "Q12",
+                          "Q13"
+                        ],
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "evidence": {
+                      "items": {
+                        "enum": [
+                          "Q1",
+                          "Q2",
+                          "Q3",
+                          "Q4",
+                          "Q5",
+                          "Q6",
+                          "Q7",
+                          "Q8",
+                          "Q9",
+                          "Q10",
+                          "Q11",
+                          "Q12",
+                          "Q13"
+                        ],
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "reason": {
+                      "example": "依据",
+                      "type": "string"
+                    },
+                    "speech_scope": {
+                      "enum": [
+                        "current",
+                        "quoted",
+                        "historical",
+                        "uncertain"
+                      ],
+                      "example": "current",
+                      "type": "string"
+                    },
+                    "work_basis": {
+                      "enum": [
+                        "action",
+                        "work_report",
+                        "goal_need",
+                        "option",
+                        "entity_mention",
+                        "none",
+                        "uncertain"
+                      ],
+                      "example": "action",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "speech_scope",
+                    "work_basis",
+                    "evidence",
+                    "adoption_evidence",
+                    "reason"
+                  ],
+                  "type": "object"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "kind",
+                "reason",
+                "evidence",
+                "content",
+                "gap_checks",
+                "qualification"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "R1"
+          ],
+          "type": "object"
+        },
+        "scope": {
+          "example": "b15ec246a4967c7d895189c314782b91f32b45afe18987427d8857f664daf760",
+          "type": "string"
+        }
+      },
+      "required": [
+        "case_id",
+        "scope",
+        "record_checks",
+        "checks",
+        "coverage_findings"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "candidates": [
+        {
+          "candidate_id": "C1",
+          "spans": [
+            {
+              "end": 55,
+              "quote": "are we designing a remote control for a television only",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+              "start": 0
+            },
+            {
+              "end": 63,
+              "quote": "um, and if if this device is just to be used for the television",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+              "start": 0
+            },
+            {
+              "end": 80,
+              "quote": "would we even technically be possible to include video recorder functions on it?",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+              "start": 0
+            },
+            {
+              "end": 22,
+              "quote": "I don't know that yet.",
+              "segment_id": "ES2008a.A.dialog-act.vkaraisk.107",
+              "start": 0
+            },
+            {
+              "end": 95,
+              "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+              "start": 0
+            },
+            {
+              "end": 20,
+              "quote": "I'll look into that.",
+              "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+              "start": 0
+            },
+            {
+              "end": 9,
+              "quote": "If I can.",
+              "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+              "start": 0
+            },
+            {
+              "end": 23,
+              "quote": "I think it's just T_V_,",
+              "segment_id": "ES2008a.D.dialog-act.vkaraisk.57",
+              "start": 0
+            },
+            {
+              "end": 110,
+              "quote": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.",
+              "segment_id": "ES2008a.D.dialog-act.vkaraisk.58",
+              "start": 0
+            }
+          ],
+          "thread_id": "T1"
+        }
+      ],
+      "check_targets": {
+        "event_field_keys": [
+          "E1.work",
+          "E1.owner",
+          "E1.commitment",
+          "E1.time",
+          "E1.state",
+          "E1.relation"
+        ],
+        "record_ids": [
+          "R1"
+        ]
+      },
+      "coverage_review": {
+        "unrepresented_evidence": [
+          "Q2",
+          "Q5",
+          "Q7",
+          "Q8",
+          "Q10",
+          "Q12",
+          "Q13"
+        ],
+        "unthreaded_entities": []
+      },
+      "disposition_reference_records": {},
+      "events": [
+        {
+          "candidate_ids": [
+            "C1"
+          ],
+          "commitment": {
+            "evidence": [
+              {
+                "end": 20,
+                "quote": "I'll look into that.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "If I can.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+                "start": 0
+              }
+            ],
+            "kind": "conditional"
+          },
+          "event_id": "E1",
+          "other_changes": [],
+          "owner": {
+            "evidence": [
+              {
+                "end": 20,
+                "quote": "I'll look into that.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "If I can.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+                "start": 0
+              }
+            ],
+            "kind": "person",
+            "label": "Project Manager",
+            "ref": "FEE029"
+          },
+          "record_id": "R1",
+          "relation": {
+            "candidate_guids": [],
+            "evidence": [],
+            "kind": "new",
+            "target_guid": null
+          },
+          "state": {
+            "evidence": [
+              {
+                "end": 20,
+                "quote": "I'll look into that.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "If I can.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+                "start": 0
+              }
+            ],
+            "kind": "future_work"
+          },
+          "time": {
+            "change": "keep",
+            "date": null,
+            "evidence": [],
+            "kind": "unspecified",
+            "text": null
+          },
+          "work": {
+            "description": "Project Manager A will, if able, look into the unresolved product scope of the current television remote control, specifically whether it is intended for television only and whether video recorder functions could technically be included, or whether it should just have television-related buttons.",
+            "evidence": [
+              {
+                "end": 55,
+                "quote": "are we designing a remote control for a television only",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+                "start": 0
+              },
+              {
+                "end": 63,
+                "quote": "um, and if if this device is just to be used for the television",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+                "start": 0
+              },
+              {
+                "end": 80,
+                "quote": "would we even technically be possible to include video recorder functions on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+                "start": 0
+              },
+              {
+                "end": 95,
+                "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                "start": 0
+              },
+              {
+                "end": 20,
+                "quote": "I'll look into that.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+                "start": 0
+              },
+              {
+                "end": 9,
+                "quote": "If I can.",
+                "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+                "start": 0
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_catalog": {
+        "Q1": {
+          "quote": "are we designing a remote control for a television only",
+          "segment_id": "ES2008a.C.dialog-act.vkaraisk.43"
+        },
+        "Q10": {
+          "quote": "Mm-hmm hmm.",
+          "segment_id": "ES2008a.D.dialog-act.vkaraisk.56"
+        },
+        "Q11": {
+          "quote": "If I can.",
+          "segment_id": "ES2008a.A.dialog-act.vkaraisk.110"
+        },
+        "Q12": {
+          "quote": "I think it's just T_V_,",
+          "segment_id": "ES2008a.D.dialog-act.vkaraisk.57"
+        },
+        "Q13": {
+          "quote": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.",
+          "segment_id": "ES2008a.D.dialog-act.vkaraisk.58"
+        },
+        "Q2": {
+          "quote": "Good question.",
+          "segment_id": "ES2008a.A.dialog-act.vkaraisk.106"
+        },
+        "Q3": {
+          "quote": "um, and if if this device is just to be used for the television",
+          "segment_id": "ES2008a.C.dialog-act.vkaraisk.44"
+        },
+        "Q4": {
+          "quote": "would we even technically be possible to include video recorder functions on it?",
+          "segment_id": "ES2008a.C.dialog-act.vkaraisk.45"
+        },
+        "Q5": {
+          "quote": "I don't know that yet.",
+          "segment_id": "ES2008a.A.dialog-act.vkaraisk.107"
+        },
+        "Q6": {
+          "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+          "segment_id": "ES2008a.C.dialog-act.vkaraisk.46"
+        },
+        "Q7": {
+          "quote": "Mm.",
+          "segment_id": "ES2008a.B.dialog-act.vkaraisk.88"
+        },
+        "Q8": {
+          "quote": "It's a good question. Um.",
+          "segment_id": "ES2008a.A.dialog-act.vkaraisk.108"
+        },
+        "Q9": {
+          "quote": "I'll look into that.",
+          "segment_id": "ES2008a.A.dialog-act.vkaraisk.109"
+        }
+      },
+      "history": {
+        "tasks": []
+      },
+      "ledger": {
+        "entities": [
+          {
+            "entity_id": "N1",
+            "label": "television remote control",
+            "mentions": [
+              {
+                "end": 55,
+                "quote": "are we designing a remote control for a television only",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+                "start": 0
+              },
+              {
+                "end": 63,
+                "quote": "um, and if if this device is just to be used for the television",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+                "start": 0
+              },
+              {
+                "end": 80,
+                "quote": "would we even technically be possible to include video recorder functions on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+                "start": 0
+              },
+              {
+                "end": 95,
+                "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                "start": 0
+              },
+              {
+                "end": 110,
+                "quote": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.",
+                "segment_id": "ES2008a.D.dialog-act.vkaraisk.58",
+                "start": 0
+              }
+            ]
+          },
+          {
+            "entity_id": "N2",
+            "label": "television",
+            "mentions": [
+              {
+                "end": 55,
+                "quote": "are we designing a remote control for a television only",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+                "start": 0
+              },
+              {
+                "end": 63,
+                "quote": "um, and if if this device is just to be used for the television",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+                "start": 0
+              },
+              {
+                "end": 95,
+                "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                "start": 0
+              },
+              {
+                "end": 23,
+                "quote": "I think it's just T_V_,",
+                "segment_id": "ES2008a.D.dialog-act.vkaraisk.57",
+                "start": 0
+              },
+              {
+                "end": 110,
+                "quote": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.",
+                "segment_id": "ES2008a.D.dialog-act.vkaraisk.58",
+                "start": 0
+              }
+            ]
+          },
+          {
+            "entity_id": "N3",
+            "label": "video recorder functions",
+            "mentions": [
+              {
+                "end": 80,
+                "quote": "would we even technically be possible to include video recorder functions on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+                "start": 0
+              }
+            ]
+          },
+          {
+            "entity_id": "N4",
+            "label": "television-related buttons",
+            "mentions": [
+              {
+                "end": 95,
+                "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                "start": 0
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "evidence": [
+              {
+                "end": 55,
+                "quote": "are we designing a remote control for a television only",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+                "start": 0
+              },
+              {
+                "end": 63,
+                "quote": "um, and if if this device is just to be used for the television",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+                "start": 0
+              }
+            ],
+            "relation": "related",
+            "source": "N1",
+            "target": "N2"
+          },
+          {
+            "evidence": [
+              {
+                "end": 80,
+                "quote": "would we even technically be possible to include video recorder functions on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+                "start": 0
+              }
+            ],
+            "relation": "related",
+            "source": "N1",
+            "target": "N3"
+          },
+          {
+            "evidence": [
+              {
+                "end": 95,
+                "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                "start": 0
+              }
+            ],
+            "relation": "related",
+            "source": "N1",
+            "target": "N4"
+          }
+        ],
+        "threads": [
+          {
+            "entity_ids": [
+              "N1",
+              "N2",
+              "N3",
+              "N4"
+            ],
+            "thread_id": "T1",
+            "updates": [
+              {
+                "after_segment": "ES2008a.C.dialog-act.vkaraisk.43",
+                "description": "C 提出产品范围问题：是否只设计用于电视的遥控器。",
+                "evidence": [
+                  {
+                    "end": 55,
+                    "quote": "are we designing a remote control for a television only",
+                    "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.C.dialog-act.vkaraisk.44",
+                "description": "C 补充条件：如果该设备只用于电视，则继续讨论其功能范围。",
+                "evidence": [
+                  {
+                    "end": 63,
+                    "quote": "um, and if if this device is just to be used for the television",
+                    "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.C.dialog-act.vkaraisk.45",
+                "description": "C 询问在该遥控器上加入录像机功能在技术上是否可行。",
+                "evidence": [
+                  {
+                    "end": 80,
+                    "quote": "would we even technically be possible to include video recorder functions on it?",
+                    "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.A.dialog-act.vkaraisk.107",
+                "description": "A 表示尚不知道是否能加入录像机功能，范围问题仍未确定。",
+                "evidence": [
+                  {
+                    "end": 22,
+                    "quote": "I don't know that yet.",
+                    "segment_id": "ES2008a.A.dialog-act.vkaraisk.107",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.C.dialog-act.vkaraisk.46",
+                "description": "C 提出另一种范围选择：是否只保留电视相关按钮。",
+                "evidence": [
+                  {
+                    "end": 95,
+                    "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+                    "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.A.dialog-act.vkaraisk.109",
+                "description": "A（项目经理）承接去了解该问题：是否可在电视遥控器上加入录像机功能／确认产品范围问题。",
+                "evidence": [
+                  {
+                    "end": 20,
+                    "quote": "I'll look into that.",
+                    "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+                    "start": 0
+                  }
+                ],
+                "kind": "work"
+              },
+              {
+                "after_segment": "ES2008a.A.dialog-act.vkaraisk.110",
+                "description": "A 对上述“去了解”的承诺附加条件：如果自己能做到（“If I can”）。",
+                "evidence": [
+                  {
+                    "end": 9,
+                    "quote": "If I can.",
+                    "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.D.dialog-act.vkaraisk.57",
+                "description": "D（市场专家）认为产品范围就是电视（“just T_V_”），为范围讨论提供一条背景判断。",
+                "evidence": [
+                  {
+                    "end": 23,
+                    "quote": "I think it's just T_V_,",
+                    "segment_id": "ES2008a.D.dialog-act.vkaraisk.57",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              },
+              {
+                "after_segment": "ES2008a.D.dialog-act.vkaraisk.58",
+                "description": "D 进一步说明这是新的电视遥控器产品，提示资料并未提及录像机功能，用以支持其范围理解。",
+                "evidence": [
+                  {
+                    "end": 110,
+                    "quote": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say.",
+                    "segment_id": "ES2008a.D.dialog-act.vkaraisk.58",
+                    "start": 0
+                  }
+                ],
+                "kind": "context_only"
+              }
+            ]
+          }
+        ]
+      },
+      "meeting": {
+        "case_id": "C14",
+        "language": "en",
+        "meeting_date": "04-02-05",
+        "meeting_id": "ES2008a",
+        "participants": [
+          {
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager"
+          },
+          {
+            "person_ref": "FEE030",
+            "speaker": "B",
+            "speaker_name": "Industrial Designer"
+          },
+          {
+            "person_ref": "MEE031",
+            "speaker": "C",
+            "speaker_name": "User Interface Designer"
+          },
+          {
+            "person_ref": "FEE032",
+            "speaker": "D",
+            "speaker_name": "Marketing Expert"
+          }
+        ],
+        "roster": {
+          "FEE029": "Project Manager",
+          "FEE030": "Industrial Designer",
+          "FEE032": "Marketing Expert",
+          "MEE031": "User Interface Designer"
+        },
+        "segments": [
+          {
+            "end_ms": 789090,
+            "id": "ES2008a.C.dialog-act.vkaraisk.43",
+            "person_ref": "MEE031",
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "start_ms": 784520,
+            "text": "are we designing a remote control for a television only"
+          },
+          {
+            "end_ms": 790110,
+            "id": "ES2008a.A.dialog-act.vkaraisk.106",
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "start_ms": 788524,
+            "text": "Good question."
+          },
+          {
+            "end_ms": 793980,
+            "id": "ES2008a.C.dialog-act.vkaraisk.44",
+            "person_ref": "MEE031",
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "start_ms": 789090,
+            "text": "um, and if if this device is just to be used for the television"
+          },
+          {
+            "end_ms": 799090,
+            "id": "ES2008a.C.dialog-act.vkaraisk.45",
+            "person_ref": "MEE031",
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "start_ms": 795050,
+            "text": "would we even technically be possible to include video recorder functions on it?"
+          },
+          {
+            "end_ms": 802860,
+            "id": "ES2008a.A.dialog-act.vkaraisk.107",
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "start_ms": 801049,
+            "text": "I don't know that yet."
+          },
+          {
+            "end_ms": 808290,
+            "id": "ES2008a.C.dialog-act.vkaraisk.46",
+            "person_ref": "MEE031",
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "start_ms": 801800,
+            "text": "Um or should we just stick to just stick to having television television related buttons on it?"
+          },
+          {
+            "end_ms": 808350,
+            "id": "ES2008a.B.dialog-act.vkaraisk.88",
+            "person_ref": "FEE030",
+            "speaker": "B",
+            "speaker_name": "Industrial Designer",
+            "start_ms": 808130,
+            "text": "Mm."
+          },
+          {
+            "end_ms": 812080,
+            "id": "ES2008a.A.dialog-act.vkaraisk.108",
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "start_ms": 810400,
+            "text": "It's a good question. Um."
+          },
+          {
+            "end_ms": 814840,
+            "id": "ES2008a.A.dialog-act.vkaraisk.109",
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "start_ms": 813951,
+            "text": "I'll look into that."
+          },
+          {
+            "end_ms": 814700,
+            "id": "ES2008a.D.dialog-act.vkaraisk.56",
+            "person_ref": "FEE032",
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "start_ms": 814080,
+            "text": "Mm-hmm hmm."
+          },
+          {
+            "end_ms": 816700,
+            "id": "ES2008a.A.dialog-act.vkaraisk.110",
+            "person_ref": "FEE029",
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "start_ms": 815990,
+            "text": "If I can."
+          },
+          {
+            "end_ms": 817600,
+            "id": "ES2008a.D.dialog-act.vkaraisk.57",
+            "person_ref": "FEE032",
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "start_ms": 816240,
+            "text": "I think it's just T_V_,"
+          },
+          {
+            "end_ms": 826530,
+            "id": "ES2008a.D.dialog-act.vkaraisk.58",
+            "person_ref": "FEE032",
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "start_ms": 817600,
+            "text": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say."
+          }
+        ],
+        "series": "ES2008",
+        "source": "AMI_1.6.2"
+      },
+      "output_contract": "\n仅输出符合以下完整结构的 JSON（数组按实际情况可为空，示例不是答案）：\n{\"case_id\": \"C14\", \"scope\": \"b15ec246a4967c7d895189c314782b91f32b45afe18987427d8857f664daf760\", \"record_checks\": {\"R1\": {\"kind\": \"work\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"content\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"missing_details\": []}, \"gap_checks\": [], \"qualification\": {\"speech_scope\": \"current\", \"work_basis\": \"action\", \"evidence\": [\"Q1\"], \"adoption_evidence\": [], \"reason\": \"依据\"}}}, \"checks\": {\"E1.work\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}, \"E1.owner\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}, \"E1.commitment\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}, \"E1.time\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}, \"E1.state\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}, \"E1.relation\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"]}}, \"coverage_findings\": []}\n非空 $.record_checks.R1.content.missing_details 的每个元素必须完整包含：{\"description\": \"原话应保留的必要目的或范围\", \"evidence\": [\"Q1\"]}\n非空 $.record_checks.R1.gap_checks 的每个元素必须完整包含：{\"field\": \"commitment\", \"status\": \"not_needed\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"question\": null}\n非空 $.coverage_findings 的每个元素必须完整包含：{\"description\": \"遗漏的独立工作或已有工作缺失内容\", \"evidence\": [\"Q1\"], \"relation\": \"new_work\", \"related_record_ids\": []}\n数组为空只是示例值，不表示可以省略非空元素的字段。每个输入 record_id/event_id 恰好核验一次，不重复输出相同 ID。",
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "case_id": {
+            "example": "C14",
+            "type": "string"
+          },
+          "checks": {
+            "additionalProperties": false,
+            "properties": {
+              "E1.commitment": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              },
+              "E1.owner": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              },
+              "E1.relation": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              },
+              "E1.state": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              },
+              "E1.time": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              },
+              "E1.work": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  },
+                  "verdict": {
+                    "enum": [
+                      "supported",
+                      "insufficient",
+                      "contradicted"
+                    ],
+                    "example": "supported",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "verdict",
+                  "reason",
+                  "evidence"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "E1.work",
+              "E1.owner",
+              "E1.commitment",
+              "E1.time",
+              "E1.state",
+              "E1.relation"
+            ],
+            "type": "object"
+          },
+          "coverage_findings": {
+            "example": [],
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "description": {
+                  "example": "遗漏的独立工作或已有工作缺失内容",
+                  "type": "string"
+                },
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "related_record_ids": {
+                  "example": [],
+                  "items": {
+                    "example": "R1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "relation": {
+                  "enum": [
+                    "new_work",
+                    "same_work",
+                    "uncertain"
+                  ],
+                  "example": "new_work",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description",
+                "evidence",
+                "relation",
+                "related_record_ids"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "record_checks": {
+            "additionalProperties": false,
+            "properties": {
+              "R1": {
+                "additionalProperties": false,
+                "properties": {
+                  "content": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "evidence": {
+                        "items": {
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "missing_details": {
+                        "example": [],
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "description": {
+                              "example": "原话应保留的必要目的或范围",
+                              "type": "string"
+                            },
+                            "evidence": {
+                              "items": {
+                                "example": "Q1",
+                                "type": "string"
+                              },
+                              "type": "array"
+                            }
+                          },
+                          "required": [
+                            "description",
+                            "evidence"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "verdict": {
+                        "enum": [
+                          "supported",
+                          "insufficient",
+                          "contradicted"
+                        ],
+                        "example": "supported",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "verdict",
+                      "reason",
+                      "evidence",
+                      "missing_details"
+                    ],
+                    "type": "object"
+                  },
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "gap_checks": {
+                    "example": [],
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "evidence": {
+                          "items": {
+                            "example": "Q1",
+                            "type": "string"
+                          },
+                          "type": "array"
+                        },
+                        "field": {
+                          "enum": [
+                            "commitment",
+                            "owner",
+                            "reference",
+                            "relation",
+                            "scope",
+                            "time",
+                            "work"
+                          ],
+                          "example": "commitment",
+                          "type": "string"
+                        },
+                        "question": {
+                          "example": null,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "reason": {
+                          "example": "依据",
+                          "type": "string"
+                        },
+                        "status": {
+                          "enum": [
+                            "not_needed",
+                            "needed"
+                          ],
+                          "example": "not_needed",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "field",
+                        "status",
+                        "reason",
+                        "evidence",
+                        "question"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "kind": {
+                    "enum": [
+                      "ambiguous",
+                      "context_only",
+                      "deferred_topic",
+                      "entity_only",
+                      "implicit_need",
+                      "resolved",
+                      "withdrawn",
+                      "work"
+                    ],
+                    "example": "work",
+                    "type": "string"
+                  },
+                  "qualification": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "adoption_evidence": {
+                        "example": [],
+                        "items": {
+                          "enum": [
+                            "Q1",
+                            "Q2",
+                            "Q3",
+                            "Q4",
+                            "Q5",
+                            "Q6",
+                            "Q7",
+                            "Q8",
+                            "Q9",
+                            "Q10",
+                            "Q11",
+                            "Q12",
+                            "Q13"
+                          ],
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "evidence": {
+                        "items": {
+                          "enum": [
+                            "Q1",
+                            "Q2",
+                            "Q3",
+                            "Q4",
+                            "Q5",
+                            "Q6",
+                            "Q7",
+                            "Q8",
+                            "Q9",
+                            "Q10",
+                            "Q11",
+                            "Q12",
+                            "Q13"
+                          ],
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "speech_scope": {
+                        "enum": [
+                          "current",
+                          "quoted",
+                          "historical",
+                          "uncertain"
+                        ],
+                        "example": "current",
+                        "type": "string"
+                      },
+                      "work_basis": {
+                        "enum": [
+                          "action",
+                          "work_report",
+                          "goal_need",
+                          "option",
+                          "entity_mention",
+                          "none",
+                          "uncertain"
+                        ],
+                        "example": "action",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "speech_scope",
+                      "work_basis",
+                      "evidence",
+                      "adoption_evidence",
+                      "reason"
+                    ],
+                    "type": "object"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "kind",
+                  "reason",
+                  "evidence",
+                  "content",
+                  "gap_checks",
+                  "qualification"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "R1"
+            ],
+            "type": "object"
+          },
+          "scope": {
+            "example": "b15ec246a4967c7d895189c314782b91f32b45afe18987427d8857f664daf760",
+            "type": "string"
+          }
+        },
+        "required": [
+          "case_id",
+          "scope",
+          "record_checks",
+          "checks",
+          "coverage_findings"
+        ],
+        "type": "object"
+      },
+      "read_only_context": [],
+      "records": [
+        {
+          "content_basis": "contextual",
+          "description": "Project Manager A will, if able, look into the unresolved product scope of the current television remote control, specifically whether it is intended for television only and whether video recorder functions could technically be included, or whether it should just have television-related buttons.",
+          "evidence": [
+            {
+              "end": 55,
+              "quote": "are we designing a remote control for a television only",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.43",
+              "start": 0
+            },
+            {
+              "end": 63,
+              "quote": "um, and if if this device is just to be used for the television",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.44",
+              "start": 0
+            },
+            {
+              "end": 80,
+              "quote": "would we even technically be possible to include video recorder functions on it?",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.45",
+              "start": 0
+            },
+            {
+              "end": 95,
+              "quote": "Um or should we just stick to just stick to having television television related buttons on it?",
+              "segment_id": "ES2008a.C.dialog-act.vkaraisk.46",
+              "start": 0
+            },
+            {
+              "end": 20,
+              "quote": "I'll look into that.",
+              "segment_id": "ES2008a.A.dialog-act.vkaraisk.109",
+              "start": 0
+            },
+            {
+              "end": 9,
+              "quote": "If I can.",
+              "segment_id": "ES2008a.A.dialog-act.vkaraisk.110",
+              "start": 0
+            }
+          ],
+          "issuer_ref": "MEE031",
+          "kind": "work",
+          "missing_fields": [],
+          "need_basis": {
+            "evidence": [],
+            "goal": null
+          },
+          "question": null,
+          "record_id": "R1",
+          "thread_ids": [
+            "T1"
+          ]
+        }
+      ],
+      "scope": "b15ec246a4967c7d895189c314782b91f32b45afe18987427d8857f664daf760",
+      "validation_feedback": {
+        "error": "ModelResponseError: JSONDecodeError: Expecting ',' delimiter: line 1 column 1515 (char 1514) Unclosed containers at end: [('{', 0)]. Close each object/array separately in reverse nesting order.",
+        "instruction": "重新生成完整 JSON。逐层关闭每一个 object 和 array；不要复制之前的缺失分隔符。保持原文含义，完整满足 output_schema。"
+      }
+    },
+    "finish_reason": "tool_calls",
+    "source": "runs/2026-11-16-context-v5-system-implementation/focused-strict/r1/corpus/C14/model/context_v2/5e1baa6cff2303e3358a27119cb05457fbc644fc84298cb1fdc890f32dae2559/check_work/996d7b573429bd2667b836991c1e2222dd8e99c09de2280a74834ef5bfc9706a/attempt-2",
+    "response_sha256": "b4e7bd7eef8dfe0e7a5f6bf8aef5b4835fb9f3a1fd65e50a858fb01db052f99c",
+    "source_input": {
+      "meeting": {
+        "case_id": "C14",
+        "meeting_id": "ES2008a",
+        "series": "ES2008",
+        "language": "en",
+        "source": "AMI_1.6.2",
+        "meeting_date": "04-02-05",
+        "segments": [
+          {
+            "id": "ES2008a.C.dialog-act.vkaraisk.43",
+            "start_ms": 784520,
+            "end_ms": 789090,
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE031",
+            "text": "are we designing a remote control for a television only"
+          },
+          {
+            "id": "ES2008a.A.dialog-act.vkaraisk.106",
+            "start_ms": 788524,
+            "end_ms": 790110,
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029",
+            "text": "Good question."
+          },
+          {
+            "id": "ES2008a.C.dialog-act.vkaraisk.44",
+            "start_ms": 789090,
+            "end_ms": 793980,
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE031",
+            "text": "um, and if if this device is just to be used for the television"
+          },
+          {
+            "id": "ES2008a.C.dialog-act.vkaraisk.45",
+            "start_ms": 795050,
+            "end_ms": 799090,
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE031",
+            "text": "would we even technically be possible to include video recorder functions on it?"
+          },
+          {
+            "id": "ES2008a.A.dialog-act.vkaraisk.107",
+            "start_ms": 801049,
+            "end_ms": 802860,
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029",
+            "text": "I don't know that yet."
+          },
+          {
+            "id": "ES2008a.C.dialog-act.vkaraisk.46",
+            "start_ms": 801800,
+            "end_ms": 808290,
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE031",
+            "text": "Um or should we just stick to just stick to having television television related buttons on it?"
+          },
+          {
+            "id": "ES2008a.B.dialog-act.vkaraisk.88",
+            "start_ms": 808130,
+            "end_ms": 808350,
+            "speaker": "B",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "FEE030",
+            "text": "Mm."
+          },
+          {
+            "id": "ES2008a.A.dialog-act.vkaraisk.108",
+            "start_ms": 810400,
+            "end_ms": 812080,
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029",
+            "text": "It's a good question. Um."
+          },
+          {
+            "id": "ES2008a.A.dialog-act.vkaraisk.109",
+            "start_ms": 813951,
+            "end_ms": 814840,
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029",
+            "text": "I'll look into that."
+          },
+          {
+            "id": "ES2008a.D.dialog-act.vkaraisk.56",
+            "start_ms": 814080,
+            "end_ms": 814700,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE032",
+            "text": "Mm-hmm hmm."
+          },
+          {
+            "id": "ES2008a.A.dialog-act.vkaraisk.110",
+            "start_ms": 815990,
+            "end_ms": 816700,
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029",
+            "text": "If I can."
+          },
+          {
+            "id": "ES2008a.D.dialog-act.vkaraisk.57",
+            "start_ms": 816240,
+            "end_ms": 817600,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE032",
+            "text": "I think it's just T_V_,"
+          },
+          {
+            "id": "ES2008a.D.dialog-act.vkaraisk.58",
+            "start_ms": 817600,
+            "end_ms": 826530,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE032",
+            "text": "I mean, if it if we're taking it just new product a new television remote control that's not like doesn't say."
+          }
+        ],
+        "participants": [
+          {
+            "speaker": "A",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE029"
+          },
+          {
+            "speaker": "B",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "FEE030"
+          },
+          {
+            "speaker": "C",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEE031"
+          },
+          {
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE032"
+          }
+        ]
+      },
+      "actor": "evaluator",
+      "tasks": []
+    }
+  },
+  {
+    "case_id": "SV17",
+    "attempt": "attempt-1",
+    "text": "{\"case_id\": \"SV17\", \"scope\": \"b5c519b9c4238b61b8c6287158f12bbad15f0ea2e4320fd7a3a7b6e8008cc6a7\", \"record_checks\": {\"R1\": {\"kind\": \"deferred_topic\", \"reason\": \"主持人明确说“是否更换家长端登录页先放着”，小周补充“记到下周例会再议，今天不选方案，也不安排任何人动手”，属于明确暂缓、以后再议的议题，符合 deferred_topic 定义。\", \"evidence\": [\"Q1\", \"Q2\"], \"content\": {\"verdict\": \"supported\", \"reason\": \"描述忠实保留了暂缓对象（家长端登录页是否更换）、暂缓状态（先放着、暂不推进）、再议安排（下周例会）以及今天不选方案、不安排人动手的限定，未添加虚构动作或负责人。\", \"evidence\": [\"Q1\", \"Q2\"], \"missing_details\": []}, \"gap_checks\": [], \"qualification\": {\"speech_scope\": \"current\", \"work_basis\": \"none\", \"evidence\": [\"Q1\", \"Q2\"], \"adoption_evidence\": [], \"reason\": \"本场主持人提出并明确暂缓该议题，小周确认记到下周例会再议，属于当前话语中的暂缓决定，未形成具体工作安排，故 work_basis=none。\"}}, \"checks\": {}, \"coverage_findings\": []}",
+    "contract": {
+      "additionalProperties": false,
+      "properties": {
+        "case_id": {
+          "example": "SV17",
+          "type": "string"
+        },
+        "checks": {
+          "additionalProperties": false,
+          "properties": {},
+          "required": [],
+          "type": "object"
+        },
+        "coverage_findings": {
+          "example": [],
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "example": "遗漏的独立工作或已有工作缺失内容",
+                "type": "string"
+              },
+              "evidence": {
+                "items": {
+                  "example": "Q1",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "related_record_ids": {
+                "example": [],
+                "items": {
+                  "example": "R1",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "relation": {
+                "enum": [
+                  "new_work",
+                  "same_work",
+                  "uncertain"
+                ],
+                "example": "new_work",
+                "type": "string"
+              }
+            },
+            "required": [
+              "description",
+              "evidence",
+              "relation",
+              "related_record_ids"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "record_checks": {
+          "additionalProperties": false,
+          "properties": {
+            "R1": {
+              "additionalProperties": false,
+              "properties": {
+                "content": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "evidence": {
+                      "items": {
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "missing_details": {
+                      "example": [],
+                      "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "description": {
+                            "example": "原话应保留的必要目的或范围",
+                            "type": "string"
+                          },
+                          "evidence": {
+                            "items": {
+                              "example": "Q1",
+                              "type": "string"
+                            },
+                            "type": "array"
+                          }
+                        },
+                        "required": [
+                          "description",
+                          "evidence"
+                        ],
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "reason": {
+                      "example": "依据",
+                      "type": "string"
+                    },
+                    "verdict": {
+                      "enum": [
+                        "supported",
+                        "insufficient",
+                        "contradicted"
+                      ],
+                      "example": "supported",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "verdict",
+                    "reason",
+                    "evidence",
+                    "missing_details"
+                  ],
+                  "type": "object"
+                },
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "gap_checks": {
+                  "example": [],
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "evidence": {
+                        "items": {
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "field": {
+                        "enum": [
+                          "commitment",
+                          "owner",
+                          "reference",
+                          "relation",
+                          "scope",
+                          "time",
+                          "work"
+                        ],
+                        "example": "commitment",
+                        "type": "string"
+                      },
+                      "question": {
+                        "example": null,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "status": {
+                        "enum": [
+                          "not_needed",
+                          "needed"
+                        ],
+                        "example": "not_needed",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "field",
+                      "status",
+                      "reason",
+                      "evidence",
+                      "question"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "kind": {
+                  "enum": [
+                    "ambiguous",
+                    "context_only",
+                    "deferred_topic",
+                    "entity_only",
+                    "implicit_need",
+                    "resolved",
+                    "withdrawn",
+                    "work"
+                  ],
+                  "example": "work",
+                  "type": "string"
+                },
+                "qualification": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "adoption_evidence": {
+                      "example": [],
+                      "items": {
+                        "enum": [
+                          "Q1",
+                          "Q2"
+                        ],
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "evidence": {
+                      "items": {
+                        "enum": [
+                          "Q1",
+                          "Q2"
+                        ],
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "reason": {
+                      "example": "依据",
+                      "type": "string"
+                    },
+                    "speech_scope": {
+                      "enum": [
+                        "current",
+                        "quoted",
+                        "historical",
+                        "uncertain"
+                      ],
+                      "example": "current",
+                      "type": "string"
+                    },
+                    "work_basis": {
+                      "enum": [
+                        "action",
+                        "work_report",
+                        "goal_need",
+                        "option",
+                        "entity_mention",
+                        "none",
+                        "uncertain"
+                      ],
+                      "example": "action",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "speech_scope",
+                    "work_basis",
+                    "evidence",
+                    "adoption_evidence",
+                    "reason"
+                  ],
+                  "type": "object"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "kind",
+                "reason",
+                "evidence",
+                "content",
+                "gap_checks",
+                "qualification"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "R1"
+          ],
+          "type": "object"
+        },
+        "scope": {
+          "example": "b5c519b9c4238b61b8c6287158f12bbad15f0ea2e4320fd7a3a7b6e8008cc6a7",
+          "type": "string"
+        }
+      },
+      "required": [
+        "case_id",
+        "scope",
+        "record_checks",
+        "checks",
+        "coverage_findings"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "candidates": [
+        {
+          "candidate_id": "C1",
+          "spans": [
+            {
+              "end": 14,
+              "quote": "是否更换家长端登录页先放着。",
+              "segment_id": "SV17.1",
+              "start": 0
+            },
+            {
+              "end": 26,
+              "quote": "记到下周例会再议，今天不选方案，也不安排任何人动手。",
+              "segment_id": "SV17.2",
+              "start": 0
+            }
+          ],
+          "thread_id": "T1"
+        }
+      ],
+      "check_targets": {
+        "event_field_keys": [],
+        "record_ids": [
+          "R1"
+        ]
+      },
+      "coverage_review": {
+        "unrepresented_evidence": [],
+        "unthreaded_entities": []
+      },
+      "disposition_reference_records": {},
+      "events": [],
+      "evidence_catalog": {
+        "Q1": {
+          "quote": "是否更换家长端登录页先放着。",
+          "segment_id": "SV17.1"
+        },
+        "Q2": {
+          "quote": "记到下周例会再议，今天不选方案，也不安排任何人动手。",
+          "segment_id": "SV17.2"
+        }
+      },
+      "history": {
+        "tasks": []
+      },
+      "ledger": {
+        "entities": [
+          {
+            "entity_id": "N1",
+            "label": "家长端登录页",
+            "mentions": [
+              {
+                "end": 14,
+                "quote": "是否更换家长端登录页先放着。",
+                "segment_id": "SV17.1",
+                "start": 0
+              }
+            ]
+          }
+        ],
+        "links": [],
+        "threads": [
+          {
+            "entity_ids": [
+              "N1"
+            ],
+            "thread_id": "T1",
+            "updates": [
+              {
+                "after_segment": "SV17.1",
+                "description": "是否更换家长端登录页暂不推进，主持人明确说先放着。",
+                "evidence": [
+                  {
+                    "end": 14,
+                    "quote": "是否更换家长端登录页先放着。",
+                    "segment_id": "SV17.1",
+                    "start": 0
+                  }
+                ],
+                "kind": "deferred_topic"
+              },
+              {
+                "after_segment": "SV17.2",
+                "description": "家长端登录页是否更换仍为暂缓议题，记到下周例会再议；今天不选方案，也不安排任何人动手。",
+                "evidence": [
+                  {
+                    "end": 26,
+                    "quote": "记到下周例会再议，今天不选方案，也不安排任何人动手。",
+                    "segment_id": "SV17.2",
+                    "start": 0
+                  }
+                ],
+                "kind": "deferred_topic"
+              }
+            ]
+          }
+        ]
+      },
+      "meeting": {
+        "case_id": "SV17",
+        "language": "zh",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "SV17",
+        "roster": {
+          "an": "安老师",
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周"
+        },
+        "segments": [
+          {
+            "id": "SV17.1",
+            "person_ref": "host",
+            "speaker": "host",
+            "speaker_name": "主持人",
+            "text": "是否更换家长端登录页先放着。"
+          },
+          {
+            "id": "SV17.2",
+            "person_ref": "zhou",
+            "speaker": "zhou",
+            "speaker_name": "小周",
+            "text": "记到下周例会再议，今天不选方案，也不安排任何人动手。"
+          }
+        ],
+        "series": "语义验收 semantic-v1",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T02:00:00+00:00"
+      },
+      "output_contract": "\n仅输出符合以下完整结构的 JSON（数组按实际情况可为空，示例不是答案）：\n{\"case_id\": \"SV17\", \"scope\": \"b5c519b9c4238b61b8c6287158f12bbad15f0ea2e4320fd7a3a7b6e8008cc6a7\", \"record_checks\": {\"R1\": {\"kind\": \"work\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"content\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"missing_details\": []}, \"gap_checks\": [], \"qualification\": {\"speech_scope\": \"current\", \"work_basis\": \"action\", \"evidence\": [\"Q1\"], \"adoption_evidence\": [], \"reason\": \"依据\"}}}, \"checks\": {}, \"coverage_findings\": []}\n非空 $.record_checks.R1.content.missing_details 的每个元素必须完整包含：{\"description\": \"原话应保留的必要目的或范围\", \"evidence\": [\"Q1\"]}\n非空 $.record_checks.R1.gap_checks 的每个元素必须完整包含：{\"field\": \"commitment\", \"status\": \"not_needed\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"question\": null}\n非空 $.coverage_findings 的每个元素必须完整包含：{\"description\": \"遗漏的独立工作或已有工作缺失内容\", \"evidence\": [\"Q1\"], \"relation\": \"new_work\", \"related_record_ids\": []}\n数组为空只是示例值，不表示可以省略非空元素的字段。每个输入 record_id/event_id 恰好核验一次，不重复输出相同 ID。",
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "case_id": {
+            "example": "SV17",
+            "type": "string"
+          },
+          "checks": {
+            "additionalProperties": false,
+            "properties": {},
+            "required": [],
+            "type": "object"
+          },
+          "coverage_findings": {
+            "example": [],
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "description": {
+                  "example": "遗漏的独立工作或已有工作缺失内容",
+                  "type": "string"
+                },
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "related_record_ids": {
+                  "example": [],
+                  "items": {
+                    "example": "R1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "relation": {
+                  "enum": [
+                    "new_work",
+                    "same_work",
+                    "uncertain"
+                  ],
+                  "example": "new_work",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description",
+                "evidence",
+                "relation",
+                "related_record_ids"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "record_checks": {
+            "additionalProperties": false,
+            "properties": {
+              "R1": {
+                "additionalProperties": false,
+                "properties": {
+                  "content": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "evidence": {
+                        "items": {
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "missing_details": {
+                        "example": [],
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "description": {
+                              "example": "原话应保留的必要目的或范围",
+                              "type": "string"
+                            },
+                            "evidence": {
+                              "items": {
+                                "example": "Q1",
+                                "type": "string"
+                              },
+                              "type": "array"
+                            }
+                          },
+                          "required": [
+                            "description",
+                            "evidence"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "verdict": {
+                        "enum": [
+                          "supported",
+                          "insufficient",
+                          "contradicted"
+                        ],
+                        "example": "supported",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "verdict",
+                      "reason",
+                      "evidence",
+                      "missing_details"
+                    ],
+                    "type": "object"
+                  },
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "gap_checks": {
+                    "example": [],
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "evidence": {
+                          "items": {
+                            "example": "Q1",
+                            "type": "string"
+                          },
+                          "type": "array"
+                        },
+                        "field": {
+                          "enum": [
+                            "commitment",
+                            "owner",
+                            "reference",
+                            "relation",
+                            "scope",
+                            "time",
+                            "work"
+                          ],
+                          "example": "commitment",
+                          "type": "string"
+                        },
+                        "question": {
+                          "example": null,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "reason": {
+                          "example": "依据",
+                          "type": "string"
+                        },
+                        "status": {
+                          "enum": [
+                            "not_needed",
+                            "needed"
+                          ],
+                          "example": "not_needed",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "field",
+                        "status",
+                        "reason",
+                        "evidence",
+                        "question"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "kind": {
+                    "enum": [
+                      "ambiguous",
+                      "context_only",
+                      "deferred_topic",
+                      "entity_only",
+                      "implicit_need",
+                      "resolved",
+                      "withdrawn",
+                      "work"
+                    ],
+                    "example": "work",
+                    "type": "string"
+                  },
+                  "qualification": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "adoption_evidence": {
+                        "example": [],
+                        "items": {
+                          "enum": [
+                            "Q1",
+                            "Q2"
+                          ],
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "evidence": {
+                        "items": {
+                          "enum": [
+                            "Q1",
+                            "Q2"
+                          ],
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "speech_scope": {
+                        "enum": [
+                          "current",
+                          "quoted",
+                          "historical",
+                          "uncertain"
+                        ],
+                        "example": "current",
+                        "type": "string"
+                      },
+                      "work_basis": {
+                        "enum": [
+                          "action",
+                          "work_report",
+                          "goal_need",
+                          "option",
+                          "entity_mention",
+                          "none",
+                          "uncertain"
+                        ],
+                        "example": "action",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "speech_scope",
+                      "work_basis",
+                      "evidence",
+                      "adoption_evidence",
+                      "reason"
+                    ],
+                    "type": "object"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "kind",
+                  "reason",
+                  "evidence",
+                  "content",
+                  "gap_checks",
+                  "qualification"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "R1"
+            ],
+            "type": "object"
+          },
+          "scope": {
+            "example": "b5c519b9c4238b61b8c6287158f12bbad15f0ea2e4320fd7a3a7b6e8008cc6a7",
+            "type": "string"
+          }
+        },
+        "required": [
+          "case_id",
+          "scope",
+          "record_checks",
+          "checks",
+          "coverage_findings"
+        ],
+        "type": "object"
+      },
+      "read_only_context": [],
+      "records": [
+        {
+          "content_basis": "explicit",
+          "description": "家长端登录页是否更换先放着，暂不推进；记到下周例会再议，今天不选方案，也不安排任何人动手。",
+          "evidence": [
+            {
+              "end": 14,
+              "quote": "是否更换家长端登录页先放着。",
+              "segment_id": "SV17.1",
+              "start": 0
+            },
+            {
+              "end": 26,
+              "quote": "记到下周例会再议，今天不选方案，也不安排任何人动手。",
+              "segment_id": "SV17.2",
+              "start": 0
+            }
+          ],
+          "issuer_ref": "host",
+          "kind": "deferred_topic",
+          "missing_fields": [],
+          "need_basis": {
+            "evidence": [],
+            "goal": null
+          },
+          "question": null,
+          "record_id": "R1",
+          "thread_ids": [
+            "T1"
+          ]
+        }
+      ],
+      "scope": "b5c519b9c4238b61b8c6287158f12bbad15f0ea2e4320fd7a3a7b6e8008cc6a7"
+    },
+    "finish_reason": "stop",
+    "source": "runs/2026-11-16-context-v5-system-implementation/empty-fix-semantic/r1/semantic/SV17/model/context_v2/69c15b821e858886a16f4f31fd87314f56fcf35cdf97d2ed650e11114297e95e/check_work/3e3c0e21034a6b8ff82b0eb8cb6666ec57ab393882fcc6007e545b81b9536281/attempt-1",
+    "response_sha256": "bffaf8706f3690ac3a3185ed7cdfb379cf25161f8f0f843bb4f129607ac1c83a",
+    "source_input": {
+      "meeting": {
+        "case_id": "SV17",
+        "meeting_id": "SV17",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV17.1",
+            "speaker": "host",
+            "text": "是否更换家长端登录页先放着。"
+          },
+          {
+            "id": "SV17.2",
+            "speaker": "zhou",
+            "text": "记到下周例会再议，今天不选方案，也不安排任何人动手。"
+          }
+        ]
+      },
+      "actor": "host",
+      "tasks": []
+    }
+  },
+  {
+    "case_id": "SV17",
+    "attempt": "attempt-2",
+    "text": "{\"case_id\": \"SV17\", \"scope\": \"b5c519b9c4238b61b8c6287158f12bbad15f0ea2e4320fd7a3a7b6e8008cc6a7\", \"record_checks\": {\"R1\": {\"kind\": \"deferred_topic\", \"reason\": \"主持人明确说“是否更换家长端登录页先放着”，小周补充“记到下周例会再议，今天不选方案，也不安排任何人动手”，属于明确暂缓、以后再议的议题，应记为 deferred_topic，不建事件、不追问负责人或期限。\", \"evidence\": [\"Q1\", \"Q2\"], \"content\": {\"verdict\": \"supported\", \"reason\": \"描述忠实保留了暂缓对象（家长端登录页是否更换）、暂缓状态（先放着、今天不选方案、不安排人动手）以及再议安排（下周例会），无遗漏必要目的或范围。\", \"evidence\": [\"Q1\", \"Q2\"], \"missing_details\": []}, \"gap_checks\": [], \"qualification\": {\"speech_scope\": \"current\", \"work_basis\": \"none\", \"evidence\": [\"Q1\", \"Q2\"], \"adoption_evidence\": [], \"reason\": \"本场主持人提出并明确暂缓该议题，小周确认记到下周例会再议，属于本场对暂缓议题的处理，但未形成任何具体工作安排，故 work_basis=none。\"}}, \"checks\": {}, \"coverage_findings\": []}",
+    "contract": {
+      "additionalProperties": false,
+      "properties": {
+        "case_id": {
+          "example": "SV17",
+          "type": "string"
+        },
+        "checks": {
+          "additionalProperties": false,
+          "properties": {},
+          "required": [],
+          "type": "object"
+        },
+        "coverage_findings": {
+          "example": [],
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "example": "遗漏的独立工作或已有工作缺失内容",
+                "type": "string"
+              },
+              "evidence": {
+                "items": {
+                  "example": "Q1",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "related_record_ids": {
+                "example": [],
+                "items": {
+                  "example": "R1",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "relation": {
+                "enum": [
+                  "new_work",
+                  "same_work",
+                  "uncertain"
+                ],
+                "example": "new_work",
+                "type": "string"
+              }
+            },
+            "required": [
+              "description",
+              "evidence",
+              "relation",
+              "related_record_ids"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "record_checks": {
+          "additionalProperties": false,
+          "properties": {
+            "R1": {
+              "additionalProperties": false,
+              "properties": {
+                "content": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "evidence": {
+                      "items": {
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "missing_details": {
+                      "example": [],
+                      "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "description": {
+                            "example": "原话应保留的必要目的或范围",
+                            "type": "string"
+                          },
+                          "evidence": {
+                            "items": {
+                              "example": "Q1",
+                              "type": "string"
+                            },
+                            "type": "array"
+                          }
+                        },
+                        "required": [
+                          "description",
+                          "evidence"
+                        ],
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "reason": {
+                      "example": "依据",
+                      "type": "string"
+                    },
+                    "verdict": {
+                      "enum": [
+                        "supported",
+                        "insufficient",
+                        "contradicted"
+                      ],
+                      "example": "supported",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "verdict",
+                    "reason",
+                    "evidence",
+                    "missing_details"
+                  ],
+                  "type": "object"
+                },
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "gap_checks": {
+                  "example": [],
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "evidence": {
+                        "items": {
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "field": {
+                        "enum": [
+                          "commitment",
+                          "owner",
+                          "reference",
+                          "relation",
+                          "scope",
+                          "time",
+                          "work"
+                        ],
+                        "example": "commitment",
+                        "type": "string"
+                      },
+                      "question": {
+                        "example": null,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "status": {
+                        "enum": [
+                          "not_needed",
+                          "needed"
+                        ],
+                        "example": "not_needed",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "field",
+                      "status",
+                      "reason",
+                      "evidence",
+                      "question"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "kind": {
+                  "enum": [
+                    "ambiguous",
+                    "context_only",
+                    "deferred_topic",
+                    "entity_only",
+                    "implicit_need",
+                    "resolved",
+                    "withdrawn",
+                    "work"
+                  ],
+                  "example": "work",
+                  "type": "string"
+                },
+                "qualification": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "adoption_evidence": {
+                      "example": [],
+                      "items": {
+                        "enum": [
+                          "Q1",
+                          "Q2"
+                        ],
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "evidence": {
+                      "items": {
+                        "enum": [
+                          "Q1",
+                          "Q2"
+                        ],
+                        "example": "Q1",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "reason": {
+                      "example": "依据",
+                      "type": "string"
+                    },
+                    "speech_scope": {
+                      "enum": [
+                        "current",
+                        "quoted",
+                        "historical",
+                        "uncertain"
+                      ],
+                      "example": "current",
+                      "type": "string"
+                    },
+                    "work_basis": {
+                      "enum": [
+                        "action",
+                        "work_report",
+                        "goal_need",
+                        "option",
+                        "entity_mention",
+                        "none",
+                        "uncertain"
+                      ],
+                      "example": "action",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "speech_scope",
+                    "work_basis",
+                    "evidence",
+                    "adoption_evidence",
+                    "reason"
+                  ],
+                  "type": "object"
+                },
+                "reason": {
+                  "example": "依据",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "kind",
+                "reason",
+                "evidence",
+                "content",
+                "gap_checks",
+                "qualification"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "R1"
+          ],
+          "type": "object"
+        },
+        "scope": {
+          "example": "b5c519b9c4238b61b8c6287158f12bbad15f0ea2e4320fd7a3a7b6e8008cc6a7",
+          "type": "string"
+        }
+      },
+      "required": [
+        "case_id",
+        "scope",
+        "record_checks",
+        "checks",
+        "coverage_findings"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "candidates": [
+        {
+          "candidate_id": "C1",
+          "spans": [
+            {
+              "end": 14,
+              "quote": "是否更换家长端登录页先放着。",
+              "segment_id": "SV17.1",
+              "start": 0
+            },
+            {
+              "end": 26,
+              "quote": "记到下周例会再议，今天不选方案，也不安排任何人动手。",
+              "segment_id": "SV17.2",
+              "start": 0
+            }
+          ],
+          "thread_id": "T1"
+        }
+      ],
+      "check_targets": {
+        "event_field_keys": [],
+        "record_ids": [
+          "R1"
+        ]
+      },
+      "coverage_review": {
+        "unrepresented_evidence": [],
+        "unthreaded_entities": []
+      },
+      "disposition_reference_records": {},
+      "events": [],
+      "evidence_catalog": {
+        "Q1": {
+          "quote": "是否更换家长端登录页先放着。",
+          "segment_id": "SV17.1"
+        },
+        "Q2": {
+          "quote": "记到下周例会再议，今天不选方案，也不安排任何人动手。",
+          "segment_id": "SV17.2"
+        }
+      },
+      "history": {
+        "tasks": []
+      },
+      "ledger": {
+        "entities": [
+          {
+            "entity_id": "N1",
+            "label": "家长端登录页",
+            "mentions": [
+              {
+                "end": 14,
+                "quote": "是否更换家长端登录页先放着。",
+                "segment_id": "SV17.1",
+                "start": 0
+              }
+            ]
+          }
+        ],
+        "links": [],
+        "threads": [
+          {
+            "entity_ids": [
+              "N1"
+            ],
+            "thread_id": "T1",
+            "updates": [
+              {
+                "after_segment": "SV17.1",
+                "description": "是否更换家长端登录页暂不推进，主持人明确说先放着。",
+                "evidence": [
+                  {
+                    "end": 14,
+                    "quote": "是否更换家长端登录页先放着。",
+                    "segment_id": "SV17.1",
+                    "start": 0
+                  }
+                ],
+                "kind": "deferred_topic"
+              },
+              {
+                "after_segment": "SV17.2",
+                "description": "家长端登录页是否更换仍为暂缓议题，记到下周例会再议；今天不选方案，也不安排任何人动手。",
+                "evidence": [
+                  {
+                    "end": 26,
+                    "quote": "记到下周例会再议，今天不选方案，也不安排任何人动手。",
+                    "segment_id": "SV17.2",
+                    "start": 0
+                  }
+                ],
+                "kind": "deferred_topic"
+              }
+            ]
+          }
+        ]
+      },
+      "meeting": {
+        "case_id": "SV17",
+        "language": "zh",
+        "meeting_date": "2026-11-16",
+        "meeting_id": "SV17",
+        "roster": {
+          "an": "安老师",
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周"
+        },
+        "segments": [
+          {
+            "id": "SV17.1",
+            "person_ref": "host",
+            "speaker": "host",
+            "speaker_name": "主持人",
+            "text": "是否更换家长端登录页先放着。"
+          },
+          {
+            "id": "SV17.2",
+            "person_ref": "zhou",
+            "speaker": "zhou",
+            "speaker_name": "小周",
+            "text": "记到下周例会再议，今天不选方案，也不安排任何人动手。"
+          }
+        ],
+        "series": "语义验收 semantic-v1",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T02:00:00+00:00"
+      },
+      "output_contract": "\n仅输出符合以下完整结构的 JSON（数组按实际情况可为空，示例不是答案）：\n{\"case_id\": \"SV17\", \"scope\": \"b5c519b9c4238b61b8c6287158f12bbad15f0ea2e4320fd7a3a7b6e8008cc6a7\", \"record_checks\": {\"R1\": {\"kind\": \"work\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"content\": {\"verdict\": \"supported\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"missing_details\": []}, \"gap_checks\": [], \"qualification\": {\"speech_scope\": \"current\", \"work_basis\": \"action\", \"evidence\": [\"Q1\"], \"adoption_evidence\": [], \"reason\": \"依据\"}}}, \"checks\": {}, \"coverage_findings\": []}\n非空 $.record_checks.R1.content.missing_details 的每个元素必须完整包含：{\"description\": \"原话应保留的必要目的或范围\", \"evidence\": [\"Q1\"]}\n非空 $.record_checks.R1.gap_checks 的每个元素必须完整包含：{\"field\": \"commitment\", \"status\": \"not_needed\", \"reason\": \"依据\", \"evidence\": [\"Q1\"], \"question\": null}\n非空 $.coverage_findings 的每个元素必须完整包含：{\"description\": \"遗漏的独立工作或已有工作缺失内容\", \"evidence\": [\"Q1\"], \"relation\": \"new_work\", \"related_record_ids\": []}\n数组为空只是示例值，不表示可以省略非空元素的字段。每个输入 record_id/event_id 恰好核验一次，不重复输出相同 ID。",
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "case_id": {
+            "example": "SV17",
+            "type": "string"
+          },
+          "checks": {
+            "additionalProperties": false,
+            "properties": {},
+            "required": [],
+            "type": "object"
+          },
+          "coverage_findings": {
+            "example": [],
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "description": {
+                  "example": "遗漏的独立工作或已有工作缺失内容",
+                  "type": "string"
+                },
+                "evidence": {
+                  "items": {
+                    "example": "Q1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "related_record_ids": {
+                  "example": [],
+                  "items": {
+                    "example": "R1",
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "relation": {
+                  "enum": [
+                    "new_work",
+                    "same_work",
+                    "uncertain"
+                  ],
+                  "example": "new_work",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description",
+                "evidence",
+                "relation",
+                "related_record_ids"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "record_checks": {
+            "additionalProperties": false,
+            "properties": {
+              "R1": {
+                "additionalProperties": false,
+                "properties": {
+                  "content": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "evidence": {
+                        "items": {
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "missing_details": {
+                        "example": [],
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "description": {
+                              "example": "原话应保留的必要目的或范围",
+                              "type": "string"
+                            },
+                            "evidence": {
+                              "items": {
+                                "example": "Q1",
+                                "type": "string"
+                              },
+                              "type": "array"
+                            }
+                          },
+                          "required": [
+                            "description",
+                            "evidence"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "verdict": {
+                        "enum": [
+                          "supported",
+                          "insufficient",
+                          "contradicted"
+                        ],
+                        "example": "supported",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "verdict",
+                      "reason",
+                      "evidence",
+                      "missing_details"
+                    ],
+                    "type": "object"
+                  },
+                  "evidence": {
+                    "items": {
+                      "example": "Q1",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "gap_checks": {
+                    "example": [],
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "evidence": {
+                          "items": {
+                            "example": "Q1",
+                            "type": "string"
+                          },
+                          "type": "array"
+                        },
+                        "field": {
+                          "enum": [
+                            "commitment",
+                            "owner",
+                            "reference",
+                            "relation",
+                            "scope",
+                            "time",
+                            "work"
+                          ],
+                          "example": "commitment",
+                          "type": "string"
+                        },
+                        "question": {
+                          "example": null,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "reason": {
+                          "example": "依据",
+                          "type": "string"
+                        },
+                        "status": {
+                          "enum": [
+                            "not_needed",
+                            "needed"
+                          ],
+                          "example": "not_needed",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "field",
+                        "status",
+                        "reason",
+                        "evidence",
+                        "question"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "kind": {
+                    "enum": [
+                      "ambiguous",
+                      "context_only",
+                      "deferred_topic",
+                      "entity_only",
+                      "implicit_need",
+                      "resolved",
+                      "withdrawn",
+                      "work"
+                    ],
+                    "example": "work",
+                    "type": "string"
+                  },
+                  "qualification": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "adoption_evidence": {
+                        "example": [],
+                        "items": {
+                          "enum": [
+                            "Q1",
+                            "Q2"
+                          ],
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "evidence": {
+                        "items": {
+                          "enum": [
+                            "Q1",
+                            "Q2"
+                          ],
+                          "example": "Q1",
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "reason": {
+                        "example": "依据",
+                        "type": "string"
+                      },
+                      "speech_scope": {
+                        "enum": [
+                          "current",
+                          "quoted",
+                          "historical",
+                          "uncertain"
+                        ],
+                        "example": "current",
+                        "type": "string"
+                      },
+                      "work_basis": {
+                        "enum": [
+                          "action",
+                          "work_report",
+                          "goal_need",
+                          "option",
+                          "entity_mention",
+                          "none",
+                          "uncertain"
+                        ],
+                        "example": "action",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "speech_scope",
+                      "work_basis",
+                      "evidence",
+                      "adoption_evidence",
+                      "reason"
+                    ],
+                    "type": "object"
+                  },
+                  "reason": {
+                    "example": "依据",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "kind",
+                  "reason",
+                  "evidence",
+                  "content",
+                  "gap_checks",
+                  "qualification"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "R1"
+            ],
+            "type": "object"
+          },
+          "scope": {
+            "example": "b5c519b9c4238b61b8c6287158f12bbad15f0ea2e4320fd7a3a7b6e8008cc6a7",
+            "type": "string"
+          }
+        },
+        "required": [
+          "case_id",
+          "scope",
+          "record_checks",
+          "checks",
+          "coverage_findings"
+        ],
+        "type": "object"
+      },
+      "read_only_context": [],
+      "records": [
+        {
+          "content_basis": "explicit",
+          "description": "家长端登录页是否更换先放着，暂不推进；记到下周例会再议，今天不选方案，也不安排任何人动手。",
+          "evidence": [
+            {
+              "end": 14,
+              "quote": "是否更换家长端登录页先放着。",
+              "segment_id": "SV17.1",
+              "start": 0
+            },
+            {
+              "end": 26,
+              "quote": "记到下周例会再议，今天不选方案，也不安排任何人动手。",
+              "segment_id": "SV17.2",
+              "start": 0
+            }
+          ],
+          "issuer_ref": "host",
+          "kind": "deferred_topic",
+          "missing_fields": [],
+          "need_basis": {
+            "evidence": [],
+            "goal": null
+          },
+          "question": null,
+          "record_id": "R1",
+          "thread_ids": [
+            "T1"
+          ]
+        }
+      ],
+      "scope": "b5c519b9c4238b61b8c6287158f12bbad15f0ea2e4320fd7a3a7b6e8008cc6a7",
+      "validation_feedback": {
+        "error": "ModelResponseError: JSONDecodeError: Expecting ',' delimiter: line 1 column 719 (char 718) Unclosed containers at end: [('{', 0)]. Close each object/array separately in reverse nesting order.",
+        "instruction": "重新生成完整 JSON。逐层关闭每一个 object 和 array；不要复制之前的缺失分隔符。保持原文含义，完整满足 output_schema。"
+      }
+    },
+    "finish_reason": "tool_calls",
+    "source": "runs/2026-11-16-context-v5-system-implementation/empty-fix-semantic/r1/semantic/SV17/model/context_v2/69c15b821e858886a16f4f31fd87314f56fcf35cdf97d2ed650e11114297e95e/check_work/3e3c0e21034a6b8ff82b0eb8cb6666ec57ab393882fcc6007e545b81b9536281/attempt-2",
+    "response_sha256": "fd8fc2df2f6df9cadae2bae00094016eec6f11658275922b7d336fff55958e6c",
+    "source_input": {
+      "meeting": {
+        "case_id": "SV17",
+        "meeting_id": "SV17",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV17.1",
+            "speaker": "host",
+            "text": "是否更换家长端登录页先放着。"
+          },
+          {
+            "id": "SV17.2",
+            "speaker": "zhou",
+            "text": "记到下周例会再议，今天不选方案，也不安排任何人动手。"
+          }
+        ]
+      },
+      "actor": "host",
+      "tasks": []
+    }
+  }
+]

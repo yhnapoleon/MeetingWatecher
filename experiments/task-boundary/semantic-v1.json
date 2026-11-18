@@ -1,0 +1,2099 @@
+{
+  "version": "semantic-v1",
+  "policy": {
+    "status": "frozen_before_new_predictions",
+    "frozen_on": "2026-11-16",
+    "authorship": "本研究任务由助手依据源文本及已批准设计编写，未调用模型评测；不是独立人工金标。",
+    "review_unit": "按命题含义、归属、最终状态和输出用途评价，不做字面匹配或关键词自动评分。",
+    "required": "required_facts 和 required_unresolved 为对应纪要栏目必须保留的含义，work_expectation.required 为必须满足的工作行为；允许同义改写与合并拆分，但保留角色、对象、条件和状态。",
+    "optional": "optional_facts、optional_unresolved、work_expectation.optional 和 existing.optional 均可省略，不计漏报；若输出仍需获得原文支持。",
+    "forbidden": "forbidden_meanings、work_expectation.forbidden 和 existing.forbidden 是禁止的误读或行为，不要求在纪要中逐条输出否定句。",
+    "unresolved_scope": "只收录本场提出或采用、截至可见输入结尾仍待解决的问题。未展示答案、产品备选或未实现均不足以单独成立；明确暂缓保留事实及再议安排，不列立即未决。",
+    "empty_required": "required_unresolved 为空仅表示没有强制未知，其他输出仍按原文和 forbidden 核验，不推断未提及的期限、任务、角色或结果。",
+    "evidence_mapping": "证据ID对应冻结段落；正规入口改为Q编号后需保持回溯映射，标签不得传入模型生成上下文。",
+    "existing_scope": "六个旧例在读过历史审计后建立回归命题标签，不是未见集；本任务未获取20个新例的预测，未调用评测模型。",
+    "old_contracts_unchanged": true,
+    "p08b_original_expectation": {
+      "case_id": "P08b",
+      "item_counts": [
+        1
+      ],
+      "no_review": false,
+      "needs_implicit": false,
+      "conditional": true,
+      "no_deadline": false
+    },
+    "c11_option_policy": "产品选项可记录，context_only 不强制增加或删除未决；只有原文建立当前待选问题才强制未决。SV11 允许记录选项，不强制未决。",
+    "mechanism_only_exclusions": [
+      "设计第9类首检异议处置需要原候选、异议和修正状态；纯 meeting 不能覆盖。",
+      "设计第10类旧任务关联需要冻结任务库及关联状态；本文件没有该历史夹具。",
+      "设计第11类工作分支成功、失败、漏提及展示关联过期需用 SV17/SV18 做机制组合检查，本文件只固定其不变语义要求。"
+    ],
+    "sources": [
+      {
+        "path": "docs/superpowers/specs/2026-11-16-context-v5-system-remediation-design.md",
+        "sha256": "a47643d07a80543949939a92b0818fc4634adf41065a85e48b11dc06df253d58"
+      },
+      {
+        "path": "docs/research/2026-11-16-unresolved-label-audit.md",
+        "sha256": "a83fd82c9c4acac6f1d6241f8b4b06bf696b36ac8c63f105f64fc597366fb10e"
+      },
+      {
+        "path": "experiments/task-boundary/fixtures.json",
+        "sha256": "f0a3fc24a3c764d909d3d508f54f05bcf3eb86bd95865713e2926493cb759011"
+      },
+      {
+        "path": "experiments/task-boundary/expectations.json",
+        "sha256": "b94603a022bf14ebe33f0014606f45851b22fa7af1fec54b4ea2bd1e668b2a59"
+      },
+      {
+        "path": "runs/2026-11-16-context-v5-fixes/full-compact-final/manifest.json",
+        "sha256": "9446da53cd764511b7300ec904583b89b3304147959ed56ab84cce32cf3e1c94"
+      }
+    ]
+  },
+  "existing": [
+    {
+      "case_id": "C09",
+      "required": [
+        {
+          "target": "facts",
+          "meaning": "本次营销研究的对象已聚焦到说明书。",
+          "evidence_ids": [
+            "ES2004b.B.dialog-act.s9553330.263",
+            "ES2004b.D.dialog-act.s9553330.263"
+          ]
+        },
+        {
+          "target": "work",
+          "meaning": "保留营销人员 FEE016 在下次会议前研究说明书相关问题的工作。",
+          "evidence_ids": [
+            "ES2004b.D.dialog-act.s9553330.261",
+            "ES2004b.B.dialog-act.s9553330.263",
+            "ES2004b.D.dialog-act.s9553330.263"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "target": "facts",
+          "meaning": "发言者认为说明书常被负面看待，大家虽持有却少使用。",
+          "evidence_ids": [
+            "ES2004b.B.dialog-act.s9553330.264",
+            "ES2004b.B.dialog-act.s9553330.265",
+            "ES2004b.B.dialog-act.s9553330.266"
+          ]
+        },
+        {
+          "target": "facts",
+          "meaning": "允许审慎说明研究方法及细分维度未穷尽，但不因此制造本场待答问题。",
+          "evidence_ids": [
+            "ES2004b.B.dialog-act.s9553330.263"
+          ]
+        }
+      ],
+      "forbidden": [
+        "重开聚焦什么对象还是泛看所有问题的已答选择。",
+        "宣称研究已经完成、结果已知或所有细节均已确定。",
+        "将消费者看法规定为输入已确定的唯一研究内容。"
+      ],
+      "evidence_basis": {
+        "source": "runs/2026-11-16-context-v5-fixes/full-compact-final/manifest.json",
+        "selector": "jobs[id=C09].meeting",
+        "segments": [
+          {
+            "id": "ES2004b.D.dialog-act.s9553330.261",
+            "start_ms": 2294550,
+            "end_ms": 2297310,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE016",
+            "text": "What would you specifically like marketing to look at before the next meeting?"
+          },
+          {
+            "id": "ES2004b.A.dialog-act.s9553330.143",
+            "start_ms": 2294790,
+            "end_ms": 2295020,
+            "speaker": "A",
+            "speaker_name": "User Interface Designer",
+            "person_ref": "MEO015",
+            "text": "True."
+          },
+          {
+            "id": "ES2004b.C.dialog-act.s9553330.217",
+            "start_ms": 2295260,
+            "end_ms": 2295550,
+            "speaker": "C",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE014",
+            "text": "Okay."
+          },
+          {
+            "id": "ES2004b.D.dialog-act.s9553330.262",
+            "start_ms": 2297310,
+            "end_ms": 2300040,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE016",
+            "text": "Or shall I just sort of generally look at all the issues involved?"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.260",
+            "start_ms": 2300120,
+            "end_ms": 2301910,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "I think you might get guidance,"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.261",
+            "start_ms": 2301910,
+            "end_ms": 2303750,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "but um"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.262",
+            "start_ms": 2305500,
+            "end_ms": 2305640,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "I th"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.263",
+            "start_ms": 2307170,
+            "end_ms": 2308490,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "Instruction manuals,"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.264",
+            "start_ms": 2308490,
+            "end_ms": 2313270,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "'cause there tends to be a demonised thing,"
+          },
+          {
+            "id": "ES2004b.D.dialog-act.s9553330.263",
+            "start_ms": 2308520,
+            "end_ms": 2308850,
+            "speaker": "D",
+            "speaker_name": "Marketing Expert",
+            "person_ref": "FEE016",
+            "text": "Okay."
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.265",
+            "start_ms": 2313270,
+            "end_ms": 2316860,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "u um, they're everyone's got like a big pile of them,"
+          },
+          {
+            "id": "ES2004b.B.dialog-act.s9553330.266",
+            "start_ms": 2316860,
+            "end_ms": 2318510,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "but no one really uses them."
+          }
+        ],
+        "scope": "仅裁定冻结的12段；对象已答与研究细节未穷尽分别判断，不要求虚构研究结果未决。"
+      }
+    },
+    {
+      "case_id": "C13",
+      "required": [
+        {
+          "target": "facts",
+          "meaning": "最终产品未纳入语音识别，发言者接受该结果。",
+          "evidence_ids": [
+            "ES2004d.C.dialog-act.vkaraisk.250",
+            "ES2004d.C.dialog-act.vkaraisk.251"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "target": "facts",
+          "meaning": "发言者认为提出的事项似乎已处理。",
+          "evidence_ids": [
+            "ES2004d.C.dialog-act.vkaraisk.249"
+          ]
+        },
+        {
+          "target": "facts",
+          "meaning": "发言者推测如果营销信息更早出现，产品可能不同。",
+          "evidence_ids": [
+            "ES2004d.C.dialog-act.vkaraisk.253"
+          ]
+        },
+        {
+          "target": "decision",
+          "meaning": "可将未纳入语音识别作为结果记录，沿旧标签记 record_decision。",
+          "evidence_ids": [
+            "ES2004d.C.dialog-act.vkaraisk.250",
+            "ES2004d.C.dialog-act.vkaraisk.251"
+          ]
+        }
+      ],
+      "forbidden": [
+        "仅因语音识别未实现就断言是否加入仍待本场决定。",
+        "从完整会议摘要补入本次不可见的管理层建议。",
+        "把发言者的似乎已处理升级为客观保证所有问题已解决。"
+      ],
+      "evidence_basis": {
+        "source": "runs/2026-11-16-context-v5-fixes/full-compact-final/manifest.json",
+        "selector": "jobs[id=C13].meeting",
+        "segments": [
+          {
+            "id": "ES2004d.C.dialog-act.vkaraisk.248",
+            "start_ms": 1738960,
+            "end_ms": 1742270,
+            "speaker": "C",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE014",
+            "text": "yeah, I I feel that everyone was listened to"
+          },
+          {
+            "id": "ES2004d.C.dialog-act.vkaraisk.249",
+            "start_ms": 1742270,
+            "end_ms": 1748930,
+            "speaker": "C",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE014",
+            "text": "and all the points that were raised seem to have been sorted out,"
+          },
+          {
+            "id": "ES2004d.C.dialog-act.vkaraisk.250",
+            "start_ms": 1748930,
+            "end_ms": 1751580,
+            "speaker": "C",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE014",
+            "text": "although we didn't quite make the voice recognition in there,"
+          },
+          {
+            "id": "ES2004d.C.dialog-act.vkaraisk.251",
+            "start_ms": 1751580,
+            "end_ms": 1753660,
+            "speaker": "C",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE014",
+            "text": "but that's that's good."
+          },
+          {
+            "id": "ES2004d.B.dialog-act.vkaraisk.230",
+            "start_ms": 1753180,
+            "end_ms": 1753630,
+            "speaker": "B",
+            "speaker_name": "Project Manager",
+            "person_ref": "FEE013",
+            "text": "Yeah."
+          },
+          {
+            "id": "ES2004d.C.dialog-act.vkaraisk.253",
+            "start_ms": 1753660,
+            "end_ms": 1766870,
+            "speaker": "C",
+            "speaker_name": "Industrial Designer",
+            "person_ref": "MEE014",
+            "text": "I think it would have made it into the final product if it was actually if if if we'd seen the marketing before the initial specification was put out, I think maybe it would've come out a d little different,"
+          }
+        ],
+        "scope": "仅裁定冻结的6段，不改旧任务/决策契约。"
+      }
+    },
+    {
+      "case_id": "P05a",
+      "required": [],
+      "optional": [
+        {
+          "target": "facts",
+          "meaning": "主持人在转述培训里的孩子信息发群问句。",
+          "evidence_ids": [
+            "P05a.1"
+          ]
+        }
+      ],
+      "forbidden": [
+        "将能否发群列为本场未决，即使保留培训归属也不成立。",
+        "创建本次核对或发群工作，或追问其执行者、许可、承接。",
+        "推断发群已经获得许可或被禁止。"
+      ],
+      "evidence_basis": {
+        "source": "runs/2026-11-16-context-v5-fixes/full-compact-final/manifest.json",
+        "selector": "jobs[id=P05a].meeting",
+        "segments": [
+          {
+            "id": "P05a.1",
+            "speaker": "host",
+            "text": "培训时老师常问：“人事要我们核对孩子信息，能发群里吗？”"
+          }
+        ],
+        "scope": "材料未展示答案不构成本场未决；纯引用事实可以省略。"
+      }
+    },
+    {
+      "case_id": "P05b",
+      "required": [
+        {
+          "target": "work",
+          "meaning": "保留小林已承接的本园名单核对工作，不追加是否承接追问。",
+          "evidence_ids": [
+            "P05b.2",
+            "P05b.3"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "target": "facts",
+          "meaning": "培训中的发群问题是背景，本场另外安排了名单核对。",
+          "evidence_ids": [
+            "P05b.1",
+            "P05b.2"
+          ]
+        }
+      ],
+      "forbidden": [
+        "把本次核对名单当作本场采用培训中发群许可问题的依据。",
+        "将发群许可列为本场未决或新增发群工作。",
+        "补入未提及的截止日期。"
+      ],
+      "evidence_basis": {
+        "source": "runs/2026-11-16-context-v5-fixes/full-compact-final/manifest.json",
+        "selector": "jobs[id=P05b].meeting",
+        "segments": [
+          {
+            "id": "P05b.1",
+            "speaker": "host",
+            "text": "培训时老师常问：“人事要我们核对孩子信息，能发群里吗？”"
+          },
+          {
+            "id": "P05b.2",
+            "speaker": "host",
+            "text": "说回本园这次核对，小林请核对名单。"
+          },
+          {
+            "id": "P05b.3",
+            "speaker": "lin",
+            "text": "好。"
+          }
+        ],
+        "scope": "核对任务成立与引用问题获得本场资格分别判断。"
+      }
+    },
+    {
+      "case_id": "P06a",
+      "required": [],
+      "optional": [
+        {
+          "target": "facts",
+          "meaning": "主持人举了老师过去询问恢复出厂设置的例子。",
+          "evidence_ids": [
+            "P06a.1"
+          ]
+        }
+      ],
+      "forbidden": [
+        "把如何恢复出厂设置列为本场待答。",
+        "创建恢复设置、编写说明的工作或询问负责人。",
+        "将举例改为主持人当前请求操作答案。"
+      ],
+      "evidence_basis": {
+        "source": "runs/2026-11-16-context-v5-fixes/full-compact-final/manifest.json",
+        "selector": "jobs[id=P06a].meeting",
+        "segments": [
+          {
+            "id": "P06a.1",
+            "speaker": "host",
+            "text": "我在举一个老师们过去常问的问题：怎么恢复出厂设置？"
+          }
+        ],
+        "scope": "只有举例，没有本场采用、目标或工作安排。"
+      }
+    },
+    {
+      "case_id": "P08b",
+      "required": [
+        {
+          "target": "unresolved",
+          "meaning": "是否支持录像仍未知；支持主体在该例中未指明。",
+          "evidence_ids": [
+            "P08b.1"
+          ]
+        },
+        {
+          "target": "facts",
+          "meaning": "小林是尝试查询支持能力信息的人，并保留能否查到信息的不确定性。",
+          "evidence_ids": [
+            "P08b.1"
+          ]
+        },
+        {
+          "target": "work",
+          "meaning": "继续执行旧 expectation 的条件性候选契约 conditional=true，不借新消歧例回改旧分。",
+          "evidence_ids": [
+            "P08b.1"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "target": "facts",
+          "meaning": "可明确记录支持对象未指明；不要求单独向用户追问该对象。",
+          "evidence_ids": [
+            "P08b.1"
+          ]
+        }
+      ],
+      "forbidden": [
+        "把小林写成提供录像支持的人。",
+        "把查询支持能力信息改成寻找录像文件。",
+        "补写设备、会议录像，或从独立 P08a 借来遥控器。",
+        "因承诺查询就将支持能力写成已知或删除全部真实未知。"
+      ],
+      "evidence_basis": {
+        "source": "runs/2026-11-16-context-v5-fixes/full-compact-final/manifest.json",
+        "selector": "jobs[id=P08b].meeting",
+        "segments": [
+          {
+            "id": "P08b.1",
+            "speaker": "lin",
+            "text": "能否支持录像我去了解一下，如果我能查到的话。"
+          }
+        ],
+        "scope": "既有含糊句的回归标签；仅在 SV15/SV16 评价消歧后的启动条件。"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "SV01",
+      "family": "quoted_question_not_adopted",
+      "meeting": {
+        "case_id": "SV01",
+        "meeting_id": "SV01",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV01.1",
+            "speaker": "host",
+            "text": "培训教材里有一道讨论题：巡检照片能直接发到家长群吗？"
+          },
+          {
+            "id": "SV01.2",
+            "speaker": "host",
+            "text": "这里仅用它演示如何辨认疑问句，今天不讨论照片发布。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [],
+        "required_unresolved": [],
+        "optional_facts": [
+          {
+            "meaning": "培训中的照片发布问句用于演示辨认疑问句。",
+            "evidence_ids": [
+              "SV01.1",
+              "SV01.2"
+            ]
+          }
+        ],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "把照片能否发群列为本场未决。",
+          "声称照片发布已获准或被禁止。"
+        ],
+        "work_expectation": {
+          "required": [],
+          "optional": [],
+          "forbidden": [
+            "创建照片发布、权限调查或征求许可任务。"
+          ]
+        }
+      },
+      "rationale": "引用问句被限定为教学例子，没有本场采用。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV02",
+      "family": "quoted_question_adopted",
+      "meeting": {
+        "case_id": "SV02",
+        "meeting_id": "SV02",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV02.1",
+            "speaker": "host",
+            "text": "培训教材里有一道讨论题：巡检照片能直接发到家长群吗？"
+          },
+          {
+            "id": "SV02.2",
+            "speaker": "host",
+            "text": "我们今天也需要确定本园照片能否发到家长群。"
+          },
+          {
+            "id": "SV02.3",
+            "speaker": "zhou",
+            "text": "目前还没有结论，会上也没人承接核实这件事。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "照片发布许可已被纳入本场讨论。",
+            "evidence_ids": [
+              "SV02.2"
+            ]
+          }
+        ],
+        "required_unresolved": [
+          {
+            "meaning": "本园巡检照片能否发到家长群尚未确定。",
+            "evidence_ids": [
+              "SV02.2",
+              "SV02.3"
+            ]
+          }
+        ],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "因为最初是培训引用就删除当前未决。",
+          "推断已有发布许可或指定核实负责人。"
+        ],
+        "work_expectation": {
+          "required": [],
+          "optional": [
+            "可以保留当前确定许可的需求；若形成工作候选，未定落实方式只能作为真实缺口。"
+          ],
+          "forbidden": [
+            "自动创建已承接的发布或调查任务。"
+          ]
+        }
+      },
+      "rationale": "只改变本场是否采用；未知许可和未承接调查分别判断。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV03",
+      "family": "research_scope_answered_result_unknown",
+      "meeting": {
+        "case_id": "SV03",
+        "meeting_id": "SV03",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV03.1",
+            "speaker": "lin",
+            "text": "我下次会前调查食堂还是校车？"
+          },
+          {
+            "id": "SV03.2",
+            "speaker": "host",
+            "text": "只调查校车准点率，当前准点率是多少还不清楚。"
+          },
+          {
+            "id": "SV03.3",
+            "speaker": "lin",
+            "text": "好，我会在下次会前查清校车准点率。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "研究对象已确定为校车准点率。",
+            "evidence_ids": [
+              "SV03.1",
+              "SV03.2",
+              "SV03.3"
+            ]
+          }
+        ],
+        "required_unresolved": [
+          {
+            "meaning": "校车当前准点率仍待调查。",
+            "evidence_ids": [
+              "SV03.2",
+              "SV03.3"
+            ]
+          }
+        ],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "仍把调查食堂还是校车列作未决。",
+          "把承接调研当成已有准点率答案。"
+        ],
+        "work_expectation": {
+          "required": [
+            "保留小林下次会前调查校车准点率的已承接工作。"
+          ],
+          "optional": [],
+          "forbidden": [
+            "追问已确定的研究对象或是否承接。"
+          ]
+        }
+      },
+      "rationale": "对象选择已关闭；调查已承接但结果仍未知。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV04",
+      "family": "research_scope_open",
+      "meeting": {
+        "case_id": "SV04",
+        "meeting_id": "SV04",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV04.1",
+            "speaker": "lin",
+            "text": "下次会前的走访由我负责，调查食堂还是校车？"
+          },
+          {
+            "id": "SV04.2",
+            "speaker": "host",
+            "text": "走访这件事确定要做，但研究对象今天还没选。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "小林已承接下次会前的走访。",
+            "evidence_ids": [
+              "SV04.1",
+              "SV04.2"
+            ]
+          }
+        ],
+        "required_unresolved": [
+          {
+            "meaning": "走访对象是食堂还是校车尚未确定。",
+            "evidence_ids": [
+              "SV04.1",
+              "SV04.2"
+            ]
+          }
+        ],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "擅自选定研究对象。",
+          "把范围未定写成无人承接。"
+        ],
+        "work_expectation": {
+          "required": [
+            "保留真实走访工作；落实前只针对食堂或校车的范围选择提出必要问题。"
+          ],
+          "optional": [],
+          "forbidden": [
+            "重复追问已确定的负责人或是否开展走访。",
+            "把两个备选对象当作两项已承接工作。"
+          ]
+        }
+      },
+      "rationale": "对照 SV03：范围未定，承接和时间已有证据。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV05",
+      "family": "partial_answer",
+      "meeting": {
+        "case_id": "SV05",
+        "meeting_id": "SV05",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV05.1",
+            "speaker": "host",
+            "text": "明天培训在哪个教室，讲义用哪个版本？"
+          },
+          {
+            "id": "SV05.2",
+            "speaker": "zhou",
+            "text": "教室定在三楼会议室。"
+          },
+          {
+            "id": "SV05.3",
+            "speaker": "host",
+            "text": "讲义版本还没决定。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "明天培训地点为三楼会议室。",
+            "evidence_ids": [
+              "SV05.1",
+              "SV05.2"
+            ]
+          }
+        ],
+        "required_unresolved": [
+          {
+            "meaning": "明天培训的讲义版本尚未决定。",
+            "evidence_ids": [
+              "SV05.1",
+              "SV05.3"
+            ]
+          }
+        ],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "将培训地点保留为未决。",
+          "推断讲义已有选定版本。"
+        ],
+        "work_expectation": {
+          "required": [],
+          "optional": [],
+          "forbidden": [
+            "从问题推导打印、编辑或布置会场工作。"
+          ]
+        }
+      },
+      "rationale": "答案只关闭地点，另一命题仍开放。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV06",
+      "family": "complete_answer",
+      "meeting": {
+        "case_id": "SV06",
+        "meeting_id": "SV06",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV06.1",
+            "speaker": "host",
+            "text": "明天培训在哪个教室，讲义用哪个版本？"
+          },
+          {
+            "id": "SV06.2",
+            "speaker": "zhou",
+            "text": "教室定在三楼会议室，讲义用已经定稿的第二版。"
+          },
+          {
+            "id": "SV06.3",
+            "speaker": "host",
+            "text": "好，这两项就这样定。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "培训地点为三楼会议室，讲义使用第二版。",
+            "evidence_ids": [
+              "SV06.1",
+              "SV06.2",
+              "SV06.3"
+            ]
+          }
+        ],
+        "required_unresolved": [],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "仍把教室或讲义版本列为未决。"
+        ],
+        "work_expectation": {
+          "required": [],
+          "optional": [],
+          "forbidden": [
+            "创建输入未安排的打印、编辑或布置任务。"
+          ]
+        }
+      },
+      "rationale": "对照 SV05：两个问题均获答并被接受。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV07",
+      "family": "product_outcome_accepted",
+      "meeting": {
+        "case_id": "SV07",
+        "meeting_id": "SV07",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV07.1",
+            "speaker": "zhou",
+            "text": "这一版设备没有加入离线识别功能。"
+          },
+          {
+            "id": "SV07.2",
+            "speaker": "host",
+            "text": "我们接受这个版本，本次不再讨论是否加入离线识别。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "当前版本未加入离线识别，团队接受该版本。",
+            "evidence_ids": [
+              "SV07.1",
+              "SV07.2"
+            ]
+          }
+        ],
+        "required_unresolved": [],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "因功能未实现就列为仍待决定。"
+        ],
+        "work_expectation": {
+          "required": [],
+          "optional": [
+            "可以记录当前产品取舍为决策。"
+          ],
+          "forbidden": [
+            "创建补做离线识别的任务或追问是否实施。"
+          ]
+        }
+      },
+      "rationale": "未实现与仍待决定是不同状态。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV08",
+      "family": "product_choice_reopened",
+      "meeting": {
+        "case_id": "SV08",
+        "meeting_id": "SV08",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV08.1",
+            "speaker": "zhou",
+            "text": "这一版设备没有加入离线识别功能。"
+          },
+          {
+            "id": "SV08.2",
+            "speaker": "host",
+            "text": "之前接受过这个版本，但现在重新讨论是否加入离线识别，今天还没有结论。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "现有版本没有离线识别，此前接受的选择在本场重新开放。",
+            "evidence_ids": [
+              "SV08.1",
+              "SV08.2"
+            ]
+          }
+        ],
+        "required_unresolved": [
+          {
+            "meaning": "是否在该版本加入离线识别尚未决定。",
+            "evidence_ids": [
+              "SV08.2"
+            ]
+          }
+        ],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "沿用过去接受意见删除本场重新开放的选择。",
+          "声称已经决定加入。"
+        ],
+        "work_expectation": {
+          "required": [],
+          "optional": [
+            "可以记录当前产品选择仍开放。"
+          ],
+          "forbidden": [
+            "从讨论选择生成已承接的开发任务。"
+          ]
+        }
+      },
+      "rationale": "对照 SV07：明确重新开放改变当前状态。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV09",
+      "family": "document_mention_only",
+      "meeting": {
+        "case_id": "SV09",
+        "meeting_id": "SV09",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV09.1",
+            "speaker": "host",
+            "text": "资料包里有课程海报和活动文稿。"
+          },
+          {
+            "id": "SV09.2",
+            "speaker": "host",
+            "text": "小林只把课程海报发到教师群，文稿这里仅列出名称。"
+          },
+          {
+            "id": "SV09.3",
+            "speaker": "lin",
+            "text": "好，我现在发海报。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "资料包包含海报和文稿，当前工作安排只涉及海报。",
+            "evidence_ids": [
+              "SV09.1",
+              "SV09.2"
+            ]
+          }
+        ],
+        "required_unresolved": [],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "把文稿对象提及升格为编辑或发送工作。"
+        ],
+        "work_expectation": {
+          "required": [
+            "仅保留小林已承接的海报发送工作。"
+          ],
+          "optional": [],
+          "forbidden": [
+            "为文稿追问动作、负责人或是否执行。"
+          ]
+        }
+      },
+      "rationale": "并列名词不自动成为并列工作。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV10",
+      "family": "parallel_document_work",
+      "meeting": {
+        "case_id": "SV10",
+        "meeting_id": "SV10",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV10.1",
+            "speaker": "host",
+            "text": "资料包里有课程海报和活动文稿。"
+          },
+          {
+            "id": "SV10.2",
+            "speaker": "host",
+            "text": "小林把海报发到教师群，文稿也要修正活动时间后发到同一个群。"
+          },
+          {
+            "id": "SV10.3",
+            "speaker": "lin",
+            "text": "两件事我都接了，今天完成。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "海报发送和文稿修改后发送均被安排，小林全部承接。",
+            "evidence_ids": [
+              "SV10.2",
+              "SV10.3"
+            ]
+          }
+        ],
+        "required_unresolved": [],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "遗漏文稿的修改与发送。",
+          "把已承接工作写成尚未承接。"
+        ],
+        "work_expectation": {
+          "required": [
+            "保留海报发送与文稿修正时间后发送这两项工作含义；负责人小林，今天完成。"
+          ],
+          "optional": [
+            "允许分成两个任务或用保留两项动作和对应对象的一项复合任务表达。"
+          ],
+          "forbidden": [
+            "对已明确的文稿动作、负责人或承接重复追问。"
+          ]
+        }
+      },
+      "rationale": "对照 SV09：文稿后接独立动作，属于并列处理。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV11",
+      "family": "product_option_only",
+      "meeting": {
+        "case_id": "SV11",
+        "meeting_id": "SV11",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV11.1",
+            "speaker": "host",
+            "text": "若双屏方案太贵，可以把单屏列作备选。"
+          },
+          {
+            "id": "SV11.2",
+            "speaker": "zhou",
+            "text": "现在只是把可能的配置写进备选清单，不要求今天选定，也没有安排评估。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [],
+        "required_unresolved": [],
+        "optional_facts": [
+          {
+            "meaning": "双屏成本过高时，单屏是一个可能的备选。",
+            "evidence_ids": [
+              "SV11.1",
+              "SV11.2"
+            ]
+          }
+        ],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "声称已采纳单屏。",
+          "将无当前待答要求的备选强制列为当前未决。"
+        ],
+        "work_expectation": {
+          "required": [],
+          "optional": [
+            "可以保留产品备选为背景对象。"
+          ],
+          "forbidden": [
+            "创建成本评估或单屏实施任务。",
+            "追问由谁执行单屏方案或是否承接。"
+          ]
+        }
+      },
+      "rationale": "C11 边界：选项可记录；没有本场待选要求，不强制列未决。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV12",
+      "family": "product_option_evaluation_assigned",
+      "meeting": {
+        "case_id": "SV12",
+        "meeting_id": "SV12",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV12.1",
+            "speaker": "host",
+            "text": "若双屏方案太贵，可以把单屏列作备选。"
+          },
+          {
+            "id": "SV12.2",
+            "speaker": "host",
+            "text": "小周明天比较两种方案的成本并发给我，我们现在还不知道成本差多少。"
+          },
+          {
+            "id": "SV12.3",
+            "speaker": "zhou",
+            "text": "好，我明天完成比较并发给你。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "小周承接明天比较双屏和单屏成本并发送结果。",
+            "evidence_ids": [
+              "SV12.2",
+              "SV12.3"
+            ]
+          }
+        ],
+        "required_unresolved": [
+          {
+            "meaning": "双屏与单屏的成本差额尚待比较。",
+            "evidence_ids": [
+              "SV12.2"
+            ]
+          }
+        ],
+        "optional_facts": [
+          {
+            "meaning": "单屏是双屏过贵时的备选。",
+            "evidence_ids": [
+              "SV12.1"
+            ]
+          }
+        ],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "把成本比较安排等同于采纳单屏。",
+          "因起点是选项而删除评估工作。"
+        ],
+        "work_expectation": {
+          "required": [
+            "保留小周明天比较成本并向主持人交付结果的工作。"
+          ],
+          "optional": [],
+          "forbidden": [
+            "追问评估是否已承接。",
+            "新增实施任一产品方案的任务。"
+          ]
+        }
+      },
+      "rationale": "对照 SV11：选项本身与落实评估分别判断。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV13",
+      "family": "historical_work_report",
+      "meeting": {
+        "case_id": "SV13",
+        "meeting_id": "SV13",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV13.1",
+            "speaker": "lin",
+            "text": "我上周已经把这次培训的讲义发到教师群了。"
+          },
+          {
+            "id": "SV13.2",
+            "speaker": "host",
+            "text": "收到，这项发送工作已经完成。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "本次培训讲义已由小林上周发到教师群。",
+            "evidence_ids": [
+              "SV13.1",
+              "SV13.2"
+            ]
+          }
+        ],
+        "required_unresolved": [],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "因过去时将真实完成汇报当作引用例子。"
+        ],
+        "work_expectation": {
+          "required": [
+            "保留讲义发送工作的 completed 汇报。"
+          ],
+          "optional": [],
+          "forbidden": [
+            "新建待执行的讲义发送工作。",
+            "因没有新承接句要求重新承接。"
+          ]
+        }
+      },
+      "rationale": "动作发生在过去，本场话语用途仍是工作状态汇报。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV14",
+      "family": "historical_training_quote",
+      "meeting": {
+        "case_id": "SV14",
+        "meeting_id": "SV14",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV14.1",
+            "speaker": "host",
+            "text": "上周培训用过这样一个例句：“我已经把讲义发到教师群了。”"
+          },
+          {
+            "id": "SV14.2",
+            "speaker": "host",
+            "text": "今天我们只分析这句话的时态，不是在汇报本次培训的工作。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [],
+        "required_unresolved": [],
+        "optional_facts": [
+          {
+            "meaning": "本场分析培训例句的时态。",
+            "evidence_ids": [
+              "SV14.1",
+              "SV14.2"
+            ]
+          }
+        ],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "把引文当成本次讲义已发送的事实或工作完成报告。"
+        ],
+        "work_expectation": {
+          "required": [],
+          "optional": [],
+          "forbidden": [
+            "创建本次讲义发送工作或 completed 工作汇报。"
+          ]
+        }
+      },
+      "rationale": "对照 SV13：过去工作在引文内，未作为本次状态汇报。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV15",
+      "family": "investigation_result_uncertain",
+      "meeting": {
+        "case_id": "SV15",
+        "meeting_id": "SV15",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV15.1",
+            "speaker": "host",
+            "text": "资料是否支持离线检索现在还不知道。"
+          },
+          {
+            "id": "SV15.2",
+            "speaker": "lin",
+            "text": "我现在就开始查资料，明天下午把查到的情况告诉你；即使查不到答案，也会反馈查询经过。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "小林现在开始查询并承诺明天下午反馈，能否得到答案不保证。",
+            "evidence_ids": [
+              "SV15.2"
+            ]
+          }
+        ],
+        "required_unresolved": [
+          {
+            "meaning": "资料是否支持离线检索仍未知。",
+            "evidence_ids": [
+              "SV15.1",
+              "SV15.2"
+            ]
+          }
+        ],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "把小林改成提供离线检索支持的人。",
+          "把结果不保证当作尚未满足的启动条件。",
+          "把答应查询等同于支持能力已知。"
+        ],
+        "work_expectation": {
+          "required": [
+            "保留立即开始、明天下午反馈查询情况的已承接工作。"
+          ],
+          "optional": [],
+          "forbidden": [
+            "要求确认能查到答案后才启动。",
+            "再次确认承接。"
+          ]
+        }
+      },
+      "rationale": "新消歧例评价结果可得性；不回改 P08b 旧 conditional 期望。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV16",
+      "family": "investigation_start_condition",
+      "meeting": {
+        "case_id": "SV16",
+        "meeting_id": "SV16",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV16.1",
+            "speaker": "host",
+            "text": "资料是否支持离线检索现在还不知道。"
+          },
+          {
+            "id": "SV16.2",
+            "speaker": "lin",
+            "text": "只有管理员明天先开通资料库权限，我才开始查询；权限没开通就不查。"
+          },
+          {
+            "id": "SV16.3",
+            "speaker": "host",
+            "text": "管理员还没确认会开通权限。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "小林查询承诺以前置权限开通为条件，该条件尚未确认。",
+            "evidence_ids": [
+              "SV16.2",
+              "SV16.3"
+            ]
+          }
+        ],
+        "required_unresolved": [
+          {
+            "meaning": "资料是否支持离线检索仍未知。",
+            "evidence_ids": [
+              "SV16.1",
+              "SV16.2"
+            ]
+          },
+          {
+            "meaning": "管理员是否会开通资料库权限尚未确认。",
+            "evidence_ids": [
+              "SV16.2",
+              "SV16.3"
+            ]
+          }
+        ],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "将条件性承诺写成现在已开始查询。",
+          "把小林改成开通权限者或提供检索支持的人。"
+        ],
+        "work_expectation": {
+          "required": [
+            "保留条件性查询工作和真实权限前提；条件确认前不执行为无条件任务。"
+          ],
+          "optional": [
+            "可以针对权限条件提出必要确认。"
+          ],
+          "forbidden": [
+            "自动给管理员创建已承接的开权限任务。",
+            "因权限问题而删除能力未知。"
+          ]
+        }
+      },
+      "rationale": "对照 SV15：条件明确限制调查启动，而不是结果。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV17",
+      "family": "deferred_until_date",
+      "meeting": {
+        "case_id": "SV17",
+        "meeting_id": "SV17",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV17.1",
+            "speaker": "host",
+            "text": "是否更换家长端登录页先放着。"
+          },
+          {
+            "id": "SV17.2",
+            "speaker": "zhou",
+            "text": "记到下周例会再议，今天不选方案，也不安排任何人动手。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "登录页更换议题已暂缓至下周例会再议。",
+            "evidence_ids": [
+              "SV17.1",
+              "SV17.2"
+            ]
+          }
+        ],
+        "required_unresolved": [],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "删除全部暂缓信息。",
+          "把登录页选择列为当前立即待答。",
+          "声称已取消更换或选定方案。"
+        ],
+        "work_expectation": {
+          "required": [
+            "不生成立即执行的登录页修改工作或即时追问。"
+          ],
+          "optional": [
+            "可以另记 deferred_topic；有已核验关联时合并展示，纪要事实仍须可见。"
+          ],
+          "forbidden": [
+            "因工作分支失败、漏提 deferred_topic 或去重关联过期隐藏暂缓事实。"
+          ]
+        }
+      },
+      "rationale": "同一输入应组合工作分支成功、失败和漏提状态检查，语义要求保持不变。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV18",
+      "family": "deferred_until_external_input",
+      "meeting": {
+        "case_id": "SV18",
+        "meeting_id": "SV18",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV18.1",
+            "speaker": "host",
+            "text": "要不要增加午托名额，等下月招生数据齐了再讨论。"
+          },
+          {
+            "id": "SV18.2",
+            "speaker": "an",
+            "text": "同意，今天只把这项议题和再议条件记下来，不做选择，也不启动扩容。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "增加午托名额议题已暂缓，待下月招生数据齐后再讨论。",
+            "evidence_ids": [
+              "SV18.1",
+              "SV18.2"
+            ]
+          }
+        ],
+        "required_unresolved": [],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "把扩容选择列为当前立即待答。",
+          "把暂缓解释为已决定扩容或取消扩容。"
+        ],
+        "work_expectation": {
+          "required": [
+            "不生成即时扩容任务或追问。"
+          ],
+          "optional": [
+            "可以记录 deferred_topic，纪要事实必须独立保留。"
+          ],
+          "forbidden": [
+            "擅自增加采集招生数据工作。",
+            "因工作分支不可用而让暂缓议题或再议条件消失。"
+          ]
+        }
+      },
+      "rationale": "再议条件不自动建立数据采集任务；仍须检查分支成败不改变事实保留。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV19",
+      "family": "current_goal_need",
+      "meeting": {
+        "case_id": "SV19",
+        "meeting_id": "SV19",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV19.1",
+            "speaker": "zhou",
+            "text": "本月要把家长重复咨询报名材料的次数降下来。"
+          },
+          {
+            "id": "SV19.2",
+            "speaker": "host",
+            "text": "客服说家长总找不到材料清单，这已经影响本月目标。"
+          },
+          {
+            "id": "SV19.3",
+            "speaker": "host",
+            "text": "我们需要解决清单难找的问题，但用什么办法还没决定，也没有人承接具体工作。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [
+          {
+            "meaning": "家长找不到材料清单，影响本月减少重复咨询的目标。",
+            "evidence_ids": [
+              "SV19.1",
+              "SV19.2",
+              "SV19.3"
+            ]
+          }
+        ],
+        "required_unresolved": [
+          {
+            "meaning": "如何解决材料清单难找的问题尚未决定。",
+            "evidence_ids": [
+              "SV19.3"
+            ]
+          }
+        ],
+        "optional_facts": [],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "因没有明确动作或负责人就删除当前目标下的真实需求。",
+          "把家长如何准备材料改为本场未决命题。"
+        ],
+        "work_expectation": {
+          "required": [
+            "保留有当前目标依据的 implicit_need，并保留未定的落实方式。"
+          ],
+          "optional": [
+            "可以询问尚未确定的落实方式。"
+          ],
+          "forbidden": [
+            "自动决定做网页、发群或指定负责人。",
+            "把未定方案写成已承接任务。"
+          ]
+        }
+      },
+      "rationale": "工作资格判断必须保住当前目标下的需求。",
+      "actor": "host"
+    },
+    {
+      "case_id": "SV20",
+      "family": "goal_need_quoted_only",
+      "meeting": {
+        "case_id": "SV20",
+        "meeting_id": "SV20",
+        "series": "语义验收 semantic-v1",
+        "language": "zh",
+        "source": "synthetic_semantic_v1",
+        "started_at": "2026-11-16T10:00:00+08:00",
+        "audience": [
+          "host",
+          "lin",
+          "zhou",
+          "an"
+        ],
+        "writers": [
+          "host"
+        ],
+        "speaker_map": {
+          "host": "host",
+          "lin": "lin",
+          "zhou": "zhou",
+          "an": "an"
+        },
+        "roster": {
+          "host": "主持人",
+          "lin": "小林",
+          "zhou": "小周",
+          "an": "安老师"
+        },
+        "segments": [
+          {
+            "id": "SV20.1",
+            "speaker": "host",
+            "text": "培训案例里的园所目标是减少家长重复咨询，案例说家长总找不到材料清单。"
+          },
+          {
+            "id": "SV20.2",
+            "speaker": "host",
+            "text": "这只是别的园所的练习材料，本园今天没有采用这个目标，也不讨论怎么处理。"
+          }
+        ]
+      },
+      "expected": {
+        "required_facts": [],
+        "required_unresolved": [],
+        "optional_facts": [
+          {
+            "meaning": "主持人引用其他园所的培训案例。",
+            "evidence_ids": [
+              "SV20.1",
+              "SV20.2"
+            ]
+          }
+        ],
+        "optional_unresolved": [],
+        "forbidden_meanings": [
+          "把案例园所目标或清单问题写成本园现状。",
+          "列出本园如何解决清单难找的当前未决。"
+        ],
+        "work_expectation": {
+          "required": [],
+          "optional": [],
+          "forbidden": [
+            "为本园生成解决材料清单问题的 implicit_need 或执行工作。"
+          ]
+        }
+      },
+      "rationale": "对照 SV19：目标和困难属于案例，未被本场采用。",
+      "actor": "host"
+    }
+  ]
+}

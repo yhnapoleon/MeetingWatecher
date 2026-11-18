@@ -1,0 +1,303 @@
+{
+  "cases": [
+    {
+      "case_id": "P01a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P01b",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P02a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P02b",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P03a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P03b",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P04a",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P04b",
+      "item_counts": [
+        3
+      ],
+      "no_review": false,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": true
+    },
+    {
+      "case_id": "P05a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P05b",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P06a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P06b",
+      "item_counts": [
+        0
+      ],
+      "no_review": false,
+      "needs_implicit": true,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P07a",
+      "item_counts": [
+        0
+      ],
+      "no_review": false,
+      "needs_report": false
+    },
+    {
+      "case_id": "P07b",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P08a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P08b",
+      "item_counts": [
+        1
+      ],
+      "no_review": false,
+      "needs_implicit": false,
+      "conditional": true,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P09a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P09b",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P10a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P10b",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P11a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": true
+    },
+    {
+      "case_id": "P11b",
+      "item_counts": [
+        1,
+        2
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P12a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P12b",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "P13a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P13b",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": true
+    },
+    {
+      "case_id": "P14a",
+      "item_counts": [
+        0
+      ],
+      "no_review": true,
+      "needs_report": false
+    },
+    {
+      "case_id": "P14b",
+      "item_counts": [
+        1
+      ],
+      "no_review": true,
+      "needs_implicit": false,
+      "conditional": false,
+      "no_deadline": false
+    },
+    {
+      "case_id": "R01",
+      "item_counts": [
+        1
+      ],
+      "operations": [
+        "create"
+      ]
+    },
+    {
+      "case_id": "R02",
+      "item_counts": [
+        1
+      ],
+      "operations": [
+        "candidate"
+      ]
+    },
+    {
+      "case_id": "R03",
+      "item_counts": [
+        1
+      ],
+      "operations": [
+        "candidate"
+      ]
+    },
+    {
+      "case_id": "R04",
+      "item_counts": [
+        1
+      ],
+      "operations": [
+        "create"
+      ]
+    },
+    {
+      "case_id": "R05",
+      "item_counts": [
+        1
+      ],
+      "operations": [
+        "create"
+      ],
+      "promoted_context": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+
+以下为核验协议增量，覆盖旧版 uncovered_spans 输出要求；其他事件字段核验保持不变。
+先明确每条记录表达的是决定本身、实施动作、已有工作汇报还是单纯对象提及。改变产品范围或规则的确定值，可以是当场完成的决定；不能仅因“改/今天”等措辞就推断会后还分派了一项落实任务。实施工作应能指出决定内容之外的动作及其对象，未明确这项动作时不造执行者缺口。若原文实际明确落实动作，即使共享决定的句子，也必须保留该工作。
+对每个既有 missing_fields 逐项单独判定；不要用 record verdict=supported 同时在 reason 说该缺口不成立却保留缺口。信息未在转写中展开，不等于参与者尚未决定。正常省略对象名称时保留原话对象；需要阻断内容时指出原文中实际竞争的选择或明确待定的事项。一个完整动作之后单独附带的材料名，不因邻近就自动继承动词，也不为尚未建立的处理任务追问负责人；明确说该材料也执行某动作则保留。
+
+每个 record_checks 项增加：
+- proposed_kind：原 kind 正确为 null，分类错误时给 work/implicit_need/ambiguous/entity_only/context_only/withdrawn/resolved 中的建议。该字段是修正建议，不能自动变更记录。
+- gap_checks：对原 missing_fields 和真正新增缺口逐项输出 {"field":"reference","verdict":"unsupported","blocking_for":"none","reason":"依据","evidence":["Q1"]}。field 使用 work/reference/scope/owner/commitment/time/relation。supported 表示确有用户待决定的缺口；unsupported 表示缺口前提不成立。blocking_for=content/operation/none；内容尚未确定用 content，内容已明确但平台执行需补信息用 operation，不影响用 none。unsupported 只能 none。
+- clarification：{"status":"not_needed","basis":"为何需要或不需要向用户提问","fields":[],"question":null,"evidence":["Q1"]}。needed 的 fields 必须恰好等于 supported 且 blocking_for 非 none 的 gap 字段，question 只问这些字段；not_needed 不带阻断 gap，fields=[]、question=null。unresolved 表示系统仍不能可靠解释，不能预设动作向用户追问负责人。
+verdict 继续核验原记录：错误缺口/question 应用 issues 指出，不能因为建议里的 gap_checks 已修正就把原记录判 supported。原记录忠实保留真实未决事项可为 supported + needed，不把用户真实未决事项当成系统解释错误。
+
+uncovered_spans 固定 []，所有遗漏改用 coverage_findings 数组。每项 {"description":"实际可能漏掉的独立动作或记录缺失的内容","evidence":["Q1"],"relation":"new_work|same_work|uncertain","related_record_ids":[]}。new_work 的 related_record_ids=[]；same_work 必须指明已有记录。已有记录分类错误只在 record_checks 修正，不再重复列遗漏。不得按同一证据段去重，同段另一项真实工作仍须指出。若只是错误地把已有决定称为遗漏工作，不再列遗漏。所有 evidence 必须为原文 Q ID。

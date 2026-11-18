@@ -1,0 +1,19 @@
+{
+  "source": "synthetic_mvp_fixture",
+  "series": "工单导出试点",
+  "tasks_at_0900": [
+    {"guid":"W41","summary":"发导出失败样本","status":"open","readers":["host","owner"],"assignee":"owner"},
+    {"guid":"W42","summary":"提交试点时间表","status":"open","readers":["host","guest"],"assignee":"host"},
+    {"guid":"W43","summary":"提交试点时间表","status":"done","readers":["host","guest"],"assignee":"guest"}
+  ],
+  "server_events": [
+    {"at":"2026-11-16T10:05:00+08:00","guid":"W41","actor":"owner","kind":"set_status","value":"done"},
+    {"at":"2026-11-16T10:07:00+08:00","guid":"W42","actor":"host","kind":"revoke_reader","value":"guest"},
+    {"at":"2026-11-16T10:15:00+08:00","guid":"W41","actor":"owner","kind":"set_status","value":"open"}
+  ],
+  "queries": [
+    {"meeting":"W1","as_of":"2026-11-16T09:59:59+08:00","viewers":["host","guest"]},
+    {"meeting":"W2","as_of":"2026-11-16T10:09:59+08:00","viewers":["host","guest"]},
+    {"meeting":"W3","as_of":"2026-11-16T10:19:59+08:00","viewers":["host","guest"]}
+  ]
+}

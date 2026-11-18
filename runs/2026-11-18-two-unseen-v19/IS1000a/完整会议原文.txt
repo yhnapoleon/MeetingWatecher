@@ -1,0 +1,1166 @@
+1. [37.25s] C (IS1000a.sync.521)
+Okay .
+
+2. [38.71s] D (IS1000a.sync.702)
+Or you get it . Okay .
+
+3. [44.93s] C (IS1000a.sync.523)
+No I don't think so it has to be like that yeah and you have to adjust the length .
+
+4. [70.02s] C (IS1000a.sync.525)
+Okay , and then .
+
+5. [93.56s] B (IS1000a.sync.214)
+So we uh we will wait for Anna , a few minutes .
+
+6. [96.02s] C (IS1000a.sync.527)
+Yeah , s yeah , um .
+
+7. [104.96s] D (IS1000a.sync.706)
+Mm . Yours is well
+
+8. [110.91s] C (IS1000a.sync.529)
+I think you can put anywhere you want , actually .
+
+9. [114.31s] D (IS1000a.sync.708)
+Yeah but the the mic should not
+
+10. [114.49s] C (IS1000a.sync.531)
+I thin
+
+11. [116.89s] C (IS1000a.sync.533)
+It's not a directional mic , anyway .
+
+12. [122.88s] B (IS1000a.sync.216)
+I think it should work like this . So I will try to get my presentation running .
+
+13. [126.40s] C (IS1000a.sync.535)
+Uh .
+
+14. [133.07s] D (IS1000a.sync.712)
+Yeah .
+
+15. [133.51s] C (IS1000a.sync.537)
+Yeah .
+
+16. [138.26s] B (IS1000a.sync.218)
+Mm .
+
+17. [141.52s] D (IS1000a.sync.714)
+Mm . Can't help you with that .
+
+18. [143.39s] C (IS1000a.sync.539)
+Last .
+
+19. [144.84s] B (IS1000a.sync.220)
+It's no matter .
+
+20. [144.85s] D (IS1000a.sync.716)
+Okay , it's y yeah .
+
+21. [148.98s] B (IS1000a.sync.222)
+No problem .
+
+22. [150.61s] B (IS1000a.sync.224)
+Ah yes .
+
+23. [154.37s] D (IS1000a.sync.718)
+Right .
+
+24. [158.83s] C (IS1000a.sync.541)
+Okay .
+
+25. [161.88s] D (IS1000a.sync.720)
+Then press uh al
+
+26. [165.23s] C (IS1000a.sync.543)
+Okay .
+
+27. [165.37s] D (IS1000a.sync.722)
+This . You know ?
+
+28. [166.09s] B (IS1000a.sync.226)
+I don't know . Just try .
+
+29. [169.27s] C (IS1000a.sync.545)
+'Kay .
+
+30. [169.96s] B (IS1000a.sync.228)
+On this normal
+
+31. [170.19s] D (IS1000a.sync.724)
+Oh oh .
+
+32. [171.11s] C (IS1000a.sync.547)
+Alt F_ five .
+
+33. [174.10s] B (IS1000a.sync.230)
+Good . Doesn't appear on the screen here .
+
+34. [179.28s] D (IS1000a.sync.728)
+Right well
+
+35. [183.66s] B (IS1000a.sync.232)
+Oh .
+
+36. [184.08s] D (IS1000a.sync.730)
+Wow . Amazing . It's working .
+
+37. [188.04s] B (IS1000a.sync.234)
+Okay . Thank you . Uh .
+
+38. [208.30s] A (IS1000a.sync.3)
+Hold that .
+
+39. [212.93s] B (IS1000a.sync.236)
+Yes and you can put can clip it uh on your
+
+40. [213.26s] A (IS1000a.sync.5)
+Okay .
+
+41. [216.44s] B (IS1000a.sync.238)
+Somewhere .
+
+42. [216.64s] A (IS1000a.sync.7)
+Okay . Mm .
+
+43. [224.47s] B (IS1000a.sync.240)
+So , good morning , everyone .
+
+44. [227.60s] B (IS1000a.sync.242)
+Um
+
+45. [229.22s] B (IS1000a.sync.244)
+Welcome at uh at the kick off meeting of our uh latest project . I hope you all have been uh updated about it .
+
+46. [236.98s] D (IS1000a.sync.734)
+Yeah .
+
+47. [238.52s] B (IS1000a.sync.246)
+Good .
+
+48. [238.76s] C (IS1000a.sync.549)
+So . Yes .
+
+49. [240.34s] B (IS1000a.sync.248)
+So w we will try to structure this uh meeting with an a with an agenda uh as presented here . Um after the opening we will tr get acquainted to each other . See what our roles are in this project .
+
+50. [258.77s] B (IS1000a.sync.250)
+So , um
+
+51. [262.14s] B (IS1000a.sync.252)
+We have been provided with uh some uh w technical tools to uh
+
+52. [267.90s] B (IS1000a.sync.254)
+to communicate and to well , learn from each other's plans uh as I can say um so w
+
+53. [277.53s] B (IS1000a.sync.256)
+we will also try to uh
+
+54. [281.28s] B (IS1000a.sync.258)
+to get acquainted to this tools so they are also new to me I don't know whether you worked with them before . Um then we will come to the uh to the to the actual project plan . You all know I hope how it's about uh the uh new r remote control we are going going to design .
+
+55. [298.36s] A (IS1000a.sync.9)
+Mm-hmm .
+
+56. [299.33s] C (IS1000a.sync.553)
+Total .
+
+57. [301.70s] B (IS1000a.sync.260)
+Uh then we will uh discuss uh , well , how it should be and uh
+
+58. [309.62s] B (IS1000a.sync.262)
+wh what uh what our new product should look lite like . And uh well then uh after some twenty five minutes I hope uh we can end this meeting .
+
+59. [322.58s] B (IS1000a.sync.264)
+So . Um basically this is about a uh a new c remote control . Um
+
+60. [334.07s] B (IS1000a.sync.266)
+We When you design a new product you of uh you of course want it to be original . Be uh we want to be distinguished , mm ? People uh want to uh when they look at the shelf want to think , well that's the product I I need . So it needs to be trendy . I mean trendy is what people want , so then I w they will buy our product .
+
+61. [357.68s] B (IS1000a.sync.268)
+But then , uh , it also should work uh user friendly and uh otherwise people uh uh well it will not be uh
+
+62. [370.58s] B (IS1000a.sync.270)
+be rated very well in consumer uh articles and like that .
+
+63. [378.66s] B (IS1000a.sync.272)
+So , the general outline of uh new project will be we first uh go through a functional design phase . Um
+
+64. [392.96s] B (IS1000a.sync.274)
+You all get uh um certain task uh in this uh in this phase and uh
+
+65. [401.41s] B (IS1000a.sync.276)
+then we will meet again and uh discuss this functional design . And the same holds for the uh
+
+66. [409.75s] B (IS1000a.sync.278)
+ph two phases uh after this , the conceptual design
+
+67. [414.71s] B (IS1000a.sync.280)
+and after that a a more detailed design in which the the final project should get its definite shape .
+
+68. [426.45s] B (IS1000a.sync.282)
+Alright , but first we will do some uh tool training .
+
+69. [431.25s] B (IS1000a.sync.284)
+In all in front of you uh you see uh the uh
+
+70. [436.71s] B (IS1000a.sync.286)
+notebooks and w uh n note blocks and we have here a
+
+71. [441.54s] B (IS1000a.sync.288)
+a a a white-board .
+
+72. [442.80s] C (IS1000a.sync.555)
+Whitebo
+
+73. [443.55s] A (IS1000a.sync.11)
+Mm-hmm .
+
+74. [445.88s] B (IS1000a.sync.290)
+And um well it should work uh I've read it from my uh from some colleague that it should work with some kind of toolbar . I didn't find out yet how it work , but maybe one of you did , so
+
+75. [460.40s] B (IS1000a.sync.292)
+Um
+
+76. [461.00s] D (IS1000a.sync.740)
+Under documents in the shared folder . Okay .
+
+77. [464.26s] B (IS1000a.sync.294)
+Yes . Do Do we have to say something about that ? I I I'm not fully updated about this shared folder uh .
+
+78. [472.50s] D (IS1000a.sync.742)
+Yeah , I guess we'll have a shared folder uh with documents that we can share . And uh , yeah .
+
+79. [478.02s] B (IS1000a.sync.296)
+Yes well we will then find out ho how it works .
+
+80. [482.66s] D (IS1000a.sync.744)
+Yes .
+
+81. [483.65s] B (IS1000a.sync.298)
+Um .
+
+82. [486.42s] B (IS1000a.sync.300)
+Well , this seems to me , yes , some computer program but I didn't find it yet .
+
+83. [492.00s] B (IS1000a.sync.302)
+So , we'll come to that later .
+
+84. [495.30s] B (IS1000a.sync.304)
+So , uh now we will try out the white-board we have here .
+
+85. [502.29s] B (IS1000a.sync.306)
+So ,
+
+86. [504.97s] B (IS1000a.sync.308)
+I would suggest uh
+
+87. [507.51s] D (IS1000a.sync.746)
+Each of us is going .
+
+88. [508.80s] B (IS1000a.sync.310)
+Well , yes , um we uh we should try to t to draw on it and then well it should be smart some way . I I'm not really sure how this works , but
+
+89. [521.19s] D (IS1000a.sync.748)
+Okay , shall I start ?
+
+90. [522.34s] A (IS1000a.sync.13)
+Mm . Yeah .
+
+91. [522.47s] C (IS1000a.sync.557)
+Yeah , you can start it you know .
+
+92. [522.85s] B (IS1000a.sync.312)
+Yes , a good idea Mael .
+
+93. [524.13s] A (IS1000a.sync.15)
+I think for us it's just like a normal whiteboard , but they'll be recording what we write down .
+
+94. [527.85s] D (IS1000a.sync.750)
+So , i
+
+95. [528.85s] C (IS1000a.sync.559)
+No they will record through that . There's a sensor over there which is going to record the strokes that you make .
+
+96. [531.12s] A (IS1000a.sync.17)
+Mm . Mm .
+
+97. [533.24s] A (IS1000a.sync.19)
+But for us it's just like a normal whiteboard .
+
+98. [533.61s] B (IS1000a.sync.314)
+Okay .
+
+99. [534.97s] C (IS1000a.sync.561)
+Yeah .
+
+100. [536.23s] B (IS1000a.sync.316)
+'Kay .
+
+101. [539.80s] D (IS1000a.sync.752)
+But it's
+
+102. [545.11s] D (IS1000a.sync.754)
+Actually , I think I cannot go with uh
+
+103. [548.40s] B (IS1000a.sync.318)
+You you
+
+104. [551.54s] B (IS1000a.sync.320)
+D doesn't it work ?
+
+105. [553.60s] B (IS1000a.sync.322)
+Maybe someo Maybe maybe Anna , maybe you can start . Then he can maybe find out to get his cord right .
+
+106. [555.66s] A (IS1000a.sync.23)
+Mm-hmm .
+
+107. [555.73s] D (IS1000a.sync.756)
+Yeah .
+
+108. [562.38s] A (IS1000a.sync.25)
+I have to draw .
+
+109. [562.60s] B (IS1000a.sync.324)
+So um
+
+110. [565.16s] B (IS1000a.sync.326)
+L Why don't you draw uh your favourite animal on on th on the white-board .
+
+111. [570.62s] A (IS1000a.sync.27)
+M my my favourite animal . Sorry this is all tangled up here .
+
+112. [579.42s] B (IS1000a.sync.328)
+Oh , I see uh
+
+113. [580.98s] A (IS1000a.sync.29)
+That's better .
+
+114. [584.46s] C (IS1000a.sync.565)
+Yeah .
+
+115. [585.56s] B (IS1000a.sync.330)
+Yeah .
+
+116. [587.63s] B (IS1000a.sync.332)
+Yes . Mm .
+
+117. [594.54s] B (IS1000a.sync.334)
+So draw it . We will try to guess what it is .
+
+118. [595.69s] A (IS1000a.sync.33)
+Mm-hmm . I'm a very bad drawer .
+
+119. [602.83s] A (IS1000a.sync.35)
+Weird .
+
+120. [607.11s] A (IS1000a.sync.37)
+Um . You're not gonna be able to guess from my drawing . I'm a bad drawer . Okay .
+
+121. [614.73s] B (IS1000a.sync.338)
+Mm .
+
+122. [617.71s] A (IS1000a.sync.39)
+They're ears , by the way . No . Um close though .
+
+123. [617.72s] C (IS1000a.sync.567)
+'s a cat .
+
+124. [626.75s] A (IS1000a.sync.41)
+Okay so like a pet animal .
+
+125. [632.98s] D (IS1000a.sync.760)
+Okay .
+
+126. [636.19s] A (IS1000a.sync.43)
+Like a cat .
+
+127. [637.14s] C (IS1000a.sync.569)
+Yeah .
+
+128. [639.34s] B (IS1000a.sync.340)
+It's like a cat , so I guess it's a cat .
+
+129. [641.35s] A (IS1000a.sync.45)
+No , not a cat though .
+
+130. [645.03s] B (IS1000a.sync.342)
+What is this now ?
+
+131. [658.87s] C (IS1000a.sync.571)
+Ah you forget about it .
+
+132. [661.60s] D (IS1000a.sync.762)
+You're on the knife .
+
+133. [662.65s] C (IS1000a.sync.573)
+Yeah , uh I think it's fine . I just don't want to carry it off .
+
+134. [671.29s] C (IS1000a.sync.575)
+Man , this wires , eh ? We need a wireless microphone .
+
+135. [678.79s] C (IS1000a.sync.577)
+You know ? Pro specially we should next project we should take l like that .
+
+136. [688.88s] B (IS1000a.sync.344)
+So , that's the cat . Oh .
+
+137. [688.96s] A (IS1000a.sync.47)
+Okay . So . It's not a cat , it's a dog . Yes .
+
+138. [691.38s] C (IS1000a.sync.579)
+So .
+
+139. [691.54s] D (IS1000a.sync.766)
+Mael .
+
+140. [692.26s] B (IS1000a.sync.346)
+It's a dog .
+
+141. [694.35s] B (IS1000a.sync.348)
+So but that's also kind of cat , isn't it ?
+
+142. [695.69s] C (IS1000a.sync.581)
+Oh the dog doesn't have a tail ?
+
+143. [697.62s] A (IS1000a.sync.49)
+It's got a tail then .
+
+144. [697.88s] B (IS1000a.sync.350)
+B bo both predators .
+
+145. [698.95s] C (IS1000a.sync.583)
+Yeah , sure , yeah . I thought so . The dogs have a tail .
+
+146. [700.60s] A (IS1000a.sync.51)
+Yeah yeah .
+
+147. [703.29s] B (IS1000a.sync.352)
+So , thank you . Uh d did you uh work out cord ?
+
+148. [703.49s] A (IS1000a.sync.53)
+So do cats . And you guessed cats without a tail .
+
+149. [708.06s] C (IS1000a.sync.587)
+Yeah .
+
+150. [708.52s] D (IS1000a.sync.770)
+Yeah , I think I will go without without it , right ?
+
+151. [710.34s] A (IS1000a.sync.55)
+Okay .
+
+152. [712.40s] B (IS1000a.sync.354)
+Okay .
+
+153. [715.86s] C (IS1000a.sync.589)
+It'll still not extend , right ? It's not up to that .
+
+154. [722.42s] A (IS1000a.sync.57)
+Okay , there you go . So what favourite characteristics . Uh . Dogs are always friendly and loyal and fun .
+
+155. [750.07s] A (IS1000a.sync.59)
+A horse ?
+
+156. [750.59s] C (IS1000a.sync.591)
+It's a horse .
+
+157. [755.75s] A (IS1000a.sync.61)
+This is why you're the designer . And I'm marketing .
+
+158. [757.81s] B (IS1000a.sync.356)
+Yes . Yes , yes this is Yes definitely a horse . Yes . Oh very good . So
+
+159. [766.79s] A (IS1000a.sync.63)
+Ah
+
+160. [767.71s] B (IS1000a.sync.358)
+I suppose it
+
+161. [768.01s] C (IS1000a.sync.593)
+Ah I think you can put that .
+
+162. [775.57s] A (IS1000a.sync.65)
+Mm-hmm . That's it .
+
+163. [782.56s] A (IS1000a.sync.67)
+A blue and black zebra .
+
+164. [785.25s] B (IS1000a.sync.360)
+Yes .
+
+165. [790.23s] B (IS1000a.sync.362)
+Can you can meet them in Africa , I think . Yes . Very good . So
+
+166. [794.55s] A (IS1000a.sync.71)
+The very rare blue zebras . Yes .
+
+167. [796.94s] C (IS1000a.sync.599)
+I'll tell to get it off my
+
+168. [798.05s] B (IS1000a.sync.364)
+Ma Matthew ?
+
+169. [805.41s] C (IS1000a.sync.601)
+Uh ?
+
+170. [809.24s] C (IS1000a.sync.603)
+Mm-hmm .
+
+171. [809.98s] B (IS1000a.sync.366)
+So
+
+172. [813.44s] A (IS1000a.sync.73)
+You got a lot of room here . You can probably reach .
+
+173. [813.70s] B (IS1000a.sync.368)
+Maybe
+
+174. [815.64s] C (IS1000a.sync.605)
+Oh y it's not for that .
+
+175. [817.25s] A (IS1000a.sync.75)
+No ?
+
+176. [817.84s] C (IS1000a.sync.607)
+No .
+
+177. [818.54s] B (IS1000a.sync.370)
+I hope you have some space in your uh the horse of uh Mael .
+
+178. [820.64s] C (IS1000a.sync.609)
+Okay . Yeah .
+
+179. [826.41s] C (IS1000a.sync.611)
+So what should I draw ? Mm .
+
+180. [828.82s] C (IS1000a.sync.613)
+He has already to do cat .
+
+181. [831.48s] A (IS1000a.sync.77)
+I took a dog .
+
+182. [841.26s] A (IS1000a.sync.79)
+Um .
+
+183. [843.57s] A (IS1000a.sync.81)
+A mouse ?
+
+184. [849.43s] B (IS1000a.sync.372)
+This looks likes a cat who has been driven over .
+
+185. [856.36s] A (IS1000a.sync.83)
+Okay .
+
+186. [857.49s] D (IS1000a.sync.776)
+Yeah . And we should sum up its favourite charas characteristics , right ?
+
+187. [866.37s] A (IS1000a.sync.85)
+Mm-hmm .
+
+188. [870.23s] B (IS1000a.sync.376)
+Yes , the moustache .
+
+189. [872.30s] D (IS1000a.sync.778)
+So
+
+190. [873.42s] B (IS1000a.sync.378)
+That's that's definitely a cat .
+
+191. [875.13s] A (IS1000a.sync.87)
+Mm-hmm .
+
+192. [875.62s] D (IS1000a.sync.780)
+Uh yeah . And i Th They like to sleep , that's why you said you they are like this .
+
+193. [887.17s] D (IS1000a.sync.782)
+Yeah .
+
+194. [889.07s] B (IS1000a.sync.380)
+It's quite , you know relaxed situation . Yes .
+
+195. [894.95s] A (IS1000a.sync.91)
+Mm-hmm .
+
+196. [906.20s] B (IS1000a.sync.384)
+Yes , okay .
+
+197. [911.75s] D (IS1000a.sync.786)
+She has the small legs .
+
+198. [912.96s] B (IS1000a.sync.386)
+Th thank you , Matthew .
+
+199. [914.06s] D (IS1000a.sync.788)
+Yeah .
+
+200. [919.12s] D (IS1000a.sync.790)
+Thank you , Matthew . Perfect .
+
+201. [922.14s] A (IS1000a.sync.95)
+It's a very big rat . Or a very small cat .
+
+202. [923.86s] D (IS1000a.sync.792)
+Oh a rat , okay .
+
+203. [927.93s] B (IS1000a.sync.390)
+Yes , this is certain uh
+
+204. [931.62s] B (IS1000a.sync.392)
+some contribution to our project . So . Let's see . Which animal has not been drawn yet .
+
+205. [932.51s] D (IS1000a.sync.794)
+And you ,
+
+206. [932.88s] A (IS1000a.sync.97)
+Mm 'kay .
+
+207. [933.59s] A (IS1000a.sync.99)
+Your turn .
+
+208. [952.27s] B (IS1000a.sync.394)
+So you've all drawn land animals , so why not draw an animal from the water .
+
+209. [956.47s] D (IS1000a.sync.796)
+A bird . Okay , in the water .
+
+210. [968.95s] A (IS1000a.sync.107)
+Ah I don't know what that is . It's a bit
+
+211. [971.35s] D (IS1000a.sync.798)
+Mm .
+
+212. [972.66s] A (IS1000a.sync.109)
+It's a bit hard to guess .
+
+213. [973.84s] D (IS1000a.sync.800)
+Yeah . Put it colours . Maybe it would help us .
+
+214. [976.13s] B (IS1000a.sync.396)
+Mm .
+
+215. [977.43s] C (IS1000a.sync.615)
+So
+
+216. [980.00s] A (IS1000a.sync.113)
+Yeah .
+
+217. [980.64s] B (IS1000a.sync.398)
+Yes .
+
+218. [981.22s] C (IS1000a.sync.617)
+The cat is going to eat the fish or the rat ?
+
+219. [982.85s] D (IS1000a.sync.802)
+With different pen widths .
+
+220. [984.64s] A (IS1000a.sync.115)
+Mm-hmm
+
+221. [987.27s] B (IS1000a.sync.402)
+So
+
+222. [993.41s] A (IS1000a.sync.117)
+Oh , it's a shark now .
+
+223. [994.15s] D (IS1000a.sync.804)
+Ah it's a shark , yeah .
+
+224. [996.00s] B (IS1000a.sync.404)
+Oh , yes , why not ? Good idea .
+
+225. [999.36s] C (IS1000a.sync.619)
+Ah it's a baby shark , it looks to me , you know it's going to eat the cat rather than the cat eating the fish , no ?
+
+226. [1001.30s] A (IS1000a.sync.121)
+Mm .
+
+227. [1004.83s] D (IS1000a.sync.808)
+Oh .
+
+228. [1005.67s] A (IS1000a.sync.123)
+Now it's a swordfish .
+
+229. [1010.46s] B (IS1000a.sync.408)
+Why not . A swordfish .
+
+230. [1010.87s] D (IS1000a.sync.810)
+You have some in in Australia , right ? Yeah . I dunno .
+
+231. [1013.07s] A (IS1000a.sync.127)
+Swordfish . Um , maybe .
+
+232. [1017.36s] A (IS1000a.sync.129)
+I've never seen one , no .
+
+233. [1017.60s] D (IS1000a.sync.812)
+Oh well .
+
+234. [1018.86s] D (IS1000a.sync.814)
+Yeah .
+
+235. [1022.01s] B (IS1000a.sync.412)
+I hope it still works . So
+
+236. [1023.89s] D (IS1000a.sync.816)
+Perfect . So I dunno if we need to spend time on that , actually But uh
+
+237. [1028.48s] C (IS1000a.sync.621)
+You should go for the next one it seems to me .
+
+238. [1029.29s] B (IS1000a.sync.414)
+W Well , this uh this tool seemed to work . Let's continue to uh to the real stuff .
+
+239. [1033.04s] D (IS1000a.sync.818)
+Yeah , exactly , yeah .
+
+240. [1033.27s] A (IS1000a.sync.131)
+Mm-hmm .
+
+241. [1035.93s] D (IS1000a.sync.820)
+Wow .
+
+242. [1039.08s] B (IS1000a.sync.416)
+Um our project uh finance uh
+
+243. [1044.24s] B (IS1000a.sync.418)
+thing . Uh when we are and when w you are uh going to design w uh we must keep in mind that the selling price of the product uh will be about twenty five Euros , so when
+
+244. [1059.08s] B (IS1000a.sync.420)
+designing a project uh I also look at you uh Mael , keep in mind uh uh uh People uh
+
+245. [1059.18s] C (IS1000a.sync.623)
+Twenty four .
+
+246. [1064.39s] D (IS1000a.sync.822)
+Yeah .
+
+247. [1068.31s] B (IS1000a.sync.422)
+want to get the feeling this is a twenty five Euro project uh pr um
+
+248. [1073.59s] D (IS1000a.sync.824)
+Per remote control , yeah ? Per project .
+
+249. [1074.05s] B (IS1000a.sync.424)
+product .
+
+250. [1074.99s] A (IS1000a.sync.133)
+Mm .
+
+251. [1076.13s] B (IS1000a.sync.426)
+Yes . Okay . Um more interesting for our company of course , p uh profit aim , about fifty million Euro . So we have to sell uh quite a lot of this uh um things . Uh we will try to uh
+
+252. [1099.43s] B (IS1000a.sync.428)
+to get at a international market uh so um it will be I think mainly Europe and uh Northern America ,
+
+253. [1106.68s] C (IS1000a.sync.625)
+Ah yeah , the sale man , four million .
+
+254. [1107.91s] B (IS1000a.sync.430)
+maybe some uh Asian countries .
+
+255. [1111.01s] B (IS1000a.sync.432)
+Um also important for you all is um the the product uh production cost must be maximal uh twelve uh twelve Euro and fifty cents .
+
+256. [1124.00s] D (IS1000a.sync.828)
+So it's half of the selling price , if I am good in mathematics .
+
+257. [1127.60s] B (IS1000a.sync.434)
+Yes , of course . Uh um I mean we still have to uh to make a profit , huh ?
+
+258. [1133.72s] D (IS1000a.sync.830)
+Of course .
+
+259. [1133.83s] C (IS1000a.sync.627)
+They have to sell at least four million to make a profit
+
+260. [1134.45s] A (IS1000a.sync.135)
+Mm .
+
+261. [1134.79s] B (IS1000a.sync.436)
+You all have to be paid .
+
+262. [1136.40s] A (IS1000a.sync.137)
+Mm .
+
+263. [1138.07s] C (IS1000a.sync.629)
+Ah we have to make we have to sell at least four million to make our own profit . Fifty mill
+
+264. [1138.14s] B (IS1000a.sync.438)
+Excuse me ?
+
+265. [1141.94s] D (IS1000a.sync.832)
+Oh you're g very good in mathematics . Four million .
+
+266. [1143.36s] A (IS1000a.sync.139)
+Yes .
+
+267. [1145.19s] B (IS1000a.sync.440)
+Yes , indeed .
+
+268. [1148.25s] B (IS1000a.sync.442)
+So uh well I think w when we are working on the international market , uh in principle it has enough customers uh so when we have a good product we uh we could uh meet this this aim , I think .
+
+269. [1149.19s] D (IS1000a.sync.834)
+Yeah .
+
+270. [1162.48s] B (IS1000a.sync.444)
+So , that about finance .
+
+271. [1165.08s] B (IS1000a.sync.446)
+And uh now just let have some discussion about what is a good remote control and uh well keep in mind this this first point , it has to be original , it has to be trendy , it has to be user friendly .
+
+272. [1182.06s] B (IS1000a.sync.448)
+Um , maybe someone can mention some additional uh prerequisites for a good remote control .
+
+273. [1190.32s] A (IS1000a.sync.141)
+Mm-hmm .
+
+274. [1195.54s] C (IS1000a.sync.635)
+Of course it should have a on off button .
+
+275. [1197.71s] A (IS1000a.sync.143)
+Mm-hmm .
+
+276. [1198.92s] B (IS1000a.sync.450)
+Yes , well i it should have the the the the expected functionality uh of a remote control .
+
+277. [1202.62s] A (IS1000a.sync.145)
+Mm .
+
+278. [1204.56s] A (IS1000a.sync.147)
+Yeah .
+
+279. [1204.59s] C (IS1000a.sync.637)
+Yeah , s and it depends what application you are using it for . You might need uh
+
+280. [1208.40s] A (IS1000a.sync.149)
+Mm .
+
+281. [1210.45s] B (IS1000a.sync.452)
+We wer we were thinking television . Uh .
+
+282. [1212.05s] A (IS1000a.sync.151)
+Mm .
+
+283. [1212.33s] C (IS1000a.sync.639)
+We are targ targeting the television set . So , you need to record the channels . You need to browse the browse the channels in upward downward way ,
+
+284. [1215.71s] A (IS1000a.sync.153)
+Mm .
+
+285. [1217.97s] A (IS1000a.sync.155)
+Yeah .
+
+286. [1218.97s] B (IS1000a.sync.454)
+Mm-hmm .
+
+287. [1225.98s] B (IS1000a.sync.456)
+Yes , yes . Th th that's very handy I I always miss it and on some remote controls that you can go channel up or down ins instead of retyping the number , especially when you have a lot of channels .
+
+288. [1226.41s] A (IS1000a.sync.157)
+Mm .
+
+289. [1229.40s] C (IS1000a.sync.641)
+Uh
+
+290. [1230.85s] C (IS1000a.sync.643)
+And
+
+291. [1233.47s] A (IS1000a.sync.159)
+Mm .
+
+292. [1235.06s] A (IS1000a.sync.161)
+Mm .
+
+293. [1236.19s] C (IS1000a.sync.645)
+Uh , and
+
+294. [1237.12s] D (IS1000a.sync.836)
+And uh just before starting the detailed discussion , maybe we You are the marketing guy ? Or th So you are the marketing . And you are in the u use user interface uh design . So just yeah I wanted to to be sure . And I I'm the the industrial designer okay . Because I I don't know you very well , actually , but yeah . Okay . Mael . Happy to meet you . Okay . It's very uh
+
+295. [1242.12s] A (IS1000a.sync.163)
+I'm marketing .
+
+296. [1242.55s] C (IS1000a.sync.647)
+Marketing .
+
+297. [1244.69s] A (IS1000a.sync.165)
+Yep .
+
+298. [1247.48s] C (IS1000a.sync.649)
+Yeah .
+
+299. [1248.08s] B (IS1000a.sync.458)
+Yes .
+
+300. [1249.23s] C (IS1000a.sync.651)
+Yeah .
+
+301. [1251.08s] C (IS1000a.sync.653)
+Sure .
+
+302. [1254.58s] A (IS1000a.sync.167)
+Mm-hmm .
+
+303. [1254.96s] B (IS1000a.sync.460)
+Yes .
+
+304. [1255.69s] C (IS1000a.sync.657)
+Oh .
+
+305. [1257.17s] C (IS1000a.sync.659)
+I'm Matthew . You know . Matth s uh Anna . And um uh Matthew , yeah . I thi think you know me , yeah ? right yeah .
+
+306. [1261.23s] A (IS1000a.sync.169)
+Anna .
+
+307. [1263.38s] B (IS1000a.sync.462)
+A and I'm Nanne .
+
+308. [1266.51s] B (IS1000a.sync.464)
+So
+
+309. [1266.59s] D (IS1000a.sync.838)
+Uh so yeah uh Just uh on your web page but uh yeah not uh not face to face .
+
+310. [1267.78s] B (IS1000a.sync.466)
+Yes .
+
+311. [1272.00s] B (IS1000a.sync.468)
+So . Um
+
+312. [1276.44s] B (IS1000a.sync.470)
+S
+
+313. [1277.05s] C (IS1000a.sync.661)
+So .
+
+314. [1277.07s] D (IS1000a.sync.840)
+So mm
+
+315. [1277.56s] B (IS1000a.sync.472)
+S s
+
+316. [1278.58s] A (IS1000a.sync.171)
+Mm .
+
+317. [1279.03s] B (IS1000a.sync.474)
+Are there some other very important things to to do well ,
+
+318. [1279.10s] C (IS1000a.sync.663)
+So
+
+319. [1279.11s] D (IS1000a.sync.842)
+So I
+
+320. [1285.38s] B (IS1000a.sync.476)
+to specify in this first phase of of the project . So the browse function , as you m mentioned .
+
+321. [1291.39s] A (IS1000a.sync.173)
+Mm . Yeah . Oth yeah .
+
+322. [1293.16s] C (IS1000a.sync.665)
+And uh ,
+
+323. [1295.62s] C (IS1000a.sync.667)
+you'd need the usual ones , like the changing the volume , changing the the channel and then you uh Today we have uh um teletext and all those things . Tomorrow you might have a some more functions which might come through that , so
+
+324. [1303.25s] B (IS1000a.sync.478)
+Yes . Yeah .
+
+325. [1313.28s] B (IS1000a.sync.480)
+Yes .
+
+326. [1313.61s] A (IS1000a.sync.175)
+Mm .
+
+327. [1313.96s] D (IS1000a.sync.844)
+Like what ? Like internet on the on T_V_ ?
+
+328. [1316.10s] C (IS1000a.sync.669)
+Yeah I_P_O_ or . Now we are looking for
+
+329. [1316.40s] A (IS1000a.sync.177)
+Mm .
+
+330. [1320.74s] C (IS1000a.sync.671)
+television things or I_P_ . For example personal video recorder and all those stuffs are coming up .
+
+331. [1323.92s] D (IS1000a.sync.846)
+Yeah .
+
+332. [1326.19s] A (IS1000a.sync.179)
+Mm .
+
+333. [1328.61s] A (IS1000a.sync.181)
+But we can't really design for something that hasn't been invented yet .
+
+334. [1329.71s] C (IS1000a.sync.673)
+Yeah .
+
+335. [1331.49s] C (IS1000a.sync.675)
+Ah it's it's it's it's coming up , actually . The personal video recorder and all those things it is coming up .
+
+336. [1336.23s] B (IS1000a.sync.482)
+Mm , well uh I I think
+
+337. [1341.49s] B (IS1000a.sync.484)
+Uh w y you two should should , I think , think this over uh w espec what , what functionality .
+
+338. [1341.51s] D (IS1000a.sync.848)
+Actually , yeah w
+
+339. [1342.11s] C (IS1000a.sync.677)
+Let's Let's take
+
+340. [1349.56s] D (IS1000a.sync.850)
+Of course , and first before um designing the func well thinking about the functionalities , we need to know what are the user requirements . Um then if they need internet , then we would be able to to p to propose something with uh uh T_V_ over I_P_ . But before
+
+341. [1357.26s] A (IS1000a.sync.183)
+Mm . Yeah .
+
+342. [1358.75s] B (IS1000a.sync.486)
+Mm-hmm .
+
+343. [1359.30s] A (IS1000a.sync.185)
+Yeah .
+
+344. [1361.42s] A (IS1000a.sync.187)
+Mm .
+
+345. [1363.57s] A (IS1000a.sync.189)
+Yeah .
+
+346. [1367.40s] A (IS1000a.sync.191)
+But
+
+347. [1368.18s] A (IS1000a.sync.193)
+Ninety percent of the time , ninety nine percent of the time , people will be using the main functions , the volume , the different channels , so we can have all the fancy things as well but the main controls need to be very obvious and very easy to use .
+
+348. [1379.07s] B (IS1000a.sync.488)
+Mm mm mm . Keep k keep in mind i it's a it's a twenty five Euro unit , so uh uh the the very fancy stuff uh
+
+349. [1389.54s] B (IS1000a.sync.490)
+w we can leave that out , I think . So twenty five Euro you expect a quite , well normal but good functioning user friendly remote control .
+
+350. [1391.69s] A (IS1000a.sync.195)
+Mm .
+
+351. [1396.77s] A (IS1000a.sync.197)
+Mm .
+
+352. [1400.45s] C (IS1000a.sync.679)
+Oh in that case you can you always hook up with uh someone who is providing that and you know , you you sell their product as well as your product with them , you know .
+
+353. [1410.62s] A (IS1000a.sync.199)
+Mm .
+
+354. [1413.09s] D (IS1000a.sync.852)
+Yeah , but w w we want to design a new one . Mm .
+
+355. [1413.11s] A (IS1000a.sync.201)
+So try and get T_V_ manufacturers to
+
+356. [1416.04s] C (IS1000a.sync.681)
+Yeah . No , it's okay , yeah I understand . So we need some numbering buttons , some teletext things and then um
+
+357. [1420.50s] D (IS1000a.sync.854)
+Yeah .
+
+358. [1424.51s] D (IS1000a.sync.856)
+The Yeah , the main is browsing . Yeah .
+
+359. [1425.52s] B (IS1000a.sync.492)
+Yes , but but but ab about the spec the buttons , the buttons uh that will be on it . I I think we can discuss that in the in the next meeting .
+
+360. [1428.76s] C (IS1000a.sync.683)
+Yeah .
+
+361. [1434.24s] C (IS1000a.sync.685)
+Yeah .
+
+362. [1435.35s] B (IS1000a.sync.494)
+Uh I would like to get this wrapped up and go to an end of this meeting .
+
+363. [1442.00s] C (IS1000a.sync.687)
+Okay .
+
+364. [1443.68s] B (IS1000a.sync.496)
+So
+
+365. [1443.70s] C (IS1000a.sync.689)
+Okay , we are alread mm . Mm .
+
+366. [1445.31s] D (IS1000a.sync.858)
+Okay .
+
+367. [1445.62s] B (IS1000a.sync.498)
+So you know now the basic the basic things . And
+
+368. [1448.28s] C (IS1000a.sync.691)
+Yeah .
+
+369. [1448.68s] A (IS1000a.sync.203)
+Mm-hmm .
+
+370. [1451.36s] B (IS1000a.sync.500)
+well just just for the next meeting , um
+
+371. [1451.87s] C (IS1000a.sync.693)
+L
+
+372. [1457.14s] B (IS1000a.sync.502)
+well , uh , you wor yes , work on a design , keep it general , I mean so w we will be still fle flexible with maybe adding some functions . So
+
+373. [1469.76s] D (IS1000a.sync.860)
+Mm-hmm .
+
+374. [1471.46s] B (IS1000a.sync.504)
+Um
+
+375. [1474.10s] B (IS1000a.sync.506)
+you will be working on on
+
+376. [1476.63s] B (IS1000a.sync.508)
+technical function design , so
+
+377. [1479.35s] C (IS1000a.sync.695)
+Yeah , sure .
+
+378. [1480.45s] B (IS1000a.sync.510)
+And uh you and you and uh uh uh well , think about requirements , eh ? Does it need internet , or or do do we stay at
+
+379. [1486.87s] A (IS1000a.sync.205)
+Mm-hmm .
+
+380. [1491.35s] C (IS1000a.sync.697)
+Stam .
+
+381. [1491.36s] B (IS1000a.sync.512)
+basic basic television uh interface .
+
+382. [1492.16s] A (IS1000a.sync.207)
+Yeah .
+
+383. [1497.64s] B (IS1000a.sync.514)
+So , uh
+
+384. [1501.36s] B (IS1000a.sync.516)
+I think we should now all go work uh uh at this and uh you will be informed via email and other kind of communication .
+
+385. [1505.63s] A (IS1000a.sync.209)
+Mm-hmm .
+
+386. [1510.00s] A (IS1000a.sync.211)
+Yeah .
+
+387. [1510.78s] C (IS1000a.sync.699)
+Okay .
+
+388. [1511.37s] B (IS1000a.sync.518)
+So next meeting will be in uh in thirty minutes uh . K keep it in mind .
+
+389. [1511.51s] D (IS1000a.sync.862)
+Perfect .

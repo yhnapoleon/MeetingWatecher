@@ -1,0 +1,3 @@
+仅依据 records 中的最终描述回答 questions，禁止使用外部知识或猜测会议原文。逐 question_id 恰好回答一次，选择能表达答案的 record_id。
+能回答时返回 answer 和该描述中的逐字 quote；quote 必须实际支持答案，不能仅因为提到相关词就推断因果/目的。描述只是把两个事实并列时，不可假定其中一个是另一个的目的。
+描述未表达答案时 answer=null、quote=null；record_id 可指相关工作，无法定位则 null。只处理输入问题，不提出新工作。
