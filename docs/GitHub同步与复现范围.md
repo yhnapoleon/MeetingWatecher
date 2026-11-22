@@ -1,14 +1,16 @@
 # GitHub 同步与复现范围
 
-代码仓库：[yhnapoleon/MeetingWatecher](https://github.com/yhnapoleon/MeetingWatecher)，分支 `main`。此仓库保存进入 demo 准备阶段的当前代码；最新接手任务见 [HANDOVER](HANDOVER.md)。
+代码仓库：[yhnapoleon/MeetingWatecher](https://github.com/yhnapoleon/MeetingWatecher)，分支 `main`。此仓库保存当前核心、可播放的双场网页演示和技术文档；阅读入口见 [README](../README.md)。
 
-## 提交内容
+## 当前发布内容
 
-保留 `meeting_eval`、`prompts`、`scripts`、`tests`、`experiments`、`examples`、`docs` 和必要文本数据，并提供 [v19 推理配置](../config/context-v5-v19.json)与[环境变量模板](../.env.example)。两个新会议的原文、重注参考、可接受答案、逐条复核、最终纪要、指标及验收摘要按明确清单保留在 `runs/2026-11-18-two-unseen-v19/`。
+2026-11-22 文档收尾版包含当前核心源码、前端源码与锁文件、默认派生媒体、场景/词轴、截图、架构图、复盘、调优、配置及评测索引。README 按功能、架构、设计、评测和运行组织。当前便携推理入口为 `scripts/run_current.py`，公开证据检查为 `scripts/verify_release_evidence.py`。
 
-历史模型请求/响应、SQLite、源码压缩快照、原始语料压缩包、音视频和旧泛化数据工作目录仍在原工作区，不上传。凭据及缓存由 `.gitignore` 排除。原文件未删除；`.gitattributes` 保持文件字节，避免 Git 换行转换改变冻结参考的哈希。
+两场新参会组的原文、参考、可接受答案、逐条复核、最终纪要、指标和验收摘要仍按原清单提供。历史 115 场景新增逐处理单元索引，原始运行与评分依赖留在本地。
 
-仓库中的历史文档保留原记录。指向未提交 `runs/`、原始数据或本机绝对路径的链接属于本地历史证据入口，不代表这些文件能从 GitHub 下载。特别是完整审计 `audit_unseen.py` 需要数据库、模型节点和源码快照，在原工作区可运行，单独克隆此仓库不能完整重放历史运行。
+历史模型请求/响应、SQLite、源码压缩快照、原始语料包、录制帧及已验收主片不随 Git 提交。原文件未删除。历史文档指向这些路径的链接只在完整工作区可用；完整 audit_unseen.py 要求数据库、模型节点和源码快照，不能把选定摘要当成完整运行归档。
+
+AMI 派生音视频与字幕随前端提供，剪辑和许可见 [媒体署名](../demo/public/MEDIA_CREDITS.md)。本次发布检查见 [发布核查](发布核查.md)。
 
 ## 克隆与离线验证
 
@@ -59,7 +61,7 @@ finally:
     store.close()
 ```
 
-该示例会调用模型并写入本地模拟器；它是当前 API 的使用入口，不代表已经完成 demo 彩排。真实飞书写入尚未联调。
+该示例会调用模型并写入本地模拟器；便携命令已封装为 scripts/run_current.py，参数与预检见 CONFIG.md。真实飞书写入尚未联调。
 
 ## 数据来源与许可
 

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.audio-build/
+*.log
+!public/audio/chen.mp3
+!public/audio/lin.mp3
+!public/audio/zhou.mp3
+!public/audio/li.mp3
+!public/audio/ami-es2002b.mp3
+!public/video/
+!public/video/ami-es2002b.mp4
+!public/audio/ami-es2002-bc.mp3
+!public/video/ami-es2002-bc.mp4
+
+videos/

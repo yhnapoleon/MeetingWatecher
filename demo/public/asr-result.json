@@ -1,0 +1,6515 @@
+{
+  "model": "small.en",
+  "engine": "faster-whisper",
+  "mode": "offline-word-alignment",
+  "elapsedSeconds": 179.94,
+  "segments": [
+    {
+      "start": 0,
+      "end": 1600,
+      "text": " So that's what we should do for now, I think.",
+      "words": [
+        {
+          "start": 0,
+          "end": 220,
+          "text": " So",
+          "probability": 0.2062114179134369
+        },
+        {
+          "start": 220,
+          "end": 460,
+          "text": " that's",
+          "probability": 0.8786520659923553
+        },
+        {
+          "start": 460,
+          "end": 580,
+          "text": " what",
+          "probability": 0.8918977975845337
+        },
+        {
+          "start": 580,
+          "end": 640,
+          "text": " we",
+          "probability": 0.4496048092842102
+        },
+        {
+          "start": 640,
+          "end": 800,
+          "text": " should",
+          "probability": 0.8218222260475159
+        },
+        {
+          "start": 800,
+          "end": 960,
+          "text": " do",
+          "probability": 0.9778157472610474
+        },
+        {
+          "start": 960,
+          "end": 1120,
+          "text": " for",
+          "probability": 0.9039923548698425
+        },
+        {
+          "start": 1120,
+          "end": 1300,
+          "text": " now,",
+          "probability": 0.9968618154525757
+        },
+        {
+          "start": 1340,
+          "end": 1420,
+          "text": " I",
+          "probability": 0.9641674757003784
+        },
+        {
+          "start": 1420,
+          "end": 1600,
+          "text": " think.",
+          "probability": 0.9980040192604065
+        }
+      ]
+    },
+    {
+      "start": 1940,
+      "end": 3540,
+      "text": " Something I was wondering about with the power,",
+      "words": [
+        {
+          "start": 1940,
+          "end": 2080,
+          "text": " Something",
+          "probability": 0.938627302646637
+        },
+        {
+          "start": 2080,
+          "end": 2240,
+          "text": " I",
+          "probability": 0.9674436450004578
+        },
+        {
+          "start": 2240,
+          "end": 2340,
+          "text": " was",
+          "probability": 0.9985876083374023
+        },
+        {
+          "start": 2340,
+          "end": 2580,
+          "text": " wondering",
+          "probability": 0.9941117167472839
+        },
+        {
+          "start": 2580,
+          "end": 2880,
+          "text": " about",
+          "probability": 0.9858216643333435
+        },
+        {
+          "start": 2880,
+          "end": 3020,
+          "text": " with",
+          "probability": 0.4854329824447632
+        },
+        {
+          "start": 3020,
+          "end": 3200,
+          "text": " the",
+          "probability": 0.978003740310669
+        },
+        {
+          "start": 3200,
+          "end": 3540,
+          "text": " power,",
+          "probability": 0.9077932834625244
+        }
+      ]
+    },
+    {
+      "start": 4220,
+      "end": 8180,
+      "text": " is it worth considering having a charging unit as opposed",
+      "words": [
+        {
+          "start": 4220,
+          "end": 4620,
+          "text": " is",
+          "probability": 0.9672420620918274
+        },
+        {
+          "start": 4620,
+          "end": 4740,
+          "text": " it",
+          "probability": 0.9959686994552612
+        },
+        {
+          "start": 4740,
+          "end": 4920,
+          "text": " worth",
+          "probability": 0.9973801970481873
+        },
+        {
+          "start": 4920,
+          "end": 5560,
+          "text": " considering",
+          "probability": 0.984832227230072
+        },
+        {
+          "start": 5560,
+          "end": 6360,
+          "text": " having",
+          "probability": 0.8460093140602112
+        },
+        {
+          "start": 6360,
+          "end": 6620,
+          "text": " a",
+          "probability": 0.7351547479629517
+        },
+        {
+          "start": 6620,
+          "end": 7020,
+          "text": " charging",
+          "probability": 0.9991269707679749
+        },
+        {
+          "start": 7020,
+          "end": 7520,
+          "text": " unit",
+          "probability": 0.9969306588172913
+        },
+        {
+          "start": 7520,
+          "end": 7940,
+          "text": " as",
+          "probability": 0.6926902532577515
+        },
+        {
+          "start": 7940,
+          "end": 8180,
+          "text": " opposed",
+          "probability": 0.9965654015541077
+        }
+      ]
+    },
+    {
+      "start": 8180,
+      "end": 9340,
+      "text": " to just regular batteries?",
+      "words": [
+        {
+          "start": 8180,
+          "end": 8440,
+          "text": " to",
+          "probability": 0.9980558156967163
+        },
+        {
+          "start": 8440,
+          "end": 8560,
+          "text": " just",
+          "probability": 0.9495565891265869
+        },
+        {
+          "start": 8560,
+          "end": 8900,
+          "text": " regular",
+          "probability": 0.9986199140548706
+        },
+        {
+          "start": 8900,
+          "end": 9340,
+          "text": " batteries?",
+          "probability": 0.9983412027359009
+        }
+      ]
+    },
+    {
+      "start": 10120,
+      "end": 12480,
+      "text": " Is that something you really want to go into, do you think?",
+      "words": [
+        {
+          "start": 10120,
+          "end": 10560,
+          "text": " Is",
+          "probability": 0.611428439617157
+        },
+        {
+          "start": 10560,
+          "end": 11000,
+          "text": " that",
+          "probability": 0.9921294450759888
+        },
+        {
+          "start": 11000,
+          "end": 11200,
+          "text": " something",
+          "probability": 0.9927071928977966
+        },
+        {
+          "start": 11200,
+          "end": 11320,
+          "text": " you",
+          "probability": 0.7361930012702942
+        },
+        {
+          "start": 11320,
+          "end": 11500,
+          "text": " really",
+          "probability": 0.9417992830276489
+        },
+        {
+          "start": 11500,
+          "end": 11640,
+          "text": " want",
+          "probability": 0.995817244052887
+        },
+        {
+          "start": 11640,
+          "end": 11760,
+          "text": " to",
+          "probability": 0.9969251751899719
+        },
+        {
+          "start": 11760,
+          "end": 11880,
+          "text": " go",
+          "probability": 0.9953889846801758
+        },
+        {
+          "start": 11880,
+          "end": 12120,
+          "text": " into,",
+          "probability": 0.9680907726287842
+        },
+        {
+          "start": 12200,
+          "end": 12280,
+          "text": " do",
+          "probability": 0.9426752924919128
+        },
+        {
+          "start": 12280,
+          "end": 12340,
+          "text": " you",
+          "probability": 0.9976692795753479
+        },
+        {
+          "start": 12340,
+          "end": 12480,
+          "text": " think?",
+          "probability": 0.9993767142295837
+        }
+      ]
+    },
+    {
+      "start": 12660,
+      "end": 15160,
+      "text": " Or should we just consider running on regular batteries?",
+      "words": [
+        {
+          "start": 12660,
+          "end": 12720,
+          "text": " Or",
+          "probability": 0.9692167639732361
+        },
+        {
+          "start": 12720,
+          "end": 12900,
+          "text": " should",
+          "probability": 0.9297416806221008
+        },
+        {
+          "start": 12900,
+          "end": 12980,
+          "text": " we",
+          "probability": 0.985874593257904
+        },
+        {
+          "start": 12980,
+          "end": 13180,
+          "text": " just",
+          "probability": 0.9858637452125549
+        },
+        {
+          "start": 13180,
+          "end": 13540,
+          "text": " consider",
+          "probability": 0.9967625141143799
+        },
+        {
+          "start": 13540,
+          "end": 14280,
+          "text": " running",
+          "probability": 0.9781752824783325
+        },
+        {
+          "start": 14280,
+          "end": 14480,
+          "text": " on",
+          "probability": 0.9968872666358948
+        },
+        {
+          "start": 14480,
+          "end": 14740,
+          "text": " regular",
+          "probability": 0.9983612895011902
+        },
+        {
+          "start": 14740,
+          "end": 15160,
+          "text": " batteries?",
+          "probability": 0.993878960609436
+        }
+      ]
+    },
+    {
+      "start": 15520,
+      "end": 17640,
+      "text": " From a component point of view, there's added complexity.",
+      "words": [
+        {
+          "start": 15520,
+          "end": 15520,
+          "text": " From",
+          "probability": 0.35072991251945496
+        },
+        {
+          "start": 15520,
+          "end": 15720,
+          "text": " a",
+          "probability": 0.899313747882843
+        },
+        {
+          "start": 15720,
+          "end": 16140,
+          "text": " component",
+          "probability": 0.9947474598884583
+        },
+        {
+          "start": 16140,
+          "end": 16360,
+          "text": " point",
+          "probability": 0.982419490814209
+        },
+        {
+          "start": 16360,
+          "end": 16420,
+          "text": " of",
+          "probability": 0.9949113726615906
+        },
+        {
+          "start": 16420,
+          "end": 16560,
+          "text": " view,",
+          "probability": 0.9970296621322632
+        },
+        {
+          "start": 16600,
+          "end": 16860,
+          "text": " there's",
+          "probability": 0.9649997651576996
+        },
+        {
+          "start": 16860,
+          "end": 17160,
+          "text": " added",
+          "probability": 0.9910017848014832
+        },
+        {
+          "start": 17160,
+          "end": 17640,
+          "text": " complexity.",
+          "probability": 0.9984190464019775
+        }
+      ]
+    },
+    {
+      "start": 17980,
+      "end": 19520,
+      "text": " You add cost to it.",
+      "words": [
+        {
+          "start": 17980,
+          "end": 18420,
+          "text": " You",
+          "probability": 0.840789258480072
+        },
+        {
+          "start": 18420,
+          "end": 18660,
+          "text": " add",
+          "probability": 0.9937704205513
+        },
+        {
+          "start": 18660,
+          "end": 18880,
+          "text": " cost",
+          "probability": 0.8763267397880554
+        },
+        {
+          "start": 18880,
+          "end": 19080,
+          "text": " to",
+          "probability": 0.9950359463691711
+        },
+        {
+          "start": 19080,
+          "end": 19520,
+          "text": " it.",
+          "probability": 0.9990461468696594
+        }
+      ]
+    },
+    {
+      "start": 20500,
+      "end": 21840,
+      "text": " And then there's probably the fact",
+      "words": [
+        {
+          "start": 20500,
+          "end": 20680,
+          "text": " And",
+          "probability": 0.9444351196289062
+        },
+        {
+          "start": 20680,
+          "end": 21040,
+          "text": " then",
+          "probability": 0.9911200404167175
+        },
+        {
+          "start": 21040,
+          "end": 21280,
+          "text": " there's",
+          "probability": 0.9243348836898804
+        },
+        {
+          "start": 21280,
+          "end": 21500,
+          "text": " probably",
+          "probability": 0.9564136862754822
+        },
+        {
+          "start": 21500,
+          "end": 21720,
+          "text": " the",
+          "probability": 0.9655953049659729
+        },
+        {
+          "start": 21720,
+          "end": 21840,
+          "text": " fact",
+          "probability": 0.9942343831062317
+        }
+      ]
+    },
+    {
+      "start": 21840,
+      "end": 23780,
+      "text": " that you need another physical component.",
+      "words": [
+        {
+          "start": 21840,
+          "end": 22000,
+          "text": " that",
+          "probability": 0.9881736636161804
+        },
+        {
+          "start": 22000,
+          "end": 22180,
+          "text": " you",
+          "probability": 0.9721301198005676
+        },
+        {
+          "start": 22180,
+          "end": 22380,
+          "text": " need",
+          "probability": 0.9915721416473389
+        },
+        {
+          "start": 22380,
+          "end": 22760,
+          "text": " another",
+          "probability": 0.9888482093811035
+        },
+        {
+          "start": 22760,
+          "end": 23280,
+          "text": " physical",
+          "probability": 0.9928783774375916
+        },
+        {
+          "start": 23280,
+          "end": 23780,
+          "text": " component.",
+          "probability": 0.9983308911323547
+        }
+      ]
+    },
+    {
+      "start": 23980,
+      "end": 25360,
+      "text": " You need docking cradle, for example.",
+      "words": [
+        {
+          "start": 23980,
+          "end": 23980,
+          "text": " You",
+          "probability": 0.9742145538330078
+        },
+        {
+          "start": 23980,
+          "end": 24100,
+          "text": " need",
+          "probability": 0.9873278737068176
+        },
+        {
+          "start": 24100,
+          "end": 24540,
+          "text": " docking",
+          "probability": 0.4761570990085602
+        },
+        {
+          "start": 24540,
+          "end": 24880,
+          "text": " cradle,",
+          "probability": 0.19978852570056915
+        },
+        {
+          "start": 25020,
+          "end": 25100,
+          "text": " for",
+          "probability": 0.9971684813499451
+        },
+        {
+          "start": 25100,
+          "end": 25360,
+          "text": " example.",
+          "probability": 0.9970190525054932
+        }
+      ]
+    },
+    {
+      "start": 25440,
+      "end": 25700,
+      "text": " Yeah.",
+      "words": [
+        {
+          "start": 25440,
+          "end": 25700,
+          "text": " Yeah.",
+          "probability": 0.17561157047748566
+        }
+      ]
+    },
+    {
+      "start": 26140,
+      "end": 26960,
+      "text": " Put it into charge.",
+      "words": [
+        {
+          "start": 26140,
+          "end": 26220,
+          "text": " Put",
+          "probability": 0.7059492468833923
+        },
+        {
+          "start": 26220,
+          "end": 26360,
+          "text": " it",
+          "probability": 0.989658772945404
+        },
+        {
+          "start": 26360,
+          "end": 26600,
+          "text": " into",
+          "probability": 0.9171749949455261
+        },
+        {
+          "start": 26600,
+          "end": 26960,
+          "text": " charge.",
+          "probability": 0.9805871248245239
+        }
+      ]
+    },
+    {
+      "start": 26960,
+      "end": 29960,
+      "text": " need to get the user to plug it in.",
+      "words": [
+        {
+          "start": 26960,
+          "end": 27560,
+          "text": " need",
+          "probability": 0.01998736709356308
+        },
+        {
+          "start": 27560,
+          "end": 28100,
+          "text": " to",
+          "probability": 0.9202501177787781
+        },
+        {
+          "start": 28100,
+          "end": 28260,
+          "text": " get",
+          "probability": 0.7443717122077942
+        },
+        {
+          "start": 28260,
+          "end": 28400,
+          "text": " the",
+          "probability": 0.8727929592132568
+        },
+        {
+          "start": 28400,
+          "end": 28620,
+          "text": " user",
+          "probability": 0.9243065714836121
+        },
+        {
+          "start": 28620,
+          "end": 28760,
+          "text": " to",
+          "probability": 0.5445834398269653
+        },
+        {
+          "start": 28760,
+          "end": 28900,
+          "text": " plug",
+          "probability": 0.9884258508682251
+        },
+        {
+          "start": 28900,
+          "end": 29040,
+          "text": " it",
+          "probability": 0.9705432057380676
+        },
+        {
+          "start": 29040,
+          "end": 29960,
+          "text": " in.",
+          "probability": 0.9911153316497803
+        }
+      ]
+    },
+    {
+      "start": 30320,
+      "end": 35020,
+      "text": " Most users are already used to buying batteries and putting it in.",
+      "words": [
+        {
+          "start": 30320,
+          "end": 30760,
+          "text": " Most",
+          "probability": 0.424983412027359
+        },
+        {
+          "start": 30760,
+          "end": 31200,
+          "text": " users",
+          "probability": 0.9540246725082397
+        },
+        {
+          "start": 31200,
+          "end": 31620,
+          "text": " are",
+          "probability": 0.9104583263397217
+        },
+        {
+          "start": 31620,
+          "end": 32740,
+          "text": " already",
+          "probability": 0.6899513006210327
+        },
+        {
+          "start": 32740,
+          "end": 32980,
+          "text": " used",
+          "probability": 0.7877030968666077
+        },
+        {
+          "start": 32980,
+          "end": 33140,
+          "text": " to",
+          "probability": 0.9839209318161011
+        },
+        {
+          "start": 33140,
+          "end": 33780,
+          "text": " buying",
+          "probability": 0.9881755113601685
+        },
+        {
+          "start": 33780,
+          "end": 34180,
+          "text": " batteries",
+          "probability": 0.9128969311714172
+        },
+        {
+          "start": 34180,
+          "end": 34340,
+          "text": " and",
+          "probability": 0.8594663143157959
+        },
+        {
+          "start": 34340,
+          "end": 34500,
+          "text": " putting",
+          "probability": 0.9684584736824036
+        },
+        {
+          "start": 34500,
+          "end": 34740,
+          "text": " it",
+          "probability": 0.5135798454284668
+        },
+        {
+          "start": 34740,
+          "end": 35020,
+          "text": " in.",
+          "probability": 0.35173144936561584
+        }
+      ]
+    },
+    {
+      "start": 36740,
+      "end": 39020,
+      "text": " Unless the controller is going to consume a lot of",
+      "words": [
+        {
+          "start": 36740,
+          "end": 37180,
+          "text": " Unless",
+          "probability": 0.8265306353569031
+        },
+        {
+          "start": 37180,
+          "end": 37620,
+          "text": " the",
+          "probability": 0.6270895004272461
+        },
+        {
+          "start": 37620,
+          "end": 37920,
+          "text": " controller",
+          "probability": 0.9330910444259644
+        },
+        {
+          "start": 37920,
+          "end": 38080,
+          "text": " is",
+          "probability": 0.6225346922874451
+        },
+        {
+          "start": 38080,
+          "end": 38180,
+          "text": " going",
+          "probability": 0.9829596281051636
+        },
+        {
+          "start": 38180,
+          "end": 38260,
+          "text": " to",
+          "probability": 0.995965838432312
+        },
+        {
+          "start": 38260,
+          "end": 38560,
+          "text": " consume",
+          "probability": 0.9799127578735352
+        },
+        {
+          "start": 38560,
+          "end": 38760,
+          "text": " a",
+          "probability": 0.988377034664154
+        },
+        {
+          "start": 38760,
+          "end": 38920,
+          "text": " lot",
+          "probability": 0.9987248778343201
+        },
+        {
+          "start": 38920,
+          "end": 39020,
+          "text": " of",
+          "probability": 0.994705855846405
+        }
+      ]
+    },
+    {
+      "start": 39020,
+      "end": 42080,
+      "text": " batteries, he's going to run through the batteries a month,",
+      "words": [
+        {
+          "start": 39020,
+          "end": 39320,
+          "text": " batteries,",
+          "probability": 0.8439909219741821
+        },
+        {
+          "start": 39520,
+          "end": 40060,
+          "text": " he's",
+          "probability": 0.5142067968845367
+        },
+        {
+          "start": 40060,
+          "end": 40160,
+          "text": " going",
+          "probability": 0.9888697862625122
+        },
+        {
+          "start": 40160,
+          "end": 40260,
+          "text": " to",
+          "probability": 0.987738847732544
+        },
+        {
+          "start": 40260,
+          "end": 40420,
+          "text": " run",
+          "probability": 0.9971292614936829
+        },
+        {
+          "start": 40420,
+          "end": 40640,
+          "text": " through",
+          "probability": 0.9764046669006348
+        },
+        {
+          "start": 40640,
+          "end": 41420,
+          "text": " the",
+          "probability": 0.37773916125297546
+        },
+        {
+          "start": 41420,
+          "end": 41720,
+          "text": " batteries",
+          "probability": 0.9538127779960632
+        },
+        {
+          "start": 41720,
+          "end": 41880,
+          "text": " a",
+          "probability": 0.9416608810424805
+        },
+        {
+          "start": 41880,
+          "end": 42080,
+          "text": " month,",
+          "probability": 0.9993510842323303
+        }
+      ]
+    },
+    {
+      "start": 42380,
+      "end": 44240,
+      "text": " then I don't think rechargeable is an issue.",
+      "words": [
+        {
+          "start": 42380,
+          "end": 42540,
+          "text": " then",
+          "probability": 0.8404808044433594
+        },
+        {
+          "start": 42540,
+          "end": 42720,
+          "text": " I",
+          "probability": 0.9803435802459717
+        },
+        {
+          "start": 42720,
+          "end": 42860,
+          "text": " don't",
+          "probability": 0.9951322674751282
+        },
+        {
+          "start": 42860,
+          "end": 43100,
+          "text": " think",
+          "probability": 0.9907039999961853
+        },
+        {
+          "start": 43100,
+          "end": 43800,
+          "text": " rechargeable",
+          "probability": 0.7518986761569977
+        },
+        {
+          "start": 43800,
+          "end": 43940,
+          "text": " is",
+          "probability": 0.8586286902427673
+        },
+        {
+          "start": 43940,
+          "end": 44040,
+          "text": " an",
+          "probability": 0.4941208064556122
+        },
+        {
+          "start": 44040,
+          "end": 44240,
+          "text": " issue.",
+          "probability": 0.8192363381385803
+        }
+      ]
+    },
+    {
+      "start": 45000,
+      "end": 46900,
+      "text": " Okay, so just stick to regular.",
+      "words": [
+        {
+          "start": 45000,
+          "end": 45320,
+          "text": " Okay,",
+          "probability": 0.017205705866217613
+        },
+        {
+          "start": 45440,
+          "end": 45540,
+          "text": " so",
+          "probability": 0.9415229558944702
+        },
+        {
+          "start": 45540,
+          "end": 45660,
+          "text": " just",
+          "probability": 0.8948541283607483
+        },
+        {
+          "start": 45660,
+          "end": 45940,
+          "text": " stick",
+          "probability": 0.9928115010261536
+        },
+        {
+          "start": 45940,
+          "end": 46360,
+          "text": " to",
+          "probability": 0.9976849555969238
+        },
+        {
+          "start": 46360,
+          "end": 46900,
+          "text": " regular.",
+          "probability": 0.8398423194885254
+        }
+      ]
+    },
+    {
+      "start": 51720,
+      "end": 61400,
+      "text": " Right, so basically, I'm just going to just recap what I said at the start was that the",
+      "words": [
+        {
+          "start": 51720,
+          "end": 52280,
+          "text": " Right,",
+          "probability": 0.055667225271463394
+        },
+        {
+          "start": 52700,
+          "end": 52960,
+          "text": " so",
+          "probability": 0.955100417137146
+        },
+        {
+          "start": 52960,
+          "end": 53600,
+          "text": " basically,",
+          "probability": 0.7021981477737427
+        },
+        {
+          "start": 54220,
+          "end": 55500,
+          "text": " I'm",
+          "probability": 0.8615747392177582
+        },
+        {
+          "start": 55500,
+          "end": 55640,
+          "text": " just",
+          "probability": 0.9527247548103333
+        },
+        {
+          "start": 55640,
+          "end": 55760,
+          "text": " going",
+          "probability": 0.834414541721344
+        },
+        {
+          "start": 55760,
+          "end": 57000,
+          "text": " to",
+          "probability": 0.9919440746307373
+        },
+        {
+          "start": 57000,
+          "end": 57440,
+          "text": " just",
+          "probability": 0.7872799634933472
+        },
+        {
+          "start": 57440,
+          "end": 57920,
+          "text": " recap",
+          "probability": 0.9839989542961121
+        },
+        {
+          "start": 57920,
+          "end": 58480,
+          "text": " what",
+          "probability": 0.6789923310279846
+        },
+        {
+          "start": 58480,
+          "end": 58560,
+          "text": " I",
+          "probability": 0.9903892874717712
+        },
+        {
+          "start": 58560,
+          "end": 58720,
+          "text": " said",
+          "probability": 0.9821235537528992
+        },
+        {
+          "start": 58720,
+          "end": 58820,
+          "text": " at",
+          "probability": 0.986530601978302
+        },
+        {
+          "start": 58820,
+          "end": 58900,
+          "text": " the",
+          "probability": 0.9954999089241028
+        },
+        {
+          "start": 58900,
+          "end": 59160,
+          "text": " start",
+          "probability": 0.9974633455276489
+        },
+        {
+          "start": 59160,
+          "end": 59340,
+          "text": " was",
+          "probability": 0.45054730772972107
+        },
+        {
+          "start": 59340,
+          "end": 60000,
+          "text": " that",
+          "probability": 0.9401029348373413
+        },
+        {
+          "start": 60000,
+          "end": 61400,
+          "text": " the",
+          "probability": 0.9140382409095764
+        }
+      ]
+    },
+    {
+      "start": 61400,
+      "end": 66340,
+      "text": " whole point of this meeting was to absolutely finalize who we're going to aim this at and",
+      "words": [
+        {
+          "start": 61400,
+          "end": 61680,
+          "text": " whole",
+          "probability": 0.960196316242218
+        },
+        {
+          "start": 61680,
+          "end": 62020,
+          "text": " point",
+          "probability": 0.99665367603302
+        },
+        {
+          "start": 62020,
+          "end": 62200,
+          "text": " of",
+          "probability": 0.9878852963447571
+        },
+        {
+          "start": 62200,
+          "end": 62340,
+          "text": " this",
+          "probability": 0.9886619448661804
+        },
+        {
+          "start": 62340,
+          "end": 62540,
+          "text": " meeting",
+          "probability": 0.9935850501060486
+        },
+        {
+          "start": 62540,
+          "end": 62760,
+          "text": " was",
+          "probability": 0.9889664053916931
+        },
+        {
+          "start": 62760,
+          "end": 63060,
+          "text": " to",
+          "probability": 0.9887797832489014
+        },
+        {
+          "start": 63060,
+          "end": 63680,
+          "text": " absolutely",
+          "probability": 0.9535630941390991
+        },
+        {
+          "start": 63680,
+          "end": 64320,
+          "text": " finalize",
+          "probability": 0.940194696187973
+        },
+        {
+          "start": 64320,
+          "end": 64700,
+          "text": " who",
+          "probability": 0.9602206945419312
+        },
+        {
+          "start": 64700,
+          "end": 64880,
+          "text": " we're",
+          "probability": 0.9314250648021698
+        },
+        {
+          "start": 64880,
+          "end": 64940,
+          "text": " going",
+          "probability": 0.9874272346496582
+        },
+        {
+          "start": 64940,
+          "end": 65000,
+          "text": " to",
+          "probability": 0.995186984539032
+        },
+        {
+          "start": 65000,
+          "end": 65180,
+          "text": " aim",
+          "probability": 0.9844489693641663
+        },
+        {
+          "start": 65180,
+          "end": 65400,
+          "text": " this",
+          "probability": 0.989986002445221
+        },
+        {
+          "start": 65400,
+          "end": 65720,
+          "text": " at",
+          "probability": 0.9884842038154602
+        },
+        {
+          "start": 65720,
+          "end": 66340,
+          "text": " and",
+          "probability": 0.6223472952842712
+        }
+      ]
+    },
+    {
+      "start": 66340,
+      "end": 68140,
+      "text": " what exactly the product's going to do.",
+      "words": [
+        {
+          "start": 66340,
+          "end": 66560,
+          "text": " what",
+          "probability": 0.9928112626075745
+        },
+        {
+          "start": 66560,
+          "end": 66880,
+          "text": " exactly",
+          "probability": 0.9881511926651001
+        },
+        {
+          "start": 66880,
+          "end": 67100,
+          "text": " the",
+          "probability": 0.9916173815727234
+        },
+        {
+          "start": 67100,
+          "end": 67520,
+          "text": " product's",
+          "probability": 0.7905949652194977
+        },
+        {
+          "start": 67520,
+          "end": 67600,
+          "text": " going",
+          "probability": 0.9670037031173706
+        },
+        {
+          "start": 67600,
+          "end": 67760,
+          "text": " to",
+          "probability": 0.997837483882904
+        },
+        {
+          "start": 67760,
+          "end": 68140,
+          "text": " do.",
+          "probability": 0.9967949986457825
+        }
+      ]
+    },
+    {
+      "start": 68140,
+      "end": 78740,
+      "text": " So just to recap, are we all happy about the idea of aiming the product at the 15 to 35",
+      "words": [
+        {
+          "start": 68140,
+          "end": 68740,
+          "text": " So",
+          "probability": 0.46661439538002014
+        },
+        {
+          "start": 68740,
+          "end": 69760,
+          "text": " just",
+          "probability": 0.5920567512512207
+        },
+        {
+          "start": 69760,
+          "end": 69960,
+          "text": " to",
+          "probability": 0.9708794355392456
+        },
+        {
+          "start": 69960,
+          "end": 70320,
+          "text": " recap,",
+          "probability": 0.9962806105613708
+        },
+        {
+          "start": 70900,
+          "end": 71480,
+          "text": " are",
+          "probability": 0.9544188976287842
+        },
+        {
+          "start": 71480,
+          "end": 71600,
+          "text": " we",
+          "probability": 0.9762319922447205
+        },
+        {
+          "start": 71600,
+          "end": 71740,
+          "text": " all",
+          "probability": 0.9599912762641907
+        },
+        {
+          "start": 71740,
+          "end": 71980,
+          "text": " happy",
+          "probability": 0.9932639598846436
+        },
+        {
+          "start": 71980,
+          "end": 72240,
+          "text": " about",
+          "probability": 0.9426972270011902
+        },
+        {
+          "start": 72240,
+          "end": 72320,
+          "text": " the",
+          "probability": 0.9864242672920227
+        },
+        {
+          "start": 72320,
+          "end": 72660,
+          "text": " idea",
+          "probability": 0.999025821685791
+        },
+        {
+          "start": 72660,
+          "end": 73180,
+          "text": " of",
+          "probability": 0.986247181892395
+        },
+        {
+          "start": 73180,
+          "end": 74360,
+          "text": " aiming",
+          "probability": 0.7700127363204956
+        },
+        {
+          "start": 74360,
+          "end": 74560,
+          "text": " the",
+          "probability": 0.9639930725097656
+        },
+        {
+          "start": 74560,
+          "end": 74840,
+          "text": " product",
+          "probability": 0.9945043921470642
+        },
+        {
+          "start": 74840,
+          "end": 75420,
+          "text": " at",
+          "probability": 0.9812996983528137
+        },
+        {
+          "start": 75420,
+          "end": 77280,
+          "text": " the",
+          "probability": 0.9605791568756104
+        },
+        {
+          "start": 77280,
+          "end": 78080,
+          "text": " 15",
+          "probability": 0.9528235197067261
+        },
+        {
+          "start": 78080,
+          "end": 78220,
+          "text": " to",
+          "probability": 0.8390088081359863
+        },
+        {
+          "start": 78220,
+          "end": 78740,
+          "text": " 35",
+          "probability": 0.9928057789802551
+        }
+      ]
+    },
+    {
+      "start": 78740,
+      "end": 79080,
+      "text": " bracket?",
+      "words": [
+        {
+          "start": 78740,
+          "end": 79080,
+          "text": " bracket?",
+          "probability": 0.9616187214851379
+        }
+      ]
+    },
+    {
+      "start": 80960,
+      "end": 85020,
+      "text": " And also the actual functions of what it's going to do.",
+      "words": [
+        {
+          "start": 80960,
+          "end": 81480,
+          "text": " And",
+          "probability": 0.6406048536300659
+        },
+        {
+          "start": 81480,
+          "end": 82000,
+          "text": " also",
+          "probability": 0.9671615362167358
+        },
+        {
+          "start": 82000,
+          "end": 83180,
+          "text": " the",
+          "probability": 0.7314626574516296
+        },
+        {
+          "start": 83180,
+          "end": 83640,
+          "text": " actual",
+          "probability": 0.934974193572998
+        },
+        {
+          "start": 83640,
+          "end": 84000,
+          "text": " functions",
+          "probability": 0.9831362366676331
+        },
+        {
+          "start": 84000,
+          "end": 84180,
+          "text": " of",
+          "probability": 0.9763121604919434
+        },
+        {
+          "start": 84180,
+          "end": 84320,
+          "text": " what",
+          "probability": 0.9952232241630554
+        },
+        {
+          "start": 84320,
+          "end": 84480,
+          "text": " it's",
+          "probability": 0.9281695783138275
+        },
+        {
+          "start": 84480,
+          "end": 84580,
+          "text": " going",
+          "probability": 0.9816889762878418
+        },
+        {
+          "start": 84580,
+          "end": 84720,
+          "text": " to",
+          "probability": 0.9902005791664124
+        },
+        {
+          "start": 84720,
+          "end": 85020,
+          "text": " do.",
+          "probability": 0.9935111403465271
+        }
+      ]
+    },
+    {
+      "start": 85240,
+      "end": 86780,
+      "text": " Do you want to recap on that, Craig?",
+      "words": [
+        {
+          "start": 85240,
+          "end": 85500,
+          "text": " Do",
+          "probability": 0.9772433638572693
+        },
+        {
+          "start": 85500,
+          "end": 85560,
+          "text": " you",
+          "probability": 0.978093147277832
+        },
+        {
+          "start": 85560,
+          "end": 85620,
+          "text": " want",
+          "probability": 0.9911816120147705
+        },
+        {
+          "start": 85620,
+          "end": 85680,
+          "text": " to",
+          "probability": 0.9902869462966919
+        },
+        {
+          "start": 85680,
+          "end": 86000,
+          "text": " recap",
+          "probability": 0.9861904382705688
+        },
+        {
+          "start": 86000,
+          "end": 86240,
+          "text": " on",
+          "probability": 0.9680300951004028
+        },
+        {
+          "start": 86240,
+          "end": 86580,
+          "text": " that,",
+          "probability": 0.9930954575538635
+        },
+        {
+          "start": 86580,
+          "end": 86780,
+          "text": " Craig?",
+          "probability": 0.991509199142456
+        }
+      ]
+    },
+    {
+      "start": 89560,
+      "end": 92540,
+      "text": " I think we used to say it was going to be the most basic stuff possible.",
+      "words": [
+        {
+          "start": 89560,
+          "end": 89560,
+          "text": " I",
+          "probability": 0.4706905782222748
+        },
+        {
+          "start": 89560,
+          "end": 89840,
+          "text": " think",
+          "probability": 0.9561347365379333
+        },
+        {
+          "start": 89840,
+          "end": 89920,
+          "text": " we",
+          "probability": 0.90570467710495
+        },
+        {
+          "start": 89920,
+          "end": 90160,
+          "text": " used",
+          "probability": 0.84067302942276
+        },
+        {
+          "start": 90160,
+          "end": 90160,
+          "text": " to",
+          "probability": 0.9932894110679626
+        },
+        {
+          "start": 90160,
+          "end": 90340,
+          "text": " say",
+          "probability": 0.9866251945495605
+        },
+        {
+          "start": 90340,
+          "end": 90440,
+          "text": " it",
+          "probability": 0.38833972811698914
+        },
+        {
+          "start": 90440,
+          "end": 90540,
+          "text": " was",
+          "probability": 0.9582789540290833
+        },
+        {
+          "start": 90540,
+          "end": 90660,
+          "text": " going",
+          "probability": 0.9684790372848511
+        },
+        {
+          "start": 90660,
+          "end": 90760,
+          "text": " to",
+          "probability": 0.9893521666526794
+        },
+        {
+          "start": 90760,
+          "end": 90800,
+          "text": " be",
+          "probability": 0.9834989905357361
+        },
+        {
+          "start": 90800,
+          "end": 91260,
+          "text": " the",
+          "probability": 0.9565526247024536
+        },
+        {
+          "start": 91260,
+          "end": 91580,
+          "text": " most",
+          "probability": 0.963023841381073
+        },
+        {
+          "start": 91580,
+          "end": 91820,
+          "text": " basic",
+          "probability": 0.916168749332428
+        },
+        {
+          "start": 91820,
+          "end": 92000,
+          "text": " stuff",
+          "probability": 0.4593001902103424
+        },
+        {
+          "start": 92000,
+          "end": 92540,
+          "text": " possible.",
+          "probability": 0.9891533255577087
+        }
+      ]
+    },
+    {
+      "start": 92540,
+      "end": 97720,
+      "text": " on, off, up and down general, up and down volume, and skip to a general.",
+      "words": [
+        {
+          "start": 92540,
+          "end": 92960,
+          "text": " on,",
+          "probability": 0.041824307292699814
+        },
+        {
+          "start": 92960,
+          "end": 94400,
+          "text": " off,",
+          "probability": 0.9790056347846985
+        },
+        {
+          "start": 94600,
+          "end": 94780,
+          "text": " up",
+          "probability": 0.7443892359733582
+        },
+        {
+          "start": 94780,
+          "end": 94840,
+          "text": " and",
+          "probability": 0.8813839554786682
+        },
+        {
+          "start": 94840,
+          "end": 95060,
+          "text": " down",
+          "probability": 0.9626941680908203
+        },
+        {
+          "start": 95060,
+          "end": 95280,
+          "text": " general,",
+          "probability": 0.17277434468269348
+        },
+        {
+          "start": 95380,
+          "end": 95480,
+          "text": " up",
+          "probability": 0.35682427883148193
+        },
+        {
+          "start": 95480,
+          "end": 95620,
+          "text": " and",
+          "probability": 0.990898847579956
+        },
+        {
+          "start": 95620,
+          "end": 95740,
+          "text": " down",
+          "probability": 0.9869927167892456
+        },
+        {
+          "start": 95740,
+          "end": 96060,
+          "text": " volume,",
+          "probability": 0.9905937314033508
+        },
+        {
+          "start": 96300,
+          "end": 96740,
+          "text": " and",
+          "probability": 0.902283787727356
+        },
+        {
+          "start": 96740,
+          "end": 97180,
+          "text": " skip",
+          "probability": 0.8486135005950928
+        },
+        {
+          "start": 97180,
+          "end": 97380,
+          "text": " to",
+          "probability": 0.9486234784126282
+        },
+        {
+          "start": 97380,
+          "end": 97440,
+          "text": " a",
+          "probability": 0.24645650386810303
+        },
+        {
+          "start": 97440,
+          "end": 97720,
+          "text": " general.",
+          "probability": 0.8337164521217346
+        }
+      ]
+    },
+    {
+      "start": 100000,
+      "end": 105760,
+      "text": " Is it going to include any of the more advanced features, or are we going to eliminate those?",
+      "words": [
+        {
+          "start": 100000,
+          "end": 100480,
+          "text": " Is",
+          "probability": 0.3322756588459015
+        },
+        {
+          "start": 100480,
+          "end": 100600,
+          "text": " it",
+          "probability": 0.9753437638282776
+        },
+        {
+          "start": 100600,
+          "end": 100720,
+          "text": " going",
+          "probability": 0.9889456629753113
+        },
+        {
+          "start": 100720,
+          "end": 100920,
+          "text": " to",
+          "probability": 0.9962707757949829
+        },
+        {
+          "start": 100920,
+          "end": 101380,
+          "text": " include",
+          "probability": 0.99472975730896
+        },
+        {
+          "start": 101380,
+          "end": 101680,
+          "text": " any",
+          "probability": 0.8991395831108093
+        },
+        {
+          "start": 101680,
+          "end": 101840,
+          "text": " of",
+          "probability": 0.9745604395866394
+        },
+        {
+          "start": 101840,
+          "end": 102240,
+          "text": " the",
+          "probability": 0.9967279434204102
+        },
+        {
+          "start": 102240,
+          "end": 103500,
+          "text": " more",
+          "probability": 0.9690597057342529
+        },
+        {
+          "start": 103500,
+          "end": 103920,
+          "text": " advanced",
+          "probability": 0.9940178394317627
+        },
+        {
+          "start": 103920,
+          "end": 104320,
+          "text": " features,",
+          "probability": 0.9963710308074951
+        },
+        {
+          "start": 104440,
+          "end": 104520,
+          "text": " or",
+          "probability": 0.9904130101203918
+        },
+        {
+          "start": 104520,
+          "end": 104620,
+          "text": " are",
+          "probability": 0.9274152517318726
+        },
+        {
+          "start": 104620,
+          "end": 104700,
+          "text": " we",
+          "probability": 0.9955978989601135
+        },
+        {
+          "start": 104700,
+          "end": 104860,
+          "text": " going",
+          "probability": 0.9735668301582336
+        },
+        {
+          "start": 104860,
+          "end": 104960,
+          "text": " to",
+          "probability": 0.9970105886459351
+        },
+        {
+          "start": 104960,
+          "end": 105400,
+          "text": " eliminate",
+          "probability": 0.993440568447113
+        },
+        {
+          "start": 105400,
+          "end": 105760,
+          "text": " those?",
+          "probability": 0.9626765251159668
+        }
+      ]
+    },
+    {
+      "start": 106660,
+      "end": 112160,
+      "text": " I think we include new, but apart from that, I think we just go for the simpleness.",
+      "words": [
+        {
+          "start": 106660,
+          "end": 106720,
+          "text": " I",
+          "probability": 0.9060416221618652
+        },
+        {
+          "start": 106720,
+          "end": 106840,
+          "text": " think",
+          "probability": 0.9947994947433472
+        },
+        {
+          "start": 106840,
+          "end": 106980,
+          "text": " we",
+          "probability": 0.9773259162902832
+        },
+        {
+          "start": 106980,
+          "end": 107280,
+          "text": " include",
+          "probability": 0.8734533190727234
+        },
+        {
+          "start": 107280,
+          "end": 107600,
+          "text": " new,",
+          "probability": 0.5599344372749329
+        },
+        {
+          "start": 107920,
+          "end": 108080,
+          "text": " but",
+          "probability": 0.9668184518814087
+        },
+        {
+          "start": 108080,
+          "end": 108460,
+          "text": " apart",
+          "probability": 0.9626975059509277
+        },
+        {
+          "start": 108460,
+          "end": 108720,
+          "text": " from",
+          "probability": 0.997201681137085
+        },
+        {
+          "start": 108720,
+          "end": 109040,
+          "text": " that,",
+          "probability": 0.9964894652366638
+        },
+        {
+          "start": 110280,
+          "end": 110520,
+          "text": " I",
+          "probability": 0.8087584972381592
+        },
+        {
+          "start": 110520,
+          "end": 110640,
+          "text": " think",
+          "probability": 0.949893057346344
+        },
+        {
+          "start": 110640,
+          "end": 110780,
+          "text": " we",
+          "probability": 0.9408270716667175
+        },
+        {
+          "start": 110780,
+          "end": 111000,
+          "text": " just",
+          "probability": 0.6633558869361877
+        },
+        {
+          "start": 111000,
+          "end": 111440,
+          "text": " go",
+          "probability": 0.7311654686927795
+        },
+        {
+          "start": 111440,
+          "end": 111580,
+          "text": " for",
+          "probability": 0.9236568212509155
+        },
+        {
+          "start": 111580,
+          "end": 111680,
+          "text": " the",
+          "probability": 0.9735347032546997
+        },
+        {
+          "start": 111680,
+          "end": 112160,
+          "text": " simpleness.",
+          "probability": 0.5272209644317627
+        }
+      ]
+    },
+    {
+      "start": 113940,
+      "end": 119460,
+      "text": " Is it not an option still that we include some things just as under a door?",
+      "words": [
+        {
+          "start": 113940,
+          "end": 114420,
+          "text": " Is",
+          "probability": 0.7416250705718994
+        },
+        {
+          "start": 114420,
+          "end": 114900,
+          "text": " it",
+          "probability": 0.9806926846504211
+        },
+        {
+          "start": 114900,
+          "end": 115080,
+          "text": " not",
+          "probability": 0.9894279837608337
+        },
+        {
+          "start": 115080,
+          "end": 115220,
+          "text": " an",
+          "probability": 0.9939033389091492
+        },
+        {
+          "start": 115220,
+          "end": 115500,
+          "text": " option",
+          "probability": 0.9962553977966309
+        },
+        {
+          "start": 115500,
+          "end": 115740,
+          "text": " still",
+          "probability": 0.8609116673469543
+        },
+        {
+          "start": 115740,
+          "end": 115880,
+          "text": " that",
+          "probability": 0.878896951675415
+        },
+        {
+          "start": 115880,
+          "end": 116000,
+          "text": " we",
+          "probability": 0.9959640502929688
+        },
+        {
+          "start": 116000,
+          "end": 116280,
+          "text": " include",
+          "probability": 0.9921072125434875
+        },
+        {
+          "start": 116280,
+          "end": 116480,
+          "text": " some",
+          "probability": 0.7152267694473267
+        },
+        {
+          "start": 116480,
+          "end": 116840,
+          "text": " things",
+          "probability": 0.9850126504898071
+        },
+        {
+          "start": 116840,
+          "end": 117020,
+          "text": " just",
+          "probability": 0.6490603685379028
+        },
+        {
+          "start": 117020,
+          "end": 117300,
+          "text": " as",
+          "probability": 0.8849641680717468
+        },
+        {
+          "start": 117300,
+          "end": 118140,
+          "text": " under",
+          "probability": 0.1767757683992386
+        },
+        {
+          "start": 118140,
+          "end": 119220,
+          "text": " a",
+          "probability": 0.7555174231529236
+        },
+        {
+          "start": 119220,
+          "end": 119460,
+          "text": " door?",
+          "probability": 0.9823967218399048
+        }
+      ]
+    },
+    {
+      "start": 119460,
+      "end": 122160,
+      "text": " Yeah, it's optional functions.",
+      "words": [
+        {
+          "start": 119460,
+          "end": 120140,
+          "text": " Yeah,",
+          "probability": 0.21116778254508972
+        },
+        {
+          "start": 120160,
+          "end": 120580,
+          "text": " it's",
+          "probability": 0.8100019693374634
+        },
+        {
+          "start": 120580,
+          "end": 121180,
+          "text": " optional",
+          "probability": 0.5310898423194885
+        },
+        {
+          "start": 121180,
+          "end": 122160,
+          "text": " functions.",
+          "probability": 0.4045785963535309
+        }
+      ]
+    },
+    {
+      "start": 122360,
+      "end": 128500,
+      "text": " What I'd be a bit worried about is if someone had previously developed habits of expecting",
+      "words": [
+        {
+          "start": 122360,
+          "end": 122360,
+          "text": " What",
+          "probability": 0.6392840147018433
+        },
+        {
+          "start": 122360,
+          "end": 122940,
+          "text": " I'd",
+          "probability": 0.634225994348526
+        },
+        {
+          "start": 122940,
+          "end": 123020,
+          "text": " be",
+          "probability": 0.994274914264679
+        },
+        {
+          "start": 123020,
+          "end": 123080,
+          "text": " a",
+          "probability": 0.9156776666641235
+        },
+        {
+          "start": 123080,
+          "end": 123180,
+          "text": " bit",
+          "probability": 0.9911381602287292
+        },
+        {
+          "start": 123180,
+          "end": 123380,
+          "text": " worried",
+          "probability": 0.9986200332641602
+        },
+        {
+          "start": 123380,
+          "end": 123600,
+          "text": " about",
+          "probability": 0.9974639415740967
+        },
+        {
+          "start": 123600,
+          "end": 123760,
+          "text": " is",
+          "probability": 0.9255205988883972
+        },
+        {
+          "start": 123760,
+          "end": 123940,
+          "text": " if",
+          "probability": 0.9295069575309753
+        },
+        {
+          "start": 123940,
+          "end": 124220,
+          "text": " someone",
+          "probability": 0.9969538450241089
+        },
+        {
+          "start": 124220,
+          "end": 126000,
+          "text": " had",
+          "probability": 0.6487903594970703
+        },
+        {
+          "start": 126000,
+          "end": 126680,
+          "text": " previously",
+          "probability": 0.9976099729537964
+        },
+        {
+          "start": 126680,
+          "end": 127040,
+          "text": " developed",
+          "probability": 0.9953181147575378
+        },
+        {
+          "start": 127040,
+          "end": 127520,
+          "text": " habits",
+          "probability": 0.9871045351028442
+        },
+        {
+          "start": 127520,
+          "end": 128040,
+          "text": " of",
+          "probability": 0.9011526107788086
+        },
+        {
+          "start": 128040,
+          "end": 128500,
+          "text": " expecting",
+          "probability": 0.987138032913208
+        }
+      ]
+    },
+    {
+      "start": 128500,
+      "end": 136500,
+      "text": " to control surround sound or this and that with their controller and then they get ours",
+      "words": [
+        {
+          "start": 128500,
+          "end": 129020,
+          "text": " to",
+          "probability": 0.995984673500061
+        },
+        {
+          "start": 129020,
+          "end": 129620,
+          "text": " control",
+          "probability": 0.995088517665863
+        },
+        {
+          "start": 129620,
+          "end": 129980,
+          "text": " surround",
+          "probability": 0.9799102544784546
+        },
+        {
+          "start": 129980,
+          "end": 130300,
+          "text": " sound",
+          "probability": 0.9918568134307861
+        },
+        {
+          "start": 130300,
+          "end": 130480,
+          "text": " or",
+          "probability": 0.678548276424408
+        },
+        {
+          "start": 130480,
+          "end": 130620,
+          "text": " this",
+          "probability": 0.990429162979126
+        },
+        {
+          "start": 130620,
+          "end": 130760,
+          "text": " and",
+          "probability": 0.9674234390258789
+        },
+        {
+          "start": 130760,
+          "end": 130960,
+          "text": " that",
+          "probability": 0.9981245398521423
+        },
+        {
+          "start": 130960,
+          "end": 131480,
+          "text": " with",
+          "probability": 0.8582083582878113
+        },
+        {
+          "start": 131480,
+          "end": 131700,
+          "text": " their",
+          "probability": 0.985968828201294
+        },
+        {
+          "start": 131700,
+          "end": 132100,
+          "text": " controller",
+          "probability": 0.9972091317176819
+        },
+        {
+          "start": 132100,
+          "end": 132440,
+          "text": " and",
+          "probability": 0.5576702356338501
+        },
+        {
+          "start": 132440,
+          "end": 133800,
+          "text": " then",
+          "probability": 0.9809374213218689
+        },
+        {
+          "start": 133800,
+          "end": 134120,
+          "text": " they",
+          "probability": 0.7438707947731018
+        },
+        {
+          "start": 134120,
+          "end": 136260,
+          "text": " get",
+          "probability": 0.9054155349731445
+        },
+        {
+          "start": 136260,
+          "end": 136500,
+          "text": " ours",
+          "probability": 0.9310494065284729
+        }
+      ]
+    },
+    {
+      "start": 136500,
+      "end": 140240,
+      "text": " and it doesn't have that, I don't know if that'd be a problem.",
+      "words": [
+        {
+          "start": 136500,
+          "end": 136740,
+          "text": " and",
+          "probability": 0.3382924199104309
+        },
+        {
+          "start": 136740,
+          "end": 137140,
+          "text": " it",
+          "probability": 0.9321500062942505
+        },
+        {
+          "start": 137140,
+          "end": 138060,
+          "text": " doesn't",
+          "probability": 0.9706012606620789
+        },
+        {
+          "start": 138060,
+          "end": 138280,
+          "text": " have",
+          "probability": 0.9951992630958557
+        },
+        {
+          "start": 138280,
+          "end": 138600,
+          "text": " that,",
+          "probability": 0.9949957132339478
+        },
+        {
+          "start": 138920,
+          "end": 139400,
+          "text": " I",
+          "probability": 0.9238830804824829
+        },
+        {
+          "start": 139400,
+          "end": 139460,
+          "text": " don't",
+          "probability": 0.9833758473396301
+        },
+        {
+          "start": 139460,
+          "end": 139580,
+          "text": " know",
+          "probability": 0.9790434837341309
+        },
+        {
+          "start": 139580,
+          "end": 139620,
+          "text": " if",
+          "probability": 0.9812352657318115
+        },
+        {
+          "start": 139620,
+          "end": 139820,
+          "text": " that'd",
+          "probability": 0.862541913986206
+        },
+        {
+          "start": 139820,
+          "end": 139900,
+          "text": " be",
+          "probability": 0.9984227418899536
+        },
+        {
+          "start": 139900,
+          "end": 139960,
+          "text": " a",
+          "probability": 0.9443210363388062
+        },
+        {
+          "start": 139960,
+          "end": 140240,
+          "text": " problem.",
+          "probability": 0.9990870952606201
+        }
+      ]
+    },
+    {
+      "start": 141360,
+      "end": 147320,
+      "text": " Another thing that we were saying about televising the control, maybe I could suggest we break",
+      "words": [
+        {
+          "start": 141360,
+          "end": 141840,
+          "text": " Another",
+          "probability": 0.10379120707511902
+        },
+        {
+          "start": 141840,
+          "end": 142060,
+          "text": " thing",
+          "probability": 0.9747527241706848
+        },
+        {
+          "start": 142060,
+          "end": 142200,
+          "text": " that",
+          "probability": 0.4761727750301361
+        },
+        {
+          "start": 142200,
+          "end": 142340,
+          "text": " we",
+          "probability": 0.6717066168785095
+        },
+        {
+          "start": 142340,
+          "end": 142460,
+          "text": " were",
+          "probability": 0.5482311844825745
+        },
+        {
+          "start": 142460,
+          "end": 142620,
+          "text": " saying",
+          "probability": 0.9253413677215576
+        },
+        {
+          "start": 142620,
+          "end": 142880,
+          "text": " about",
+          "probability": 0.9770262837409973
+        },
+        {
+          "start": 142880,
+          "end": 143540,
+          "text": " televising",
+          "probability": 0.6867409199476242
+        },
+        {
+          "start": 143540,
+          "end": 144000,
+          "text": " the",
+          "probability": 0.7848486304283142
+        },
+        {
+          "start": 144000,
+          "end": 144540,
+          "text": " control,",
+          "probability": 0.6049274802207947
+        },
+        {
+          "start": 145820,
+          "end": 145960,
+          "text": " maybe",
+          "probability": 0.8705990314483643
+        },
+        {
+          "start": 145960,
+          "end": 146120,
+          "text": " I",
+          "probability": 0.9681531190872192
+        },
+        {
+          "start": 146120,
+          "end": 146240,
+          "text": " could",
+          "probability": 0.8449919819831848
+        },
+        {
+          "start": 146240,
+          "end": 146660,
+          "text": " suggest",
+          "probability": 0.9930992126464844
+        },
+        {
+          "start": 146660,
+          "end": 147080,
+          "text": " we",
+          "probability": 0.6650108098983765
+        },
+        {
+          "start": 147080,
+          "end": 147320,
+          "text": " break",
+          "probability": 0.18893030285835266
+        }
+      ]
+    },
+    {
+      "start": 147780,
+      "end": 152680,
+      "text": " them down into three simple categories. One would be audio controls, one would be video",
+      "words": [
+        {
+          "start": 147780,
+          "end": 147960,
+          "text": " them",
+          "probability": 0.4384767413139343
+        },
+        {
+          "start": 147960,
+          "end": 148160,
+          "text": " down",
+          "probability": 0.9967519044876099
+        },
+        {
+          "start": 148160,
+          "end": 148420,
+          "text": " into",
+          "probability": 0.7866143584251404
+        },
+        {
+          "start": 148420,
+          "end": 148680,
+          "text": " three",
+          "probability": 0.7605290412902832
+        },
+        {
+          "start": 148680,
+          "end": 148980,
+          "text": " simple",
+          "probability": 0.9848924875259399
+        },
+        {
+          "start": 148980,
+          "end": 149380,
+          "text": " categories.",
+          "probability": 0.19086067378520966
+        },
+        {
+          "start": 149900,
+          "end": 150180,
+          "text": " One",
+          "probability": 0.9668157696723938
+        },
+        {
+          "start": 150180,
+          "end": 150340,
+          "text": " would",
+          "probability": 0.9508525729179382
+        },
+        {
+          "start": 150340,
+          "end": 150440,
+          "text": " be",
+          "probability": 0.9901105761528015
+        },
+        {
+          "start": 150440,
+          "end": 150720,
+          "text": " audio",
+          "probability": 0.9814444780349731
+        },
+        {
+          "start": 150720,
+          "end": 151080,
+          "text": " controls,",
+          "probability": 0.7661644220352173
+        },
+        {
+          "start": 151720,
+          "end": 152120,
+          "text": " one",
+          "probability": 0.8073766827583313
+        },
+        {
+          "start": 152120,
+          "end": 152280,
+          "text": " would",
+          "probability": 0.9708579778671265
+        },
+        {
+          "start": 152280,
+          "end": 152400,
+          "text": " be",
+          "probability": 0.9957484602928162
+        },
+        {
+          "start": 152400,
+          "end": 152680,
+          "text": " video",
+          "probability": 0.9905822277069092
+        }
+      ]
+    },
+    {
+      "start": 152680,
+      "end": 158560,
+      "text": " controls, the other one would be a device. This may not map very well to advanced functionality",
+      "words": [
+        {
+          "start": 152680,
+          "end": 153100,
+          "text": " controls,",
+          "probability": 0.6226181387901306
+        },
+        {
+          "start": 153720,
+          "end": 153840,
+          "text": " the",
+          "probability": 0.5549625158309937
+        },
+        {
+          "start": 153840,
+          "end": 153920,
+          "text": " other",
+          "probability": 0.9933093786239624
+        },
+        {
+          "start": 153920,
+          "end": 154060,
+          "text": " one",
+          "probability": 0.8254269957542419
+        },
+        {
+          "start": 154060,
+          "end": 154140,
+          "text": " would",
+          "probability": 0.9610421061515808
+        },
+        {
+          "start": 154140,
+          "end": 154240,
+          "text": " be",
+          "probability": 0.9970476031303406
+        },
+        {
+          "start": 154240,
+          "end": 154340,
+          "text": " a",
+          "probability": 0.8827986717224121
+        },
+        {
+          "start": 154340,
+          "end": 154640,
+          "text": " device.",
+          "probability": 0.9991503953933716
+        },
+        {
+          "start": 155380,
+          "end": 155600,
+          "text": " This",
+          "probability": 0.9625831246376038
+        },
+        {
+          "start": 155600,
+          "end": 155780,
+          "text": " may",
+          "probability": 0.9912495613098145
+        },
+        {
+          "start": 155780,
+          "end": 155960,
+          "text": " not",
+          "probability": 0.9977254271507263
+        },
+        {
+          "start": 155960,
+          "end": 156500,
+          "text": " map",
+          "probability": 0.6163549423217773
+        },
+        {
+          "start": 156500,
+          "end": 156900,
+          "text": " very",
+          "probability": 0.9811966419219971
+        },
+        {
+          "start": 156900,
+          "end": 157180,
+          "text": " well",
+          "probability": 0.9987189769744873
+        },
+        {
+          "start": 157180,
+          "end": 157520,
+          "text": " to",
+          "probability": 0.9950657486915588
+        },
+        {
+          "start": 157520,
+          "end": 158080,
+          "text": " advanced",
+          "probability": 0.9047123789787292
+        },
+        {
+          "start": 158080,
+          "end": 158560,
+          "text": " functionality",
+          "probability": 0.9765874743461609
+        }
+      ]
+    },
+    {
+      "start": 158560,
+      "end": 164140,
+      "text": " especially, but I think that from a manufacturer point of view, a certain person designing",
+      "words": [
+        {
+          "start": 158560,
+          "end": 159000,
+          "text": " especially,",
+          "probability": 0.7542768716812134
+        },
+        {
+          "start": 159700,
+          "end": 159740,
+          "text": " but",
+          "probability": 0.9822685718536377
+        },
+        {
+          "start": 159740,
+          "end": 159860,
+          "text": " I",
+          "probability": 0.978417158126831
+        },
+        {
+          "start": 159860,
+          "end": 160040,
+          "text": " think",
+          "probability": 0.9988399147987366
+        },
+        {
+          "start": 160040,
+          "end": 160280,
+          "text": " that",
+          "probability": 0.9324552416801453
+        },
+        {
+          "start": 160280,
+          "end": 161160,
+          "text": " from",
+          "probability": 0.7213354110717773
+        },
+        {
+          "start": 161160,
+          "end": 161400,
+          "text": " a",
+          "probability": 0.950135350227356
+        },
+        {
+          "start": 161400,
+          "end": 162020,
+          "text": " manufacturer",
+          "probability": 0.7782529592514038
+        },
+        {
+          "start": 162020,
+          "end": 162380,
+          "text": " point",
+          "probability": 0.6970745325088501
+        },
+        {
+          "start": 162380,
+          "end": 162480,
+          "text": " of",
+          "probability": 0.9909761548042297
+        },
+        {
+          "start": 162480,
+          "end": 162620,
+          "text": " view,",
+          "probability": 0.9963108897209167
+        },
+        {
+          "start": 162740,
+          "end": 162760,
+          "text": " a",
+          "probability": 0.26760047674179077
+        },
+        {
+          "start": 162760,
+          "end": 162860,
+          "text": " certain",
+          "probability": 0.29512497782707214
+        },
+        {
+          "start": 162860,
+          "end": 163700,
+          "text": " person",
+          "probability": 0.8741718530654907
+        },
+        {
+          "start": 163700,
+          "end": 164140,
+          "text": " designing",
+          "probability": 0.7125737071037292
+        }
+      ]
+    },
+    {
+      "start": 164140,
+      "end": 170220,
+      "text": " the device, but I think from a point of view, a person using the device, you know,",
+      "words": [
+        {
+          "start": 164140,
+          "end": 164340,
+          "text": " the",
+          "probability": 0.9346047043800354
+        },
+        {
+          "start": 164340,
+          "end": 164620,
+          "text": " device,",
+          "probability": 0.9896944761276245
+        },
+        {
+          "start": 164860,
+          "end": 164860,
+          "text": " but",
+          "probability": 0.9068835973739624
+        },
+        {
+          "start": 164860,
+          "end": 165080,
+          "text": " I",
+          "probability": 0.9540370106697083
+        },
+        {
+          "start": 165080,
+          "end": 165260,
+          "text": " think",
+          "probability": 0.9985281229019165
+        },
+        {
+          "start": 165260,
+          "end": 165840,
+          "text": " from",
+          "probability": 0.923645555973053
+        },
+        {
+          "start": 165840,
+          "end": 166000,
+          "text": " a",
+          "probability": 0.36862480640411377
+        },
+        {
+          "start": 166000,
+          "end": 166100,
+          "text": " point",
+          "probability": 0.9944426417350769
+        },
+        {
+          "start": 166100,
+          "end": 166240,
+          "text": " of",
+          "probability": 0.9935815334320068
+        },
+        {
+          "start": 166240,
+          "end": 166380,
+          "text": " view,",
+          "probability": 0.9977542757987976
+        },
+        {
+          "start": 166460,
+          "end": 166500,
+          "text": " a",
+          "probability": 0.8780542612075806
+        },
+        {
+          "start": 166500,
+          "end": 166780,
+          "text": " person",
+          "probability": 0.9846909642219543
+        },
+        {
+          "start": 166780,
+          "end": 167080,
+          "text": " using",
+          "probability": 0.9936913251876831
+        },
+        {
+          "start": 167080,
+          "end": 167280,
+          "text": " the",
+          "probability": 0.8199553489685059
+        },
+        {
+          "start": 167280,
+          "end": 167520,
+          "text": " device,",
+          "probability": 0.9972057938575745
+        },
+        {
+          "start": 168300,
+          "end": 168300,
+          "text": " you",
+          "probability": 0.44757553935050964
+        },
+        {
+          "start": 168300,
+          "end": 170220,
+          "text": " know,",
+          "probability": 0.9990757703781128
+        }
+      ]
+    },
+    {
+      "start": 192020,
+      "end": 198240,
+      "text": " Okay, well I've got five minutes to wrap up now. Next thing we're doing is Southern",
+      "words": [
+        {
+          "start": 192020,
+          "end": 192500,
+          "text": " Okay,",
+          "probability": 0.15164200961589813
+        },
+        {
+          "start": 192500,
+          "end": 192980,
+          "text": " well",
+          "probability": 0.15188272297382355
+        },
+        {
+          "start": 192980,
+          "end": 194140,
+          "text": " I've",
+          "probability": 0.5488370358943939
+        },
+        {
+          "start": 194140,
+          "end": 195160,
+          "text": " got",
+          "probability": 0.7834662795066833
+        },
+        {
+          "start": 195160,
+          "end": 195400,
+          "text": " five",
+          "probability": 0.8402283787727356
+        },
+        {
+          "start": 195400,
+          "end": 195680,
+          "text": " minutes",
+          "probability": 0.9974844455718994
+        },
+        {
+          "start": 195680,
+          "end": 195860,
+          "text": " to",
+          "probability": 0.9818119406700134
+        },
+        {
+          "start": 195860,
+          "end": 196040,
+          "text": " wrap",
+          "probability": 0.9911802411079407
+        },
+        {
+          "start": 196040,
+          "end": 196240,
+          "text": " up",
+          "probability": 0.9735525846481323
+        },
+        {
+          "start": 196240,
+          "end": 196900,
+          "text": " now.",
+          "probability": 0.8017784953117371
+        },
+        {
+          "start": 197140,
+          "end": 197460,
+          "text": " Next",
+          "probability": 0.7971475124359131
+        },
+        {
+          "start": 197460,
+          "end": 197660,
+          "text": " thing",
+          "probability": 0.9444689750671387
+        },
+        {
+          "start": 197660,
+          "end": 197760,
+          "text": " we're",
+          "probability": 0.8737750351428986
+        },
+        {
+          "start": 197760,
+          "end": 197960,
+          "text": " doing",
+          "probability": 0.9759756326675415
+        },
+        {
+          "start": 197960,
+          "end": 198120,
+          "text": " is",
+          "probability": 0.319282203912735
+        },
+        {
+          "start": 198120,
+          "end": 198240,
+          "text": " Southern",
+          "probability": 0.3331686556339264
+        }
+      ]
+    },
+    {
+      "start": 200220,
+      "end": 203420,
+      "text": " And then we're going to have 30 minutes of working on the next stage.",
+      "words": [
+        {
+          "start": 200220,
+          "end": 200380,
+          "text": " And",
+          "probability": 0.08784526586532593
+        },
+        {
+          "start": 200380,
+          "end": 200540,
+          "text": " then",
+          "probability": 0.7785829305648804
+        },
+        {
+          "start": 200540,
+          "end": 200700,
+          "text": " we're",
+          "probability": 0.8429503738880157
+        },
+        {
+          "start": 200700,
+          "end": 200740,
+          "text": " going",
+          "probability": 0.9218622446060181
+        },
+        {
+          "start": 200740,
+          "end": 200820,
+          "text": " to",
+          "probability": 0.99327552318573
+        },
+        {
+          "start": 200820,
+          "end": 200980,
+          "text": " have",
+          "probability": 0.9874869585037231
+        },
+        {
+          "start": 200980,
+          "end": 201240,
+          "text": " 30",
+          "probability": 0.9270667433738708
+        },
+        {
+          "start": 201240,
+          "end": 201500,
+          "text": " minutes",
+          "probability": 0.9910197854042053
+        },
+        {
+          "start": 201500,
+          "end": 201960,
+          "text": " of",
+          "probability": 0.9665377140045166
+        },
+        {
+          "start": 201960,
+          "end": 202380,
+          "text": " working",
+          "probability": 0.995078444480896
+        },
+        {
+          "start": 202380,
+          "end": 202600,
+          "text": " on",
+          "probability": 0.9933086633682251
+        },
+        {
+          "start": 202600,
+          "end": 202700,
+          "text": " the",
+          "probability": 0.996212363243103
+        },
+        {
+          "start": 202700,
+          "end": 202960,
+          "text": " next",
+          "probability": 0.9977371692657471
+        },
+        {
+          "start": 202960,
+          "end": 203420,
+          "text": " stage.",
+          "probability": 0.8403618335723877
+        }
+      ]
+    },
+    {
+      "start": 204820,
+      "end": 210020,
+      "text": " So I'll be putting the minutes of this meeting into the project documents folder.",
+      "words": [
+        {
+          "start": 204820,
+          "end": 205160,
+          "text": " So",
+          "probability": 0.6398496031761169
+        },
+        {
+          "start": 205160,
+          "end": 205540,
+          "text": " I'll",
+          "probability": 0.8406670689582825
+        },
+        {
+          "start": 205540,
+          "end": 205640,
+          "text": " be",
+          "probability": 0.9885786771774292
+        },
+        {
+          "start": 205640,
+          "end": 205840,
+          "text": " putting",
+          "probability": 0.9152402281761169
+        },
+        {
+          "start": 205840,
+          "end": 206040,
+          "text": " the",
+          "probability": 0.8259129524230957
+        },
+        {
+          "start": 206040,
+          "end": 206240,
+          "text": " minutes",
+          "probability": 0.8728489875793457
+        },
+        {
+          "start": 206240,
+          "end": 206580,
+          "text": " of",
+          "probability": 0.9788467288017273
+        },
+        {
+          "start": 206580,
+          "end": 207060,
+          "text": " this",
+          "probability": 0.9924725294113159
+        },
+        {
+          "start": 207060,
+          "end": 208460,
+          "text": " meeting",
+          "probability": 0.879938542842865
+        },
+        {
+          "start": 208460,
+          "end": 208780,
+          "text": " into",
+          "probability": 0.9468230605125427
+        },
+        {
+          "start": 208780,
+          "end": 208920,
+          "text": " the",
+          "probability": 0.9905849099159241
+        },
+        {
+          "start": 208920,
+          "end": 209160,
+          "text": " project",
+          "probability": 0.8649191856384277
+        },
+        {
+          "start": 209160,
+          "end": 209580,
+          "text": " documents",
+          "probability": 0.9283025860786438
+        },
+        {
+          "start": 209580,
+          "end": 210020,
+          "text": " folder.",
+          "probability": 0.9778417348861694
+        }
+      ]
+    },
+    {
+      "start": 211900,
+      "end": 216680,
+      "text": " So I guess just to confirm that we know what we're doing in the next, well,",
+      "words": [
+        {
+          "start": 211900,
+          "end": 212340,
+          "text": " So",
+          "probability": 0.7979968190193176
+        },
+        {
+          "start": 212340,
+          "end": 212780,
+          "text": " I",
+          "probability": 0.7406540513038635
+        },
+        {
+          "start": 212780,
+          "end": 213000,
+          "text": " guess",
+          "probability": 0.9979057312011719
+        },
+        {
+          "start": 213000,
+          "end": 213220,
+          "text": " just",
+          "probability": 0.8402962684631348
+        },
+        {
+          "start": 213220,
+          "end": 213620,
+          "text": " to",
+          "probability": 0.9811567068099976
+        },
+        {
+          "start": 213620,
+          "end": 214720,
+          "text": " confirm",
+          "probability": 0.986203670501709
+        },
+        {
+          "start": 214720,
+          "end": 214920,
+          "text": " that",
+          "probability": 0.9253641366958618
+        },
+        {
+          "start": 214920,
+          "end": 215020,
+          "text": " we",
+          "probability": 0.9947876930236816
+        },
+        {
+          "start": 215020,
+          "end": 215200,
+          "text": " know",
+          "probability": 0.935739278793335
+        },
+        {
+          "start": 215200,
+          "end": 215380,
+          "text": " what",
+          "probability": 0.8980374932289124
+        },
+        {
+          "start": 215380,
+          "end": 215500,
+          "text": " we're",
+          "probability": 0.9755560755729675
+        },
+        {
+          "start": 215500,
+          "end": 215720,
+          "text": " doing",
+          "probability": 0.9935791492462158
+        },
+        {
+          "start": 215720,
+          "end": 215900,
+          "text": " in",
+          "probability": 0.9142131805419922
+        },
+        {
+          "start": 215900,
+          "end": 216000,
+          "text": " the",
+          "probability": 0.948350727558136
+        },
+        {
+          "start": 216000,
+          "end": 216240,
+          "text": " next,",
+          "probability": 0.966096043586731
+        },
+        {
+          "start": 216480,
+          "end": 216680,
+          "text": " well,",
+          "probability": 0.8880563974380493
+        }
+      ]
+    },
+    {
+      "start": 216740,
+      "end": 218240,
+      "text": " in the 30 minutes after lunch anyway.",
+      "words": [
+        {
+          "start": 216740,
+          "end": 216760,
+          "text": " in",
+          "probability": 0.3608284890651703
+        },
+        {
+          "start": 216760,
+          "end": 216860,
+          "text": " the",
+          "probability": 0.8613752722740173
+        },
+        {
+          "start": 216860,
+          "end": 217120,
+          "text": " 30",
+          "probability": 0.9588805437088013
+        },
+        {
+          "start": 217120,
+          "end": 217340,
+          "text": " minutes",
+          "probability": 0.9903237819671631
+        },
+        {
+          "start": 217340,
+          "end": 217660,
+          "text": " after",
+          "probability": 0.9914406538009644
+        },
+        {
+          "start": 217660,
+          "end": 217880,
+          "text": " lunch",
+          "probability": 0.9975606203079224
+        },
+        {
+          "start": 217880,
+          "end": 218240,
+          "text": " anyway.",
+          "probability": 0.8065527677536011
+        }
+      ]
+    },
+    {
+      "start": 221040,
+      "end": 225180,
+      "text": " For our industrial designer, you're going to be thinking about the components concept.",
+      "words": [
+        {
+          "start": 221040,
+          "end": 221480,
+          "text": " For",
+          "probability": 0.852382481098175
+        },
+        {
+          "start": 221480,
+          "end": 221920,
+          "text": " our",
+          "probability": 0.9733954668045044
+        },
+        {
+          "start": 221920,
+          "end": 222320,
+          "text": " industrial",
+          "probability": 0.9371291995048523
+        },
+        {
+          "start": 222320,
+          "end": 222760,
+          "text": " designer,",
+          "probability": 0.97147536277771
+        },
+        {
+          "start": 222980,
+          "end": 223040,
+          "text": " you're",
+          "probability": 0.9638658165931702
+        },
+        {
+          "start": 223040,
+          "end": 223060,
+          "text": " going",
+          "probability": 0.9814991354942322
+        },
+        {
+          "start": 223060,
+          "end": 223160,
+          "text": " to",
+          "probability": 0.9975597858428955
+        },
+        {
+          "start": 223160,
+          "end": 223360,
+          "text": " be",
+          "probability": 0.997101366519928
+        },
+        {
+          "start": 223360,
+          "end": 223860,
+          "text": " thinking",
+          "probability": 0.9896698594093323
+        },
+        {
+          "start": 223860,
+          "end": 224080,
+          "text": " about",
+          "probability": 0.995006799697876
+        },
+        {
+          "start": 224080,
+          "end": 224240,
+          "text": " the",
+          "probability": 0.9913109540939331
+        },
+        {
+          "start": 224240,
+          "end": 224600,
+          "text": " components",
+          "probability": 0.9073703289031982
+        },
+        {
+          "start": 224600,
+          "end": 225180,
+          "text": " concept.",
+          "probability": 0.97403484582901
+        }
+      ]
+    },
+    {
+      "start": 226260,
+      "end": 228940,
+      "text": " User interface designer, you're going to be thinking about our user interface",
+      "words": [
+        {
+          "start": 226260,
+          "end": 226520,
+          "text": " User",
+          "probability": 0.80357825756073
+        },
+        {
+          "start": 226520,
+          "end": 226780,
+          "text": " interface",
+          "probability": 0.9878672361373901
+        },
+        {
+          "start": 226780,
+          "end": 227240,
+          "text": " designer,",
+          "probability": 0.9555985331535339
+        },
+        {
+          "start": 227380,
+          "end": 227500,
+          "text": " you're",
+          "probability": 0.9158083498477936
+        },
+        {
+          "start": 227500,
+          "end": 227500,
+          "text": " going",
+          "probability": 0.9829692840576172
+        },
+        {
+          "start": 227500,
+          "end": 227600,
+          "text": " to",
+          "probability": 0.9964473843574524
+        },
+        {
+          "start": 227600,
+          "end": 227720,
+          "text": " be",
+          "probability": 0.993244469165802
+        },
+        {
+          "start": 227720,
+          "end": 227900,
+          "text": " thinking",
+          "probability": 0.9959797859191895
+        },
+        {
+          "start": 227900,
+          "end": 228140,
+          "text": " about",
+          "probability": 0.9855959415435791
+        },
+        {
+          "start": 228140,
+          "end": 228280,
+          "text": " our",
+          "probability": 0.9526306390762329
+        },
+        {
+          "start": 228280,
+          "end": 228480,
+          "text": " user",
+          "probability": 0.9904513359069824
+        },
+        {
+          "start": 228480,
+          "end": 228940,
+          "text": " interface",
+          "probability": 0.9948585033416748
+        }
+      ]
+    },
+    {
+      "start": 229420,
+      "end": 233600,
+      "text": " marketing, you're going to be thinking about trend watching. And you'll all get specific",
+      "words": [
+        {
+          "start": 229420,
+          "end": 229860,
+          "text": " marketing,",
+          "probability": 0.14157605171203613
+        },
+        {
+          "start": 230100,
+          "end": 230120,
+          "text": " you're",
+          "probability": 0.6777220666408539
+        },
+        {
+          "start": 230120,
+          "end": 230200,
+          "text": " going",
+          "probability": 0.7970622777938843
+        },
+        {
+          "start": 230200,
+          "end": 230280,
+          "text": " to",
+          "probability": 0.9960656762123108
+        },
+        {
+          "start": 230280,
+          "end": 230360,
+          "text": " be",
+          "probability": 0.9628843665122986
+        },
+        {
+          "start": 230360,
+          "end": 230580,
+          "text": " thinking",
+          "probability": 0.992965817451477
+        },
+        {
+          "start": 230580,
+          "end": 230800,
+          "text": " about",
+          "probability": 0.9433009028434753
+        },
+        {
+          "start": 230800,
+          "end": 231100,
+          "text": " trend",
+          "probability": 0.9800398349761963
+        },
+        {
+          "start": 231100,
+          "end": 231560,
+          "text": " watching.",
+          "probability": 0.8740429282188416
+        },
+        {
+          "start": 232700,
+          "end": 232700,
+          "text": " And",
+          "probability": 0.6610185503959656
+        },
+        {
+          "start": 232700,
+          "end": 232900,
+          "text": " you'll",
+          "probability": 0.7628255784511566
+        },
+        {
+          "start": 232900,
+          "end": 233000,
+          "text": " all",
+          "probability": 0.6080873608589172
+        },
+        {
+          "start": 233000,
+          "end": 233140,
+          "text": " get",
+          "probability": 0.9924128651618958
+        },
+        {
+          "start": 233140,
+          "end": 233600,
+          "text": " specific",
+          "probability": 0.9425185918807983
+        }
+      ]
+    },
+    {
+      "start": 233600,
+      "end": 241380,
+      "text": " instructions as well. So, I don't know, just to ask now, if you've got anything else you've",
+      "words": [
+        {
+          "start": 233600,
+          "end": 234180,
+          "text": " instructions",
+          "probability": 0.9843547344207764
+        },
+        {
+          "start": 234180,
+          "end": 234460,
+          "text": " as",
+          "probability": 0.9305580854415894
+        },
+        {
+          "start": 234460,
+          "end": 234760,
+          "text": " well.",
+          "probability": 0.9973613619804382
+        },
+        {
+          "start": 235660,
+          "end": 235660,
+          "text": " So,",
+          "probability": 0.7538217902183533
+        },
+        {
+          "start": 235720,
+          "end": 236160,
+          "text": " I",
+          "probability": 0.7869251370429993
+        },
+        {
+          "start": 236160,
+          "end": 236820,
+          "text": " don't",
+          "probability": 0.6581714004278183
+        },
+        {
+          "start": 236820,
+          "end": 237120,
+          "text": " know,",
+          "probability": 0.9906060099601746
+        },
+        {
+          "start": 237340,
+          "end": 237340,
+          "text": " just",
+          "probability": 0.981477677822113
+        },
+        {
+          "start": 237340,
+          "end": 237880,
+          "text": " to",
+          "probability": 0.8736155033111572
+        },
+        {
+          "start": 237880,
+          "end": 239720,
+          "text": " ask",
+          "probability": 0.8664529323577881
+        },
+        {
+          "start": 239720,
+          "end": 240100,
+          "text": " now,",
+          "probability": 0.8833710551261902
+        },
+        {
+          "start": 240260,
+          "end": 240320,
+          "text": " if",
+          "probability": 0.9379848837852478
+        },
+        {
+          "start": 240320,
+          "end": 240500,
+          "text": " you've",
+          "probability": 0.9244671761989594
+        },
+        {
+          "start": 240500,
+          "end": 240600,
+          "text": " got",
+          "probability": 0.989212155342102
+        },
+        {
+          "start": 240600,
+          "end": 240880,
+          "text": " anything",
+          "probability": 0.9918244481086731
+        },
+        {
+          "start": 240880,
+          "end": 241160,
+          "text": " else",
+          "probability": 0.9883665442466736
+        },
+        {
+          "start": 241160,
+          "end": 241380,
+          "text": " you've",
+          "probability": 0.7822545170783997
+        }
+      ]
+    },
+    {
+      "start": 241380,
+      "end": 246600,
+      "text": " thought about while we've been talking, do you want to start with David? Anything else",
+      "words": [
+        {
+          "start": 241380,
+          "end": 241560,
+          "text": " thought",
+          "probability": 0.9816974997520447
+        },
+        {
+          "start": 241560,
+          "end": 241900,
+          "text": " about",
+          "probability": 0.995026171207428
+        },
+        {
+          "start": 241900,
+          "end": 242100,
+          "text": " while",
+          "probability": 0.8019111156463623
+        },
+        {
+          "start": 242100,
+          "end": 242300,
+          "text": " we've",
+          "probability": 0.9008889496326447
+        },
+        {
+          "start": 242300,
+          "end": 242420,
+          "text": " been",
+          "probability": 0.995323121547699
+        },
+        {
+          "start": 242420,
+          "end": 242820,
+          "text": " talking,",
+          "probability": 0.9978688955307007
+        },
+        {
+          "start": 243860,
+          "end": 243940,
+          "text": " do",
+          "probability": 0.8980250358581543
+        },
+        {
+          "start": 243940,
+          "end": 243960,
+          "text": " you",
+          "probability": 0.9966103434562683
+        },
+        {
+          "start": 243960,
+          "end": 244000,
+          "text": " want",
+          "probability": 0.9871108531951904
+        },
+        {
+          "start": 244000,
+          "end": 244100,
+          "text": " to",
+          "probability": 0.9935808181762695
+        },
+        {
+          "start": 244100,
+          "end": 244340,
+          "text": " start",
+          "probability": 0.9980742931365967
+        },
+        {
+          "start": 244340,
+          "end": 244920,
+          "text": " with",
+          "probability": 0.9792265892028809
+        },
+        {
+          "start": 244920,
+          "end": 245580,
+          "text": " David?",
+          "probability": 0.9320153594017029
+        },
+        {
+          "start": 246280,
+          "end": 246420,
+          "text": " Anything",
+          "probability": 0.82658851146698
+        },
+        {
+          "start": 246420,
+          "end": 246600,
+          "text": " else",
+          "probability": 0.9977390766143799
+        }
+      ]
+    },
+    {
+      "start": 246600,
+      "end": 250240,
+      "text": " to say at all? No? Okay. Andrew?",
+      "words": [
+        {
+          "start": 246600,
+          "end": 246760,
+          "text": " to",
+          "probability": 0.9637845158576965
+        },
+        {
+          "start": 246760,
+          "end": 246960,
+          "text": " say",
+          "probability": 0.9981460571289062
+        },
+        {
+          "start": 246960,
+          "end": 247120,
+          "text": " at",
+          "probability": 0.9849050641059875
+        },
+        {
+          "start": 247120,
+          "end": 247300,
+          "text": " all?",
+          "probability": 0.9963770508766174
+        },
+        {
+          "start": 248500,
+          "end": 248600,
+          "text": " No?",
+          "probability": 0.6914305090904236
+        },
+        {
+          "start": 249180,
+          "end": 249180,
+          "text": " Okay.",
+          "probability": 0.636848509311676
+        },
+        {
+          "start": 249960,
+          "end": 250240,
+          "text": " Andrew?",
+          "probability": 0.3361247777938843
+        }
+      ]
+    },
+    {
+      "start": 250440,
+      "end": 255740,
+      "text": " Yeah, I just wanted to ask then before we wrap up, should we agree for sake of sort",
+      "words": [
+        {
+          "start": 250440,
+          "end": 250580,
+          "text": " Yeah,",
+          "probability": 0.3519526422023773
+        },
+        {
+          "start": 251000,
+          "end": 251140,
+          "text": " I",
+          "probability": 0.7689043879508972
+        },
+        {
+          "start": 251140,
+          "end": 251280,
+          "text": " just",
+          "probability": 0.9836546778678894
+        },
+        {
+          "start": 251280,
+          "end": 251600,
+          "text": " wanted",
+          "probability": 0.9665002226829529
+        },
+        {
+          "start": 251600,
+          "end": 251760,
+          "text": " to",
+          "probability": 0.9982788562774658
+        },
+        {
+          "start": 251760,
+          "end": 252020,
+          "text": " ask",
+          "probability": 0.9979686141014099
+        },
+        {
+          "start": 252020,
+          "end": 252260,
+          "text": " then",
+          "probability": 0.6691134572029114
+        },
+        {
+          "start": 252260,
+          "end": 252540,
+          "text": " before",
+          "probability": 0.70364910364151
+        },
+        {
+          "start": 252540,
+          "end": 252700,
+          "text": " we",
+          "probability": 0.995983362197876
+        },
+        {
+          "start": 252700,
+          "end": 252880,
+          "text": " wrap",
+          "probability": 0.9962430000305176
+        },
+        {
+          "start": 252880,
+          "end": 253100,
+          "text": " up,",
+          "probability": 0.987536609172821
+        },
+        {
+          "start": 253200,
+          "end": 253300,
+          "text": " should",
+          "probability": 0.4308570623397827
+        },
+        {
+          "start": 253300,
+          "end": 253460,
+          "text": " we",
+          "probability": 0.9974551796913147
+        },
+        {
+          "start": 253460,
+          "end": 253760,
+          "text": " agree",
+          "probability": 0.9984428286552429
+        },
+        {
+          "start": 253760,
+          "end": 254060,
+          "text": " for",
+          "probability": 0.6793689727783203
+        },
+        {
+          "start": 254060,
+          "end": 254380,
+          "text": " sake",
+          "probability": 0.5761417746543884
+        },
+        {
+          "start": 254380,
+          "end": 254800,
+          "text": " of",
+          "probability": 0.99456787109375
+        },
+        {
+          "start": 254800,
+          "end": 255740,
+          "text": " sort",
+          "probability": 0.8255468010902405
+        }
+      ]
+    },
+    {
+      "start": 255740,
+      "end": 261160,
+      "text": " of clarity, and when we resume that we'll use this idea, David's proposal, we think",
+      "words": [
+        {
+          "start": 255740,
+          "end": 255820,
+          "text": " of",
+          "probability": 0.1082494705915451
+        },
+        {
+          "start": 255820,
+          "end": 256220,
+          "text": " clarity,",
+          "probability": 0.9488510489463806
+        },
+        {
+          "start": 256780,
+          "end": 256780,
+          "text": " and",
+          "probability": 0.9059060215950012
+        },
+        {
+          "start": 256780,
+          "end": 257080,
+          "text": " when",
+          "probability": 0.8922732472419739
+        },
+        {
+          "start": 257080,
+          "end": 257660,
+          "text": " we",
+          "probability": 0.9952623844146729
+        },
+        {
+          "start": 257660,
+          "end": 258360,
+          "text": " resume",
+          "probability": 0.7689884901046753
+        },
+        {
+          "start": 258360,
+          "end": 258600,
+          "text": " that",
+          "probability": 0.7114987969398499
+        },
+        {
+          "start": 258600,
+          "end": 258880,
+          "text": " we'll",
+          "probability": 0.8683268129825592
+        },
+        {
+          "start": 258880,
+          "end": 259320,
+          "text": " use",
+          "probability": 0.9920777678489685
+        },
+        {
+          "start": 259320,
+          "end": 259520,
+          "text": " this",
+          "probability": 0.9712098836898804
+        },
+        {
+          "start": 259520,
+          "end": 259940,
+          "text": " idea,",
+          "probability": 0.9968606233596802
+        },
+        {
+          "start": 260100,
+          "end": 260360,
+          "text": " David's",
+          "probability": 0.9598818123340607
+        },
+        {
+          "start": 260360,
+          "end": 260660,
+          "text": " proposal,",
+          "probability": 0.5853810906410217
+        },
+        {
+          "start": 260900,
+          "end": 260980,
+          "text": " we",
+          "probability": 0.7841913104057312
+        },
+        {
+          "start": 260980,
+          "end": 261160,
+          "text": " think",
+          "probability": 0.9308527112007141
+        }
+      ]
+    },
+    {
+      "start": 261160,
+      "end": 283560,
+      "text": " of these three sort of buckets. Yeah, yeah, I think that's definitely a good idea. Okay, we're talking about this, should we do that? Just about the three buckets, what would go in the device functions one? Things like auto, because they don't have anything to do with what you see. In terms of picture and the entertainment value, you know. Okay.",
+      "words": [
+        {
+          "start": 261160,
+          "end": 261320,
+          "text": " of",
+          "probability": 0.9739219546318054
+        },
+        {
+          "start": 261320,
+          "end": 261480,
+          "text": " these",
+          "probability": 0.9683255553245544
+        },
+        {
+          "start": 261480,
+          "end": 261680,
+          "text": " three",
+          "probability": 0.9712716341018677
+        },
+        {
+          "start": 261680,
+          "end": 261860,
+          "text": " sort",
+          "probability": 0.410519540309906
+        },
+        {
+          "start": 261860,
+          "end": 262000,
+          "text": " of",
+          "probability": 0.9944154024124146
+        },
+        {
+          "start": 262000,
+          "end": 262280,
+          "text": " buckets.",
+          "probability": 0.9938153028488159
+        },
+        {
+          "start": 262680,
+          "end": 263060,
+          "text": " Yeah,",
+          "probability": 0.1541242152452469
+        },
+        {
+          "start": 263220,
+          "end": 263220,
+          "text": " yeah,",
+          "probability": 0.5812930464744568
+        },
+        {
+          "start": 263220,
+          "end": 263240,
+          "text": " I",
+          "probability": 0.9384117126464844
+        },
+        {
+          "start": 263240,
+          "end": 263400,
+          "text": " think",
+          "probability": 0.9906408190727234
+        },
+        {
+          "start": 263400,
+          "end": 263720,
+          "text": " that's",
+          "probability": 0.9089298248291016
+        },
+        {
+          "start": 263720,
+          "end": 264140,
+          "text": " definitely",
+          "probability": 0.9707925915718079
+        },
+        {
+          "start": 264140,
+          "end": 264260,
+          "text": " a",
+          "probability": 0.9750162363052368
+        },
+        {
+          "start": 264260,
+          "end": 264420,
+          "text": " good",
+          "probability": 0.9977189898490906
+        },
+        {
+          "start": 264420,
+          "end": 264680,
+          "text": " idea.",
+          "probability": 0.9981620907783508
+        },
+        {
+          "start": 265500,
+          "end": 265640,
+          "text": " Okay,",
+          "probability": 0.43614834547042847
+        },
+        {
+          "start": 265720,
+          "end": 265820,
+          "text": " we're",
+          "probability": 0.9754894375801086
+        },
+        {
+          "start": 265820,
+          "end": 266020,
+          "text": " talking",
+          "probability": 0.995868444442749
+        },
+        {
+          "start": 266020,
+          "end": 266280,
+          "text": " about",
+          "probability": 0.9974557757377625
+        },
+        {
+          "start": 266280,
+          "end": 266520,
+          "text": " this,",
+          "probability": 0.9940085411071777
+        },
+        {
+          "start": 267100,
+          "end": 267180,
+          "text": " should",
+          "probability": 0.4147150218486786
+        },
+        {
+          "start": 267180,
+          "end": 267300,
+          "text": " we",
+          "probability": 0.9956642985343933
+        },
+        {
+          "start": 267300,
+          "end": 267420,
+          "text": " do",
+          "probability": 0.9960368275642395
+        },
+        {
+          "start": 267420,
+          "end": 267560,
+          "text": " that?",
+          "probability": 0.9964371919631958
+        },
+        {
+          "start": 268640,
+          "end": 269120,
+          "text": " Just",
+          "probability": 0.09602329879999161
+        },
+        {
+          "start": 269120,
+          "end": 270260,
+          "text": " about",
+          "probability": 0.9508025646209717
+        },
+        {
+          "start": 270260,
+          "end": 270460,
+          "text": " the",
+          "probability": 0.8883795142173767
+        },
+        {
+          "start": 270460,
+          "end": 270680,
+          "text": " three",
+          "probability": 0.9543523192405701
+        },
+        {
+          "start": 270680,
+          "end": 270920,
+          "text": " buckets,",
+          "probability": 0.9984775185585022
+        },
+        {
+          "start": 271340,
+          "end": 271480,
+          "text": " what",
+          "probability": 0.866751492023468
+        },
+        {
+          "start": 271480,
+          "end": 271620,
+          "text": " would",
+          "probability": 0.8055890202522278
+        },
+        {
+          "start": 271620,
+          "end": 271760,
+          "text": " go",
+          "probability": 0.9855623245239258
+        },
+        {
+          "start": 271760,
+          "end": 271940,
+          "text": " in",
+          "probability": 0.5802245140075684
+        },
+        {
+          "start": 271940,
+          "end": 272300,
+          "text": " the",
+          "probability": 0.9756272435188293
+        },
+        {
+          "start": 272300,
+          "end": 272680,
+          "text": " device",
+          "probability": 0.8846028447151184
+        },
+        {
+          "start": 272680,
+          "end": 273040,
+          "text": " functions",
+          "probability": 0.8487587571144104
+        },
+        {
+          "start": 273040,
+          "end": 273320,
+          "text": " one?",
+          "probability": 0.7784362435340881
+        },
+        {
+          "start": 274040,
+          "end": 274040,
+          "text": " Things",
+          "probability": 0.5100051760673523
+        },
+        {
+          "start": 274040,
+          "end": 274200,
+          "text": " like",
+          "probability": 0.8735896348953247
+        },
+        {
+          "start": 274200,
+          "end": 274380,
+          "text": " auto,",
+          "probability": 0.8106960654258728
+        },
+        {
+          "start": 275680,
+          "end": 276000,
+          "text": " because",
+          "probability": 0.8659208416938782
+        },
+        {
+          "start": 276000,
+          "end": 276220,
+          "text": " they",
+          "probability": 0.9900693297386169
+        },
+        {
+          "start": 276220,
+          "end": 276400,
+          "text": " don't",
+          "probability": 0.9957643151283264
+        },
+        {
+          "start": 276400,
+          "end": 276660,
+          "text": " have",
+          "probability": 0.989867091178894
+        },
+        {
+          "start": 276660,
+          "end": 276900,
+          "text": " anything",
+          "probability": 0.9876630902290344
+        },
+        {
+          "start": 276900,
+          "end": 277120,
+          "text": " to",
+          "probability": 0.9888688325881958
+        },
+        {
+          "start": 277120,
+          "end": 277180,
+          "text": " do",
+          "probability": 0.9962249994277954
+        },
+        {
+          "start": 277180,
+          "end": 277300,
+          "text": " with",
+          "probability": 0.9942070245742798
+        },
+        {
+          "start": 277300,
+          "end": 277420,
+          "text": " what",
+          "probability": 0.9944553971290588
+        },
+        {
+          "start": 277420,
+          "end": 277560,
+          "text": " you",
+          "probability": 0.9950778484344482
+        },
+        {
+          "start": 277560,
+          "end": 278080,
+          "text": " see.",
+          "probability": 0.9806153178215027
+        },
+        {
+          "start": 278320,
+          "end": 278800,
+          "text": " In",
+          "probability": 0.27664557099342346
+        },
+        {
+          "start": 278800,
+          "end": 279500,
+          "text": " terms",
+          "probability": 0.9833980798721313
+        },
+        {
+          "start": 279500,
+          "end": 279700,
+          "text": " of",
+          "probability": 0.9984958171844482
+        },
+        {
+          "start": 279700,
+          "end": 280100,
+          "text": " picture",
+          "probability": 0.9716600179672241
+        },
+        {
+          "start": 280100,
+          "end": 280480,
+          "text": " and",
+          "probability": 0.9066675901412964
+        },
+        {
+          "start": 280480,
+          "end": 280780,
+          "text": " the",
+          "probability": 0.8379698991775513
+        },
+        {
+          "start": 280780,
+          "end": 281140,
+          "text": " entertainment",
+          "probability": 0.9508218765258789
+        },
+        {
+          "start": 281140,
+          "end": 281520,
+          "text": " value,",
+          "probability": 0.5471082925796509
+        },
+        {
+          "start": 282480,
+          "end": 282560,
+          "text": " you",
+          "probability": 0.44047820568084717
+        },
+        {
+          "start": 282560,
+          "end": 282960,
+          "text": " know.",
+          "probability": 0.9980625510215759
+        },
+        {
+          "start": 283240,
+          "end": 283560,
+          "text": " Okay.",
+          "probability": 0.6040120124816895
+        }
+      ]
+    },
+    {
+      "start": 285020,
+      "end": 285820,
+      "text": " And channel.",
+      "words": [
+        {
+          "start": 285020,
+          "end": 285420,
+          "text": " And",
+          "probability": 0.12328692525625229
+        },
+        {
+          "start": 285420,
+          "end": 285820,
+          "text": " channel.",
+          "probability": 0.8105522394180298
+        }
+      ]
+    },
+    {
+      "start": 286260,
+      "end": 286620,
+      "text": " And channel.",
+      "words": [
+        {
+          "start": 286260,
+          "end": 286260,
+          "text": " And",
+          "probability": 0.46225666999816895
+        },
+        {
+          "start": 286260,
+          "end": 286620,
+          "text": " channel.",
+          "probability": 0.9460648894309998
+        }
+      ]
+    },
+    {
+      "start": 287440,
+      "end": 291700,
+      "text": " Because the on off also goes, you know, on off like power, not on off sound.",
+      "words": [
+        {
+          "start": 287440,
+          "end": 287440,
+          "text": " Because",
+          "probability": 0.7051976919174194
+        },
+        {
+          "start": 287440,
+          "end": 287700,
+          "text": " the",
+          "probability": 0.8058038353919983
+        },
+        {
+          "start": 287700,
+          "end": 287820,
+          "text": " on",
+          "probability": 0.8484184741973877
+        },
+        {
+          "start": 287820,
+          "end": 287980,
+          "text": " off",
+          "probability": 0.2974622845649719
+        },
+        {
+          "start": 287980,
+          "end": 288340,
+          "text": " also",
+          "probability": 0.7210041880607605
+        },
+        {
+          "start": 288340,
+          "end": 288720,
+          "text": " goes,",
+          "probability": 0.9478188157081604
+        },
+        {
+          "start": 289520,
+          "end": 289520,
+          "text": " you",
+          "probability": 0.7284647822380066
+        },
+        {
+          "start": 289520,
+          "end": 289700,
+          "text": " know,",
+          "probability": 0.9971460700035095
+        },
+        {
+          "start": 290020,
+          "end": 290180,
+          "text": " on",
+          "probability": 0.2750871181488037
+        },
+        {
+          "start": 290180,
+          "end": 290300,
+          "text": " off",
+          "probability": 0.982539176940918
+        },
+        {
+          "start": 290300,
+          "end": 290460,
+          "text": " like",
+          "probability": 0.6726690530776978
+        },
+        {
+          "start": 290460,
+          "end": 290760,
+          "text": " power,",
+          "probability": 0.8752557039260864
+        },
+        {
+          "start": 291020,
+          "end": 291040,
+          "text": " not",
+          "probability": 0.9144266247749329
+        },
+        {
+          "start": 291040,
+          "end": 291220,
+          "text": " on",
+          "probability": 0.9480583667755127
+        },
+        {
+          "start": 291220,
+          "end": 291400,
+          "text": " off",
+          "probability": 0.9900687336921692
+        },
+        {
+          "start": 291400,
+          "end": 291700,
+          "text": " sound.",
+          "probability": 0.962800920009613
+        }
+      ]
+    },
+    {
+      "start": 291940,
+      "end": 292080,
+      "text": " Yeah.",
+      "words": [
+        {
+          "start": 291940,
+          "end": 292080,
+          "text": " Yeah.",
+          "probability": 0.4347076416015625
+        }
+      ]
+    },
+    {
+      "start": 292200,
+      "end": 292740,
+      "text": " On off video.",
+      "words": [
+        {
+          "start": 292200,
+          "end": 292200,
+          "text": " On",
+          "probability": 0.18318764865398407
+        },
+        {
+          "start": 292200,
+          "end": 292540,
+          "text": " off",
+          "probability": 0.9197473526000977
+        },
+        {
+          "start": 292540,
+          "end": 292740,
+          "text": " video.",
+          "probability": 0.6429027318954468
+        }
+      ]
+    },
+    {
+      "start": 293860,
+      "end": 296000,
+      "text": " Although you don't turn off the video on your TV.",
+      "words": [
+        {
+          "start": 293860,
+          "end": 293940,
+          "text": " Although",
+          "probability": 0.9330956339836121
+        },
+        {
+          "start": 293940,
+          "end": 294120,
+          "text": " you",
+          "probability": 0.801247239112854
+        },
+        {
+          "start": 294120,
+          "end": 294280,
+          "text": " don't",
+          "probability": 0.978961855173111
+        },
+        {
+          "start": 294280,
+          "end": 294460,
+          "text": " turn",
+          "probability": 0.918335497379303
+        },
+        {
+          "start": 294460,
+          "end": 294600,
+          "text": " off",
+          "probability": 0.9535816311836243
+        },
+        {
+          "start": 294600,
+          "end": 294800,
+          "text": " the",
+          "probability": 0.32565271854400635
+        },
+        {
+          "start": 294800,
+          "end": 295080,
+          "text": " video",
+          "probability": 0.2683260440826416
+        },
+        {
+          "start": 295080,
+          "end": 295700,
+          "text": " on",
+          "probability": 0.7892940640449524
+        },
+        {
+          "start": 295700,
+          "end": 295820,
+          "text": " your",
+          "probability": 0.936495304107666
+        },
+        {
+          "start": 295820,
+          "end": 296000,
+          "text": " TV.",
+          "probability": 0.9506351351737976
+        }
+      ]
+    },
+    {
+      "start": 296380,
+      "end": 299480,
+      "text": " But you might want to, you know, turn off the sound and say you want to pick up the",
+      "words": [
+        {
+          "start": 296380,
+          "end": 296380,
+          "text": " But",
+          "probability": 0.7612752914428711
+        },
+        {
+          "start": 296380,
+          "end": 297140,
+          "text": " you",
+          "probability": 0.6585573554039001
+        },
+        {
+          "start": 297140,
+          "end": 297280,
+          "text": " might",
+          "probability": 0.9291728734970093
+        },
+        {
+          "start": 297280,
+          "end": 297480,
+          "text": " want",
+          "probability": 0.7312812805175781
+        },
+        {
+          "start": 297480,
+          "end": 297700,
+          "text": " to,",
+          "probability": 0.9834024906158447
+        },
+        {
+          "start": 297700,
+          "end": 297940,
+          "text": " you",
+          "probability": 0.9744951128959656
+        },
+        {
+          "start": 297940,
+          "end": 298060,
+          "text": " know,",
+          "probability": 0.9976152181625366
+        },
+        {
+          "start": 298160,
+          "end": 298220,
+          "text": " turn",
+          "probability": 0.9887723326683044
+        },
+        {
+          "start": 298220,
+          "end": 298360,
+          "text": " off",
+          "probability": 0.9852678775787354
+        },
+        {
+          "start": 298360,
+          "end": 298500,
+          "text": " the",
+          "probability": 0.9760202169418335
+        },
+        {
+          "start": 298500,
+          "end": 298740,
+          "text": " sound",
+          "probability": 0.9477283358573914
+        },
+        {
+          "start": 298740,
+          "end": 298920,
+          "text": " and",
+          "probability": 0.2351459413766861
+        },
+        {
+          "start": 298920,
+          "end": 298940,
+          "text": " say",
+          "probability": 0.9166770577430725
+        },
+        {
+          "start": 298940,
+          "end": 299020,
+          "text": " you",
+          "probability": 0.8731406331062317
+        },
+        {
+          "start": 299020,
+          "end": 299120,
+          "text": " want",
+          "probability": 0.9281294941902161
+        },
+        {
+          "start": 299120,
+          "end": 299180,
+          "text": " to",
+          "probability": 0.9885600209236145
+        },
+        {
+          "start": 299180,
+          "end": 299280,
+          "text": " pick",
+          "probability": 0.9711685180664062
+        },
+        {
+          "start": 299280,
+          "end": 299380,
+          "text": " up",
+          "probability": 0.9570297598838806
+        },
+        {
+          "start": 299380,
+          "end": 299480,
+          "text": " the",
+          "probability": 0.9503340125083923
+        }
+      ]
+    },
+    {
+      "start": 299480,
+      "end": 300240,
+      "text": " phone and there's a mute button.",
+      "words": [
+        {
+          "start": 299480,
+          "end": 299600,
+          "text": " phone",
+          "probability": 0.9911363124847412
+        },
+        {
+          "start": 299600,
+          "end": 299720,
+          "text": " and",
+          "probability": 0.4394382834434509
+        },
+        {
+          "start": 299720,
+          "end": 299860,
+          "text": " there's",
+          "probability": 0.6740976572036743
+        },
+        {
+          "start": 299860,
+          "end": 299860,
+          "text": " a",
+          "probability": 0.9741759896278381
+        },
+        {
+          "start": 299860,
+          "end": 299980,
+          "text": " mute",
+          "probability": 0.9893739819526672
+        },
+        {
+          "start": 299980,
+          "end": 300240,
+          "text": " button.",
+          "probability": 0.9961581826210022
+        }
+      ]
+    },
+    {
+      "start": 300520,
+      "end": 300920,
+      "text": " Okay.",
+      "words": [
+        {
+          "start": 300520,
+          "end": 300920,
+          "text": " Okay.",
+          "probability": 0.43758273124694824
+        }
+      ]
+    },
+    {
+      "start": 301200,
+      "end": 306560,
+      "text": " You have a choice of putting it on to others or device.",
+      "words": [
+        {
+          "start": 301200,
+          "end": 301600,
+          "text": " You",
+          "probability": 0.7878800630569458
+        },
+        {
+          "start": 301600,
+          "end": 301940,
+          "text": " have",
+          "probability": 0.9019966721534729
+        },
+        {
+          "start": 301940,
+          "end": 302260,
+          "text": " a",
+          "probability": 0.6146542429924011
+        },
+        {
+          "start": 302260,
+          "end": 302440,
+          "text": " choice",
+          "probability": 0.966493546962738
+        },
+        {
+          "start": 302440,
+          "end": 302620,
+          "text": " of",
+          "probability": 0.8998501896858215
+        },
+        {
+          "start": 302620,
+          "end": 302760,
+          "text": " putting",
+          "probability": 0.9908806085586548
+        },
+        {
+          "start": 302760,
+          "end": 302880,
+          "text": " it",
+          "probability": 0.9704660773277283
+        },
+        {
+          "start": 302880,
+          "end": 302980,
+          "text": " on",
+          "probability": 0.4203853905200958
+        },
+        {
+          "start": 302980,
+          "end": 303760,
+          "text": " to",
+          "probability": 0.9455832839012146
+        },
+        {
+          "start": 303760,
+          "end": 305440,
+          "text": " others",
+          "probability": 0.7471182346343994
+        },
+        {
+          "start": 305440,
+          "end": 306200,
+          "text": " or",
+          "probability": 0.485667884349823
+        },
+        {
+          "start": 306200,
+          "end": 306560,
+          "text": " device.",
+          "probability": 0.44935569167137146
+        }
+      ]
+    },
+    {
+      "start": 307160,
+      "end": 309520,
+      "text": " The device is basically anything which we can't categorize.",
+      "words": [
+        {
+          "start": 307160,
+          "end": 307280,
+          "text": " The",
+          "probability": 0.5274645686149597
+        },
+        {
+          "start": 307280,
+          "end": 307520,
+          "text": " device",
+          "probability": 0.9727718830108643
+        },
+        {
+          "start": 307520,
+          "end": 307720,
+          "text": " is",
+          "probability": 0.9688019156455994
+        },
+        {
+          "start": 307720,
+          "end": 308040,
+          "text": " basically",
+          "probability": 0.9876639246940613
+        },
+        {
+          "start": 308040,
+          "end": 308340,
+          "text": " anything",
+          "probability": 0.9895654916763306
+        },
+        {
+          "start": 308340,
+          "end": 308700,
+          "text": " which",
+          "probability": 0.6013299226760864
+        },
+        {
+          "start": 308700,
+          "end": 308860,
+          "text": " we",
+          "probability": 0.9569408893585205
+        },
+        {
+          "start": 308860,
+          "end": 309020,
+          "text": " can't",
+          "probability": 0.9840849339962006
+        },
+        {
+          "start": 309020,
+          "end": 309520,
+          "text": " categorize.",
+          "probability": 0.8264788091182709
+        }
+      ]
+    },
+    {
+      "start": 309520,
+      "end": 315820,
+      "text": " OK, so you're going to have audio, which is going to be like, you know, your bass settings and actual volume.",
+      "words": [
+        {
+          "start": 309520,
+          "end": 310020,
+          "text": " OK,",
+          "probability": 0.07916352152824402
+        },
+        {
+          "start": 310220,
+          "end": 310340,
+          "text": " so",
+          "probability": 0.9278924465179443
+        },
+        {
+          "start": 310340,
+          "end": 310600,
+          "text": " you're",
+          "probability": 0.9021860361099243
+        },
+        {
+          "start": 310600,
+          "end": 310600,
+          "text": " going",
+          "probability": 0.7280881404876709
+        },
+        {
+          "start": 310600,
+          "end": 310700,
+          "text": " to",
+          "probability": 0.9917682409286499
+        },
+        {
+          "start": 310700,
+          "end": 311140,
+          "text": " have",
+          "probability": 0.9952854514122009
+        },
+        {
+          "start": 311140,
+          "end": 312120,
+          "text": " audio,",
+          "probability": 0.8569570183753967
+        },
+        {
+          "start": 312440,
+          "end": 312440,
+          "text": " which",
+          "probability": 0.9592432379722595
+        },
+        {
+          "start": 312440,
+          "end": 312640,
+          "text": " is",
+          "probability": 0.9579065442085266
+        },
+        {
+          "start": 312640,
+          "end": 312700,
+          "text": " going",
+          "probability": 0.9657751321792603
+        },
+        {
+          "start": 312700,
+          "end": 312780,
+          "text": " to",
+          "probability": 0.9944302439689636
+        },
+        {
+          "start": 312780,
+          "end": 312920,
+          "text": " be",
+          "probability": 0.9796114563941956
+        },
+        {
+          "start": 312920,
+          "end": 313000,
+          "text": " like,",
+          "probability": 0.5397524237632751
+        },
+        {
+          "start": 313040,
+          "end": 313120,
+          "text": " you",
+          "probability": 0.9266286492347717
+        },
+        {
+          "start": 313120,
+          "end": 313200,
+          "text": " know,",
+          "probability": 0.9770843386650085
+        },
+        {
+          "start": 313360,
+          "end": 313360,
+          "text": " your",
+          "probability": 0.5878307819366455
+        },
+        {
+          "start": 313360,
+          "end": 313660,
+          "text": " bass",
+          "probability": 0.579681396484375
+        },
+        {
+          "start": 313660,
+          "end": 314160,
+          "text": " settings",
+          "probability": 0.9552611112594604
+        },
+        {
+          "start": 314160,
+          "end": 314780,
+          "text": " and",
+          "probability": 0.8851128816604614
+        },
+        {
+          "start": 314780,
+          "end": 315500,
+          "text": " actual",
+          "probability": 0.9732791185379028
+        },
+        {
+          "start": 315500,
+          "end": 315820,
+          "text": " volume.",
+          "probability": 0.970622718334198
+        }
+      ]
+    },
+    {
+      "start": 315820,
+      "end": 317360,
+      "text": " Anything to do with what you hear, right?",
+      "words": [
+        {
+          "start": 315820,
+          "end": 316080,
+          "text": " Anything",
+          "probability": 0.545898973941803
+        },
+        {
+          "start": 316080,
+          "end": 316280,
+          "text": " to",
+          "probability": 0.8231728672981262
+        },
+        {
+          "start": 316280,
+          "end": 316400,
+          "text": " do",
+          "probability": 0.9946199655532837
+        },
+        {
+          "start": 316400,
+          "end": 316520,
+          "text": " with",
+          "probability": 0.9817410111427307
+        },
+        {
+          "start": 316520,
+          "end": 316700,
+          "text": " what",
+          "probability": 0.92538982629776
+        },
+        {
+          "start": 316700,
+          "end": 316860,
+          "text": " you",
+          "probability": 0.9961977601051331
+        },
+        {
+          "start": 316860,
+          "end": 317140,
+          "text": " hear,",
+          "probability": 0.9901255369186401
+        },
+        {
+          "start": 317260,
+          "end": 317360,
+          "text": " right?",
+          "probability": 0.8429531455039978
+        }
+      ]
+    },
+    {
+      "start": 317380,
+      "end": 317760,
+      "text": " OK.",
+      "words": [
+        {
+          "start": 317380,
+          "end": 317760,
+          "text": " OK.",
+          "probability": 0.7246949672698975
+        }
+      ]
+    },
+    {
+      "start": 317960,
+      "end": 318800,
+      "text": " Put that into audio.",
+      "words": [
+        {
+          "start": 317960,
+          "end": 318040,
+          "text": " Put",
+          "probability": 0.30966219305992126
+        },
+        {
+          "start": 318040,
+          "end": 318220,
+          "text": " that",
+          "probability": 0.9948890805244446
+        },
+        {
+          "start": 318220,
+          "end": 318480,
+          "text": " into",
+          "probability": 0.9438551664352417
+        },
+        {
+          "start": 318480,
+          "end": 318800,
+          "text": " audio.",
+          "probability": 0.9785625338554382
+        }
+      ]
+    },
+    {
+      "start": 318980,
+      "end": 320220,
+      "text": " OK, and then visual.",
+      "words": [
+        {
+          "start": 318980,
+          "end": 319160,
+          "text": " OK,",
+          "probability": 0.7194974422454834
+        },
+        {
+          "start": 319280,
+          "end": 319380,
+          "text": " and",
+          "probability": 0.974731981754303
+        },
+        {
+          "start": 319380,
+          "end": 319640,
+          "text": " then",
+          "probability": 0.9972416162490845
+        },
+        {
+          "start": 319640,
+          "end": 320220,
+          "text": " visual.",
+          "probability": 0.8608735203742981
+        }
+      ]
+    },
+    {
+      "start": 320240,
+      "end": 322080,
+      "text": " There's anything that you can see.",
+      "words": [
+        {
+          "start": 320240,
+          "end": 320480,
+          "text": " There's",
+          "probability": 0.44331562519073486
+        },
+        {
+          "start": 320480,
+          "end": 320700,
+          "text": " anything",
+          "probability": 0.8741558194160461
+        },
+        {
+          "start": 320700,
+          "end": 321000,
+          "text": " that",
+          "probability": 0.8827399611473083
+        },
+        {
+          "start": 321000,
+          "end": 321160,
+          "text": " you",
+          "probability": 0.9965003728866577
+        },
+        {
+          "start": 321160,
+          "end": 321460,
+          "text": " can",
+          "probability": 0.9962236881256104
+        },
+        {
+          "start": 321460,
+          "end": 322080,
+          "text": " see.",
+          "probability": 0.9764063954353333
+        }
+      ]
+    },
+    {
+      "start": 322360,
+      "end": 325600,
+      "text": " OK, so brightness, contrast, things like that.",
+      "words": [
+        {
+          "start": 322360,
+          "end": 322820,
+          "text": " OK,",
+          "probability": 0.9199588298797607
+        },
+        {
+          "start": 323200,
+          "end": 323760,
+          "text": " so",
+          "probability": 0.99097740650177
+        },
+        {
+          "start": 323760,
+          "end": 324060,
+          "text": " brightness,",
+          "probability": 0.98209547996521
+        },
+        {
+          "start": 324240,
+          "end": 324760,
+          "text": " contrast,",
+          "probability": 0.9927583932876587
+        },
+        {
+          "start": 325140,
+          "end": 325300,
+          "text": " things",
+          "probability": 0.9913526177406311
+        },
+        {
+          "start": 325300,
+          "end": 325440,
+          "text": " like",
+          "probability": 0.9932206869125366
+        },
+        {
+          "start": 325440,
+          "end": 325600,
+          "text": " that.",
+          "probability": 0.9938160181045532
+        }
+      ]
+    },
+    {
+      "start": 325600,
+      "end": 331540,
+      "text": " And then just actual device things like what channel you're watching, turning on and off, stuff like that.",
+      "words": [
+        {
+          "start": 325600,
+          "end": 326000,
+          "text": " And",
+          "probability": 0.94012051820755
+        },
+        {
+          "start": 326000,
+          "end": 326160,
+          "text": " then",
+          "probability": 0.9955554604530334
+        },
+        {
+          "start": 326160,
+          "end": 326340,
+          "text": " just",
+          "probability": 0.9240522980690002
+        },
+        {
+          "start": 326340,
+          "end": 326760,
+          "text": " actual",
+          "probability": 0.9211886525154114
+        },
+        {
+          "start": 326760,
+          "end": 327080,
+          "text": " device",
+          "probability": 0.9906373620033264
+        },
+        {
+          "start": 327080,
+          "end": 327460,
+          "text": " things",
+          "probability": 0.9706925749778748
+        },
+        {
+          "start": 327460,
+          "end": 328080,
+          "text": " like",
+          "probability": 0.6937698125839233
+        },
+        {
+          "start": 328080,
+          "end": 328380,
+          "text": " what",
+          "probability": 0.9389848709106445
+        },
+        {
+          "start": 328380,
+          "end": 328620,
+          "text": " channel",
+          "probability": 0.9920129179954529
+        },
+        {
+          "start": 328620,
+          "end": 328860,
+          "text": " you're",
+          "probability": 0.9928905963897705
+        },
+        {
+          "start": 328860,
+          "end": 329200,
+          "text": " watching,",
+          "probability": 0.9984933137893677
+        },
+        {
+          "start": 329380,
+          "end": 329560,
+          "text": " turning",
+          "probability": 0.9712519645690918
+        },
+        {
+          "start": 329560,
+          "end": 329780,
+          "text": " on",
+          "probability": 0.7188522219657898
+        },
+        {
+          "start": 329780,
+          "end": 329900,
+          "text": " and",
+          "probability": 0.9901342988014221
+        },
+        {
+          "start": 329900,
+          "end": 330200,
+          "text": " off,",
+          "probability": 0.9948863387107849
+        },
+        {
+          "start": 330720,
+          "end": 330960,
+          "text": " stuff",
+          "probability": 0.9714198708534241
+        },
+        {
+          "start": 330960,
+          "end": 331200,
+          "text": " like",
+          "probability": 0.999528169631958
+        },
+        {
+          "start": 331200,
+          "end": 331540,
+          "text": " that.",
+          "probability": 0.9975526928901672
+        }
+      ]
+    },
+    {
+      "start": 333820,
+      "end": 338880,
+      "text": " I suppose quite likely what would happen is in the device category there might be some which are just like the habitual",
+      "words": [
+        {
+          "start": 333820,
+          "end": 333960,
+          "text": " I",
+          "probability": 0.7910501956939697
+        },
+        {
+          "start": 333960,
+          "end": 334200,
+          "text": " suppose",
+          "probability": 0.9665111303329468
+        },
+        {
+          "start": 334200,
+          "end": 334460,
+          "text": " quite",
+          "probability": 0.7838223576545715
+        },
+        {
+          "start": 334460,
+          "end": 334780,
+          "text": " likely",
+          "probability": 0.9965375661849976
+        },
+        {
+          "start": 334780,
+          "end": 334900,
+          "text": " what",
+          "probability": 0.9496601223945618
+        },
+        {
+          "start": 334900,
+          "end": 335000,
+          "text": " would",
+          "probability": 0.9844475984573364
+        },
+        {
+          "start": 335000,
+          "end": 335180,
+          "text": " happen",
+          "probability": 0.9943035840988159
+        },
+        {
+          "start": 335180,
+          "end": 335400,
+          "text": " is",
+          "probability": 0.9750249981880188
+        },
+        {
+          "start": 335400,
+          "end": 335640,
+          "text": " in",
+          "probability": 0.7597485780715942
+        },
+        {
+          "start": 335640,
+          "end": 335840,
+          "text": " the",
+          "probability": 0.9822072982788086
+        },
+        {
+          "start": 335840,
+          "end": 336260,
+          "text": " device",
+          "probability": 0.9732056260108948
+        },
+        {
+          "start": 336260,
+          "end": 336820,
+          "text": " category",
+          "probability": 0.9954482913017273
+        },
+        {
+          "start": 336820,
+          "end": 337000,
+          "text": " there",
+          "probability": 0.4485836625099182
+        },
+        {
+          "start": 337000,
+          "end": 337120,
+          "text": " might",
+          "probability": 0.9971862435340881
+        },
+        {
+          "start": 337120,
+          "end": 337280,
+          "text": " be",
+          "probability": 0.9901415705680847
+        },
+        {
+          "start": 337280,
+          "end": 337440,
+          "text": " some",
+          "probability": 0.8121081590652466
+        },
+        {
+          "start": 337440,
+          "end": 337620,
+          "text": " which",
+          "probability": 0.8183230757713318
+        },
+        {
+          "start": 337620,
+          "end": 337720,
+          "text": " are",
+          "probability": 0.9940328001976013
+        },
+        {
+          "start": 337720,
+          "end": 337900,
+          "text": " just",
+          "probability": 0.9831717014312744
+        },
+        {
+          "start": 337900,
+          "end": 338140,
+          "text": " like",
+          "probability": 0.9445101022720337
+        },
+        {
+          "start": 338140,
+          "end": 338380,
+          "text": " the",
+          "probability": 0.9274654984474182
+        },
+        {
+          "start": 338380,
+          "end": 338880,
+          "text": " habitual",
+          "probability": 0.9645199179649353
+        }
+      ]
+    },
+    {
+      "start": 338880,
+      "end": 343160,
+      "text": " standard, and then others which are maybe a bit more random, which we have no other",
+      "words": [
+        {
+          "start": 338880,
+          "end": 339480,
+          "text": " standard,",
+          "probability": 0.038499247282743454
+        },
+        {
+          "start": 339800,
+          "end": 339800,
+          "text": " and",
+          "probability": 0.8775900602340698
+        },
+        {
+          "start": 339800,
+          "end": 339940,
+          "text": " then",
+          "probability": 0.7551388144493103
+        },
+        {
+          "start": 339940,
+          "end": 340260,
+          "text": " others",
+          "probability": 0.9484800696372986
+        },
+        {
+          "start": 340260,
+          "end": 340480,
+          "text": " which",
+          "probability": 0.6108556985855103
+        },
+        {
+          "start": 340480,
+          "end": 340580,
+          "text": " are",
+          "probability": 0.9683637619018555
+        },
+        {
+          "start": 340580,
+          "end": 340740,
+          "text": " maybe",
+          "probability": 0.9578878283500671
+        },
+        {
+          "start": 340740,
+          "end": 340900,
+          "text": " a",
+          "probability": 0.9472315907478333
+        },
+        {
+          "start": 340900,
+          "end": 341020,
+          "text": " bit",
+          "probability": 0.9872022271156311
+        },
+        {
+          "start": 341020,
+          "end": 341280,
+          "text": " more",
+          "probability": 0.9980125427246094
+        },
+        {
+          "start": 341280,
+          "end": 342000,
+          "text": " random,",
+          "probability": 0.37746021151542664
+        },
+        {
+          "start": 342300,
+          "end": 342360,
+          "text": " which",
+          "probability": 0.9083656668663025
+        },
+        {
+          "start": 342360,
+          "end": 342600,
+          "text": " we",
+          "probability": 0.29693159461021423
+        },
+        {
+          "start": 342600,
+          "end": 342780,
+          "text": " have",
+          "probability": 0.3811454176902771
+        },
+        {
+          "start": 342780,
+          "end": 342980,
+          "text": " no",
+          "probability": 0.6358081102371216
+        },
+        {
+          "start": 342980,
+          "end": 343160,
+          "text": " other",
+          "probability": 0.9665558934211731
+        }
+      ]
+    },
+    {
+      "start": 343160,
+      "end": 350440,
+      "text": " place to push. Even if it doesn't map very clearly, what happens is that people at least have some in their minds.",
+      "words": [
+        {
+          "start": 343160,
+          "end": 343340,
+          "text": " place",
+          "probability": 0.9500014781951904
+        },
+        {
+          "start": 343340,
+          "end": 343540,
+          "text": " to",
+          "probability": 0.9782665371894836
+        },
+        {
+          "start": 343540,
+          "end": 343740,
+          "text": " push.",
+          "probability": 0.8117137551307678
+        },
+        {
+          "start": 345640,
+          "end": 346040,
+          "text": " Even",
+          "probability": 0.5936251878738403
+        },
+        {
+          "start": 346040,
+          "end": 346440,
+          "text": " if",
+          "probability": 0.9570075869560242
+        },
+        {
+          "start": 346440,
+          "end": 346540,
+          "text": " it",
+          "probability": 0.9804925322532654
+        },
+        {
+          "start": 346540,
+          "end": 346700,
+          "text": " doesn't",
+          "probability": 0.9849338233470917
+        },
+        {
+          "start": 346700,
+          "end": 346980,
+          "text": " map",
+          "probability": 0.25970619916915894
+        },
+        {
+          "start": 346980,
+          "end": 347200,
+          "text": " very",
+          "probability": 0.9491868615150452
+        },
+        {
+          "start": 347200,
+          "end": 347480,
+          "text": " clearly,",
+          "probability": 0.9957813024520874
+        },
+        {
+          "start": 347640,
+          "end": 347680,
+          "text": " what",
+          "probability": 0.9909952282905579
+        },
+        {
+          "start": 347680,
+          "end": 347920,
+          "text": " happens",
+          "probability": 0.9938097596168518
+        },
+        {
+          "start": 347920,
+          "end": 348220,
+          "text": " is",
+          "probability": 0.9878789782524109
+        },
+        {
+          "start": 348220,
+          "end": 348400,
+          "text": " that",
+          "probability": 0.9497708678245544
+        },
+        {
+          "start": 348400,
+          "end": 348640,
+          "text": " people",
+          "probability": 0.9708078503608704
+        },
+        {
+          "start": 348640,
+          "end": 348800,
+          "text": " at",
+          "probability": 0.9268952012062073
+        },
+        {
+          "start": 348800,
+          "end": 348940,
+          "text": " least",
+          "probability": 0.9953110814094543
+        },
+        {
+          "start": 348940,
+          "end": 349180,
+          "text": " have",
+          "probability": 0.9862485527992249
+        },
+        {
+          "start": 349180,
+          "end": 349420,
+          "text": " some",
+          "probability": 0.9644964933395386
+        },
+        {
+          "start": 349420,
+          "end": 350020,
+          "text": " in",
+          "probability": 0.9693039059638977
+        },
+        {
+          "start": 350020,
+          "end": 350140,
+          "text": " their",
+          "probability": 0.9898853302001953
+        },
+        {
+          "start": 350140,
+          "end": 350440,
+          "text": " minds.",
+          "probability": 0.3690253496170044
+        }
+      ]
+    },
+    {
+      "start": 350720,
+      "end": 358220,
+      "text": " It's easy to use, I think that's one thing that, and I guess from the corner point, it's easy to do as well, because it's all fixed.",
+      "words": [
+        {
+          "start": 350720,
+          "end": 350800,
+          "text": " It's",
+          "probability": 0.9836351275444031
+        },
+        {
+          "start": 350800,
+          "end": 351000,
+          "text": " easy",
+          "probability": 0.9607330560684204
+        },
+        {
+          "start": 351000,
+          "end": 351160,
+          "text": " to",
+          "probability": 0.9982668161392212
+        },
+        {
+          "start": 351160,
+          "end": 351460,
+          "text": " use,",
+          "probability": 0.9981369972229004
+        },
+        {
+          "start": 351560,
+          "end": 351680,
+          "text": " I",
+          "probability": 0.9002949595451355
+        },
+        {
+          "start": 351680,
+          "end": 351820,
+          "text": " think",
+          "probability": 0.982481062412262
+        },
+        {
+          "start": 351820,
+          "end": 352300,
+          "text": " that's",
+          "probability": 0.7254102677106857
+        },
+        {
+          "start": 352300,
+          "end": 352460,
+          "text": " one",
+          "probability": 0.9875282645225525
+        },
+        {
+          "start": 352460,
+          "end": 352720,
+          "text": " thing",
+          "probability": 0.9938791990280151
+        },
+        {
+          "start": 352720,
+          "end": 353000,
+          "text": " that,",
+          "probability": 0.40027904510498047
+        },
+        {
+          "start": 354600,
+          "end": 354620,
+          "text": " and",
+          "probability": 0.6922609806060791
+        },
+        {
+          "start": 354620,
+          "end": 354740,
+          "text": " I",
+          "probability": 0.9332356452941895
+        },
+        {
+          "start": 354740,
+          "end": 354860,
+          "text": " guess",
+          "probability": 0.9922274947166443
+        },
+        {
+          "start": 354860,
+          "end": 355060,
+          "text": " from",
+          "probability": 0.9629359841346741
+        },
+        {
+          "start": 355060,
+          "end": 355280,
+          "text": " the",
+          "probability": 0.9028307795524597
+        },
+        {
+          "start": 355280,
+          "end": 355500,
+          "text": " corner",
+          "probability": 0.3033938407897949
+        },
+        {
+          "start": 355500,
+          "end": 355760,
+          "text": " point,",
+          "probability": 0.969184160232544
+        },
+        {
+          "start": 355780,
+          "end": 356000,
+          "text": " it's",
+          "probability": 0.33943551033735275
+        },
+        {
+          "start": 356000,
+          "end": 356280,
+          "text": " easy",
+          "probability": 0.20791539549827576
+        },
+        {
+          "start": 356280,
+          "end": 356380,
+          "text": " to",
+          "probability": 0.9783565402030945
+        },
+        {
+          "start": 356380,
+          "end": 356460,
+          "text": " do",
+          "probability": 0.9011760354042053
+        },
+        {
+          "start": 356460,
+          "end": 356600,
+          "text": " as",
+          "probability": 0.9315291047096252
+        },
+        {
+          "start": 356600,
+          "end": 356840,
+          "text": " well,",
+          "probability": 0.9974545836448669
+        },
+        {
+          "start": 357120,
+          "end": 357120,
+          "text": " because",
+          "probability": 0.5808573961257935
+        },
+        {
+          "start": 357120,
+          "end": 357780,
+          "text": " it's",
+          "probability": 0.6017415821552277
+        },
+        {
+          "start": 357780,
+          "end": 357840,
+          "text": " all",
+          "probability": 0.09196814894676208
+        },
+        {
+          "start": 357840,
+          "end": 358220,
+          "text": " fixed.",
+          "probability": 0.3823002576828003
+        }
+      ]
+    },
+    {
+      "start": 359860,
+      "end": 366360,
+      "text": " Okay, so yeah, I guess just things to think about are, you know, like the fact it's got to look good because of who we're, you know,",
+      "words": [
+        {
+          "start": 359860,
+          "end": 360260,
+          "text": " Okay,",
+          "probability": 0.22536276280879974
+        },
+        {
+          "start": 360260,
+          "end": 360660,
+          "text": " so",
+          "probability": 0.797495424747467
+        },
+        {
+          "start": 360660,
+          "end": 360840,
+          "text": " yeah,",
+          "probability": 0.8411871790885925
+        },
+        {
+          "start": 360940,
+          "end": 360940,
+          "text": " I",
+          "probability": 0.9168919920921326
+        },
+        {
+          "start": 360940,
+          "end": 361140,
+          "text": " guess",
+          "probability": 0.9972147345542908
+        },
+        {
+          "start": 361140,
+          "end": 361280,
+          "text": " just",
+          "probability": 0.6565327048301697
+        },
+        {
+          "start": 361280,
+          "end": 361440,
+          "text": " things",
+          "probability": 0.9695063233375549
+        },
+        {
+          "start": 361440,
+          "end": 361600,
+          "text": " to",
+          "probability": 0.996900200843811
+        },
+        {
+          "start": 361600,
+          "end": 361780,
+          "text": " think",
+          "probability": 0.9976701140403748
+        },
+        {
+          "start": 361780,
+          "end": 362060,
+          "text": " about",
+          "probability": 0.9966890215873718
+        },
+        {
+          "start": 362060,
+          "end": 362240,
+          "text": " are,",
+          "probability": 0.7319832444190979
+        },
+        {
+          "start": 362400,
+          "end": 362400,
+          "text": " you",
+          "probability": 0.6384798884391785
+        },
+        {
+          "start": 362400,
+          "end": 362580,
+          "text": " know,",
+          "probability": 0.9960694313049316
+        },
+        {
+          "start": 362820,
+          "end": 362840,
+          "text": " like",
+          "probability": 0.5624114274978638
+        },
+        {
+          "start": 362840,
+          "end": 363340,
+          "text": " the",
+          "probability": 0.6246570348739624
+        },
+        {
+          "start": 363340,
+          "end": 363540,
+          "text": " fact",
+          "probability": 0.9987732768058777
+        },
+        {
+          "start": 363540,
+          "end": 363760,
+          "text": " it's",
+          "probability": 0.9003177881240845
+        },
+        {
+          "start": 363760,
+          "end": 363820,
+          "text": " got",
+          "probability": 0.6614559888839722
+        },
+        {
+          "start": 363820,
+          "end": 363960,
+          "text": " to",
+          "probability": 0.937468409538269
+        },
+        {
+          "start": 363960,
+          "end": 364120,
+          "text": " look",
+          "probability": 0.9979884624481201
+        },
+        {
+          "start": 364120,
+          "end": 364380,
+          "text": " good",
+          "probability": 0.9992495179176331
+        },
+        {
+          "start": 364380,
+          "end": 364680,
+          "text": " because",
+          "probability": 0.6375631093978882
+        },
+        {
+          "start": 364680,
+          "end": 364820,
+          "text": " of",
+          "probability": 0.8930094838142395
+        },
+        {
+          "start": 364820,
+          "end": 365000,
+          "text": " who",
+          "probability": 0.9761973023414612
+        },
+        {
+          "start": 365000,
+          "end": 366000,
+          "text": " we're,",
+          "probability": 0.9646812975406647
+        },
+        {
+          "start": 366000,
+          "end": 366200,
+          "text": " you",
+          "probability": 0.8573145866394043
+        },
+        {
+          "start": 366200,
+          "end": 366360,
+          "text": " know,",
+          "probability": 0.999417781829834
+        }
+      ]
+    },
+    {
+      "start": 366360,
+      "end": 372960,
+      "text": " this up, something maybe kind of quirky in design, maybe make it kind of ergonomic, kind",
+      "words": [
+        {
+          "start": 366360,
+          "end": 367100,
+          "text": " this",
+          "probability": 0.07460200041532516
+        },
+        {
+          "start": 367100,
+          "end": 367540,
+          "text": " up,",
+          "probability": 0.8225691318511963
+        },
+        {
+          "start": 368720,
+          "end": 368860,
+          "text": " something",
+          "probability": 0.8506608009338379
+        },
+        {
+          "start": 368860,
+          "end": 369180,
+          "text": " maybe",
+          "probability": 0.5371932983398438
+        },
+        {
+          "start": 369180,
+          "end": 369380,
+          "text": " kind",
+          "probability": 0.7148104310035706
+        },
+        {
+          "start": 369380,
+          "end": 369540,
+          "text": " of",
+          "probability": 0.9950137734413147
+        },
+        {
+          "start": 369540,
+          "end": 369760,
+          "text": " quirky",
+          "probability": 0.9824625253677368
+        },
+        {
+          "start": 369760,
+          "end": 370000,
+          "text": " in",
+          "probability": 0.89040607213974
+        },
+        {
+          "start": 370000,
+          "end": 370380,
+          "text": " design,",
+          "probability": 0.9917523264884949
+        },
+        {
+          "start": 370700,
+          "end": 370700,
+          "text": " maybe",
+          "probability": 0.8866904973983765
+        },
+        {
+          "start": 370700,
+          "end": 370940,
+          "text": " make",
+          "probability": 0.9433186054229736
+        },
+        {
+          "start": 370940,
+          "end": 371080,
+          "text": " it",
+          "probability": 0.9658206105232239
+        },
+        {
+          "start": 371080,
+          "end": 371200,
+          "text": " kind",
+          "probability": 0.7694310545921326
+        },
+        {
+          "start": 371200,
+          "end": 371940,
+          "text": " of",
+          "probability": 0.9946721196174622
+        },
+        {
+          "start": 371940,
+          "end": 372740,
+          "text": " ergonomic,",
+          "probability": 0.9660554230213165
+        },
+        {
+          "start": 372940,
+          "end": 372960,
+          "text": " kind",
+          "probability": 0.6412478089332581
+        }
+      ]
+    },
+    {
+      "start": 372960,
+      "end": 380180,
+      "text": " of to hold, you know, things like that. So I guess that's it, that's the meeting over.",
+      "words": [
+        {
+          "start": 372960,
+          "end": 373120,
+          "text": " of",
+          "probability": 0.99616539478302
+        },
+        {
+          "start": 373120,
+          "end": 373220,
+          "text": " to",
+          "probability": 0.5790736675262451
+        },
+        {
+          "start": 373220,
+          "end": 373640,
+          "text": " hold,",
+          "probability": 0.9632163643836975
+        },
+        {
+          "start": 373780,
+          "end": 373820,
+          "text": " you",
+          "probability": 0.552287220954895
+        },
+        {
+          "start": 373820,
+          "end": 373980,
+          "text": " know,",
+          "probability": 0.9987260699272156
+        },
+        {
+          "start": 374100,
+          "end": 374240,
+          "text": " things",
+          "probability": 0.9729602932929993
+        },
+        {
+          "start": 374240,
+          "end": 374440,
+          "text": " like",
+          "probability": 0.9970397353172302
+        },
+        {
+          "start": 374440,
+          "end": 374820,
+          "text": " that.",
+          "probability": 0.9960116147994995
+        },
+        {
+          "start": 376980,
+          "end": 377320,
+          "text": " So",
+          "probability": 0.8575531244277954
+        },
+        {
+          "start": 377320,
+          "end": 377440,
+          "text": " I",
+          "probability": 0.8164581060409546
+        },
+        {
+          "start": 377440,
+          "end": 377680,
+          "text": " guess",
+          "probability": 0.9979429841041565
+        },
+        {
+          "start": 377680,
+          "end": 378920,
+          "text": " that's",
+          "probability": 0.7633754312992096
+        },
+        {
+          "start": 378920,
+          "end": 379060,
+          "text": " it,",
+          "probability": 0.9824813008308411
+        },
+        {
+          "start": 379360,
+          "end": 379500,
+          "text": " that's",
+          "probability": 0.570572704076767
+        },
+        {
+          "start": 379500,
+          "end": 379640,
+          "text": " the",
+          "probability": 0.9890367388725281
+        },
+        {
+          "start": 379640,
+          "end": 379800,
+          "text": " meeting",
+          "probability": 0.9803861975669861
+        },
+        {
+          "start": 379800,
+          "end": 380180,
+          "text": " over.",
+          "probability": 0.9746711850166321
+        }
+      ]
+    },
+    {
+      "start": 387380,
+      "end": 389960,
+      "text": " Now we get to go find out what was picked up for lunch for us.",
+      "words": [
+        {
+          "start": 387380,
+          "end": 387780,
+          "text": " Now",
+          "probability": 0.08985526114702225
+        },
+        {
+          "start": 387780,
+          "end": 387900,
+          "text": " we",
+          "probability": 0.8623186945915222
+        },
+        {
+          "start": 387900,
+          "end": 388020,
+          "text": " get",
+          "probability": 0.9657292366027832
+        },
+        {
+          "start": 388020,
+          "end": 388120,
+          "text": " to",
+          "probability": 0.9967241883277893
+        },
+        {
+          "start": 388120,
+          "end": 388240,
+          "text": " go",
+          "probability": 0.9421084523200989
+        },
+        {
+          "start": 388240,
+          "end": 388460,
+          "text": " find",
+          "probability": 0.9297240376472473
+        },
+        {
+          "start": 388460,
+          "end": 388640,
+          "text": " out",
+          "probability": 0.9908457398414612
+        },
+        {
+          "start": 388640,
+          "end": 388800,
+          "text": " what",
+          "probability": 0.9925709366798401
+        },
+        {
+          "start": 388800,
+          "end": 389000,
+          "text": " was",
+          "probability": 0.9872044324874878
+        },
+        {
+          "start": 389000,
+          "end": 389180,
+          "text": " picked",
+          "probability": 0.9897953867912292
+        },
+        {
+          "start": 389180,
+          "end": 389340,
+          "text": " up",
+          "probability": 0.9842012524604797
+        },
+        {
+          "start": 389340,
+          "end": 389540,
+          "text": " for",
+          "probability": 0.9919607043266296
+        },
+        {
+          "start": 389540,
+          "end": 389740,
+          "text": " lunch",
+          "probability": 0.9886780381202698
+        },
+        {
+          "start": 389740,
+          "end": 389960,
+          "text": " for",
+          "probability": 0.6025322675704956
+        },
+        {
+          "start": 389960,
+          "end": 389960,
+          "text": " us.",
+          "probability": 0.5912732481956482
+        }
+      ]
+    }
+  ]
+}
