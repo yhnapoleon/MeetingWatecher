@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-23",
+  "video": "交付/行动事项动态生成实录/行动事项动态生成_连续实录.mp4",
+  "media": "demo/videos/live-actions-20261123-v2",
+  "data": "runs/copilot-live-actions-v2",
+  "preview": "http://127.0.0.1:4194/?showcase=1",
+  "backend_port": 8773,
+  "verification": {
+    "duration_s": 97.33529996871948,
+    "audio_checks": [
+      {
+        "output_s": 11.68,
+        "source_s": 201.6810667514801,
+        "correlation": 0.9999767532589455,
+        "offset_ms": 0.0
+      },
+      {
+        "output_s": 29.2,
+        "source_s": 219.20106673240662,
+        "correlation": 0.9999924999662819,
+        "offset_ms": 0.0
+      },
+      {
+        "output_s": 46.72,
+        "source_s": 236.72106671333313,
+        "correlation": 0.9999532586560238,
+        "offset_ms": 0.0
+      },
+      {
+        "output_s": 64.24,
+        "source_s": 254.24106669425964,
+        "correlation": 0.9999098085964103,
+        "offset_ms": 0.0
+      },
+      {
+        "output_s": 85.66,
+        "source_s": 275.6610667705536,
+        "correlation": 0.9999176213635961,
+        "offset_ms": 0.0
+      }
+    ],
+    "decode_complete": true,
+    "frames_for_review": 6,
+    "sha256": "dfbd423e8d06d416f76513202db79214eff4327b9b50c4d14e6fe906977b92b0"
+  },
+  "arrivals": {
+    "arrivals": [
+      {
+        "proposal": "febd959f-f9f3-4cac-8932-1b7daddc9fd9-0",
+        "owner": "项目经理",
+        "output_s": 32.721,
+        "source_s": 222.719,
+        "job_cursor": 212780,
+        "created_during_recording": true
+      },
+      {
+        "proposal": "d11203ae-a727-4d30-88d1-d0aeb96802e1-0",
+        "owner": "David",
+        "output_s": 52.588,
+        "source_s": 242.581,
+        "job_cursor": 233000,
+        "created_during_recording": true
+      },
+      {
+        "proposal": "d11203ae-a727-4d30-88d1-d0aeb96802e1-1",
+        "owner": "Craig",
+        "output_s": 52.588,
+        "source_s": 242.581,
+        "job_cursor": 233000,
+        "created_during_recording": true
+      },
+      {
+        "proposal": "d11203ae-a727-4d30-88d1-d0aeb96802e1-2",
+        "owner": "Andrew",
+        "output_s": 52.588,
+        "source_s": 242.581,
+        "job_cursor": 233000,
+        "created_during_recording": true
+      }
+    ],
+    "started_empty": true,
+    "only_summary_jobs": true,
+    "no_future_evidence": true,
+    "confirmed_guid": "SIM-0fad0172daf8"
+  },
+  "copilot_tests": 30,
+  "typecheck": true,
+  "build": true,
+  "failure_preserved": "runs/copilot-live-actions-v1",
+  "preparation": "Reused 9 real completed summary windows before 190s; no action candidates. All action-producing model calls ran during recording.",
+  "full_demo_reedited": false
+}

@@ -1,0 +1,173 @@
+{
+  "date": "2026-11-23",
+  "implementation": "evidence_bounded_incremental_topic_updates",
+  "preview": "http://127.0.0.1:4193/?showcase=1",
+  "backend_port": 8772,
+  "active_data": "runs/copilot-incremental-v2",
+  "recording": "demo/videos/incremental-20261123-v2",
+  "delivered_video": "交付/会中纪要增量实测/纪要逐步形成_连续实测.mp4",
+  "verification": {
+    "duration_s": 110.20480012893677,
+    "audio_checks": [
+      {
+        "output_s": 12,
+        "source_s": 12.043699979782104,
+        "correlation": 0.9999664477424813,
+        "offset_ms": 0.0
+      },
+      {
+        "output_s": 32,
+        "source_s": 32.043699979782104,
+        "correlation": 0.9999131410760357,
+        "offset_ms": 0.0
+      },
+      {
+        "output_s": 51,
+        "source_s": 51.043699979782104,
+        "correlation": 0.9999630251830317,
+        "offset_ms": 0.0
+      },
+      {
+        "output_s": 73,
+        "source_s": 73.0436999797821,
+        "correlation": 0.9999554191213121,
+        "offset_ms": 0.0
+      },
+      {
+        "output_s": 99,
+        "source_s": 99.0436999797821,
+        "correlation": 0.9999399410652785,
+        "offset_ms": 0.0
+      }
+    ],
+    "decode_complete": true,
+    "frames_for_review": 6,
+    "sha256": "97d73d3b861f5fe18d2f9b735d66c6e13e2cc00f9e2a68fff2b12c9bb4530358"
+  },
+  "ui_checks": {
+    "history_versions": 5,
+    "evidence_keeps_playing_ms": 1120.0,
+    "rewind_hides_future": true,
+    "reload_preserves_topic_ids": true,
+    "errors": []
+  },
+  "recorded_observations": [
+    {
+      "media": 409.9999999999997,
+      "processed": 0,
+      "cards": []
+    },
+    {
+      "media": 23060.666666666668,
+      "processed": 9340,
+      "cards": [
+        {
+          "id": "topic-d061d95f-412c-474e-b01a-86696b42e117-0",
+          "revision": 1,
+          "text": "项目经理提出供电方式问题：是否值得考虑使用充电单元，而不是普通电池。目前仅为待研究问题，尚无方案比较、成本或决定。"
+        }
+      ]
+    },
+    {
+      "media": 33311.333333333336,
+      "processed": 15160,
+      "cards": [
+        {
+          "id": "topic-d061d95f-412c-474e-b01a-86696b42e117-0",
+          "revision": 2,
+          "text": "项目经理提出供电方式问题：是否值得考虑使用充电单元，而不是普通电池；并追问是否真要深入该方向，还是仅考虑使用普通电池。目前仍为待研究问题，尚无方案比较、成本或决定。"
+        }
+      ]
+    },
+    {
+      "media": 43831.333333333336,
+      "processed": 25700,
+      "cards": [
+        {
+          "id": "topic-d061d95f-412c-474e-b01a-86696b42e117-0",
+          "revision": 3,
+          "text": "项目经理提出供电方式问题：是否值得考虑使用充电单元，而不是普通电池；并追问是否真要深入该方向，还是仅考虑使用普通电池。David补充充电单元方案的组件层面理由：增加复杂度、增加成本，且可能需要额外物理部件，例如 docking cradle。目前仍为待研究问题，尚无决定。"
+        }
+      ]
+    },
+    {
+      "media": 56900.666666666664,
+      "processed": 35020,
+      "cards": [
+        {
+          "id": "topic-d061d95f-412c-474e-b01a-86696b42e117-0",
+          "revision": 4,
+          "text": "项目经理提出供电方式问题：是否值得考虑使用充电单元，而不是普通电池；并追问是否真要深入该方向，还是仅考虑使用普通电池。David补充充电单元方案理由：组件层面增加复杂度、增加成本，且可能需要额外物理部件，例如 docking cradle；还需让用户插电充电，而多数用户已习惯购买并装入电池。目前仍为待研究问题，尚无决定。"
+        }
+      ]
+    },
+    {
+      "media": 71682,
+      "processed": 46900,
+      "cards": [
+        {
+          "id": "topic-d061d95f-412c-474e-b01a-86696b42e117-0",
+          "revision": 5,
+          "text": "项目经理提出供电方式问题：是否值得考虑使用充电单元，而不是普通电池；并追问是否真要深入该方向，还是仅考虑使用普通电池。David补充充电单元方案理由：组件层面增加复杂度、增加成本，且可能需要额外物理部件，例如 docking cradle；还需让用户插电充电，而多数用户已习惯购买并装入电池。David进一步表示，除非控制器耗电很大、一个月就要耗尽电池，否则充电方案不是问题，倾向坚持使用普通电池。目前仍为讨论倾向，尚无正式决定。"
+        }
+      ]
+    },
+    {
+      "media": 81801.99999999999,
+      "processed": 62020,
+      "cards": [
+        {
+          "id": "topic-d061d95f-412c-474e-b01a-86696b42e117-0",
+          "revision": 5,
+          "text": "项目经理提出供电方式问题：是否值得考虑使用充电单元，而不是普通电池；并追问是否真要深入该方向，还是仅考虑使用普通电池。David补充充电单元方案理由：组件层面增加复杂度、增加成本，且可能需要额外物理部件，例如 docking cradle；还需让用户插电充电，而多数用户已习惯购买并装入电池。David进一步表示，除非控制器耗电很大、一个月就要耗尽电池，否则充电方案不是问题，倾向坚持使用普通电池。目前仍为讨论倾向，尚无正式决定。"
+        }
+      ]
+    },
+    {
+      "media": 94082,
+      "processed": 79080,
+      "cards": [
+        {
+          "id": "topic-d061d95f-412c-474e-b01a-86696b42e117-0",
+          "revision": 5,
+          "text": "项目经理提出供电方式问题：是否值得考虑使用充电单元，而不是普通电池；并追问是否真要深入该方向，还是仅考虑使用普通电池。David补充充电单元方案理由：组件层面增加复杂度、增加成本，且可能需要额外物理部件，例如 docking cradle；还需让用户插电充电，而多数用户已习惯购买并装入电池。David进一步表示，除非控制器耗电很大、一个月就要耗尽电池，否则充电方案不是问题，倾向坚持使用普通电池。目前仍为讨论倾向，尚无正式决定。"
+        },
+        {
+          "id": "topic-f843f746-9f9c-46ff-bcce-53e1b9c278db-0",
+          "revision": 1,
+          "text": "项目经理重申本次会议目标是最终确定产品面向人群及产品具体功能，并回顾此前提出的15至35岁人群定位，询问大家是否认可。目前仅为重申与确认性提问，尚无正式决定。"
+        }
+      ]
+    },
+    {
+      "media": 106951.33333333333,
+      "processed": 86780,
+      "cards": [
+        {
+          "id": "topic-d061d95f-412c-474e-b01a-86696b42e117-0",
+          "revision": 5,
+          "text": "项目经理提出供电方式问题：是否值得考虑使用充电单元，而不是普通电池；并追问是否真要深入该方向，还是仅考虑使用普通电池。David补充充电单元方案理由：组件层面增加复杂度、增加成本，且可能需要额外物理部件，例如 docking cradle；还需让用户插电充电，而多数用户已习惯购买并装入电池。David进一步表示，除非控制器耗电很大、一个月就要耗尽电池，否则充电方案不是问题，倾向坚持使用普通电池。目前仍为讨论倾向，尚无正式决定。"
+        },
+        {
+          "id": "topic-f843f746-9f9c-46ff-bcce-53e1b9c278db-0",
+          "revision": 2,
+          "text": "项目经理重申本次会议目标是最终确定产品面向人群及产品具体功能，并回顾此前提出的15至35岁人群定位，询问大家是否认可。随后请Craig回顾产品具体功能。目前仅为重申与确认性提问，尚无正式决定，功能内容待Craig说明。"
+        }
+      ]
+    }
+  ],
+  "recorded_completed_jobs": 8,
+  "dom_remounts": [],
+  "continuation_proof": "runs/copilot-incremental-v1/continuation-proof.json",
+  "continuation_complete": true,
+  "continuation_confirmed_guid": "SIM-ccbe9cbfb446",
+  "tests": {
+    "copilot": 29,
+    "frontend": 15,
+    "sites": 4,
+    "typecheck": true,
+    "build": true
+  },
+  "historical_failure": "runs/copilot-incremental-v1/logs/d5ff6fbf-94ba-4560-b0d1-c211b150c726/02-answer.json",
+  "scope": "Incremental live summary, topic graph and automatic candidates. On-demand answers/materials still return complete validated results. Existing full demo not re-edited."
+}

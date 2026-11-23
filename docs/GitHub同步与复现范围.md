@@ -1,70 +1,29 @@
-# GitHub 同步与复现范围
+# 提交与 GitHub 同步范围
 
-代码仓库：[yhnapoleon/MeetingWatecher](https://github.com/yhnapoleon/MeetingWatecher)，分支 `main`。此仓库保存当前核心、可播放的双场网页演示和技术文档；阅读入口见 [README](../README.md)。
+本项目仓库为 [yhnapoleon/MeetingWatecher](https://github.com/yhnapoleon/MeetingWatecher)。当前文档按完整应用组织：项目工作台、动态纪要、任务双入口、跨会更新、文字助手及归档。主报告为 [RETRO](RETRO.md)，调优与复现分别见 [TUNING](TUNING.md) 和 [CONFIG](CONFIG.md)。
 
-## 当前发布内容
+## 提交目录
 
-2026-11-22 文档收尾版包含当前核心源码、前端源码与锁文件、默认派生媒体、场景/词轴、截图、架构图、复盘、调优、配置及评测索引。README 按功能、架构、设计、评测和运行组织。当前便携推理入口为 `scripts/run_current.py`，公开证据检查为 `scripts/verify_release_evidence.py`。
+推荐提交 `交付/会议助手_提交材料_2026-11-23/` 整个文件夹。根目录的提交说明列出阅读顺序，`复现.py` 自动恢复源码需要的 data、runs、docs 相对路径。数据、源码、证据、报告和视频各放一处，不要求接收者手动搬运文件。
 
-两场新参会组的原文、参考、可接受答案、逐条复核、最终纪要、指标和验收摘要仍按原清单提供。历史 115 场景新增逐处理单元索引，原始运行与评分依赖留在本地。
+| 分类 | 保留内容 |
+| --- | --- |
+| 01_数据集 | 初始片段与标注、扩展评测冻结输入和标签、来源与许可、必要片段媒体 |
+| 02_代码与配置 | 当前前后端、提示、模型配置模板、评测入口、定向测试、依赖锁文件和前端媒体 |
+| 03_评测日志与结果 | 历史任务评分原件与索引、两场新参会组可复算文本证据、当前双场应用核查和生成材料 |
+| 04_技术报告 | 主报告、调优、设计、配置、评测索引、对应阅读版及必要专项证据说明 |
+| 05_演示视频 | 当前 15:13 双场视频与观看时间表 |
 
-历史模型请求/响应、SQLite、源码压缩快照、原始语料包、录制帧及已验收主片不随 Git 提交。原文件未删除。历史文档指向这些路径的链接只在完整工作区可用；完整 audit_unseen.py 要求数据库、模型节点和源码快照，不能把选定摘要当成完整运行归档。
+提交清单逐文件记录大小与 SHA-256。旧视频、录制帧、安装目录、凭据、内部交接和完整历史请求留在原工作区。所保留的负结果与回退在调优报告和对应专项记录中说明。初始数据的原始大包不重复收录，来源、许可、哈希和派生片段保留。
 
-AMI 派生音视频与字幕随前端提供，剪辑和许可见 [媒体署名](../demo/public/MEDIA_CREDITS.md)。本次发布检查见 [发布核查](发布核查.md)。
+## 复现范围
 
-## 克隆与离线验证
+无需模型可检查提交文件哈希、两场新参会组冻结原文/参考/规则及逐条判分，运行核心定向测试。安装 Copilot 锁定依赖后可运行实时服务离线测试；配置自己的模型凭据后可启动完整应用及新的整会推理。当前版本与模型调用不保证重现完全相同文本。
 
-Python 3.11+，核心代码使用标准库。
+115 场景的评分原件及处理单元索引保留，可查看分母和逐例判分；历史全部模型节点与 SQLite 未随提交目录发布。专题报告中的原运行路径用于定位原工作区材料，不是接收者需要补齐的运行依赖。完整历史 audit/replay 需要相应原件，提交入口只运行所附证据能支持的检查。
 
-```powershell
-git clone https://github.com/yhnapoleon/MeetingWatecher.git
-Set-Location MeetingWatecher
-$env:PYTHONUTF8='1'
-$env:PYTHONPATH='tests'
-python -m unittest test_unclear_intent test_context_system test_requirement_review test_report_routing test_context_state test_context_v5_regressions
-python -m meeting_eval --help
-```
+## 源码与许可
 
-以上定向测试使用仓库内夹具，不请求真实模型。`unittest discover` 中有依赖本地历史响应/数据库的归档回归，主要在 `test_extraction_repair`、`test_full_meeting_recovery`、`test_task_boundary`、`test_user_solutions`；完整历史库未发布，不能将直接全库发现的缺文件错误当作新代码回归。已有历史断言失败见交接记录。
+GitHub 用于当前源码、前端媒体、Markdown 文档和选定文本证据；PDF、主视频与提交目录保留在本地交付。当前本地内容是否已经同步，以提交说明中的实际 Git 提交记录为准。
 
-为使上述核心命令可独立运行，CP02复检协议测试所需的业务输入已从历史请求中提取到 `tests/fixtures/cp02_recheck_payload.json`，测试直接读取该夹具；未改产品逻辑，也不需要发布历史HTTP元数据和系统提示。
-
-2026-11-18首次发布前，已在仅含待提交文件的独立目录验证上述56项测试全部通过、CLI帮助可用，且两场输入/参考/规则的字节哈希与冻结清单一致。
-
-## 用当前配置进行新推理
-
-复制 `.env.example` 为 `.env` 并填写自己的模型凭据，或设置同名环境变量。不要使用仓库外旧工作区的隐式配置路径。
-
-普通 CLI 的默认策略仍为 `split-v3`，`ingest` 尚无决策核验开关。要使用本轮完整 v19 链路，在新目录下通过 Service 构造提取器：
-
-```python
-import json
-from pathlib import Path
-from meeting_eval.extract import Extractor
-from meeting_eval.service import Service
-from meeting_eval.store import Store
-
-out = Path("runs/demo-local")
-assert not out.exists(), "Use a new output directory"
-out.mkdir(parents=True)
-settings = json.loads(Path("config/context-v5-v19.json").read_text(encoding="utf8"))
-extractor = Extractor(Path(".env"), out / "model", "context-v5",
-                      inference_config=settings, review_decisions=True)
-meeting = json.loads(Path("examples/m1.json").read_text(encoding="utf8"))
-store = Store(out / "state.sqlite")
-try:
-    service = Service(store, extractor)
-    result = service.process(meeting, "host", "2026-11-09T10:02:00+08:00")
-    print(result["status"], result["source_id"])
-    print(service.minutes(result["source_id"], "host"))
-finally:
-    store.close()
-```
-
-该示例会调用模型并写入本地模拟器；便携命令已封装为 scripts/run_current.py，参数与预检见 CONFIG.md。真实飞书写入尚未联调。
-
-## 数据来源与许可
-
-仓库内 AMI 片段与两场完整转写来自 AMI Meeting Corpus 人工标注包1.6.2，原摘要及说话人元数据保留，项目增加结构转换、任务/决策重注与中文解释。来源、修改和场景性质见 [数据说明](../data/mvp-v1/README.md)，许可副本为 [CC BY 4.0](../data/licenses/AMI_CC_BY_4.0.txt)。
-
-VCSum 文本样例来自 Wu 等发布的固定版本，出处见同一数据说明及[语料调研](corpus-study.md)，仓库许可副本见 [VCSum MIT](../data/licenses/VCSum_MIT.txt)。历史说明中的 `data/mvp-v1/raw/` 许可链接对应本地原件，GitHub 读者使用这里的许可副本。原始语料包与媒体按来源说明自行取得；此仓库未为项目自有源码另行指定开源许可证。
+AMI 派生媒体、转写与标注按 CC BY 4.0 使用，许可见 data/licenses/AMI_CC_BY_4.0.txt 和前端 MEDIA_CREDITS.md。VCSum 来源与许可见数据说明及 data/licenses/VCSum_MIT.txt。项目自有源码尚未另行指定开源许可证。

@@ -1,5 +1,7 @@
 # 真人会议素材
 
+当前完整助手视图（showcase=1）将下述音视频与 STT 词轴作为输入，纪要和任务由运行时模型生成。场景文件中保留的中文事件属于早期场景数据，不参与该视图的业务生成；本文其余内容用于说明素材与历史字段来源。
+
 来源：AMI Meeting Corpus，会议 ES2002b，Edinburgh scenario meeting，2004-12-13。四位真人参与角色扮演式产品设计会议，存在自然停顿、重复、插话和背景声。
 
 - 官方下载与授权说明：https://groups.inf.ed.ac.uk/ami/download/

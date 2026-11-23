@@ -1,0 +1,317 @@
+{
+  "comparison_artifact_id": "027af741-b054-44cc-88be-6bd96ef0e47f",
+  "comparison_sha256": "2af12f76c1ed86b477348a9e23d9930d6f50855c4b2d6104c79de6b8c5e8f5dc",
+  "video": "交付\\双场演示_第二场修订版\\会议助手_双场演示_第二场修订版.mp4",
+  "duration_s": 913.3,
+  "second_meeting_start_s": 332.06666666666666,
+  "take": "second-view-v5-take4",
+  "data": "runs/copilot-second-view-v5-take4",
+  "verification": {
+    "decode_complete": true,
+    "duration_s": 913.3,
+    "audio_checks": [
+      {
+        "shot": 1,
+        "correlation": 0.999983,
+        "offset_ms": 0.0
+      },
+      {
+        "shot": 2,
+        "correlation": 0.999973,
+        "offset_ms": 0.0
+      },
+      {
+        "shot": 4,
+        "correlation": 0.999975,
+        "offset_ms": 0.0
+      },
+      {
+        "shot": 5,
+        "correlation": 0.999951,
+        "offset_ms": 0.0
+      },
+      {
+        "shot": 8,
+        "correlation": 0.99991,
+        "offset_ms": 0.0
+      },
+      {
+        "shot": 10,
+        "correlation": 0.999735,
+        "offset_ms": 0.0
+      },
+      {
+        "shot": 11,
+        "correlation": 0.999895,
+        "offset_ms": 0.0
+      },
+      {
+        "shot": 12,
+        "correlation": 0.999892,
+        "offset_ms": 0.0
+      },
+      {
+        "shot": 13,
+        "correlation": 0.999914,
+        "offset_ms": 0.0
+      },
+      {
+        "shot": 14,
+        "correlation": 0.999952,
+        "offset_ms": 0.0
+      }
+    ],
+    "muted_shots_checked": [
+      3,
+      6,
+      7,
+      9
+    ],
+    "review_frames": 22,
+    "sha256": "e1a68d4f63183199746b7de13463f71a94468fedd931d7291759abae006ff6bf"
+  },
+  "second_view": {
+    "complete": true,
+    "second_summary_windows": 39,
+    "visible_states_checked": 35,
+    "minimum_body_height": 156,
+    "last_processed_ms": 781570,
+    "topics": [
+      {
+        "id": "topic-975d5976-42ec-4ebc-ba0f-f1d1e5f3bbdd-0",
+        "title": "供电方案确认",
+        "text": "项目经理复会回顾称已决定采用普通可充电电池供电（normally chargeable battery power）。STT表述与上场“倾向普通电池、充电单元增加成本与复杂度”的讨论存在差异，需核对是普通电池还是可充电电池。",
+        "category": "question",
+        "relation": "questioned",
+        "prior_topic_id": "topic-051b6069-94af-4dbb-9486-7cb6c8fb0ef6-0",
+        "revision": 1
+      },
+      {
+        "id": "topic-975d5976-42ec-4ebc-ba0f-f1d1e5f3bbdd-1",
+        "title": "目标人群与功能分类",
+        "text": "项目经理复会重申目标人群为15至35岁，并称已决定按音频、视频及其他三类对控制功能分组。",
+        "category": "decision",
+        "relation": "reaffirmed",
+        "prior_topic_id": "topic-2c4d0cf2-6399-4418-a2e3-a0d3496f82d3-0",
+        "revision": 1
+      },
+      {
+        "id": "topic-0e69183b-90fa-4cb7-abf1-294424e9a2f7-0",
+        "title": "新增三项要求",
+        "text": "项目经理复会说明三项新要求：忽略图文电视（teletext）；除电视外忽略其他设备；尝试融入公司颜色与口号（corporate colour and slogan）。David确认无遗漏。",
+        "category": "decision",
+        "relation": "new",
+        "prior_topic_id": null,
+        "revision": 2
+      },
+      {
+        "id": "topic-024e9952-3fa8-4292-b454-d63135bcdd0b-0",
+        "title": "汇报与讨论安排",
+        "text": "项目经理确定汇报顺序：先Andrew，再Craig，最后David；Andrew以“right?”回应，未见异议。此前“汇报中先记下讨论点、全部讨论集中到最后”的安排仍有效。",
+        "category": "decision",
+        "relation": "new",
+        "prior_topic_id": null,
+        "revision": 2
+      },
+      {
+        "id": "topic-5b5f94c4-0a02-4425-ad1e-c666a79c4149-0",
+        "title": "市场研究汇报开场",
+        "text": "Andrew说明汇报方法：先展示项目成功所需重视的背景信息，再介绍处理方式，最后汇总到整体愿景；已汇总大量市场研究并识别与项目计划同步、重要的趋势，随后发起设计方案讨论。消费者总体数据与评分显示：首要发现是电视遥控器要有精致好看的感觉（fancy looking feel），而非功能化外观；第二项是产品要创新（innovative），需在此发挥创意。Andrew据此判断：必须找到创新方式，而不是只添加必要的功能部件。",
+        "category": "discussion",
+        "relation": "new",
+        "prior_topic_id": null,
+        "revision": 9
+      },
+      {
+        "id": "topic-0a0a44a5-2443-47fa-8f50-669e107b96a7-0",
+        "title": "用户界面研究开场",
+        "text": "Craig继续用户界面研究汇报，提到“best concept”及更多示例；称有一周讨论涉及“addictive ones”，打算复制链接。正就控制器与按键尺寸、控制器形状及按键位置征求建议。研究发现：现有控制器多为布满小按键的“砖块”，外观不吸引人、握持不舒适、易丢失，颜色偏深、暗处不易看清；配色值得关注，例如待机键应便于用户识别。Craig补充称待机键应为“thread switch-off”式标识，认为该做法可行，但不确定是否还有其他示例。具体链接内容待后续确认。",
+        "category": "discussion",
+        "relation": "new",
+        "prior_topic_id": null,
+        "revision": 7
+      },
+      {
+        "id": "topic-197776ce-82d0-41a9-b514-67b30148422d-0",
+        "title": "部件研究汇报开场",
+        "text": "David继续部件研究汇报：可在现有基础上修改或从头开始，视需求而定；称部件“exactly the same”。最需投入的是用户界面；其余部件影响成本与复杂度，并影响上市时间（time to market）。新增：最终成本取决于物理部件数量，供电是其中一个因素；低端部件包括电源、逻辑、发射器和红外，均会产生影响。补充：部件还影响设备尺寸，进而更多影响握持方式，而非实际使用；已定义只让基础功能可见，其余尽量隐藏。收尾归纳为成本、复杂度、尺寸三项影响，并称只是空间安排问题，随后逐项过部件。",
+        "category": "discussion",
+        "relation": "new",
+        "prior_topic_id": null,
+        "revision": 7
+      },
+      {
+        "id": "topic-6ac78f82-24f0-4a92-9ae2-749139fa5d82-0",
+        "title": "动能供电设想",
+        "text": "项目经理提出动能供电（kinetic power）设想：以电池作后备、同时采用动能供电。Andrew提醒这会迫使用户持续移动设备，并以动能手表为例；David澄清该混合（hybrid）方案不会给电池充电，仅作辅助。项目经理补充：不常使用时也不耗电，电池用于维持基本运行（keep it ticking over）。尚未采纳。",
+        "category": "proposal",
+        "relation": "new",
+        "prior_topic_id": "topic-051b6069-94af-4dbb-9486-7cb6c8fb0ef6-0",
+        "revision": 7
+      }
+    ],
+    "tasks": [
+      {
+        "owner": "David",
+        "guid": "SIM-20daf03219e1",
+        "state": "progress",
+        "detail": "David汇报部件概念研究：可在现有基础上修改或从头开始，视需求而定；称部件“exactly the same”；最需投入的是用户界面，其余部件影响成本与复杂度，上市时间（time to market）也是问题；最终成本取决于物理部件数量，供电是其中一个因素，低端部件包括电源、逻辑、发射器和红外；部件还影响设备尺寸，进而更多影响握持方式而非实际使用；已定义只让基础功能可见，其余尽量隐藏；收尾归纳成本、复杂度、尺寸三项影响，称只是空间安排问题，随后逐项过部件。"
+      },
+      {
+        "owner": "Craig",
+        "guid": "SIM-1e18a3daad99",
+        "state": "progress",
+        "detail": "Craig汇报用户界面研究进展：正就控制器与按键尺寸、控制器形状及按键位置征求建议；研究发现现有控制器多为布满小按键的“砖块”，外观不吸引人、握持不舒适、易丢失，颜色偏深、暗处不易看清；并指出配色值得关注，例如待机键应便于用户识别，补充称待机键应为“thread switch-off”式标识，认为该做法可行，但不确定是否还有其他示例。"
+      },
+      {
+        "owner": "Andrew",
+        "guid": "SIM-1242071eafc1",
+        "state": "progress",
+        "detail": "Andrew汇报市场研究：已汇总大量市场研究并识别与项目计划同步、重要的趋势；消费者总体数据与评分显示首要发现是电视遥控器应具有精致好看的感觉（fancy looking feel），而非功能化外观；第二项发现是产品要创新（innovative），需在此发挥创意；并据此判断必须找到创新方式，而不是只添加必要的功能部件。"
+      }
+    ],
+    "limits": "自动检查可见范围、时间边界与身份。内容语义和阅读效果须结合保存的全尺寸画面复核；这不是泛化评测。"
+  },
+  "chapters": [
+    {
+      "title": "两场会议 · 动态纪要、行动事项与持续跟进",
+      "start": 0.0,
+      "end": 7.466666666666667
+    },
+    {
+      "title": "第一场 · 纪要随发言逐步形成",
+      "start": 7.466666666666667,
+      "end": 110.4
+    },
+    {
+      "title": "文字追问 · 核对理由与原话，区分倾向和决定",
+      "start": 110.4,
+      "end": 146.76666666666668
+    },
+    {
+      "title": "功能讨论 · 新发言继续补充已有纪要",
+      "start": 146.76666666666668,
+      "end": 161.83333333333334
+    },
+    {
+      "title": "动态行动事项 · 从空列表到发言后的待确认分工",
+      "start": 161.83333333333334,
+      "end": 252.96666666666667
+    },
+    {
+      "title": "文字核对入口 · 沿用已有候选，确认另外两项工作",
+      "start": 252.96666666666667,
+      "end": 301.9
+    },
+    {
+      "title": "首场收束 · 动态纪要与已确认任务一起归档",
+      "start": 301.9,
+      "end": 319.8
+    },
+    {
+      "title": "同一项目 · 新建第二场，邀请原班成员",
+      "start": 319.8,
+      "end": 332.06666666666666
+    },
+    {
+      "title": "第二场 · 上场任务保留，本场议题从新发言开始",
+      "start": 332.06666666666666,
+      "end": 404.1
+    },
+    {
+      "title": "市场研究 · 新发现进入纪要，关联 Andrew 原任务",
+      "start": 404.1,
+      "end": 518.2666666666667
+    },
+    {
+      "title": "界面研究 · 发现持续补充，关联 Craig 原任务",
+      "start": 518.2666666666667,
+      "end": 596.1333333333333
+    },
+    {
+      "title": "组件研究 · 成本、复杂度与尺寸进入纪要",
+      "start": 596.1333333333333,
+      "end": 636.0
+    },
+    {
+      "title": "新供电提议 · 动能辅助与电池后备，尚未采纳",
+      "start": 636.0,
+      "end": 677.9
+    },
+    {
+      "title": "文字委派 · 比较已知内容与待验证问题",
+      "start": 677.9,
+      "end": 727.0333333333333
+    },
+    {
+      "title": "会后核对 · David 本场汇报与上场分工并排查看",
+      "start": 727.0333333333333,
+      "end": 755.6333333333333
+    },
+    {
+      "title": "本场回看 · 明确要求、研究进展、新提议分别保留",
+      "start": 755.6333333333333,
+      "end": 815.9
+    },
+    {
+      "title": "文字修订 · 按原话核对方案归因与待验证项",
+      "start": 815.9,
+      "end": 847.4666666666667
+    },
+    {
+      "title": "实际比较文件 · 三个维度与原话依据",
+      "start": 847.4666666666667,
+      "end": 860.3333333333334
+    },
+    {
+      "title": "实际任务结果 · 同一身份，持续跟进",
+      "start": 860.3333333333334,
+      "end": 872.1333333333333
+    },
+    {
+      "title": "原话、参考、预测与确认 · 四项分别核对",
+      "start": 872.1333333333333,
+      "end": 896.2666666666667
+    },
+    {
+      "title": "历史评测口径 · 与本次产品路径分别报告",
+      "start": 896.2666666666667,
+      "end": 913.3
+    }
+  ],
+  "source": "second-view-v5-final2",
+  "edited": "second-view-v5-edited",
+  "final_frame_checks": [
+    {
+      "view": "新增要求",
+      "output_s": 391.4551668802897,
+      "source_take": "second-view-v5-take4",
+      "path": "关键画面\\成片_新增要求.jpg"
+    },
+    {
+      "view": "Andrew任务变化",
+      "output_s": 500.37730011940005,
+      "source_take": "second-view-v5-take4",
+      "path": "关键画面\\成片_Andrew任务变化.jpg"
+    },
+    {
+      "view": "Craig任务变化",
+      "output_s": 578.0487666289011,
+      "source_take": "second-view-v5-take4",
+      "path": "关键画面\\成片_Craig任务变化.jpg"
+    },
+    {
+      "view": "新供电提议",
+      "output_s": 675.8127999305725,
+      "source_take": "second-view-v5-take4",
+      "path": "关键画面\\成片_新供电提议.jpg"
+    },
+    {
+      "view": "David任务变化",
+      "output_s": 737.9042332490285,
+      "source_take": "second-view-v5-post",
+      "path": "关键画面\\成片_David任务变化.jpg"
+    }
+  ],
+  "visual_review": "已检查成片中的新增要求、三位成员任务前后对照、新供电提议及快进标识；关键正文与框体可见。"
+}

@@ -41,10 +41,12 @@ import {
   type Task,
 } from "./scenario";
 import { useMeetingAudio } from "./useMeetingAudio";
+import { CopilotPanel, type CopilotContext } from './copilot/CopilotPanel';
 import { MinutesPanel } from "./MinutesPanel";
 import { captionAt, visibleCaption } from "./minutes";
 import { useLiveStt } from "./useLiveStt";
 import { CrossMeetingPanel } from "./CrossMeetingPanel";
+import { LiveSummary } from './copilot/LiveSummary';
 import { LiveWorkspace } from './LiveWorkspace';
 
 function Avatar({
@@ -61,8 +63,9 @@ function Avatar({
   );
 }
 
-export function App({ supplied, startAt=0, endAt, onArchive, onBack }: { supplied?:Scenario; startAt?:number; endAt?:number; onArchive?:(time:number)=>void; onBack?:()=>void } = {}) {
+export function App({ supplied, startAt=0, endAt, onArchive, onBack, copilot }: { supplied?:Scenario; startAt?:number; endAt?:number; onArchive?:(time:number)=>void; onBack?:()=>void; copilot?:CopilotContext } = {}) {
   const presentation = !!supplied;
+  const showcase = new URLSearchParams(location.search).has('showcase') && !!copilot;
   const review = new URLSearchParams(location.search).has('review');
   const [scenario, setScenario] = useState<Scenario | null>(supplied ?? null);
   const [files, setFiles] = useState<Map<string, File> | null>(null);
@@ -239,7 +242,7 @@ export function App({ supplied, startAt=0, endAt, onArchive, onBack }: { supplie
     );
   return (
     <main className={`meeting-app ${presentation ? 'immersive' : ''}`} data-ready={audio.ready} data-media-time={audio.time} data-playing={audio.playing} data-rate={audio.rate}>
-      {supplied && <div className="project-breadcrumb"><button onClick={()=>{audio.pause();onBack?.();}}>← 返回项目</button><span>遥控器产品设计 / {startAt ? "02 方案汇报与迭代" : "01 功能方案与分工"}</span><small>真人会议节选 · 预设事件演示</small></div>}
+      {supplied && <div className="project-breadcrumb"><button onClick={()=>{audio.pause();onBack?.();}}>← 返回项目</button><span>遥控器产品设计 / {startAt ? "02 方案汇报与迭代" : "01 功能方案与分工"}</span><small>{showcase?'真人会议节选 · 真实模型动态纪要':'真人会议节选 · 预设事件演示'}</small></div>}
       <header className="window-bar">
         <div className="meeting-title">
           <VideoCamera weight="fill" size={21} />
@@ -321,7 +324,7 @@ export function App({ supplied, startAt=0, endAt, onArchive, onBack }: { supplie
       </section>
       <section className={`workspace ${layout === "ai" ? "ai-focused" : ""}`}>
         <div
-          className={`meeting-stage ${scenario.video && !files ? "real-stage" : ""}`}
+          className={`meeting-stage ${showcase ? 'showcase-stage' : ''} ${scenario.video && !files ? "real-stage" : ""}`}
         >
           <div className="stage-top">
             <span>
@@ -348,6 +351,7 @@ export function App({ supplied, startAt=0, endAt, onArchive, onBack }: { supplie
               <span className="recording-credit">{source?`${source.meeting.id} · 原片 ${formatTime(source.sourceTime)} · 节选`:'AMI · 真人会议片段'}</span>
             </div>
           )}
+          {showcase && <div className="showcase-caption"><small>{shownCaption?.speaker?person(shownCaption.speaker).name:'会议转写'} · STT 词轴回放</small><p>{shownCaption?.text||'正在聆听…'}</p></div>}
           <div className="speaker-focus">
             <div
               className={`speaker-ring ${active.some((s) => s.speaker === speaker.id) && audio.playing ? "active" : ""}`}
@@ -476,7 +480,7 @@ export function App({ supplied, startAt=0, endAt, onArchive, onBack }: { supplie
               <span className={`live-status ${audio.playing ? "running" : ""}`}>
                 <i />
                 {finished
-                  ? "总结已完成"
+                  ? (showcase ? "本场已结束" : "总结已完成")
                   : audio.playing
                     ? "跟随会议"
                     : "已就绪"}
@@ -494,13 +498,13 @@ export function App({ supplied, startAt=0, endAt, onArchive, onBack }: { supplie
               onClick={()=>{audio.seek(m.at);setTab('cross');}}><small>{m.id}</small><strong>{m.title}</strong></button>)}
           </div>}
           <nav className="ai-tabs">
-            {[
+            {(showcase ? [["overview","实时纪要"],["transcript","文字记录"]] : [
               ["overview", "实时纪要"],
               ...(scenario.meetings.length===2 ? [["cross","跨会追踪"]] : []),
               ...(scenario.minuteEvents.length ? [["graph", "讨论全览"]] : []),
               ["transcript", "文字记录"],
               ["history", "变更记录"],
-            ].map(([id, label]) => (
+            ]).map(([id, label]) => (
               <button
                 key={id}
                 className={tab === id ? "selected" : ""}
@@ -526,7 +530,8 @@ export function App({ supplied, startAt=0, endAt, onArchive, onBack }: { supplie
             </button>
           )}
           <div className="ai-scroll" ref={transcript}>
-            {presentation && tab === 'overview' && <LiveWorkspace scenario={scenario} time={audio.time} onEvidence={showEvidence} />}
+            {showcase && copilot && <div hidden={tab!=='overview'}><LiveSummary {...copilot} cursor={Math.max(startAt,audio.time)} inMeeting playing={audio.playing}/></div>}
+            {presentation && !showcase && tab === 'overview' && <LiveWorkspace scenario={scenario} time={audio.time} onEvidence={showEvidence} />}
             {tab==='cross' && scenario.meetings.length===2 && <CrossMeetingPanel scenario={scenario} time={audio.time} onEvidence={showEvidence} onSeek={audio.seek}/>}
             {((tab === "overview" && !presentation) || tab === "graph") &&
               !!scenario.minuteEvents.length && (
@@ -797,9 +802,9 @@ export function App({ supplied, startAt=0, endAt, onArchive, onBack }: { supplie
           <footer className="ai-footer">
             <ShieldCheck size={14} />
             <span>基于会议发言整理</span>
-            <span>预设事件演示</span>
+            <span>{showcase?'真实模型逐段总结':'预设事件演示'}</span>
           </footer>
-          {state.interaction && (
+          {!showcase && state.interaction && (
             <div className="confirmation-layer">
               <article
                 className={`confirmation-card ${state.interaction.phase}`}
@@ -878,6 +883,7 @@ export function App({ supplied, startAt=0, endAt, onArchive, onBack }: { supplie
           )}
         </section>
       </section>
+      {copilot && <CopilotPanel {...copilot} cursor={Math.max(startAt,audio.time)} inMeeting playing={audio.playing} cue={(scenario.captionWords??[]).filter(w=>w.end<=audio.time&&w.end>audio.time-30000).map(w=>w.text).join('')} />}
       <section className="meeting-toolbar">
         <div className="toolbar-left">
           <button title="音频输出" onClick={() => audio.setMuted(!audio.muted)}>

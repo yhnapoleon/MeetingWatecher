@@ -1,13 +1,9 @@
-flowchart TB
- subgraph Demo[网页演示]
- A[AMI 原声与实际 STT 词轴 / 预设场景事件] --> B[音频时钟与稳定 ID 投影] --> C[AI 视图 / 原话 / 任务 / 决定] --> D[项目归档与浏览器保存]
- D --> E[下一场继承]
- end
- subgraph Backend[后端完整逐字稿实测]
- F[完整逐字稿与可见历史] --> G[全文跟踪 / 解释 / 独立核验 / 修补]
- G --> H[决定核验与 Service] --> I[SQLite 与本地任务模拟器]
- I --> F
- end
- J[在线 STT] -. 待联调 .-> G
- H -. 待联调 .-> C
- H -. 待联调 .-> K[真实飞书身份与写入]
+flowchart TD
+ UI[React 项目 / 会议 / 纪要 / 任务 / 助手 / 归档] --> Live[FastAPI + AG-UI + LangGraph]
+ STT[新增稳定转写 + 现有议题 + 可见历史] --> Live
+ Live --> Change[模型增量变更 + 引用与对象校验]
+ Full[完整逐字稿 + 同系列历史] --> Review[跟踪 / 解释 / 核验 / 决定核验]
+ Change --> Save[Service / WorkLedger / SQLite / 文件]
+ Review --> Save
+ Save --> Next[确认快照 / 议题版本 / 下一场原任务更新]
+ Next --> UI

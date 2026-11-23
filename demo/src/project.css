@@ -4,3 +4,5 @@
 .meeting-app .participant-strip{height:66px}.meeting-app .participant{padding:6px 14px}.meeting-app .participant>div{gap:3px}.meeting-app .ai-header{padding:10px 23px 7px}.meeting-app .ai-scroll{padding:16px 23px}.meeting-app .meeting-toolbar{height:60px}.minutes-document .discussion-graph{height:210px}
 /* Archive uses document-sized controls, independent of the workspace action buttons. */
 .archive-scroll .decision-title{padding:0;border:0;background:transparent;border-radius:0}.archive-scroll .source-timestamp{padding:4px;border:0}.archive-scroll .current-discussion button{padding:4px 7px;border:0}.archive-scroll .minutes-shortcuts button{padding:5px 8px}.archive-scroll .action-entry>button{padding:5px;border:0}.archive-scroll .cross-task button,.archive-scroll .cross-decision button{border:0;padding:5px 7px}
+
+.archive-layout:has(.live-summary){grid-template-columns:minmax(0,1fr)}.archive-layout:has(.live-summary)>.memory-panel{display:none}.archive-scroll:has(.live-summary){height:calc(100vh - 300px);min-height:520px}

@@ -12,7 +12,7 @@ CSS = '''
 body { font-family:"Microsoft YaHei",sans-serif; font-size:10pt; line-height:1.72; color:#25334b; }
 h1 { font-size:25pt; line-height:1.35; color:#142644; margin:0 0 22px; padding-bottom:14px; border-bottom:4px solid #2b66cc; }
 h2 { font-size:15pt; color:#1c4c89; margin:27px 0 10px; break-after:avoid; }
-h3 { break-after:avoid; } p { margin:9px 0; orphans:3; widows:3; }
+h3 { break-after:avoid; } p { margin:9px 0; orphans:3; widows:3; break-inside:avoid; }
 table { border-collapse:collapse; width:100%; table-layout:fixed; font-size:8.6pt; margin:14px 0; }
 thead { display:table-header-group; } th { background:#eaf0f9; color:#15355e; font-weight:600; }
 td,th { border:1px solid #cdd8e7; padding:7px 8px; vertical-align:top; overflow-wrap:anywhere; }
@@ -32,7 +32,7 @@ def main():
         browser = p.chromium.launch(channel='msedge', headless=True)
         page = browser.new_page(viewport={'width': 1440, 'height': 860}, device_scale_factor=1.5)
         page.goto((ROOT / 'docs/images/architecture.svg').as_uri())
-        page.screenshot(path=str(ROOT / 'docs/images/architecture.png'))
+        page.locator('svg').screenshot(path=str(ROOT / 'docs/images/architecture.png'))
         for name, title in [('RETRO','会议助手_项目复盘'), ('TUNING','会议助手_任务与决策提取调优'), ('CONFIG','会议助手_配置与运行说明')]:
             body = markdown.markdown((ROOT / f'docs/{name}.md').read_text(encoding='utf-8-sig'), extensions=['tables','fenced_code'])
             # PDF links should remain usable outside this workstation; images stay local.

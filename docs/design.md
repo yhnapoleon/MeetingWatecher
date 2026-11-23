@@ -1,48 +1,61 @@
-# 会议助手技术设计 · 当前实现
+# 会议助手技术设计
 
-## 用户路径
+## 用户路径与前端结构
 
-在项目中进入首场会议，随原声查看字幕、议题、决定和任务；会后归档并查看项目承接，现场创建第二场、邀请原班成员，再跟随新一轮讨论更新状态。历史决定和原话保留，读者可以区分沿用、重申与修订。
+用户从项目进入会议，随转写阅读动态纪要，查看自动识别的分工或通过文字追问。核对原话和任务字段后确认保存，会后归档；下一场在同一项目继续讨论，查看上场要求、当前新增内容和原任务进展。
 
-![架构](images/architecture.png)
+![系统架构](images/architecture.png)
 
-图源为 [SVG](images/architecture.svg)，结构源为 [Mermaid](images/architecture.mmd)。早期 v0.2 设计保存于 [历史设计](design-v0.2.md)，其中拟定集成不作为当前完成项。
+| 界面 | 内容和操作 | 状态来源 |
+| --- | --- | --- |
+| 项目工作台 | 项目、会议列表、归档、创建会议与邀请成员 | 浏览器项目状态；归档范围传给服务 |
+| 会议现场 | 参会人、会议画面、固定转写、AI 主视图 | 音频时钟与 STT 词轴，当前会议与游标 |
+| 动态纪要 | 完整当前议题、独立目录、类别、版次、原话；固定回看或跟随最新 | 增量模型结果、稳定议题 ID、历史版本 |
+| 行动事项与跟进 | 待确认分工、新任务、上场任务；负责人、对象、内容、DDL、证据 | WorkLedger；确认后由 Service 写入本地任务模拟器 |
+| 前后对照 | 上场议题与本场变化；首场分工与本场进展 | prior_topic_id、relation、任务 GUID 和确认快照 |
+| 项目助手 | 文字追问、补课、材料生成、修改、下载 | AG-UI 作业状态、证据、结构化回答与文件版本 |
+| 会议归档 | 当时的纪要、行动事项和讨论依据 | 归档会议及截止游标，不直接覆盖成后场状态 |
 
-## 两条已运行路径
+当前议题正文与目录分开滚动，任务状态条独立占位。阅读区根据视口、工具条与状态条高度重新测量；生成新内容时不会把旧议题正文推成只露边框的卡片。用户主动选择旧议题后保持选择，点击跟随最新才恢复自动跟随。
 
-| 路径 | 输入 | 主要处理 | 输出与保存 |
-| --- | --- | --- | --- |
-| 网页演示 | AMI 节选音视频、实际 STT 词轴、预设场景事件 | 音频时钟驱动事件；稳定 ID 投影；自动确认 | 结论、任务、讨论图、原话；项目归档和浏览器存储 |
-| 后端提取 | 完整人工逐字稿、账号映射、同系列可见历史 | 跟踪→解释→核验→有界修补；决定采纳与版本核验 | items、facts、unresolved、decisions、updates；Service、SQLite、本地模拟器 |
+## 会中增量链路
 
-在线 STT 服务已能识别前端发来的 PCM，但尚未贯通模型提取和 UI 更新。真实飞书身份、任务和文档写入属于待联调连接。图中虚线只表示这些后续连接。
+转写按音频游标逐步进入可见范围。live_summary.plan 根据上次已处理位置取约 12 秒新增稳定转写，连同此前议题、少量前文、任务账本和上场可见议题交给模型。输出包含 summary_changes 和 work_changes；同一议题返回原 ID，新议题使用新对象，引用只允许取自本轮提供的证据。
 
-## 后端对象与状态
+程序验证 JSON、证据、对象 ID 与跨会关系后保存作业及结果。只针对格式错误允许一次模型格式修复；修复结果仍经过正常校验。模型落后于会议时按窗口补齐积压，界面显示已总结到的时间，不把当前游标当作完成进度。
 
-- **发言与证据**：保留原 segment_id、说话人和时间，模型引用 ID；程序验证引用边界，核验检查语义依据。
-- **工作记录**：区分未来执行、报告、背景、建议与待澄清意向。items 与 review_records 共享记录标识，评分按 record_id 去重。
-- **确认**：add_task 处理普通候选，adopt_and_add_task 处理待采纳建议，clarify_and_add_task 补全含糊意向。账号与承接满足后才能成为可更新的历史任务。
-- **任务事件**：target_guid 指向已有对象；description、owner、time 和 status 的变化须有依据。不同会议的纪要虽动作相似，仍需要独立交付物范围。
-- **决定**：有效清单与历史并存，reaffirms 表示重申，supersedes 表示替代。事实栏有同一内容不等于决定栏目已经更新。
-- **处理状态**：processed / partial 描述提取交付，open / done 等描述业务任务。完成处理不能代替任务状态正确。
+议题 category 分为 discussion、decision、proposal、question；relation 分为 new、reaffirmed、changed、questioned。上场议题 ID 只能作为关联对象，不能被本场更新覆盖。新增要求、重申内容、质疑和未采纳想法分别展示，依据不足时不把提议写成正式决定。
 
-## 模块职责
+## 行动事项与任务状态
 
-| 文件 | 职责 |
+自动提取和文字整理共享候选与账本。候选保留负责人、动作、对象、工作范围、DDL、原话时间要求及证据。工作时长不转换成截止日期；缺少负责人或期限时显示待确认。用户确认后保存任务及确认快照，重复整理和确认不生成另一项相同任务。
+
+第二场汇报通过目标 GUID 关联上场已确认任务，显示更新建议及前后内容，确认后更新原对象。进度汇报与完成承诺分开；当前双场运行中三人的研究汇报均为进行中。没有明确新分工时新增列表为空，不能为了展示而生成任务。
+
+## 助手与材料
+
+FastAPI 接收前端请求，AG-UI 传输工具步骤、运行状态和回答；LangGraph checkpoint 保存作业状态。检索按 project、meeting、cursor 和允许访问的归档限定证据。回答中的事实段和表格行引用证据，研究建议与未知项分别标记。比较材料须核对每条证据属于哪种方案，不能跨方案挪用缺点或部件。
+
+材料生成、用户修改和下载保留同一产物的版本关系。修改时把最新要求放在工具上下文之后，明确重写相关正文与表格。可选外部检索使用独立配置，只补充研究材料，不充当会议原话。
+
+## 整会处理与持久化
+
+完整逐字稿通过 context-v5 v19 + DecisionReview v2：全文跟踪 → 工作解释 → 独立核验 → 必要修补 → 决定采纳、重申及替代核验 → Service 保存。items 与确认卡按记录 ID 去重；有效决定清单和历史分开。processed / partial 表示处理是否交付，open / done 等表示业务任务状态。
+
+核心提取、Service 和任务模拟器使用 SQLite；实时服务另保存账本、作业与检查点，材料以文件存储。失败恢复保留已接受阶段及原始失败；输入、历史或配置变化时不把旧缓存视作同一实验。
+
+## 模块对应
+
+| 模块 | 职责 |
 | --- | --- |
-| meeting_eval/context_v2.py、context_v5.py | 阶段编排、工作契约和覆盖核验 |
-| meeting_eval/context_state.py、context_new_work.py | 工作记录与报告归并、确认资格 |
-| meeting_eval/decision_review.py | 决定扫描、采纳依据、裁决和最终状态 |
-| meeting_eval/minutes_review.py | 纪要核验与修补 |
-| meeting_eval/service.py、store.py | 读取历史、保存结果、确认与查询 |
-| meeting_eval/task_events.py、stage_runner.py | 任务状态变化；节点缓存与有界恢复 |
-| demo/src/ProjectWorkspace.tsx | 项目、会议创建、成员邀请与归档 |
-| demo/src/App.tsx、LiveWorkspace.tsx | 会议播放编排、当前 AI 主视图 |
-| demo/src/minutes.ts、scenario.ts | 事件结构、时间投影与状态重建 |
-| demo/src/useLiveStt.ts | 实时 PCM 请求与识别响应 |
+| demo/src/ProjectWorkspace.tsx | 项目、会议创建、邀请与归档 |
+| demo/src/LiveWorkspace.tsx | 会议现场、媒体与 AI 视图组合 |
+| demo/src/copilot/LiveSummary.tsx | 增量阅读区、目录、版本和上场对照 |
+| demo/src/copilot/WorkBoard.tsx | 分工、任务字段、确认及前后比较 |
+| demo/src/copilot/CopilotPanel.tsx | 文字交互、AG-UI 状态与产物 |
+| meeting_copilot/live_summary.py、jobs.py | 窗口规划、上下文、校验和作业编排 |
+| meeting_copilot/work.py | 工作账本、任务关联和确认 |
+| meeting_eval/context_v5.py、decision_review.py | 整会工作与决定提取核验 |
+| meeting_eval/service.py、store.py | 历史、保存、权限与查询 |
 
-## 恢复与复现
-
-输出校验失败时，只在现有预算与次数内重试或修补，保存接受的阶段和原始失败。显式恢复经 Service.retry_extraction 执行；若输入、历史或阶段配置变化，不能把旧缓存当成相同实验。新推理使用新目录，已完成实验留档不覆盖。
-
-当前完整配置为 context-v5 v19 + DecisionReview v2，默认 CLI 仍是 split-v3。便携入口、依赖和检查见[配置说明](CONFIG.md)，评测对象与保存路径见[证据索引](EVALUATION.md)。
+当前验证输入为 AMI 原声与实际 STT 词轴回放；模型实际运行。在线 ASR、真实飞书身份及任务写入尚需联调，邀请和任务保存采用本地实现。运行入口见[配置说明](CONFIG.md)，评测及产品验证分别见[证据索引](EVALUATION.md)。

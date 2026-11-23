@@ -4,6 +4,9 @@ import { MinutesPanel } from './MinutesPanel';
 import { CrossMeetingPanel } from './CrossMeetingPanel';
 import { formatTime, projectAt, sourcePosition, validateScenario, type Scenario } from './scenario';
 import './project.css';
+import { WorkBoard } from './copilot/WorkBoard';
+import { LiveSummary } from './copilot/LiveSummary';
+import { CopilotPanel } from './copilot/CopilotPanel';
 
 type Archive = { meeting: number; time: number; scenario: Scenario };
 type Meeting = { title: string; members: string[] };
@@ -13,6 +16,7 @@ const firstMeeting = (): Meeting => ({ title: '功能方案与分工', members: 
 const newProject = (id: string, name: string): Project => ({ id, name, archives: [], meetings: [firstMeeting()] });
 
 export function ProjectApp() {
+  const showcase = new URLSearchParams(location.search).has('showcase');
   const [scenario, setScenario] = useState<Scenario>();
   const [projects, setProjects] = useState<Project[]>(() => {
     try {
@@ -60,6 +64,7 @@ export function ProjectApp() {
     setArchiveTab('minutes'); setPage('archive');
   };
   const memory = (a: Archive | undefined) => {
+    if(showcase)return <WorkBoard {...copilotContext} compact/>;
     const state = a ? projectAt(a.scenario, a.time) : null;
     return <div className="memory-body"><h3>有效决定 <b>{state?.decisions.length ?? 0}</b></h3>
       {state?.decisions.map(d => <div className="memory-item" key={d.id}><strong>{d.title}</strong><p>{d.value}</p><small>{d.versions.length} 个版本 · {d.reaffirmations.length} 次重申</small></div>)}
@@ -68,7 +73,8 @@ export function ProjectApp() {
       {!state && <p className="empty-memory">本项目尚无已归档会议。<br />会议结束后，决定和行动事项将保存在这里。</p>}</div>;
   };
   const seekEvidence = (at: number) => setEvidence(scenario.segments.filter(s => s.start <= at && s.end >= at).map(s => s.id));
-  if (page === 'meeting') return <App key={selected + meeting} supplied={session} startAt={meeting ? 390000 : 0} endAt={meeting ? 782000 : 389999} onBack={() => setPage('project')} onArchive={archive} />;
+  const copilotContext = {projectId:selected,meeting,cursor:saved?saved.time:meeting?390000:0,archives:project.archives.filter(a=>a.meeting<=meeting).map(a=>({meeting:a.meeting,cursor_ms:Math.round(a.time)}))};
+  if (page === 'meeting') return <App key={selected + meeting} supplied={session} startAt={meeting ? 390000 : 0} endAt={meeting ? 782000 : 389999} onBack={() => setPage('project')} onArchive={archive} copilot={copilotContext} />;
   return <main className="project-shell">
     <aside className="project-sidebar"><div className="project-logo">✦ <strong>MeetingWatcher</strong></div><p>会议协作空间</p><button onClick={() => setPage('home')}>▦　我的项目</button><div className="sidebar-note">让讨论成为项目的记忆<br /><small>真人会议 · 连续协作</small></div></aside>
     <section className="project-page"><header><span>工作空间 / {page === 'home' ? '项目' : project.name}</span><span className="project-avatar">YH</span></header>
@@ -85,7 +91,7 @@ export function ProjectApp() {
         </div><aside className="memory-panel"><h2>项目记忆</h2><small>{latest ? `来自 0${latest.meeting + 1} ${project.meetings[latest.meeting].title}` : '等待第一场会议归档'}</small>{memory(latest)}</aside></div>
         : page === 'archive' && saved ? <div className="archive-layout">
           <div className="archive-document"><nav className="archive-tabs"><button className={archiveTab === 'minutes' ? 'active' : ''} onClick={() => setArchiveTab('minutes')}>会议纪要</button><button className={archiveTab === 'cross' ? 'active' : ''} onClick={() => setArchiveTab('cross')}>项目承接</button><span>已保存 · 原话可追溯</span></nav>
-            <div className="archive-scroll">{archiveTab === 'minutes' ? <MinutesPanel scenario={saved.scenario} time={saved.time} onEvidence={setEvidence} onSeek={seekEvidence} archived /> : <CrossMeetingPanel scenario={saved.scenario} time={saved.time} onEvidence={setEvidence} onSeek={seekEvidence} />}</div>
+            <div className="archive-scroll">{showcase ? <LiveSummary {...copilotContext} /> : archiveTab === 'minutes' ? <MinutesPanel scenario={saved.scenario} time={saved.time} onEvidence={setEvidence} onSeek={seekEvidence} archived /> : <CrossMeetingPanel scenario={saved.scenario} time={saved.time} onEvidence={setEvidence} onSeek={seekEvidence} />}</div>
           </div><aside className="memory-panel"><h2>留给下一场的内容</h2>{memory(saved)}<button className="blue large" onClick={() => setPage('project')}>返回项目，查看累计结果 →</button></aside>
         </div> : <div className="preparation-grid"><div className="preparation-main"><span className="saved-tag">同一项目 · 自动承接</span><h2>{active.title}</h2><p>{project.name} / {meeting ? '新建会议' : '第一场会议'}</p>
           <div className="participant-heading"><h3>参会成员 <small>{active.members.length} / 4</small></h3>{meeting > 0 && <button onClick={() => setDialog('invite')}>邀请上场成员 <kbd>Alt I</kbd></button>}</div>
@@ -96,9 +102,10 @@ export function ProjectApp() {
         </div><aside className="memory-panel"><h2>会前承接</h2>{memory(prior)}</aside></div>}
       </>}
     </section>
+    {page!=='home'&&<CopilotPanel key={selected+meeting+page} {...copilotContext} />}
     {dialog && <div className="project-overlay"><section className="project-dialog" role="dialog" aria-modal="true" aria-label={dialog === 'create' ? '新建项目会议' : '邀请上场成员'}>
       <small>{project.name}</small><h2>{dialog === 'create' ? '新建项目会议' : '邀请上场成员'}</h2>
-      {dialog === 'create' ? <><p>此会议将自动继承本项目最近一次归档。</p><label>会议名称<input autoFocus value={title} onChange={e => setTitle(e.target.value)} placeholder="例如：方案汇报与迭代" /></label><div className="dialog-summary">✦ 已连接项目记忆 · {latest ? projectAt(latest.scenario, latest.time).decisions.length : 0} 项决定 · {latest ? projectAt(latest.scenario, latest.time).tasks.length : 0} 项任务</div><footer><button onClick={() => setDialog(null)}>取消</button><button className="blue" disabled={!title.trim()} onClick={() => { const n = project.meetings.length; updateProject({ ...project, meetings: [...project.meetings, { title: title.trim(), members: ['B'] }] }); setMeeting(n); setDialog(null); setPage('prepare'); }}>创建会议</button></footer></>
+      {dialog === 'create' ? <><p>此会议将自动继承本项目最近一次归档。</p><label>会议名称<input autoFocus value={title} onChange={e => setTitle(e.target.value)} placeholder="例如：方案汇报与迭代" /></label><div className="dialog-summary">✦ 已连接项目记忆 · {showcase ? '原话与助手生成记录' : `${latest ? projectAt(latest.scenario, latest.time).decisions.length : 0} 项决定 · ${latest ? projectAt(latest.scenario, latest.time).tasks.length : 0} 项任务`}</div><footer><button onClick={() => setDialog(null)}>取消</button><button className="blue" disabled={!title.trim()} onClick={() => { const n = project.meetings.length; updateProject({ ...project, meetings: [...project.meetings, { title: title.trim(), members: ['B'] }] }); setMeeting(n); setDialog(null); setPage('prepare'); }}>创建会议</button></footer></>
       : <><p>来自「{project.meetings[0].title}」的协作成员</p><div className="invite-list">{scenario.people.filter(p => p.id !== 'B').map(p => <div key={p.id}><span className="invite-check">✓</span><i style={{ background: p.color }}>{p.initial}</i><strong>{p.name}</strong><small>{p.role}</small></div>)}</div><footer><button onClick={() => setDialog(null)}>取消</button><button className="blue" onClick={() => { updateProject({ ...project, meetings: project.meetings.map((m, n) => n === meeting ? { ...m, members: [...project.meetings[0].members] } : m) }); setDialog(null); }}>邀请 3 位成员加入</button></footer><small className="dialog-footnote">演示成员会自动接受邀请</small></>}
     </section></div>}
     {evidence && <div className="project-overlay"><section className="project-dialog archive-evidence" role="dialog" aria-label="归档原话"><h2>讨论依据</h2>{scenario.segments.filter(s => evidence.includes(s.id)).map(s => <article key={s.id}><small>{scenario.people.find(p => p.id === s.speaker)?.name} · {sourcePosition(scenario, s.start)?.meeting.id} · {formatTime(sourcePosition(scenario, s.start)?.sourceTime ?? s.start)}</small><p>{s.text}</p></article>)}{!evidence.length && <p>此时间点没有发言，可点击带来源的决定或图节点查看原话。</p>}<footer><button onClick={() => setEvidence(null)}>关闭原话</button></footer></section></div>}
