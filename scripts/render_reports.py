@@ -1,5 +1,6 @@
 """Render the three Markdown reports to local PDFs with installed Microsoft Edge."""
 from pathlib import Path
+import argparse
 import html
 import posixpath
 import re
@@ -13,7 +14,7 @@ body { font-family:"Microsoft YaHei",sans-serif; font-size:10pt; line-height:1.7
 h1 { font-size:25pt; line-height:1.35; color:#142644; margin:0 0 22px; padding-bottom:14px; border-bottom:4px solid #2b66cc; }
 h2 { font-size:15pt; color:#1c4c89; margin:27px 0 10px; break-after:avoid; }
 h3 { break-after:avoid; } p { margin:9px 0; orphans:3; widows:3; break-inside:avoid; }
-table { border-collapse:collapse; width:100%; table-layout:fixed; font-size:8.6pt; margin:14px 0; }
+table { border-collapse:collapse; width:100%; table-layout:fixed; font-size:8.6pt; margin:14px 0; break-inside:avoid; }
 thead { display:table-header-group; } th { background:#eaf0f9; color:#15355e; font-weight:600; }
 td,th { border:1px solid #cdd8e7; padding:7px 8px; vertical-align:top; overflow-wrap:anywhere; }
 tr { break-inside:avoid; } img { display:block; width:100%; height:auto; margin:14px 0; break-inside:avoid; }
@@ -24,6 +25,9 @@ li { margin:5px 0; } strong { color:#172f51; }
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--reports', nargs='+', choices=['RETRO', 'TUNING', 'CONFIG'], default=['RETRO', 'TUNING', 'CONFIG'])
+    args = parser.parse_args()
     output = ROOT / '交付/项目文档'
     temp = ROOT / 'tmp/docs'
     output.mkdir(parents=True, exist_ok=True)
@@ -34,6 +38,8 @@ def main():
         page.goto((ROOT / 'docs/images/architecture.svg').as_uri())
         page.locator('svg').screenshot(path=str(ROOT / 'docs/images/architecture.png'))
         for name, title in [('RETRO','会议助手_项目复盘'), ('TUNING','会议助手_任务与决策提取调优'), ('CONFIG','会议助手_配置与运行说明')]:
+            if name not in args.reports:
+                continue
             body = markdown.markdown((ROOT / f'docs/{name}.md').read_text(encoding='utf-8-sig'), extensions=['tables','fenced_code'])
             # PDF links should remain usable outside this workstation; images stay local.
             def public_link(match):
