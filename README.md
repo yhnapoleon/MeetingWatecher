@@ -76,7 +76,7 @@ python scripts/verify_release_evidence.py
 python scripts/run_current.py --input examples/m1.json --out runs/my-meeting
 ```
 
-第二条默认只预检；添加 `--live` 才实际调用当前 context-v5 v19 + DecisionReview v2。普通 CLI 默认仍为 split-v3。提交文件夹提供三份 PDF、源码 ZIP、测试用例、架构图和演示视频；源码解压后保持原项目结构，可运行 `python scripts/verify_submission.py` 检查。详细安装、检查与运行见[配置说明](docs/CONFIG.md)。
+第二条默认只预检；添加 `--live` 才实际调用当前 context-v5 v19 + DecisionReview v2。普通 CLI 默认仍为 split-v3。提交文件夹提供三份 PDF、测试用例、架构图和演示视频，源码通过本 GitHub 仓库链接交付；克隆仓库后可运行 `python scripts/verify_submission.py` 检查。详细安装、检查与运行见[配置说明](docs/CONFIG.md)。
 
 ## 数据与文档
 

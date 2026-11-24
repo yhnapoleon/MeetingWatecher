@@ -1,4 +1,4 @@
-"""Check the extracted source package without model requests."""
+"""Check the repository without model requests."""
 import argparse
 import hashlib
 import json

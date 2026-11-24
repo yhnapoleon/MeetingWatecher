@@ -10,7 +10,15 @@
 | 对新逐字稿推理 | Python 3.11+、自备模型凭据 | scripts/run_current.py --live |
 | 核心与 Copilot 离线检查 | Python；Copilot 需要其锁定依赖 | 下方定向测试 |
 
-将 `04_源码_MeetingWatcher.zip` 解压到新目录，下面命令除注明外均在解压后的项目根目录执行。代码、data、runs 和 docs 保持原工程相对路径，无需另行搬运。先运行 `python scripts/verify_submission.py` 核对文件并执行离线检查；安装 Copilot 依赖后可添加 `--copilot` 检查实时助手。
+从 GitHub 获取源码，后续命令除注明外均在仓库根目录执行：
+
+```powershell
+git clone https://github.com/yhnapoleon/MeetingWatecher.git
+Set-Location MeetingWatecher
+python scripts/verify_submission.py
+```
+
+代码、data、runs 和 docs 保持原工程相对路径。检查入口复算保存判分并运行核心定向测试，不调用模型；安装 Copilot 依赖后可添加 `--copilot` 检查实时助手。
 
 ## 启动完整应用
 
@@ -80,6 +88,6 @@ config/context-v5-v19.json 指定：track_context high / 16384，interpret_work 
 
 ## 提交内容与复现范围
 
-项目材料外层提供三份报告、源码 ZIP、115 场景测试用例、架构图和最终视频。源码包内保留初始数据与标注、冻结评分摘要、两场新参会组文本证据、当前双场应用核查记录及必要代码和媒体。历史完整请求、数据库与原始录制帧留在原工作区。115 场景可检查评分原件和逐单元索引；两场新参会组可直接复算保存判分，完整历史模型重放需要相应运行原件。
+项目材料外层提供三份报告、115 场景测试用例、架构图和最终视频。源码通过 GitHub 链接交付，仓库提供应用代码、标注、用例及选定评分摘要、两场新参会组文本证据、当前双场应用核查记录及必要代码和媒体。历史完整请求、数据库与原始录制帧留在原工作区。115 场景可检查评分原件和逐单元索引；两场新参会组可直接复算保存判分，完整历史模型重放需要相应运行原件。
 
 报告的 Markdown 为可编辑正文，PDF 为同一正文的阅读版。在完整源码工作区安装 markdown、playwright 后可运行 `python scripts/render_reports.py` 重新生成；生成依赖本机 Microsoft Edge。视频源文件和本次材料列于提交说明，章节与观看重点见[展示流程](AI参会助手_双场会议演示剧本.md)。
