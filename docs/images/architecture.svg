@@ -1,1 +1,173 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="670" viewBox="0 0 1220 670"><rect width="1220" height="670" fill="#f4f7fc"/><style>text{font-family:Microsoft YaHei,sans-serif;fill:#20334e}.title{font-size:25px;font-weight:700}.body{font-size:20px}</style><text x="40" y="58" class="title">MeetingWatcher · 从会议发言到可跟进任务</text><rect x="40" y="100" width="1140" height="95" rx="14" fill="white" stroke="#a9bfdd" stroke-width="2"/><text x="64" y="136" class="title">完整前端 · React / TypeScript / Vite</text><text x="64" y="172" class="body">项目工作台   |   会议现场与转写   |   动态纪要   |   行动事项   |   文字助手   |   归档</text><rect x="40" y="265" width="545" height="140" rx="14" fill="white" stroke="#a9bfdd" stroke-width="2"/><text x="64" y="301" class="title">增量服务 · FastAPI / LangGraph / AG-UI</text><text x="64" y="337" class="body">新增稳定转写 + 现有议题 + 可见历史</text><text x="64" y="367" class="body">约 12 秒窗口 → 模型变更 → 引用与对象校验</text><rect x="635" y="265" width="545" height="140" rx="14" fill="white" stroke="#a9bfdd" stroke-width="2"/><text x="659" y="301" class="title">整会处理 · context-v5 v19</text><text x="659" y="337" class="body">完整逐字稿 + 同系列历史</text><text x="659" y="367" class="body">全文跟踪 → 工作解释 → 独立核验 → 决定核验</text><rect x="40" y="475" width="1140" height="100" rx="14" fill="white" stroke="#a9bfdd" stroke-width="2"/><text x="64" y="511" class="title">Service / WorkLedger / SQLite / 本地产物</text><text x="64" y="547" class="body">用户确认 → 保存任务与快照 → 下一场更新原 GUID；议题保留版本、原话与跨会关系</text><path d="M310 195V255 M910 195V255 M310 405V465 M910 405V465" stroke="#4278b6" stroke-width="3"/><text x="40" y="625" class="body">验证输入：AMI 原声 + 实际 STT 词轴回放；真实模型调用；任务与邀请采用本地实现</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1510" viewBox="0 0 1800 1510" role="img" aria-labelledby="title desc">
+<title id="title">MeetingWatcher Agent 架构</title>
+<desc id="desc">整会任务推理与决策核验工作流、会中 LangGraph 三节点编排，以及记忆、恢复和确认执行工具。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#93a3b8"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style>
+<rect x="0" y="0" width="1800" height="1510" rx="0" fill="#f3f6fb" stroke="none" stroke-width="1.5"/>
+<rect x="0" y="0" width="1800" height="145" rx="0" fill="#14243d" stroke="none" stroke-width="1.5"/>
+<text x="48" y="64" font-size="42" fill="#ffffff" font-weight="700">MeetingWatcher</text>
+<text x="428" y="64" font-size="42" fill="#ffffff" font-weight="650">Agent 架构</text>
+<text x="50" y="108" font-size="25" fill="#bdcee7" font-weight="400">推理编排 · 证据核验 · 项目记忆 · 工具执行</text>
+<rect x="1417" y="48" width="132" height="28" rx="7" fill="#2b466b" stroke="none" stroke-width="1.5"/>
+<text x="1427" y="68" font-size="18" fill="#d7e7ff" font-weight="650">LLM 推理</text>
+<rect x="1565" y="48" width="132" height="28" rx="7" fill="#28534f" stroke="none" stroke-width="1.5"/>
+<text x="1575" y="68" font-size="18" fill="#d4f3ed" font-weight="650">程序节点</text>
+<text x="1420" y="108" font-size="21" fill="#bdcee7" font-weight="400">实线：顺序　虚线：条件路径</text>
+<rect x="48" y="177" width="1008" height="905" rx="22" fill="#eaf0fa" stroke="#d3deed" stroke-width="1.5"/>
+<rect x="72" y="200" width="50" height="28" rx="7" fill="#dbe7fb" stroke="none" stroke-width="1.5"/>
+<text x="82" y="220" font-size="18" fill="#3560b3" font-weight="650">01</text>
+<text x="138" y="225" font-size="32" fill="#172a46" font-weight="700">整会抽取与核验工作流</text>
+<text x="74" y="264" font-size="23" fill="#5b6d86" font-weight="400">context-v5 v19  /  DecisionReview v2</text>
+<text x="116" y="311" font-size="24" fill="#3560b3" font-weight="700">任务推理</text>
+<text x="604" y="311" font-size="24" fill="#7555a2" font-weight="700">决策核验</text>
+<text x="116" y="342" font-size="21" fill="#64758d" font-weight="400">完整逐字稿 + 人员 + 可见旧任务</text>
+<text x="604" y="342" font-size="21" fill="#64758d" font-weight="400">完整逐字稿 + 历史决定</text>
+<rect x="116" y="364" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="116" y="381" width="4" height="54" rx="2" fill="#3560b3" stroke="none" stroke-width="1.5"/>
+<text x="135" y="398" font-size="27" fill="#172a46" font-weight="650">上下文跟踪</text>
+<rect x="453" y="379" width="68" height="28" rx="7" fill="#edf3ff" stroke="none" stroke-width="1.5"/>
+<text x="463" y="399" font-size="18" fill="#3560b3" font-weight="650">LLM</text>
+<text x="135" y="429" font-size="22" fill="#526278" font-weight="400">分块维护实体、线程与工作线索</text>
+<path d="M325 452 V474" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="116" y="477" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="116" y="494" width="4" height="54" rx="2" fill="#3560b3" stroke="none" stroke-width="1.5"/>
+<text x="135" y="511" font-size="27" fill="#172a46" font-weight="650">工作解释</text>
+<rect x="453" y="492" width="68" height="28" rx="7" fill="#edf3ff" stroke="none" stroke-width="1.5"/>
+<text x="463" y="512" font-size="18" fill="#3560b3" font-weight="650">LLM</text>
+<text x="135" y="542" font-size="22" fill="#526278" font-weight="400">动作 / 对象 / 负责人 / 时间 / 承诺</text>
+<path d="M325 565 V587" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="116" y="590" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="116" y="607" width="4" height="54" rx="2" fill="#3560b3" stroke="none" stroke-width="1.5"/>
+<text x="135" y="624" font-size="27" fill="#172a46" font-weight="650">独立核验</text>
+<rect x="453" y="605" width="68" height="28" rx="7" fill="#edf3ff" stroke="none" stroke-width="1.5"/>
+<text x="463" y="625" font-size="18" fill="#3560b3" font-weight="650">LLM</text>
+<text x="135" y="655" font-size="22" fill="#526278" font-weight="400">依据是否成立、工作是否遗漏</text>
+<path d="M325 678 V700" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="7 6" marker-end="url(#arrow)"/>
+<rect x="116" y="703" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="116" y="720" width="4" height="54" rx="2" fill="#3560b3" stroke="none" stroke-width="1.5"/>
+<text x="135" y="737" font-size="27" fill="#172a46" font-weight="650">局部修补</text>
+<rect x="453" y="718" width="68" height="28" rx="7" fill="#edf3ff" stroke="none" stroke-width="1.5"/>
+<text x="463" y="738" font-size="18" fill="#3560b3" font-weight="650">LLM</text>
+<text x="135" y="768" font-size="22" fill="#526278" font-weight="400">只改指定记录，逐项处理缺口</text>
+<path d="M325 791 V813" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="116" y="816" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="116" y="833" width="4" height="54" rx="2" fill="#3560b3" stroke="none" stroke-width="1.5"/>
+<text x="135" y="850" font-size="27" fill="#172a46" font-weight="650">修补复检</text>
+<rect x="453" y="831" width="68" height="28" rx="7" fill="#edf3ff" stroke="none" stroke-width="1.5"/>
+<text x="463" y="851" font-size="18" fill="#3560b3" font-weight="650">LLM</text>
+<text x="135" y="881" font-size="22" fill="#526278" font-weight="400">回查原话，关闭或保留异议</text>
+<path d="M325 904 V926" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="116" y="929" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="116" y="946" width="4" height="54" rx="2" fill="#3560b3" stroke="none" stroke-width="1.5"/>
+<text x="135" y="963" font-size="27" fill="#172a46" font-weight="650">工作状态归约</text>
+<rect x="453" y="944" width="68" height="28" rx="7" fill="#edf3ff" stroke="none" stroke-width="1.5"/>
+<text x="463" y="964" font-size="18" fill="#3560b3" font-weight="650">程序</text>
+<text x="135" y="994" font-size="22" fill="#526278" font-weight="400">新建 / 进展 / 完成 / 条件 / 待澄清</text>
+<rect x="604" y="364" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="604" y="381" width="4" height="54" rx="2" fill="#7555a2" stroke="none" stroke-width="1.5"/>
+<text x="623" y="398" font-size="27" fill="#172a46" font-weight="650">决策草稿</text>
+<rect x="941" y="379" width="68" height="28" rx="7" fill="#f1ecfa" stroke="none" stroke-width="1.5"/>
+<text x="951" y="399" font-size="18" fill="#7555a2" font-weight="650">LLM</text>
+<text x="623" y="429" font-size="22" fill="#526278" font-weight="400">提取选项、属性与采纳依据</text>
+<path d="M813 452 V474" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="604" y="477" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="604" y="494" width="4" height="54" rx="2" fill="#7555a2" stroke="none" stroke-width="1.5"/>
+<text x="623" y="511" font-size="27" fill="#172a46" font-weight="650">独立核验与补漏</text>
+<rect x="941" y="492" width="68" height="28" rx="7" fill="#f1ecfa" stroke="none" stroke-width="1.5"/>
+<text x="951" y="512" font-size="18" fill="#7555a2" font-weight="650">LLM</text>
+<text x="623" y="542" font-size="22" fill="#526278" font-weight="400">按议题查证，分段扫描遗漏</text>
+<path d="M813 565 V587" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="604" y="590" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="604" y="607" width="4" height="54" rx="2" fill="#7555a2" stroke="none" stroke-width="1.5"/>
+<text x="623" y="624" font-size="27" fill="#172a46" font-weight="650">采纳裁决</text>
+<rect x="941" y="605" width="68" height="28" rx="7" fill="#f1ecfa" stroke="none" stroke-width="1.5"/>
+<text x="951" y="625" font-size="18" fill="#7555a2" font-weight="650">LLM</text>
+<text x="623" y="655" font-size="22" fill="#526278" font-weight="400">对照草稿、独立结论与原话</text>
+<path d="M813 678 V700" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="604" y="703" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="604" y="720" width="4" height="54" rx="2" fill="#7555a2" stroke="none" stroke-width="1.5"/>
+<text x="623" y="737" font-size="27" fill="#172a46" font-weight="650">散会状态复核</text>
+<rect x="941" y="718" width="68" height="28" rx="7" fill="#f1ecfa" stroke="none" stroke-width="1.5"/>
+<text x="951" y="738" font-size="18" fill="#7555a2" font-weight="650">LLM</text>
+<text x="623" y="768" font-size="22" fill="#526278" font-weight="400">后文是否撤回、质疑或重开</text>
+<path d="M813 791 V813" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="604" y="816" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="604" y="833" width="4" height="54" rx="2" fill="#7555a2" stroke="none" stroke-width="1.5"/>
+<text x="623" y="850" font-size="27" fill="#172a46" font-weight="650">主张归并</text>
+<rect x="941" y="831" width="68" height="28" rx="7" fill="#f1ecfa" stroke="none" stroke-width="1.5"/>
+<text x="951" y="851" font-size="18" fill="#7555a2" font-weight="650">LLM</text>
+<text x="623" y="881" font-size="22" fill="#526278" font-weight="400">去重，区分包含与互补关系</text>
+<path d="M813 904 V926" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="604" y="929" width="420" height="88" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="604" y="946" width="4" height="54" rx="2" fill="#7555a2" stroke="none" stroke-width="1.5"/>
+<text x="623" y="963" font-size="27" fill="#172a46" font-weight="650">决定版本管理</text>
+<rect x="941" y="944" width="68" height="28" rx="7" fill="#f1ecfa" stroke="none" stroke-width="1.5"/>
+<text x="951" y="964" font-size="18" fill="#7555a2" font-weight="650">程序</text>
+<text x="623" y="994" font-size="22" fill="#526278" font-weight="400">reaffirms 重申 / supersedes 替代</text>
+<path d="M116 634 H86 V973 H112" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="7 6" marker-end="url(#arrow)"/>
+<rect x="62" y="762" width="48" height="86" rx="0" fill="#eaf0fa" stroke="none" stroke-width="1.5"/>
+<text x="74" y="793" font-size="21" fill="#64758d" font-weight="400">通</text>
+<text x="74" y="824" font-size="21" fill="#64758d" font-weight="400">过</text>
+<text x="348" y="701" font-size="18" fill="#64758d" font-weight="400">有缺口</text>
+<text x="116" y="1054" font-size="22" fill="#64758d" font-weight="400">独立分支：事实 / 未决问题提取</text>
+<text x="604" y="1054" font-size="22" fill="#64758d" font-weight="400">各阶段保留原话、结论和错误记录</text>
+<rect x="1088" y="177" width="664" height="905" rx="22" fill="#eaf5f2" stroke="#cfe3dc" stroke-width="1.5"/>
+<rect x="1112" y="200" width="50" height="28" rx="7" fill="#d5ece4" stroke="none" stroke-width="1.5"/>
+<text x="1122" y="220" font-size="18" fill="#267663" font-weight="650">02</text>
+<text x="1178" y="225" font-size="32" fill="#172a46" font-weight="700">会中助手 Agent</text>
+<text x="1114" y="264" font-size="22" fill="#52796e" font-weight="400">LangGraph StateGraph · retrieve → generate → persist</text>
+<rect x="1114" y="290" width="612" height="61" rx="12" fill="#dbeee7" stroke="none" stroke-width="1.5"/>
+<text x="1135" y="329" font-size="26" fill="#246b59" font-weight="600">触发：新增稳定转写 / 用户文字请求</text>
+<path d="M1420 351 V373" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1114" y="377" width="612" height="164" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="1114" y="394" width="4" height="130" rx="2" fill="#267663" stroke="none" stroke-width="1.5"/>
+<text x="1133" y="411" font-size="27" fill="#172a46" font-weight="650">retrieve · 构建上下文</text>
+<rect x="1643" y="392" width="68" height="28" rx="7" fill="#e4f3ed" stroke="none" stroke-width="1.5"/>
+<text x="1653" y="412" font-size="18" fill="#267663" font-weight="650">混合</text>
+<text x="1133" y="442" font-size="22" fill="#526278" font-weight="400">自动：约 12 秒窗口 + 现有议题 + 任务</text>
+<text x="1133" y="474" font-size="23" fill="#526278" font-weight="400">文字：模型调用 search_evidence 检索</text>
+<text x="1133" y="510" font-size="23" fill="#526278" font-weight="400">研究模式：search_sources → read_source</text>
+<path d="M1420 541 V575" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1114" y="579" width="612" height="164" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="1114" y="596" width="4" height="130" rx="2" fill="#267663" stroke="none" stroke-width="1.5"/>
+<text x="1133" y="613" font-size="27" fill="#172a46" font-weight="650">generate · 生成与校验</text>
+<rect x="1643" y="594" width="68" height="28" rx="7" fill="#e4f3ed" stroke="none" stroke-width="1.5"/>
+<text x="1653" y="614" font-size="18" fill="#267663" font-weight="650">混合</text>
+<text x="1133" y="644" font-size="22" fill="#526278" font-weight="400">模型输出 Answer、summary_changes、work_changes</text>
+<text x="1133" y="676" font-size="23" fill="#526278" font-weight="400">程序检查引用、人员、ID 和本轮新增依据</text>
+<text x="1133" y="712" font-size="23" fill="#526278" font-weight="400">增量 JSON 语法失败 → 一次格式修复</text>
+<path d="M1420 743 V777" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1114" y="781" width="612" height="164" rx="12" fill="#ffffff" stroke="#d8e1ed" stroke-width="1.5"/>
+<rect x="1114" y="798" width="4" height="130" rx="2" fill="#267663" stroke="none" stroke-width="1.5"/>
+<text x="1133" y="815" font-size="27" fill="#172a46" font-weight="650">persist · 保存 Agent 产物</text>
+<rect x="1643" y="796" width="68" height="28" rx="7" fill="#e4f3ed" stroke="none" stroke-width="1.5"/>
+<text x="1653" y="816" font-size="18" fill="#267663" font-weight="650">程序</text>
+<text x="1133" y="846" font-size="22" fill="#526278" font-weight="400">LiveSummary：同一议题原位补充、保留版本</text>
+<text x="1133" y="878" font-size="23" fill="#526278" font-weight="400">WorkLedger：自动与文字入口共用候选</text>
+<text x="1133" y="914" font-size="23" fill="#526278" font-weight="400">Artifacts：比较表 / 清单 / 简报及修改版本</text>
+<rect x="1114" y="967" width="612" height="89" rx="12" fill="#ffffff" stroke="#cfe3dc" stroke-width="1.5"/>
+<text x="1133" y="1001" font-size="24" fill="#246b59" font-weight="650">运行状态  State</text>
+<text x="1133" y="1036" font-size="22" fill="#526278" font-weight="400">context → result → artifact；AG-UI 发送步骤事件</text>
+<path d="M552 1082 V1105" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1420 1082 V1105" fill="none" stroke="#93a3b8" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="70" y="1137" font-size="25" fill="#172a46" font-weight="650">工作流依赖：记忆读取、状态保存与确认执行</text>
+<rect x="48" y="1160" width="552" height="281" rx="18" fill="#ffffff" stroke="#d3deed" stroke-width="1.5"/>
+<rect x="624" y="1160" width="552" height="281" rx="18" fill="#ffffff" stroke="#d3deed" stroke-width="1.5"/>
+<rect x="1200" y="1160" width="552" height="281" rx="18" fill="#ffffff" stroke="#d3deed" stroke-width="1.5"/>
+<text x="72" y="1208" font-size="29" fill="#172a46" font-weight="700">项目记忆与证据</text>
+<text x="72" y="1251" font-size="24" fill="#3560b3" font-weight="600">Memory / Service / WorkLedger</text>
+<text x="72" y="1294" font-size="23" fill="#34445c" font-weight="400">原话引用 · 人员 · 议题版本 · 历史决定</text>
+<text x="72" y="1334" font-size="23" fill="#34445c" font-weight="400">已确认任务 GUID · 进展与确认快照</text>
+<text x="72" y="1383" font-size="23" fill="#64758d" font-weight="400">按项目、会议、游标与可见范围读取</text>
+<text x="648" y="1208" font-size="29" fill="#172a46" font-weight="700">状态持久化与恢复</text>
+<text x="648" y="1251" font-size="24" fill="#3560b3" font-weight="600">阶段执行器 / SqliteSaver</text>
+<text x="648" y="1294" font-size="23" fill="#34445c" font-weight="400">整会：已接受阶段缓存 + 分块检查点</text>
+<text x="648" y="1334" font-size="23" fill="#34445c" font-weight="400">会中：作业 / 节点检查点 / 事件日志</text>
+<text x="648" y="1383" font-size="23" fill="#64758d" font-weight="400">恢复失败阶段，复用已验证的上游结果</text>
+<text x="1224" y="1208" font-size="29" fill="#172a46" font-weight="700">任务工具与人工确认</text>
+<text x="1224" y="1251" font-size="24" fill="#267663" font-weight="600">会中候选 → 用户确认 → Service</text>
+<text x="1224" y="1294" font-size="23" fill="#34445c" font-weight="400">创建任务 / 按原 GUID 更新 / 幂等确认</text>
+<text x="1224" y="1334" font-size="23" fill="#34445c" font-weight="400">写入本地任务模拟器，保存确认快照</text>
+<text x="1224" y="1383" font-size="23" fill="#64758d" font-weight="400">后续会议读取同一任务及其最新进展</text>
+<text x="48" y="1482" font-size="21" fill="#64758d" font-weight="400">代码对应  meeting_eval/context_v5.py · decision_review.py   |   meeting_copilot/jobs.py · live_summary.py · work.py</text>
+</svg>
