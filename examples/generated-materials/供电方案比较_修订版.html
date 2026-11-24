@@ -1,0 +1,442 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>遥控器供电方案比较：普通电池与动能辅助＋电池后备</title>
+<style>body{max-width:960px;margin:40px auto;font:16px/1.8 system-ui;padding:24px;color:#26334b}h1{color:#2453a2}h2{font-size:21px;margin-top:28px}p{white-space:pre-wrap}table{width:100%;border-collapse:collapse}td,th{padding:10px;border:1px solid #dce3ee;text-align:left;vertical-align:top}th{background:#eef3fb}small{color:#66758b}blockquote{background:#f5f7fb;margin:12px 0;padding:12px;border-left:3px solid #a7bfeb}a{color:#2862ba}</style><body>
+<h1>遥控器供电方案比较：普通电池与动能辅助＋电池后备</h1>
+<p>第一场讨论倾向普通电池、不采用充电单元/充电底座；项目经理随后提出动能辅助＋电池后备的设想，尚未采纳。成本、体积、可靠性三项均无具体数值，待验证。</p>
+<h2>普通电池：讨论倾向而非正式选定</h2>
+<small>证据事实</small>
+<p>第一场中，David 表示除非控制器耗电很大、一个月就要换一批电池，否则可充电不是问题，并说“just stick to regular”；项目经理回应“just stick to to regular”。这是第一场的讨论倾向，不写成已正式选定。</p>
+<a href="#stt:111-144:v1">[依据]</a> <a href="#ES2002b.A.dialog-act.dharshi.192">[依据]</a> <a href="#ES2002b.B.dialog-act.dharshi.276">[依据]</a>
+<h2>充电单元/充电底座的成本与复杂度归因</h2>
+<small>证据事实</small>
+<p>第一场讨论充电单元时，David 说从部件角度看会增加复杂度、增加成本，还需要另一个物理部件，例如 docking cradle；并提到需要让用户插上充电，而多数用户已习惯买电池并装入。这些理由针对充电单元/充电底座，不能移作动能方案的已知缺点。</p>
+<a href="#stt:53-85:v1">[依据]</a> <a href="#ES2002b.A.dialog-act.dharshi.184">[依据]</a> <a href="#ES2002b.A.dialog-act.dharshi.187">[依据]</a> <a href="#stt:86-110:v1">[依据]</a>
+<h2>动能辅助＋电池后备：提议状态与原话要点</h2>
+<small>证据事实</small>
+<p>项目经理在后续会议提出“I really like the idea of this kinetic thing where you&#x27;d have the backup of the battery but have kinetic power”，该设想目前只是提议，未见采纳记录。Andrew 提到 kinetic things 的问题是“you&#x27;re committing the user to moving it”；David 说它“not going to charge the battery”。仅按对应原话表述，不外推。</p>
+<a href="#stt:1885-1916:v1">[依据]</a> <a href="#ES2002c.B.dialog-act.dharshi.243">[依据]</a> <a href="#stt:1925-1956:v1">[依据]</a> <a href="#stt:1957-1971:v1">[依据]</a>
+<h2>第二场部件汇报是通用设计约束</h2>
+<small>证据事实</small>
+<p>David 在第二场汇报部件概念时提出 cost、complexity、size 三项影响；最终成本与物理部件数量相关，供电是其中一个因素；低端部件（电源、逻辑、发射器、红外）影响设备尺寸，进而更多影响握持方式；并称“it&#x27;s just a matter of working out space”。这些是通用设计约束，不是已经测量的动能增量。</p>
+<a href="#stt:1849-1873:v1">[依据]</a> <a href="#stt:1758-1793:v1">[依据]</a> <a href="#stt:1794-1819:v1">[依据]</a> <a href="#ES2002c.A.dialog-act.dharshi.40">[依据]</a>
+<h2>建议的验证方法</h2>
+<small>建议</small>
+<p>suggestion：对两方案分别做 BOM 成本估算（含动能转换部件、后备电池、装配工时）、体积/重量堆叠图与握持评估、可靠性测试（跌落、按键寿命、动能部件磨损、后备电池续航与更换周期）；验收条件可设为：成本差额、体积增量、故障率与续航数据均有实测或供应商报价支撑后再定案。</p>
+
+<table><thead><tr><th>比较维度</th><th>方案 A：普通电池（第一场讨论倾向）</th><th>方案 B：动能辅助＋电池后备（提议，未采纳）</th><th>依据</th></tr></thead><tbody>
+<tr><td>成本</td><td>会议已知：第一场讨论倾向普通电池，理由是用户已习惯买电池并装入；未给出单价或总成本。待验证：电池单价、更换频率、总拥有成本。</td><td>会议已知：仅为提议，未给出任何成本数据；第二场“部件数量影响成本”是通用设计约束，不是动能方案实测。待验证：动能转换部件与后备电池的 BOM 成本、装配成本、报价。</td><td><a href="#stt:111-144:v1">[依据]</a> <a href="#stt:86-110:v1">[依据]</a> <a href="#stt:1758-1793:v1">[依据]</a> <a href="#stt:1849-1873:v1">[依据]</a></td></tr>
+<tr><td>体积</td><td>会议已知：第二场通用判断称部件数量影响设备尺寸、进而影响握持；未给出普通电池方案的具体尺寸。待验证：电池仓尺寸、整机体积与重量。</td><td>会议已知：仅为提议，未给出任何尺寸数据；第二场“working out space”是通用设计约束，不是动能增量测量。待验证：动能机构与后备电池占用的体积、对握持与外观的影响。</td><td><a href="#stt:1794-1819:v1">[依据]</a> <a href="#ES2002c.A.dialog-act.dharshi.40">[依据]</a> <a href="#stt:1849-1873:v1">[依据]</a></td></tr>
+<tr><td>可靠性</td><td>会议已知：David 认为除非耗电极大，否则普通电池够用；未给出续航或故障率数据。待验证：电池寿命、低电量表现。</td><td>会议已知：Andrew 提醒用户必须持续移动设备才能供能；David 称动能部分不能给电池充电，仅作辅助。待验证：动能输出是否稳定、后备电池切换逻辑、部件磨损与故障率。</td><td><a href="#stt:111-144:v1">[依据]</a> <a href="#stt:1925-1956:v1">[依据]</a> <a href="#stt:1957-1971:v1">[依据]</a></td></tr>
+</tbody></table>
+<h2>待确认</h2><ul><li>动能辅助＋电池后备方案是否正式进入评估？由谁负责？</li><li>两方案的成本差额、体积增量、可靠性指标分别是多少？均待验证。</li><li>动能部分不能充电的情况下，后备电池的更换周期与用户提示方式如何设计？</li><li>该提议与第一场普通电池的讨论倾向是否冲突，需项目经理确认是否修订。</li></ul>
+<h2>证据索引</h2>
+<h3 id="stt:1885-1916:v1">stt:1885-1916:v1</h3>
+<small>ES2002c · 项目经理 · stt_replay</small>
+<blockquote>Energy, do you think that&#x27;s suggesting we&#x27;re power powering a thing? I really like the idea of this kinetic thing where you&#x27;d have the backup of the battery but have kinetic power.</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.41">ES2002c.A.dialog-act.dharshi.41</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>So I guess three things , um cost , um complexity , and the size .</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.33">ES2002c.A.dialog-act.dharshi.33</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>The rest of the components um they do have an impact in terms of cost and complexity .</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.37">ES2002c.A.dialog-act.dharshi.37</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>Um and the lower components , the power , the logic , the transmitter , and the infrared , um they affect you in terms of the size of your device ,</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.243">ES2002c.B.dialog-act.dharshi.243</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>I really like the idea of this kinetic thing where you&#x27;d have the back-up of the battery , but have have kinetic power ,</blockquote>
+<h3 id="ES2002c.D.dialog-act.dharshi.195">ES2002c.D.dialog-act.dharshi.195</h3>
+<small>ES2002c · Andrew · corpus_transcript</small>
+<blockquote>and that&#x27;s gonna take battery power ,</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.200">ES2002c.A.dialog-act.dharshi.200</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>So the power the battery in that sense ,</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.35">ES2002c.A.dialog-act.dharshi.35</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>um and how many components are physically in there in cost .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.265">ES2002b.B.dialog-act.dharshi.265</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Um , is it worth considering like having like a charging unit as opposed to just regular batteries ?</blockquote>
+<h3 id="stt:53-85:v1">stt:53-85:v1</h3>
+<small>ES2002b · David · stt_replay</small>
+<blockquote>From a component point of view, there&#x27;s added complexity. You add cost to it. And then there&#x27;s probably the fact that you need another physical component. You need docking cradle, for example. Yeah.</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.184">ES2002b.A.dialog-act.dharshi.184</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>Okay , from from a from a component point of view there&#x27;s added complexity ,</blockquote>
+<h3 id="stt:1758-1793:v1">stt:1758-1793:v1</h3>
+<small>ES2002c · David · stt_replay</small>
+<blockquote>And how many components are physically in the end cost? And the power is basically a factor of that. And the lower components, the power, the logic, the transmitter, and the infrared, But they affect you</blockquote>
+<h3 id="stt:1849-1873:v1">stt:1849-1873:v1</h3>
+<small>ES2002c · David · stt_replay</small>
+<blockquote>it&#x27;s just a matter of working out space. So I guess three things, cost, complexity, and the size. These are the three things that will</blockquote>
+<h3 id="ES2002c.D.dialog-act.dharshi.189">ES2002c.D.dialog-act.dharshi.189</h3>
+<small>ES2002c · Andrew · corpus_transcript</small>
+<blockquote>Can we get a strong enough battery to power a light ?</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.118">ES2002c.A.dialog-act.dharshi.118</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>um the less components we use and the simpler the components means you reduce your cost and you increase your profit .</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.58">ES2002c.A.dialog-act.dharshi.58</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>I&#x27;ll explain to you the complexity and the cost thing again a bit later .</blockquote>
+<h3 id="stt:32-52:v1">stt:32-52:v1</h3>
+<small>ES2002b · 项目经理 · stt_replay</small>
+<blockquote>Is that something you really want to go into, do you think? Or should we just consider running on regular batteries?</blockquote>
+<h3 id="stt:86-110:v1">stt:86-110:v1</h3>
+<small>ES2002b · David · stt_replay</small>
+<blockquote>Put it into charge. need to get the user to plug it in. Most users are already used to buying batteries and putting it in.</blockquote>
+<h3 id="stt:1726-1757:v1">stt:1726-1757:v1</h3>
+<small>ES2002c · David · stt_replay</small>
+<blockquote>needed is basically in the user interface. The rest of the components, they do have an impact in terms of cost and complexity. Like you said, time to market was a problem.</blockquote>
+<h3 id="stt:1794-1819:v1">stt:1794-1819:v1</h3>
+<small>ES2002c · David · stt_replay</small>
+<blockquote>in terms of the size of your device. And that would have some impact on, I think, more how you hold rather than the actual using</blockquote>
+<h3 id="stt:1848-1848:v1">stt:1848-1848:v1</h3>
+<small>ES2002c · Andrew · stt_replay</small>
+<blockquote>So</blockquote>
+<h3 id="stt:1874-1884:v1">stt:1874-1884:v1</h3>
+<small>ES2002c · David · stt_replay</small>
+<blockquote>have an impact on you. So just go through the components.</blockquote>
+<h3 id="stt:1917-1924:v1">stt:1917-1924:v1</h3>
+<small>ES2002c · 项目经理 · stt_replay</small>
+<blockquote>I mean, what does anything mean? I&#x27;ve had</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.264">ES2002b.B.dialog-act.dharshi.264</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Something I was wondering about was the power .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.266">ES2002b.B.dialog-act.dharshi.266</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>I mean is that something we really want to go into , do you think ,</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.183">ES2002b.A.dialog-act.dharshi.183</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>There&#x27;s a there&#x27;s</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.268">ES2002b.B.dialog-act.dharshi.268</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Uh-huh .</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.32">ES2002c.A.dialog-act.dharshi.32</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>Um I think , like what you guys said , um the most input that&#x27;s needed is basically in the user interface .</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.34">ES2002c.A.dialog-act.dharshi.34</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>Um like you said time to market was a problem ,</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.36">ES2002c.A.dialog-act.dharshi.36</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>And the power is basically a factor of that .</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.38">ES2002c.A.dialog-act.dharshi.38</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>um and that would have some inte impact on how y I think more how you hold rather than um the actual use using the the remote control</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.40">ES2002c.A.dialog-act.dharshi.40</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>So um you know it&#x27;s just a matter of working out space .</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.42">ES2002c.A.dialog-act.dharshi.42</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>These are the three things that um will have an impact on you .</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.57">ES2002c.A.dialog-act.dharshi.57</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>well in the sense that these are all the options available for you .</blockquote>
+<h3 id="ES2002c.D.dialog-act.dharshi.159">ES2002c.D.dialog-act.dharshi.159</h3>
+<small>ES2002c · Andrew · corpus_transcript</small>
+<blockquote>Yeah .</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.117">ES2002c.A.dialog-act.dharshi.117</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>Um and the other thing is from a production point of view</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.111">ES2002c.B.dialog-act.dharshi.111</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>Mm-hmm .</blockquote>
+<h3 id="ES2002c.D.dialog-act.dharshi.188">ES2002c.D.dialog-act.dharshi.188</h3>
+<small>ES2002c · Andrew · corpus_transcript</small>
+<blockquote>Can we uh power a light in this ?</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.136">ES2002c.A.dialog-act.dharshi.136</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>Um I think we could because the L_C_D_ panel requires power ,</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.124">ES2002c.B.dialog-act.dharshi.124</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>Yeah .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.308">ES2002b.B.dialog-act.dharshi.308</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Um and you&#x27;ll all get specific instructions as well .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.303">ES2002b.B.dialog-act.dharshi.303</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Um so I&#x27;ll be putting the minutes of this uh this meeting into the project documents folder .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.14">ES2002b.B.dialog-act.dharshi.14</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>which is the The first one is that um uh the company&#x27;s decided that teletext is outdated uh because of how popular the internet is .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.16">ES2002b.B.dialog-act.dharshi.16</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>so we don&#x27;t really need to consider that in the functionality of the of the remote control .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.17">ES2002b.B.dialog-act.dharshi.17</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Um they&#x27;ve also suggested that we um we only use the remote control to control the television , not the V_C_R_ , D_V_D_ or anything else .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.19">ES2002b.B.dialog-act.dharshi.19</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>So um , we&#x27;re just gonna keep it simple and it&#x27;ll just control the T_V_ .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.32">ES2002b.B.dialog-act.dharshi.32</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>just not to worry about teletext , uh only control the T_V_ , and um and uh incorporate the uh colour and slogan of the company .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.262">ES2002b.B.dialog-act.dharshi.262</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>In the new requirement spec they said just to focus on the T_V_ ,</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.263">ES2002b.B.dialog-act.dharshi.263</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>so that&#x27;s what we should do for now I think .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.174">ES2002b.B.dialog-act.dharshi.174</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>if we are going to include speech recognition , it&#x27;s kind of between fifteen and thirty five seems to be like a really high response to that .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.178">ES2002b.B.dialog-act.dharshi.178</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Okay , so fifteen to thirty five , look fairly young .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.284">ES2002b.B.dialog-act.dharshi.284</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Are we all happy about the idea of um aiming the product at um the fifteen to thirty five bracket ?</blockquote>
+<h3 id="ES2002b.D.dialog-act.dharshi.295">ES2002b.D.dialog-act.dharshi.295</h3>
+<small>ES2002b · Andrew · corpus_transcript</small>
+<blockquote>Yeah , that&#x27;s good .</blockquote>
+<h3 id="ES2002b.C.dialog-act.dharshi.50">ES2002b.C.dialog-act.dharshi.50</h3>
+<small>ES2002b · Craig · corpus_transcript</small>
+<blockquote>I mean so far I&#x27;ve got um on and off , um switch the channel up and down , and put the volume up and down .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.66">ES2002b.B.dialog-act.dharshi.66</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>and then actual numbers for channels as well , yeah .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.67">ES2002b.B.dialog-act.dharshi.67</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>God , I wou I would say that&#x27;s required ,</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.68">ES2002b.B.dialog-act.dharshi.68</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>I mean there&#x27;s no way anybody&#x27;s gonna buy a remote control these days when if you can&#x27;t actually individually select channels ,</blockquote>
+<h3 id="ES2002b.C.dialog-act.dharshi.61">ES2002b.C.dialog-act.dharshi.61</h3>
+<small>ES2002b · Craig · corpus_transcript</small>
+<blockquote>There&#x27;s um on and off , um volume and channel , and skip to certain channels with the numbers .</blockquote>
+<h3 id="ES2002b.C.dialog-act.dharshi.80">ES2002b.C.dialog-act.dharshi.80</h3>
+<small>ES2002b · Craig · corpus_transcript</small>
+<blockquote>Um on off , up and down channels , up and down volume and uh skip to a channel .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.92">ES2002b.B.dialog-act.dharshi.92</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>and then maybe just things that would be nice if it could do would be things like audio set up and display set up and things like that ,</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.93">ES2002b.B.dialog-act.dharshi.93</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>maybe like a mute button ,</blockquote>
+<h3 id="ES2002b.C.dialog-act.dharshi.83">ES2002b.C.dialog-act.dharshi.83</h3>
+<small>ES2002b · Craig · corpus_transcript</small>
+<blockquote>I think we include mute ,</blockquote>
+<h3 id="ES2002b.C.dialog-act.dharshi.84">ES2002b.C.dialog-act.dharshi.84</h3>
+<small>ES2002b · Craig · corpus_transcript</small>
+<blockquote>but apart from that um I think we just we&#x27;ll go for the simpleness .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.290">ES2002b.B.dialog-act.dharshi.290</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Yeah , it&#x27;s as optional functions .</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.58">ES2002b.A.dialog-act.dharshi.58</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>I I think one thing we should try not to avoid is not to say we have to use speech recognition right now ,</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.67">ES2002b.A.dialog-act.dharshi.67</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>I suggest that we think about speech recognition ,</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.69">ES2002b.A.dialog-act.dharshi.69</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>but at end of the day we don&#x27;t look at the technology , but we look at the function first .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.198">ES2002b.B.dialog-act.dharshi.198</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Okay .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.246">ES2002b.B.dialog-act.dharshi.246</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>so I th suspect it might be a good idea just to restrict our kind of our creative influence on this on the user interface</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.248">ES2002b.B.dialog-act.dharshi.248</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>um because I mean it it&#x27;s tried and tested intra-red ,</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.249">ES2002b.B.dialog-act.dharshi.249</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>so we could stay with tha</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.192">ES2002b.A.dialog-act.dharshi.192</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>then I don&#x27;t think rechargeable is something we should you know , we really need to care about .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.276">ES2002b.B.dialog-act.dharshi.276</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Okay , so just stick to to regular</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.200">ES2002b.A.dialog-act.dharshi.200</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>Um maybe I could suggest we we break them down into three simple categories .</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.201">ES2002b.A.dialog-act.dharshi.201</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>One would be audio controls ,</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.202">ES2002b.A.dialog-act.dharshi.202</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>one would be video controls ,</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.203">ES2002b.A.dialog-act.dharshi.203</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>and the other one would be a device .</blockquote>
+<h3 id="ES2002b.D.dialog-act.dharshi.317">ES2002b.D.dialog-act.dharshi.317</h3>
+<small>ES2002b · Andrew · corpus_transcript</small>
+<blockquote>shall we agree for sake of um sort of clarity and when we when we r resume that we&#x27;ll u use this idea David&#x27;s proposed ,</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.315">ES2002b.B.dialog-act.dharshi.315</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Yeah , yeah I think that&#x27;s definitely a good idea .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.317">ES2002b.B.dialog-act.dharshi.317</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Yeah .</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.228">ES2002b.A.dialog-act.dharshi.228</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>Device is basically anything which we can&#x27;t categorise , right .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.129">ES2002b.B.dialog-act.dharshi.129</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>So want something that looks good and is easy to use ,</blockquote>
+<h3 id="ES2002b.D.dialog-act.dharshi.165">ES2002b.D.dialog-act.dharshi.165</h3>
+<small>ES2002b · Andrew · corpus_transcript</small>
+<blockquote>Yeah .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.130">ES2002b.B.dialog-act.dharshi.130</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>big priorities .</blockquote>
+<h3 id="ES2002b.D.dialog-act.dharshi.166">ES2002b.D.dialog-act.dharshi.166</h3>
+<small>ES2002b · Andrew · corpus_transcript</small>
+<blockquote>Yeah ,</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.7">ES2002c.B.dialog-act.dharshi.7</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>And I told you guys about the three new requirements about ignoring teletext , ignoring everything except the T_V_ , and trying to incorporate the the uh corporate colour and slogan .</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.4">ES2002c.B.dialog-act.dharshi.4</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>decided on our our target group being fifteen to thirty five ,</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.5">ES2002c.B.dialog-act.dharshi.5</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>and we decided that it was gonna be non-rechargeable battery-powered ,</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.6">ES2002c.B.dialog-act.dharshi.6</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>that we&#x27;re gonna group our audio-visual and other functions into into those categories , um .</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.71">ES2002c.B.dialog-act.dharshi.71</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>I think it&#x27;s yellow</blockquote>
+<h3 id="ES2002c.C.dialog-act.dharshi.71">ES2002c.C.dialog-act.dharshi.71</h3>
+<small>ES2002c · Craig · corpus_transcript</small>
+<blockquote>I&#x27;d quite like a sort of uh snowman type shape .</blockquote>
+<h3 id="ES2002c.C.dialog-act.dharshi.72">ES2002c.C.dialog-act.dharshi.72</h3>
+<small>ES2002c · Craig · corpus_transcript</small>
+<blockquote>Um so a p sort of larger bit sits in your hand , and then you got maybe another bubble at the top for just any other function you need .</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.190">ES2002c.B.dialog-act.dharshi.190</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>so yeah should we go with that ?</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.193">ES2002c.B.dialog-act.dharshi.193</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>So call it the snowman-shape trademark .</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.222">ES2002c.B.dialog-act.dharshi.222</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>I would say no need for a talk-back .</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.223">ES2002c.B.dialog-act.dharshi.223</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>Uh does anybody disagree with that ?</blockquote>
+<h3 id="ES2002c.D.dialog-act.dharshi.264">ES2002c.D.dialog-act.dharshi.264</h3>
+<small>ES2002c · Andrew · corpus_transcript</small>
+<blockquote>No .</blockquote>
+<h3 id="ES2002c.D.dialog-act.dharshi.366">ES2002c.D.dialog-act.dharshi.366</h3>
+<small>ES2002c · Andrew · corpus_transcript</small>
+<blockquote>and materials we sorta said we&#x27;d do plastic and rubber , didn&#x27;t we ,</blockquote>
+<h3 id="ES2002c.A.dialog-act.dharshi.236">ES2002c.A.dialog-act.dharshi.236</h3>
+<small>ES2002c · David · corpus_transcript</small>
+<blockquote>Yeah .</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.323">ES2002c.B.dialog-act.dharshi.323</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>Yeah .</blockquote>
+<h3 id="ES2002c.D.dialog-act.dharshi.367">ES2002c.D.dialog-act.dharshi.367</h3>
+<small>ES2002c · Andrew · corpus_transcript</small>
+<blockquote>and I think maybe we should try and stay away from just the big protruding rubber buttons , &#x27;cause that&#x27;d just be so standard .</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.325">ES2002c.B.dialog-act.dharshi.325</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>To make something flush with the case ?</blockquote>
+<h3 id="ES2002c.D.dialog-act.dharshi.368">ES2002c.D.dialog-act.dharshi.368</h3>
+<small>ES2002c · Andrew · corpus_transcript</small>
+<blockquote>Something a bit more flush , yeah ,</blockquote>
+<h3 id="ES2002c.D.dialog-act.dharshi.340">ES2002c.D.dialog-act.dharshi.340</h3>
+<small>ES2002c · Andrew · corpus_transcript</small>
+<blockquote>and that we&#x27;ve got like the the l slogan somewhere like on the casing at the side ,</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.304">ES2002c.B.dialog-act.dharshi.304</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>let&#x27;s let&#x27;s try and get the slogan on there</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.288">ES2002c.B.dialog-act.dharshi.288</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>we do need to make a decision on whether we want to incorporate a jog dial in nice and quickly .</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.290">ES2002c.B.dialog-act.dharshi.290</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>Um I&#x27;m all for them actually ,</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.292">ES2002c.B.dialog-act.dharshi.292</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>So does anybody oppose the idea of of incorporating one into the design at all ?</blockquote>
+<h3 id="ES2002c.B.dialog-act.dharshi.293">ES2002c.B.dialog-act.dharshi.293</h3>
+<small>ES2002c · 项目经理 · corpus_transcript</small>
+<blockquote>No .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.304">ES2002b.B.dialog-act.dharshi.304</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Um so uh I guess just to just to confirm that we know what we&#x27;re doing in the next well in the thirty minutes after lunch anyway ,</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.305">ES2002b.B.dialog-act.dharshi.305</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>um for uh our Industrial Designer , you&#x27;re gonna be thinking about the components concept .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.306">ES2002b.B.dialog-act.dharshi.306</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Um User Interface Designer gonna be thinking about our user interface ,</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.307">ES2002b.B.dialog-act.dharshi.307</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>and marketing you&#x27;re gonna be thinking about trend watching .</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.187">ES2002b.A.dialog-act.dharshi.187</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>You need a docking cradle , for example , for you to put it in to charge .</blockquote>
+<h3 id="stt:1957-1971:v1">stt:1957-1971:v1</h3>
+<small>ES2002c · David · stt_replay</small>
+<blockquote>kind of thing. So it&#x27;s not going to charge the battery right, okay? It&#x27;s just</blockquote>
+<h3 id="stt:0-31:v1">stt:0-31:v1</h3>
+<small>ES2002b · 项目经理 · stt_replay</small>
+<blockquote>So that&#x27;s what we should do for now, I think. Something I was wondering about with the power, is it worth considering having a charging unit as opposed to just regular batteries?</blockquote>
+<h3 id="stt:951-952:v1">stt:951-952:v1</h3>
+<small>ES2002b · 项目经理 · stt_replay</small>
+<blockquote>design, maybe</blockquote>
+<h3 id="stt:111-144:v1">stt:111-144:v1</h3>
+<small>ES2002b · David · stt_replay</small>
+<blockquote>Unless the controller is going to consume a lot of batteries, he&#x27;s going to run through the batteries a month, then I don&#x27;t think rechargeable is an issue. Okay, so just stick to regular.</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.158">ES2002b.A.dialog-act.dharshi.158</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>So each component represents one function ,</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.185">ES2002b.A.dialog-act.dharshi.185</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>and you add cost to it ,</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.154">ES2002b.A.dialog-act.dharshi.154</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>broken down into more components , right ,</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.105">ES2002b.A.dialog-act.dharshi.105</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>&#x27;Kay , a battery or something , to keep it going .</blockquote>
+<h3 id="stt:145-164:v1">stt:145-164:v1</h3>
+<small>ES2002b · 项目经理 · stt_replay</small>
+<blockquote>Right, so basically, I&#x27;m just going to just recap what I said at the start was that the whole point</blockquote>
+<h3 id="stt:915-950:v1">stt:915-950:v1</h3>
+<small>ES2002b · 项目经理 · stt_replay</small>
+<blockquote>Okay, so yeah, I guess just things to think about are, you know, like the fact it&#x27;s got to look good because of who we&#x27;re, you know, targeting this up, something maybe kind of quirky in</blockquote>
+<h3 id="stt:953-953:v1">stt:953-953:v1</h3>
+<small>ES2002b · Andrew · stt_replay</small>
+<blockquote>make</blockquote>
+<h3 id="stt:1925-1956:v1">stt:1925-1956:v1</h3>
+<small>ES2002c · Andrew · stt_replay</small>
+<blockquote>kinetic things before. And the one issue we need to keep in mind with them is that you&#x27;re committing the user to moving it. Well, like I said, we have a hybrid</blockquote>
+<h3 id="stt:1972-1973:v1">stt:1972-1973:v1</h3>
+<small>ES2002c · 项目经理 · stt_replay</small>
+<blockquote>Okay, I</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.104">ES2002b.A.dialog-act.dharshi.104</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>you need some power source .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.219">ES2002b.B.dialog-act.dharshi.219</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Mm-hmm .</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.153">ES2002b.A.dialog-act.dharshi.153</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>For example , if you needed um if you needed to add uh a voice recognition , right , then your user interface would be split ,</blockquote>
+<h3 id="ES2002b.D.dialog-act.dharshi.273">ES2002b.D.dialog-act.dharshi.273</h3>
+<small>ES2002b · Andrew · corpus_transcript</small>
+<blockquote>Okay .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.237">ES2002b.B.dialog-act.dharshi.237</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Okay .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.238">ES2002b.B.dialog-act.dharshi.238</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Mm-hmm .</blockquote>
+<h3 id="ES2002b.B.dialog-act.dharshi.269">ES2002b.B.dialog-act.dharshi.269</h3>
+<small>ES2002b · 项目经理 · corpus_transcript</small>
+<blockquote>Uh-huh .</blockquote>
+<h3 id="ES2002b.A.dialog-act.dharshi.186">ES2002b.A.dialog-act.dharshi.186</h3>
+<small>ES2002b · David · corpus_transcript</small>
+<blockquote>um and then there&#x27;s probably the fact that you need another physical component .</blockquote>
+<h3 id="ES2002b.D.dialog-act.dharshi.289">ES2002b.D.dialog-act.dharshi.289</h3>
+<small>ES2002b · Andrew · corpus_transcript</small>
+<blockquote>Mm-hmm .</blockquote>
+<h3 id="ES2002b.D.dialog-act.dharshi.314">ES2002b.D.dialog-act.dharshi.314</h3>
+<small>ES2002b · Andrew · corpus_transcript</small>
+<blockquote>Mm-hmm .</blockquote></body></html>
